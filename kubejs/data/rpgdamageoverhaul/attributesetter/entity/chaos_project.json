@@ -1,0 +1,144 @@
+{
+    "pumpmare": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 870,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 17,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": -0.50
+        }
+    ],
+    "bone_breaker": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 970,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 23,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.50
+        }
+    ],
+    "carrepeer_king": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1350,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 30,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "agitated_carrepeer": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "tortured": [
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        }
+    ],
+    "stone_dweller": [
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        }
+    ],
+    "mossy_gecko": [
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "thrower": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": -0.50
+        }
+    ],
+    "hungry": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "the_stalker": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ]
+}

@@ -1,0 +1,647 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3"
+	group: "4A260ADF3C475ACE"
+	id: "147BA7186A57DDF7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7ED43734205A12DE"
+			tasks: [{
+				id: "43C0E44040BE42BF"
+				item: {
+					Count: 1
+					id: "feywild:shiny_fey_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "74041862FD693DC8"
+			tasks: [{
+				id: "127F2C37637A6411"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:scales/sea_serpent"
+					}
+				}
+				title: "Any #iceandfire:scales/sea_serpent"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "6891EF6C4F08C0D9"
+			tasks: [{
+				id: "41018E3FC507F651"
+				item: {
+					Count: 1
+					id: "feywild:raw_winter_elven_quartz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "0EAB4EB4C0CA166A"
+			tasks: [{
+				id: "4D9A15C990F0A7F3"
+				item: {
+					Count: 1
+					id: "feywild:raw_spring_elven_quartz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "0A5B94B1A77A1BA8"
+			tasks: [{
+				id: "3F66DDEFC014DEE9"
+				item: {
+					Count: 1
+					id: "feywild:raw_summer_elven_quartz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "755689E577C66B1F"
+			tasks: [{
+				id: "778E302EF805F9BE"
+				item: {
+					Count: 1
+					id: "feywild:raw_autumn_elven_quartz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "522E2FE5F9BF1D01"
+			tasks: [{
+				id: "3DEBFE77FD612F37"
+				item: {
+					Count: 1
+					id: "legendary_monsters:nature_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "09DEB775680E5088"
+			tasks: [{
+				id: "797201F97CA751FE"
+				item: {
+					Count: 1
+					id: "chaos_project:emberoted_chunk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "03D3C6B8D2F09DFA"
+			tasks: [{
+				id: "3C0CD1EBD7EED36E"
+				item: {
+					Count: 1
+					id: "kubejs:overgrown_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "3452086B3E67FFFB"
+			tasks: [{
+				id: "1527FC2CF441CD11"
+				item: {
+					Count: 1
+					id: "celestial_core:ocean_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "5F135516C526E70C"
+			tasks: [{
+				id: "2391223F466F84C8"
+				item: {
+					Count: 1
+					id: "chaos_project:natrium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "613708292D1F653E"
+			tasks: [{
+				id: "09ECEFD630E88314"
+				item: {
+					Count: 1
+					id: "ceilands:ceilinum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "018D18EE09200A56"
+			tasks: [{
+				id: "17F40F5675291214"
+				item: {
+					Count: 1
+					id: "chaos_project:redorict_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "150759E5EA49FA42"
+			tasks: [{
+				id: "6DC3B443D1597074"
+				item: {
+					Count: 1
+					id: "ceilands:castle_lord_regalia_fragments"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "47056C5835A4F0A8"
+			tasks: [{
+				id: "2A310EE8269F32ED"
+				item: {
+					Count: 1
+					id: "ceilands:spider_monarch_fang"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "17379E7129DF69DB"
+			tasks: [{
+				id: "5002BBA1158E729F"
+				item: {
+					Count: 1
+					id: "ceilands:spider_silk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "698448E27C4EE145"
+			tasks: [{
+				id: "3064247E54C011CD"
+				item: {
+					Count: 1
+					id: "kubejs:horror_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "454FA819AB9C048A"
+			tasks: [{
+				id: "109FD74E56DE83F0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/invar"
+					}
+				}
+				title: "Any #forge:ingots/invar"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "4C346B4915A38B13"
+			tasks: [{
+				id: "1574D0162677084E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/brass"
+					}
+				}
+				title: "Any #forge:ingots/brass"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "475A30C684C3450E"
+			tasks: [{
+				id: "1D3E967CD7E76357"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/bronze"
+					}
+				}
+				title: "Any #forge:ingots/bronze"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "32A2D2F87D635045"
+			tasks: [{
+				id: "554EFD7DB29F5ED7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/constantan"
+					}
+				}
+				title: "Any #forge:ingots/constantan"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "17E19BA911201C26"
+			tasks: [{
+				id: "6B20FF242E9B6847"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/electrum"
+					}
+				}
+				title: "Any #forge:ingots/electrum"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "52B5B1C66D77C3AC"
+			tasks: [{
+				id: "5B62DF0A79065E0E"
+				item: {
+					Count: 1
+					id: "flavor_immersed_daily:bovinebone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "675E23569770F81C"
+			tasks: [{
+				id: "59180D11B88BD162"
+				item: {
+					Count: 1
+					id: "meetyourfight:phantoplasm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "64BF5FA9840F5440"
+			tasks: [{
+				id: "1DE4EA32FFF2E217"
+				item: {
+					Count: 1
+					id: "tofucraft:blocktofukinu"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "13961241A924C2A0"
+			tasks: [{
+				id: "3B92E846C25ADE75"
+				item: {
+					Count: 1
+					id: "tofucraft:blocktofumomen"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "3C5C9D328A939C1E"
+			tasks: [{
+				id: "728A670F3EFAE6B7"
+				item: {
+					Count: 1
+					id: "tofucraft:blocktofuishi"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "6705EBE234138E87"
+			tasks: [{
+				id: "4D02CE7FA0AB44A6"
+				item: {
+					Count: 1
+					id: "tofucraft:blocktofumetal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "2E4614B38E6A7EAC"
+			tasks: [{
+				id: "0D99D3D005A31898"
+				item: {
+					Count: 1
+					id: "tofucraft:tofudiamond"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "28EF253ECB76F6CF"
+			tasks: [{
+				id: "210EF3FB32E2A5B9"
+				item: {
+					Count: 1
+					id: "tofucraft:tofugem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "1A1F1C9E120A354D"
+			tasks: [{
+				id: "2AF1FB0C81847774"
+				item: {
+					Count: 1
+					id: "tofucraft:adv_tofugem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "24823CBA5980015F"
+			tasks: [{
+				id: "3C3E3440ED84C239"
+				item: {
+					Count: 1
+					id: "tofucraft:zundama"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "2A7D71E1737EE001"
+			tasks: [{
+				id: "627C983A5D2AA511"
+				item: {
+					Count: 1
+					id: "tofucraft:zundaruby"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "450689F659A6D30D"
+			tasks: [{
+				id: "293B6D180F86151E"
+				item: {
+					Count: 1
+					id: "goety:ominous_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "6D7CAF29086825AC"
+			tasks: [{
+				id: "11BCC1AF1683AA47"
+				item: {
+					Count: 1
+					id: "iter_rpg:ametrine_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "671B89CB4FD7B0B3"
+			tasks: [{
+				id: "46547C60F92ED176"
+				item: {
+					Count: 1
+					id: "the_pumpkin_challenge:shadow_cloth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "599C536229C75968"
+			tasks: [{
+				id: "7BC48F71F2973134"
+				item: {
+					Count: 1
+					id: "minecraft:blaze_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "1081DFEDE3ECF16B"
+			tasks: [{
+				id: "0EED0E550662FD47"
+				item: {
+					Count: 1
+					id: "legendary_monsters:ancient_sandstone_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "7DEF470BCDE10C8D"
+			tasks: [{
+				id: "11CF9A840D3D08B3"
+				item: {
+					Count: 1
+					id: "legendary_monsters:crystal_of_sandstorm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "1EAB9F3F64D1BD6B"
+			tasks: [{
+				id: "76A3594B121CAEA9"
+				item: {
+					Count: 1
+					id: "legendary_monsters:primal_ice_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "73D3300DDF2181C2"
+			tasks: [{
+				id: "02EEDA2D9C54A8C7"
+				item: {
+					Count: 1
+					id: "kubejs:alvida_2_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "2508705EA811B6A8"
+			tasks: [{
+				id: "22518E52B93AC985"
+				item: {
+					Count: 1
+					id: "skeleton_uprising:vertebrae"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "11F2DCB4D0689719"
+			tasks: [{
+				id: "12367470556905C1"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:spiny_shell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "6639B27024D0DF0E"
+			tasks: [{
+				id: "012EC28174E7F39E"
+				item: {
+					Count: 1
+					id: "tofucraft:soy_sculk_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+	]
+	subtitle: ["5,6,7章可获得材料"]
+	title: "3级"
+}

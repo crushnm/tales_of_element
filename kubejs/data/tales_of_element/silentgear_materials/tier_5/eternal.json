@@ -1,0 +1,222 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:diamond",
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "the_beginning_and_heaven:eternal"
+    }
+  },
+  "name": {
+    "translate": "永恒"
+  },
+  "stats": {
+    "main": {
+      "durability": 2000.0,
+      "armor_durability": 300.0,
+      "enchantment_value": 16.0,
+      "rarity": 65.0,
+      "charging_value": 1.0,
+      "repair_value": 0.45,
+      "harvest_speed": 10.0,
+      "melee_damage": 27,
+      "magic_damage": 2.5,
+      "attack_speed": 0.0,
+      "attack_speed/hoe": 1.0,
+      "ranged_damage": 3.0,
+      "ranged_speed": -0.1,
+      "projectile_speed": 1.1,
+      "projectile_accuracy": 0.9,
+      "armor": 49.0,
+      "armor_toughness": 2.0,
+      "magic_armor": 6.0
+    },
+    "rod": {},
+    "tip": {
+      "durability": {
+        "add": 512.0
+      },
+      "attack_speed": {
+        "add": 0.1
+      },
+      "melee_damage": {
+        "add": 5.0
+      },
+      "magic_damage": {
+        "add": 2.0
+      },
+      "ranged_damage": {
+        "add": 1.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "tales_of_element:wind_damage",
+        "level": 5,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "melee_weapon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:wind_armor",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:lightning_weak",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:chain_creeper",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "boots"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "tales_of_element:wind_damage",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "tales_of_element:wind_damage",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "melee_weapon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#99031C"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#99031C"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#99031C"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#99031C"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_wind",
+        "color": "#99031C"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#99031C"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

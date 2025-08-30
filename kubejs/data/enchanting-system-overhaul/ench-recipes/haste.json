@@ -1,0 +1,20 @@
+{
+	"enchantment_id": "improved_exp:haste",
+	"maxLevel": 0,
+	"levels": {
+		"1": [
+			{
+				"id": "minecraft:iron_pickaxe",
+				"amount": 1
+			},
+			{
+				"id": "minecraft:golden_pickaxe",
+				"amount": 1
+			},
+			{
+				"id": "iceandfire:silver_pickaxe",
+				"amount": 1
+			}
+		]
+	}
+}

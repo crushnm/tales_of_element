@@ -1,0 +1,122 @@
+{
+    "malachite_guard": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:physical.resistance",
+      "value": 0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:soul.resistance",
+      "value": -0.25
+    }
+  ],
+  "malachite_drone": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 400,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:physical.resistance",
+      "value": 0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:soul.resistance",
+      "value": -0.25
+    }
+  ],
+  "agate_golem": [
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": 0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.35
+    }
+  ],
+  "archaic_warrior": [
+    {
+      "attribute": "rpgdamageoverhaul:soul.resistance",
+      "value": 0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.35
+    }
+  ],
+  "contorted_naga": [
+    {
+      "attribute": "rpgdamageoverhaul:nature.resistance",
+      "value": 0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.35
+    }
+  ],
+  "corrupt_sapper": [
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.35
+    }
+  ],
+  "crystal_golem": [
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": 0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.35
+    }
+  ],
+  "lesser_spitfire": [
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": 0.35
+    }
+  ],
+  "markuzar_plant": [
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": 0.35
+    }
+  ],
+  "mutant_growth_extractor": [
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.resistance",
+      "value": 0.35
+    }
+  ]
+}

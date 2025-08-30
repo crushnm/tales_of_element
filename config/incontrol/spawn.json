@@ -1,0 +1,39 @@
+[
+  {
+    "mob": ["enderzoology:concussion_creeper", "enderzoology:dire_wolf"],
+    "dimension": "undergarden:undergarden",
+    "biome": ["undergarden:veil_mushroom_bog", "undergarden:indigo_mushroom_bog"],
+    "result": "default"
+  },
+    {
+    "mob": ["enderzoology:enderminy"],
+    "dimension": "undergarden:undergarden",
+    "biome": ["undergarden:frostfields", "undergarden:gronglegrowth"],
+    "result": "default"
+  },
+  {
+    "mob": ["enderzoology:fallen_knight", "enderzoology:infested_zombie", "enderzoology:owl"],
+    "dimension": "undergarden:undergarden",
+    "biome": ["undergarden:wigglewood_forest", "undergarden:frosty_smogstem_forest"],
+    "result": "default"
+  },
+  {
+    "mob": ["enderzoology:wither_cat", "enderzoology:wither_witch"],
+    "dimension": "undergarden:undergarden",
+    "biome": ["undergarden:ink_mushroom_bog", "undergarden:blood_mushroom_bog"],
+    "result": "default"
+  },
+  {
+    "mod":["divinerpg"],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mod":["enemyexpansion","aquamirae","pedriki_extras","born_in_chaos_v1","better_boss","just_in_nether","egorsanss_bosses","skeleton_uprising","crimson_steves_mobs","chaos_project","rpgadventures","agonysing_hell"],
+    "result": "deny"
+  },
+  {
+    "mob":["iceandfire:sea_serpent"],
+    "result": "deny"
+  }
+]

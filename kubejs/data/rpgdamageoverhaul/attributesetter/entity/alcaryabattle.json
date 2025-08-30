@@ -1,0 +1,122 @@
+{
+    "reaper": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 600,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:piercing.resistance",
+            "value": 0.1
+        }
+    ],
+    "cyborg": [
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.20
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": -5,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:piercing.resistance",
+            "value": 0.2
+        }
+    ],
+    "shinobisaber": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 600,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.20
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.25
+        }
+    ],
+    "magmagolem": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 600,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.20
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "wizor": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 15,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.60
+        },
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": -0.35
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        }
+    ],
+    "phantom_knight": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1030,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tales_of_element:fossil",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 189294808,
+    "spacing": 24,
+    "separation": 8
+  }
+}

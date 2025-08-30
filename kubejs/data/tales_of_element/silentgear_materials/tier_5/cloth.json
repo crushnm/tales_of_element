@@ -1,0 +1,193 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:iron",
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "forbidden_arcanus:cloth"
+    }
+  },
+  "name": {
+    "translate": "布料"
+  },
+  "stats": {
+    "main": {
+      "durability": 2000.0,
+      "armor_durability": 500.0,
+      "enchantment_value": 15.0,
+      "rarity": 65.0,
+      "charging_value": 0.8,
+      "armor": 49,
+      "magic_armor": 8.0
+    },
+    "grip": {
+      "repair_efficiency": {
+        "mul1": 0.2
+      },
+      "harvest_speed": {
+        "mul1": 0.15
+      },
+      "attack_speed": {
+        "add": 0.15
+      }
+    },
+    "lining": {
+      "armor": {
+        "add": 2.5
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "tales_of_element:arcane_armor",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:blunt_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:sharp_weak",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:starfall",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "chestplate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "grip": [
+      {
+        "name": "tales_of_element:arcane_damage",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "melee_weapon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lining": [
+      {
+        "name": "tales_of_element:arcane_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+             "gear_type": "legging"
+          }]
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#AFB3BB"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#AFB3BB"
+      }
+    ],
+    "grip/all": [
+      {
+        "texture": "silentgear:grip_wool",
+        "color": "#AFB3BB"
+      }
+    ],
+    "grip/part": [
+      {
+        "texture": "silentgear:grip",
+        "color": "#AFB3BB"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_cloth",
+        "color": "#AFB3BB"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "first_of_basalt": [
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": -0.60
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.5
+    }
+  ]
+}

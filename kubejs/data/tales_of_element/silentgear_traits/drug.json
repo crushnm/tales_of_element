@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "helmet"
+        }
+  ],
+  "name": {
+    "translate": "鬼之鼓"
+  },
+  "description": {
+    "translate": "按下头盔技能键可释放鬼之鼓冲击波(唯一头盔技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

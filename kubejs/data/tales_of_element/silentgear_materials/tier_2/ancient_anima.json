@@ -1,0 +1,85 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    }
+  },
+  "name": {
+    "translate": "古代灵魂"
+  },
+  "stats": {
+    "tip": {
+       "melee_damage": {
+        "add": 2.0
+      },
+    "adornment": {}
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "tales_of_element:soul_armor",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "helmet"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "adornment": [
+      {
+        "name": "tales_of_element:soul_damage",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#B9E2F6"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#B9E2F6"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#B9E2F6"
+      }
+    ]
+  }
+}

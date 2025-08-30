@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4F5A636B973C1241"
+	group: "430456A023966AE7"
+	id: "4F5A636B973C1241"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3E71D07BC1FC945B"]
+			id: "626BD07DA30FA51C"
+			tasks: [
+				{
+					count: 10L
+					id: "0E84DB1C55600306"
+					item: {
+						Count: 10
+						id: "unearthed_journey:archstone_pillar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2A169BABA8C06487"
+					item: {
+						Count: 4
+						id: "unearthed_journey:pleistocene_portal_corner"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["626BD07DA30FA51C"]
+			id: "35FAB95417CDB5B1"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "frozone:coldread"
+					id: "56903B7A044F04F2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6D859338CD24D66D"
+					item: {
+						Count: 1
+						id: "kubejs:coldread_orb"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6CD42FF267405AB1"]
+			id: "0A8DA8FC73E4B355"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "pedriki_extras:pyromancer"
+					id: "1E71637587D7C636"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6EEEEC98D01D57AB"
+					item: {
+						Count: 1
+						id: "kubejs:pyromancer"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A8DA8FC73E4B355"]
+			id: "00241F380D5E2526"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "crimson_steves_mobs:lava_mutant_zombie"
+					id: "4B93713F614D6D30"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7B85CCEDB2874226"
+					item: {
+						Count: 1
+						id: "kubejs:lava_demon"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00241F380D5E2526"]
+			id: "6442033F820377D3"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mcb:king_piece"
+					id: "4814624BD90F301E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "57F8DA76DE77875B"
+					item: {
+						Count: 1
+						id: "mcb:white_king_chess_piece"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28C6263A4612FEC9"]
+			id: "39CF257D3A363B4C"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mcb:dread_doctor"
+					id: "7063AE0A0DFEC67C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "355D40B73042C6DF"
+					item: {
+						Count: 1
+						id: "mcb:surgical_needle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39CF257D3A363B4C"]
+			id: "2FAC51746FCA2E85"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "midnight_madness:skeleton_king"
+					id: "015E100AB248FE76"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "29089955FDD1EAAF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 0
+							}
+						}
+						id: "midnight_madness:enchanted_midnight_necronomicon"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2FAC51746FCA2E85"]
+			id: "091F008BE3321009"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "terra_entity:eye_of_cthulhu"
+					id: "1C430131909FCC6F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7AADD82F3DF2B846"
+					item: {
+						Count: 1
+						id: "kubejs:suspicious_eyes"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["091F008BE3321009"]
+			description: ["&4注：这是一个场地boss"]
+			id: "114A9FB2BA854FC2"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "pedriki_extras:terminachinefight"
+					id: "11B63D7C2EA0DED0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4BAAD5D69722BD4A"
+					item: {
+						Count: 1
+						id: "kubejs:terminal_teleporter"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35FAB95417CDB5B1"]
+			id: "6CD42FF267405AB1"
+			tasks: [{
+				id: "1AF42408DE01E5FF"
+				item: {
+					Count: 1
+					id: "biomancy:bio_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6442033F820377D3"]
+			id: "28C6263A4612FEC9"
+			tasks: [{
+				id: "25F3E42EC8058A72"
+				item: {
+					Count: 1
+					id: "biomancy:bio_lab"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+	]
+	title: "第十六章：更新世"
+}

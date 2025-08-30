@@ -1,0 +1,129 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 0,
+    "categories": [
+      "organic",
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "gnumus:mouse_skin"
+    }
+  },
+  "name": {
+    "translate": "鼠皮"
+  },
+  "stats": {
+    "main": {
+      "durability": 0.0,
+      "armor_durability": 5.0,
+      "enchantment_value": 15.0,
+      "rarity": 11.0,
+      "charging_value": 0.8,
+      "armor": 16.0,
+      "magic_armor": 8.0
+    },
+    "grip": {
+      "repair_efficiency": {
+        "mul1": 0.1
+      },
+      "harvest_speed": {
+        "mul1": 0.15
+      },
+      "attack_speed": {
+        "add": 0.15
+      }
+    },
+    "lining": {}
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "tales_of_element:sharp_weak",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "silentgear:light",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+                "ratio": 0.6
+          }
+        ]
+      }
+    ],
+    "grip": [
+      {
+        "name": "silentgear:flexible",
+        "level": 3
+      }
+    ],
+    "lining": [
+      {
+        "name": "tales_of_element:blunt_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+             "gear_type": "chestplate"
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#62792C"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#62792C"
+      }
+    ],
+    "grip/all": [
+      {
+        "texture": "silentgear:grip_wool",
+        "color": "#62792C"
+      }
+    ],
+    "grip/part": [
+      {
+        "texture": "silentgear:grip",
+        "color": "#62792C"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_cloth",
+        "color": "#62792C"
+      }
+    ]
+  }
+}

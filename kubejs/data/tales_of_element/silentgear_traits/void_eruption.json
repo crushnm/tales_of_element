@@ -1,0 +1,70 @@
+{
+    "type": "silentgear:nbt",
+    "__comment__": "Not tested, just included as a reference for NBT traits for now",
+    "max_level": 3,
+    "cancels_with": [],
+    "nbt": {
+        "all": [
+            {
+                "level": 1,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "traveloptics:void_eruption",
+                            "locked": 0,
+                            "level": 1
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 2,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "traveloptics:void_eruption",
+                            "locked": 0,
+                            "level": 2
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 3,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "traveloptics:void_eruption",
+                            "locked": 0,
+                            "level": 3
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            }
+        ]
+    },
+    
+    "name": {
+        "translate": true,
+        "name": "虚无爆发"
+    },
+    "description": {
+        "translate": true,
+        "name": "可以释放法术虚无爆发"
+    }
+}

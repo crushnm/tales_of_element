@@ -1,0 +1,4 @@
+#Use -1 for same as GUI scale, 0 for auto, 1+ for small/medium/large.
+#Range: > -1
+book_gui_scale = -1
+

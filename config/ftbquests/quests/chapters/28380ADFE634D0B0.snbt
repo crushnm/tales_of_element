@@ -1,0 +1,1521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "28380ADFE634D0B0"
+	group: "5ED8AD612E71F3A4"
+	id: "28380ADFE634D0B0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "175DCEED98EEED77"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "099C947F13C1816C"
+				type: "dimension"
+			}]
+			title: "主世界矿物"
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "1214AF37BF6AC8CF"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "7452292DE6404403"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:copper_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "4DF82E5DCF77D472"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "5E8F9B2E27DEB951"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "29E582B4A7B82D7F"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1A866811B78D22C6"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:gold_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "0DAC161202313B9F"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "595C4288F8F9AD6B"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "3DF937ED0B8419AA"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6115069F5DCEDCE2"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "52F438B00843726C"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "059420961152BDCC"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:lapis_lazuli"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "672329B1ADCDB4BE"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4F42495BD75CD1C5"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:redstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "58F0F9ABA11B8D3A"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0A9338499EDDE6D9"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "malum:natural_quartz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "3D195B3C5EB21DBA"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1A7CB5D76120CA0A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/zinc"
+					}
+				}
+				title: "Any #forge:ingots/zinc"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "0750849F86D31249"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "6591513AEB956370"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/nickel"
+					}
+				}
+				title: "Any #forge:ingots/nickel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "4E0806D7D52D0117"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "7DE78D853A55DCEB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/silver"
+					}
+				}
+				title: "Any #forge:ingots/silver"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "49D95E2029E14FFC"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "2E0A79172AA0A50C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/tin"
+					}
+				}
+				title: "Any #forge:ingots/tin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "4FB05F5510F25912"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "7E2FCF7356D59A8F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/lead"
+					}
+				}
+				title: "Any #forge:ingots/lead"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "5F54D5AECFE102DB"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5CD2A573D0557435"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iceandfire:sapphire_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "4A0F22B148D37B75"
+			tasks: [{
+				dimension: "burrows:the_burrows"
+				id: "394C03FC9CC78FBD"
+				type: "dimension"
+			}]
+			title: "鼹鼠洞穴"
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A0F22B148D37B75"]
+			id: "2F6C542FC64A30B8"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0C8B7DCC586F48EF"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:vinteum_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A0F22B148D37B75"]
+			id: "2DAD95F311D44B20"
+			tasks: [{
+				consume_items: true
+				id: "06940A36EDE56F71"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:palladium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			id: "6BE6AB5B2A1476EE"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "62BE10405E95A9C1"
+				type: "dimension"
+			}]
+			title: "深暗之园"
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BE6AB5B2A1476EE"]
+			id: "340FC0E0179842DC"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "151FAB93D70AAE8C"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "undergarden:cloggrum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BE6AB5B2A1476EE"]
+			id: "2CF98BF0153958C5"
+			tasks: [{
+				consume_items: true
+				id: "7D207CC1DA003829"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "undergarden:froststeel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BE6AB5B2A1476EE"]
+			id: "76D9F372FBD5EAEC"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "717F165D04987D0A"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "undergarden:utherium_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BE6AB5B2A1476EE"]
+			id: "5DD64CA5078CA8EE"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5D63D4920B12AAE7"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "undergarden:regalium_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "2CC7393042BAB31F"
+			tasks: [{
+				dimension: "midnight:the_midnight"
+				id: "5242A06B776048DB"
+				type: "dimension"
+			}]
+			title: "午夜维度"
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CC7393042BAB31F"]
+			id: "731D710B0A55FBC5"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4139A0C664ED241D"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:dark_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CC7393042BAB31F"]
+			id: "7AA1A5979199BEBE"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7DEE2E0F35AC0F4A"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:geode"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CC7393042BAB31F"]
+			id: "3A9316EE6A114F2D"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "18836B518768D988"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:rouxe_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CC7393042BAB31F"]
+			id: "613E06B0093AABA1"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "02FA164E84FA4335"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:bloomcrystal_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CC7393042BAB31F"]
+			id: "44A6C0813287AC4B"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1A7297278DD3A8CA"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:tenebrum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CC7393042BAB31F"]
+			id: "2ED18F018B2C90E1"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "675DF027D9712EAC"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:nagrilite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CC7393042BAB31F"]
+			id: "588E3E804F5CC08E"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4500397510EE3C64"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:ebonite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CC7393042BAB31F"]
+			id: "4BA279D03D55557B"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "619F51B490E1DB49"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:virilux"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			id: "7919750FAE5BC7AA"
+			tasks: [{
+				dimension: "ceilands:the_ceilands"
+				id: "4AA9234E3C7E5680"
+				type: "dimension"
+			}]
+			title: "垂顶之地"
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7919750FAE5BC7AA"]
+			id: "2EA5AF84D0D47500"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7FCDC10F7BCB2795"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ceilands:ceilinum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7919750FAE5BC7AA"]
+			id: "496ABF71C2FA932B"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "16A073A05C738241"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "chaos_project:redorict_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7919750FAE5BC7AA"]
+			id: "43EBE63F1814FCAF"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2C0D9CE08103E7BA"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "chaos_project:natrium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			id: "0F79B736460DA5F4"
+			tasks: [{
+				dimension: "tofucraft:tofu_world"
+				id: "51899DC16735003B"
+				type: "dimension"
+			}]
+			title: "豆腐世界"
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0F79B736460DA5F4"]
+			id: "24A2448E38856CA3"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "620E812E5BF9EAEA"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tofucraft:tofugem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0F79B736460DA5F4"]
+			id: "0F8D089C9201DD19"
+			tasks: [{
+				consume_items: true
+				id: "1A38FBDBD1FCFEF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tofucraft:tofudiamond"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			id: "27E0E5CD70CB3B19"
+			tasks: [{
+				dimension: "gloom_caves:gloomcaves"
+				id: "62E8138820ED4124"
+				type: "dimension"
+			}]
+			title: "阴暗洞穴"
+			x: -11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["27E0E5CD70CB3B19"]
+			id: "0ACC85F5C5B51986"
+			tasks: [{
+				consume_items: true
+				id: "373BB316450EEDAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gloom_caves:phylerite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["27E0E5CD70CB3B19"]
+			id: "2D7C05FF7241F595"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7429893203D8E8F4"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gloom_caves:diminite_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			id: "67CA2C947209AB36"
+			tasks: [{
+				dimension: "gaiadimension:gaia_dimension"
+				id: "3379A7EFFC28EBA9"
+				type: "dimension"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "7F11774E779E05C1"
+			tasks: [{
+				id: "30F39F604EB95D8C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:opalite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "0D3CDD147AE2FD75"
+			tasks: [{
+				id: "0320734800CC7688"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:pyrite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "574E809BC4DD1BDC"
+			tasks: [{
+				id: "08F3822A8D060B24"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:sugilite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "2EE82C5DFFEEEE98"
+			tasks: [{
+				id: "1DD14EEA841F942F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:green_opal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "7F0CBF002D67A6BC"
+			tasks: [{
+				id: "61F8907A45AFC592"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:cinnabar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "545B1D7CF0DFD8B7"
+			tasks: [{
+				id: "77D21AC08699D8A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:white_opal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "229D23DAF430F4F2"
+			tasks: [{
+				id: "1EE29C0E4A5D03A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:celestine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "3C540C18BAA103B5"
+			tasks: [{
+				id: "643283ACD98F1C31"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:labradorite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "4AD1F82E57A72BCC"
+			tasks: [{
+				id: "1FDF87D4E36BA9D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:moonstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "16B7FED94617B440"
+			tasks: [{
+				id: "269744D07C122A7A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:red_opal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "276F0A2A13D0A4BA"
+			tasks: [{
+				id: "146EC63DCBCB9E99"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:blue_opal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["67CA2C947209AB36"]
+			id: "3C58322F25D32F89"
+			tasks: [{
+				id: "66F51119886C04BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:hematite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			id: "67849E2BE73D4E21"
+			tasks: [{
+				dimension: "infinite_abyss:first_layer"
+				id: "099DDD31AC251BB2"
+				type: "dimension"
+			}]
+			x: -11.0d
+			y: 15.0d
+		}
+		{
+			id: "29A6C567F9E67686"
+			tasks: [{
+				dimension: "infinite_abyss:second_layer"
+				id: "3887EFEBFD23BF32"
+				type: "dimension"
+			}]
+			x: -11.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["67849E2BE73D4E21"]
+			id: "49EE45E9B97323FA"
+			tasks: [{
+				consume_items: true
+				id: "231A1A55ECB007F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "goety:jade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["29A6C567F9E67686"]
+			id: "435DF30356EDDFD0"
+			tasks: [{
+				consume_items: true
+				id: "3095F37233FD8C1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iter_rpg:sanguarnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["29A6C567F9E67686"]
+			id: "33ECD696E8DCEEB6"
+			tasks: [{
+				consume_items: true
+				id: "486FD2E58C62D231"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "infinite_abyss:opal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 16.5d
+		}
+		{
+			id: "592F7A7CB95F0E36"
+			tasks: [{
+				dimension: "divinerpg:iceika"
+				id: "3640E8D33AE76F76"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["592F7A7CB95F0E36"]
+			id: "374B07DA356CF13B"
+			tasks: [{
+				consume_items: true
+				id: "728CFF16D89B1692"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "divinerpg:oxdrite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["592F7A7CB95F0E36"]
+			id: "33F333DA2C1B90CC"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7B4B7ED6053381B1"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "divinerpg:anthracite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27E0E5CD70CB3B19"]
+			id: "294F14F919C3C032"
+			tasks: [{
+				consume_items: true
+				id: "0F8EE6520A413B15"
+				item: {
+					Count: 1
+					id: "chaos_project:mintolis_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["67849E2BE73D4E21"]
+			id: "16745E7E2069BF05"
+			tasks: [{
+				id: "1E7545C4B57D5371"
+				item: {
+					Count: 1
+					id: "soulsweapons:verglas"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 15.0d
+		}
+		{
+			id: "356625676A3A1107"
+			tasks: [{
+				dimension: "the_beginning_and_heaven:heaven"
+				id: "27D1B1F0628A3AAF"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["356625676A3A1107"]
+			id: "245711F6A08A3B6D"
+			tasks: [{
+				consume_items: true
+				id: "412D824AA4B765FA"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:eternal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["356625676A3A1107"]
+			id: "7B9C2B4CE2EDC5B7"
+			tasks: [{
+				consume_items: true
+				id: "7A1C26C85A49E402"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:marinne"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["356625676A3A1107"]
+			id: "67B2CDB599BC03DF"
+			tasks: [{
+				consume_items: true
+				id: "0126F11378A3FA3F"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:aetherium"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["356625676A3A1107"]
+			id: "5F0833B58B7E12E2"
+			tasks: [{
+				consume_items: true
+				id: "625AD54B87D8B6AD"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:celestial"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			id: "76E5C002B10656AB"
+			tasks: [{
+				dimension: "unearthed_journey:paleogene"
+				id: "54EC415830B97871"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76E5C002B10656AB"]
+			id: "3D9011D15DDDF1A6"
+			tasks: [{
+				id: "51F1E8F4A9CD4239"
+				item: {
+					Count: 1
+					id: "agonysing_hell:noviragium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76E5C002B10656AB"]
+			id: "739F8BD6F970546F"
+			tasks: [{
+				id: "369E383CE9A6466A"
+				item: {
+					Count: 1
+					id: "valoria:amber_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "082B429B013425B0"
+			tasks: [{
+				dimension: "unearthed_journey:neogene"
+				id: "1179B6137C2D86E4"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["082B429B013425B0"]
+			id: "566DAA12B1381C3B"
+			tasks: [{
+				id: "40AE8B86E1340780"
+				item: {
+					Count: 1
+					id: "chaos_project:tontonolim_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["082B429B013425B0"]
+			id: "2AF3B6A3CB3033D2"
+			tasks: [{
+				id: "6918A72DFF720D31"
+				item: {
+					Count: 1
+					id: "valoria:sapphire_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "6797978C9F2E8EE4"
+			tasks: [{
+				dimension: "unearthed_journey:pleistocene"
+				id: "6E7BF59A4DA15BCF"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6797978C9F2E8EE4"]
+			id: "6BBA4D49E0A86445"
+			tasks: [{
+				id: "4DFAF52B6E251BCE"
+				item: {
+					Count: 1
+					id: "valoria:ruby_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6797978C9F2E8EE4"]
+			id: "6A53F4A493A178BE"
+			tasks: [{
+				id: "6FC2D1157784678B"
+				item: {
+					Count: 1
+					id: "valoria:cobalt_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "36750DC7438BF0DA"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "148AB17ACEC0E5B7"
+				item: {
+					Count: 2
+					id: "terramity:topaz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "3E470B3B9DE2EBAB"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7D4B575FFA22C1C1"
+				item: {
+					Count: 2
+					id: "call_of_yucutan:jade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["175DCEED98EEED77"]
+			id: "14B46F714338D2AB"
+			tasks: [{
+				count: 2L
+				id: "231B1F135B0BF5CA"
+				item: {
+					Count: 2
+					id: "adventuresmod:topaz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CC7393042BAB31F"]
+			id: "3B2790E4EF63DA75"
+			tasks: [{
+				id: "10E0F80BDD43CF65"
+				item: {
+					Count: 1
+					id: "midnight:archaic_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+	]
+	title: "矿石博物馆"
+}

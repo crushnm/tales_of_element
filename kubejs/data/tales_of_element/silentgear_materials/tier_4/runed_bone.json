@@ -1,0 +1,63 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "skeleton_uprising:runed_bone"
+    }
+  },
+  "name": {
+    "translate": "符文骨头"
+  },
+  "stats": {
+    "tip": {
+       "melee_damage": {
+        "add": 2.0
+      }
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "tales_of_element:arcane_damage",
+        "level": 3
+      }
+    ]
+  },
+  "model": {
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#7F1414"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#7F1414"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#7F1414"
+      }
+    ]
+  }
+}

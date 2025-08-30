@@ -1,0 +1,82 @@
+{
+  "thekingslime": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:piercing.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    }
+  ],
+  "soulofmountains": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 18,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:soul.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.45
+    }
+  ],
+  "souloficewitch": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1800,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.45
+    }
+  ],
+  "ice_golem": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 100,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.60
+    }
+  ]
+}

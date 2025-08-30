@@ -1,0 +1,20 @@
+{
+	"enchantment_id": "extra_enchantments:swiftness",
+	"maxLevel": 0,
+	"levels": {
+		"1": [
+			{
+				"id": "minecraft:feather",
+				"amount": 3
+			},
+			{
+				"id": "malum:aerial_spirit",
+				"amount": 8
+			},
+			{
+				"id": "malum:hex_ash",
+				"amount": 4
+			}
+		]
+	}
+}

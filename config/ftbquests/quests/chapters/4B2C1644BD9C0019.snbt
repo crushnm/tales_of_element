@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4B2C1644BD9C0019"
+	group: "430456A023966AE7"
+	id: "4B2C1644BD9C0019"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0CD0F907F2FA815E"]
+			id: "64C99A5A5389A9F6"
+			tasks: [
+				{
+					count: 10L
+					id: "76C14D3509671284"
+					item: {
+						Count: 10
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "gaiadimension:keystone_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1FB4B7F9697CBA07"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "gaiadimension:glint_and_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "闪闪的维度"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["20DE6BA11F4ED431"]
+			id: "0320545E1ED96D91"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3A7B8E22053BFF1F"
+					structure: "gaiadimension:malachite_watchtower"
+					type: "structure"
+				}
+				{
+					entity: "gaiadimension:malachite_guard"
+					id: "57C9F8B73D5A39A3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "宝石守卫"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0320545E1ED96D91"]
+			id: "7BA8D9F893DE9338"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "01FABD756F237880"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "skeleton_uprising:suspicious_ritual"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "skeleton_uprising:revenant_general"
+					id: "49A629A749C6B32A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "强大的骷髅"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BA8D9F893DE9338"]
+			id: "38578A4C60D2B28B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "paladins_oath:steel_sovereign"
+					id: "13011F6F02D24470"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "71B4B8A161D60588"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:steel_orb"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "钢铁君主"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AFCFB953D4FEF7B"]
+			id: "26ED5EBD507EB3ED"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "crimson_steves_mobs:crude_redstone_monstrosity"
+					id: "3BB0D30E4AD03585"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "38353A9FA1E22C31"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:redstone_energy"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "未完工的红石巨兽"
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26ED5EBD507EB3ED"]
+			id: "6EC220FC9F7EB9DA"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "normalzombiemod:tsar"
+					id: "3D7A0C85E39E8EE4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2DF3F0362FEFC1B7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:sand_necklace"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "僵尸王者"
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6EC220FC9F7EB9DA"]
+			id: "2C7E3EB145FDE0A4"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "better_boss:doragon"
+					id: "50748978DBF47EE3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3BB680D6BF852C6A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:dragoon_necklace"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "龙龙"
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C7E3EB145FDE0A4"]
+			id: "428D7CEC0189E67B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "faded_conquest_2:the_plauge_bringerp_2"
+					id: "002AC44657A3DF14"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3BDA839A33EAFEA0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:plague_core"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "瘟疫之源"
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["428D7CEC0189E67B"]
+			description: ["&4注：这是一个场地boss"]
+			id: "3D4E82A04AE575B4"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "legendary_monsters:ancient_guardian"
+					id: "06704DC20B82366D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0D599A2B1D9FCDD0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:eye_of_many_ribs"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "古代守卫"
+			x: 19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64C99A5A5389A9F6"]
+			description: ["重组机需要金制物品和粉红色精华作为燃料"]
+			id: "4AB805856BB1EA96"
+			tasks: [{
+				id: "7BF1B3B669696412"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:restructurer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "重组"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4AB805856BB1EA96"]
+			description: ["净化器额外需要黑色残渣"]
+			id: "20DE6BA11F4ED431"
+			tasks: [{
+				id: "5011DF1A65612D8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:purifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "净化"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4AB805856BB1EA96"]
+			id: "7EA5B20A0CAA2E21"
+			tasks: [{
+				count: 3L
+				id: "7353D35E50473373"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:gold_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4AB805856BB1EA96"]
+			id: "48A4BA844DA183B5"
+			tasks: [{
+				count: 3L
+				id: "017A3C58A7237DFC"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:pink_essence"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20DE6BA11F4ED431"]
+			id: "4D609C80BFA255D6"
+			tasks: [{
+				count: 3L
+				id: "7AD662CBB25402C5"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gaiadimension:black_residue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38578A4C60D2B28B"]
+			id: "5AFCFB953D4FEF7B"
+			rewards: [{
+				count: 4
+				id: "4E3CB493B0FC40AC"
+				item: {
+					Count: 1
+					id: "create:mechanical_crafter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4959B7F70727252C"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_crafter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "动力合成"
+			x: 9.0d
+			y: 0.5d
+		}
+	]
+	title: "第九章：宝石国度"
+}

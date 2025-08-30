@@ -1,0 +1,330 @@
+{
+    "higuma": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 950,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.30
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        }
+    ],
+    "fullbody": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 950,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 24,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.30
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        }
+    ],
+    "morgan": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 800,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 17,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.30
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        }
+    ],
+    "tashigi": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1000,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        }
+    ],
+    "alvida": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 800,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        }
+    ],
+    "alvida_2": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 800,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": -0.50
+        }
+    ],
+    "chu": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 40,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": -0.50
+        }
+    ],
+    "sham": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 40,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        }
+    ],
+    "kuroobi": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1300,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 40,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.50
+        }
+    ],
+    "penguin": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 40,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "buggy": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1900,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 40,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": -0.50
+        }
+    ],
+    "koala": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1700,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 40,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": -0.50
+        }
+    ],
+    "buchi": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1800,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 45,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": -0.50
+        }
+    ],
+    "gin": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1800,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 45,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": -0.50
+        }
+    ],
+    "kuro": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1800,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 45,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ]
+}

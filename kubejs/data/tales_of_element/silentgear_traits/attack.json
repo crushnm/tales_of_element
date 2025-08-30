@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "melee_weapon"
+        }
+  ],
+  "name": {
+    "translate": "强力攻击"
+  },
+  "description": {
+    "translate": "右键施展强力攻击(唯一武器技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

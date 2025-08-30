@@ -1,0 +1,410 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6EBB2082C0B6CCF2"
+	group: "430456A023966AE7"
+	id: "6EBB2082C0B6CCF2"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D4E82A04AE575B4"]
+			id: "3C0AD056A2433D1A"
+			tasks: [
+				{
+					id: "12C7237A0C3ADC53"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "infinite_abyss:first_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "35A3F15970A5A4B9"
+					item: {
+						Count: 10
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:amethyst_block"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "紫水晶洞穴"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C0AD056A2433D1A"]
+			id: "40E52271297C7EDD"
+			subtitle: "精魂坩埚可以使用精魂来复制矿石"
+			tasks: [{
+				id: "260680AC12971E95"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "malum:spirit_crucible"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "矿石复制"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40E52271297C7EDD"]
+			id: "009E8DDF79684C55"
+			rewards: [{
+				id: "23DCBBD2D466F226"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "malum:alchemical_impetus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "024AF14E8CF3664D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "malum:alchemical_impetus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40E52271297C7EDD"]
+			id: "3D55DDB4C53B85A6"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "kimetsunoyaiba:rui_brother"
+					id: "601F95AC48ED0F61"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7B74D85345C9ECB0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_21"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "累的哥哥"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D55DDB4C53B85A6"]
+			id: "5EB8435F1B22B57F"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "kimetsunoyaiba:rui_mother"
+					id: "07FD24AB3248019B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6D7ED2B10CEB589C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_22"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "累的母亲"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EB8435F1B22B57F"]
+			id: "4C791C12D8AC229C"
+			tasks: [{
+				id: "2EB5292A7B0191FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:crushing_wheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "粉碎"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C791C12D8AC229C"]
+			id: "0D9E3B313948DEFF"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "adventuresmod:drowned_conjurer"
+					id: "6940F6F5EA848515"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "16EF1EA184489A52"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:drowned_conjurer_mask"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "溺亡召唤师"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D9E3B313948DEFF"]
+			id: "05DA261DBD0877E8"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "better_boss:rongam"
+					id: "4EAE2CAC1464300D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "01554BD73AC1CF4E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "better_boss:dede"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "长臂机器人"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05DA261DBD0877E8"]
+			id: "3A2320BE617B9D0B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dota:axe_hero"
+					id: "5A3B7003F52DE549"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4FFD7C8A626A5E66"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_26"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "斧王"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3A2320BE617B9D0B"]
+			id: "4B685FB59829F133"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dota:pudge_hero"
+					id: "7B8423455E34B2F5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1E2633BC247D7A9A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_27"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "屠夫"
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B685FB59829F133"]
+			id: "43F9D34B99599B7B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dota:juggernaut_hero"
+					id: "6515C6681EAC6037"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "07090E9D223A75E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_28"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43F9D34B99599B7B"]
+			id: "060BD3C90AF8D48D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dota:lina_hero"
+					id: "31769C979581C92C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3A2FB074B843BAB7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_29"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["060BD3C90AF8D48D"]
+			id: "4CCA1DC9BF9FCDCD"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "the_pumpkin_challenge:pumpkin_rider"
+					id: "0BA04571D3C13DBD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4B989868B85F030A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "the_pumpkin_challenge:iron_pumpkin_medallion"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "高级南瓜挑战"
+			x: 17.0d
+			y: -0.5d
+		}
+	]
+	title: "第十章：紫水晶洞穴"
+}

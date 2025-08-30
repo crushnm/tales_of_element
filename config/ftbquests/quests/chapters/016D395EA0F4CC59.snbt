@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "016D395EA0F4CC59"
+	group: "49B33E7C130E1D2B"
+	id: "016D395EA0F4CC59"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0F7A3185F8A49191"
+			subtitle: "生个小孩吧！"
+			tasks: [{
+				id: "2550E6452EE4549F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mca:babies"
+					}
+				}
+				title: "Any #mca:babies"
+				type: "item"
+			}]
+			title: "成家立业"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "3BBB1EC9E5FEA674"
+			tasks: [{
+				id: "2AC15AC81E4E7E23"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "lightmanscurrency:atm"
+				}
+				type: "item"
+			}]
+			title: "金钱交易"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "2B9C8C34A6D98351"
+			rewards: [
+				{
+					id: "47EAAE0DBB95A921"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "exposure:black_and_white_film"
+					}
+					type: "item"
+				}
+				{
+					id: "4973ECAB23BCAE2F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "exposure:color_film"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "制作一个相机"
+			tasks: [{
+				id: "5BED61F3F98467BB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "exposure:camera"
+					tag: {
+						Active: 0b
+						Film: {
+							Count: 1b
+							ForgeCaps: {
+								"celestisynth:celestisynthitemstackcapabilities": {
+									cs.aquaSkin: 0
+								}
+							}
+							id: "exposure:black_and_white_film"
+							tag: {
+								Frames: [{
+									Biome: "the_bumblezone:crystal_canyon"
+									DayTime: 123916
+									Dimension: "the_bumblezone:the_bumblezone"
+									FocalLength: 0
+									Id: "crush_123915"
+									InCave: 1b
+									LightLevel: 2
+									Photographer: "crush"
+									PhotographerId: [I;
+										-1365389747
+										-1951384466
+										-1918199337
+										-1620254286
+									]
+									Pos: [
+										-2246
+										83
+										-2355
+									]
+									Structures: ["the_bumblezone:throne_pillar"]
+									SunAngle: 0.0f
+									Timestamp: "2024-11-09_23.24.45"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "记录美好"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B9C8C34A6D98351"]
+			id: "295E00D493D16024"
+			rewards: [{
+				id: "3B3D143D83981FC5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:black_dye"
+				}
+				type: "item"
+			}]
+			subtitle: "可以使用暗房洗照片"
+			tasks: [{
+				id: "6A9CBF4529B5A525"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "exposure:lightroom"
+				}
+				type: "item"
+			}]
+			title: "洗照片"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["295E00D493D16024"]
+			id: "4844D6E4A7350F1F"
+			subtitle: "使用相框与相册展示照片"
+			tasks: [
+				{
+					id: "1D9746EA3411D9E4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "exposure:photograph_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "77B037B84623B33A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "exposure:album"
+					}
+					type: "item"
+				}
+			]
+			title: "装裱"
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+	title: "杂项"
+}

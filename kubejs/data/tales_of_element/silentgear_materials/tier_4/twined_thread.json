@@ -1,0 +1,84 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic",
+      "fiber"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "gaiadimension:twined_thread"
+    }
+  },
+  "name": {
+    "translate": "麻线"
+  },
+  "stats": {
+    "binding": {
+      "repair_efficiency": {
+        "mul1": 0.05
+      }
+    },
+    "cord": {
+      "ranged_damage": {
+        "mul1": 0.4
+      }
+    }
+  },
+  "traits": {
+    "binding": [
+      {
+        "name": "silentgear:chipping",
+        "level": 2
+      }
+    ],
+    "cord": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "binding/all": [
+      {
+        "texture": "silentgear:binding_generic",
+        "color": "#6B8FA5"
+      }
+    ],
+    "binding/part": [
+      {
+        "texture": "silentgear:binding",
+        "color": "#6B8FA5"
+      }
+    ],
+    "cord/all": [
+      {
+        "texture": "silentgear:bowstring_string",
+        "color": "#7E6962"
+      },
+      {
+        "texture": "silentgear:arrow"
+      }
+    ],
+    "cord/part": [
+      {
+        "texture": "silentgear:bowstring",
+        "color": "#7E6962"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#7E6962"
+      }
+    ]
+  }
+}

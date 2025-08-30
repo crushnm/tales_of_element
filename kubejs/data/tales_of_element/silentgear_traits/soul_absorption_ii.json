@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "melee_weapon"
+        }
+  ],
+  "name": {
+    "translate": "灵魂吸收"
+  },
+  "description": {
+    "translate": "右键可获得灵魂吸收效果，效果期间击中敌人获得生命恢复(唯一武器技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+	"enchantment_id": "celestial_enchantments:fleet_of_foot",
+	"maxLevel": 0,
+	"levels": {
+		"1": [
+			{
+				"id": "minecraft:feather",
+				"amount": 8
+			},
+			{
+				"id": "silentgear:fluffy_feather",
+				"amount": 4
+			},
+			{
+				"id": "minecraft:gold_ingot",
+				"amount": 16
+			}
+		],
+		"2": [
+			{
+				"id": "mna:animated_quill",
+				"amount": 8
+			},
+			{
+				"id": "malum:aerial_spirit",
+				"amount": 4
+			},
+			{
+				"id": "kubejs:electrum_ingot",
+				"amount": 16
+			}
+		]
+	}
+}

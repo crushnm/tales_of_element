@@ -1,0 +1,120 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "gnumus:vintage_alloy_ingot"
+    }
+  },
+  "name": {
+    "translate": "复古合金锭"
+  },
+  "stats": {
+    "tip": {
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "melee_damage": {
+        "add": 2.0
+      },
+      "attack_speed": {
+        "add": 0.5
+      },
+      "ranged_damage": {
+        "add": 2.0
+      },
+      "rarity": {
+        "add": 10.0
+      }
+    },
+    "lining": {
+      "armor": {
+        "add": 1.0
+      }
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "tales_of_element:sharp_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:earth_damage",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "melee_weapon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#775A51"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#775A51"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#775A51"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_cloth",
+        "color": "#62792C"
+      }
+    ]
+  }
+}

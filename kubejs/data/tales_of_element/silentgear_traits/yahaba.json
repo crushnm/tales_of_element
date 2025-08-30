@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "melee_weapon"
+        }
+  ],
+  "name": {
+    "translate": "血鬼术:红箭之矢"
+  },
+  "description": {
+    "translate": "右键可施放血鬼术:红箭之矢,对地面shift+右键可向上施放(唯一武器技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

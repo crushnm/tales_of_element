@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "melee_weapon"
+        }
+  ],
+  "name": {
+    "translate": "纳豆味"
+  },
+  "description": {
+    "translate": "右键扔出一个纳豆球，触碰到方块后生成一团纳豆烟雾对敌人持续造成伤害(唯一武器技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:iron",
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "ceilands:spider_silk"
+    }
+  },
+  "name": {
+    "translate": "蜘蛛丝绸"
+  },
+  "stats": {
+    "main": {
+      "durability": 1800.0,
+      "armor_durability": 450.0,
+      "enchantment_value": 15.0,
+      "rarity": 30.0,
+      "charging_value": 0.8,
+      "armor": 38.0,
+      "magic_armor": 8.0
+    },
+    "grip": {
+      "repair_efficiency": {
+        "mul1": 0.2
+      },
+      "harvest_speed": {
+        "mul1": 0.15
+      },
+      "attack_speed": {
+        "add": 0.15
+      }
+    },
+    "lining": {
+      "armor": {
+        "add": 2.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "tales_of_element:blunt_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:earth_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:sharp_weak",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:acid_orb",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "helmet"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "grip": [
+      {
+        "name": "tales_of_element:blunt_damage",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "melee_weapon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lining": [
+      {
+        "name": "tales_of_element:blunt_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+             "gear_type": "legging"
+          }]
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#72B0B0"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#72B0B0"
+      }
+    ],
+    "grip/all": [
+      {
+        "texture": "silentgear:grip_wool",
+        "color": "#72B0B0"
+      }
+    ],
+    "grip/part": [
+      {
+        "texture": "silentgear:grip",
+        "color": "#72B0B0"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_cloth",
+        "color": "#72B0B0"
+      }
+    ]
+  }
+}

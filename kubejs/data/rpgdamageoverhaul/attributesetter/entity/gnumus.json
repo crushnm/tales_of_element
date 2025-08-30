@@ -1,0 +1,30 @@
+{
+    "gnumus:big_snout": [
+        {
+            "attribute": "rpgdamageoverhaul:piercing.resistance",
+            "value": -0.25
+        }
+    ],
+    "gnumus:gnumus_hunter": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        }
+    ],
+    "gnumus:gnumus_shaman": [
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": -0.20
+        }
+    ],
+    "gnumus:small_snout": [
+        {
+            "attribute": "rpgdamageoverhaul:piercing.resistance",
+            "value": -0.25
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+
+#===============================================
+#===========Neko Endless Difficulty=============
+#==================Ver 1.0.0====================
+#====================Client=====================
+# 
+# 
+#Skill Render
+[SkillRender]
+	#Render Type
+	#[0.disable 1.icon 2.txt][default:2]
+	#Range: 0 ~ 2
+	RenderType = 2
+	#Render Rotation Angle
+	#[default:360]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	RenderRotationAngle = 360.0
+

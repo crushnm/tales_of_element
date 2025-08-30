@@ -1,0 +1,30 @@
+{
+    "kukulkan": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 900,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": -0.50
+        }
+    ]
+}

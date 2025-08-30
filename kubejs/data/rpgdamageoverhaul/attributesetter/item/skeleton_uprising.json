@@ -1,0 +1,9 @@
+{
+    "obsidian_greatsword": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.damage",
+      "value": 4,
+      "operation": "BASE"
+    }
+  ]
+}

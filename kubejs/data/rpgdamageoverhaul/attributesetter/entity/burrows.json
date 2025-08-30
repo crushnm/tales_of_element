@@ -1,0 +1,19 @@
+{
+    "moleking": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:earth.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.resistance",
+      "value": -0.30,
+      "operation": "BASE"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "iron_ring_abyssquartz": [
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 50,
+      "operation": "ADDITION",
+      "slot": "ring" 
+    }
+  ],
+  "iron_ring_stardust_ice": [
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 80,
+      "operation": "ADDITION",
+      "slot": "ring" 
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.armor",
+      "value": 3,
+      "operation": "ADDITION",
+      "slot": "ring" 
+    }
+  ]
+}

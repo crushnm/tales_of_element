@@ -1,0 +1,18 @@
+
+#Tooltip Settings
+[tooltips]
+	#Use the custom font for tooltips
+	useNewFont = true
+
+#Reticle Settings
+[reticles]
+	#Enable custom reticles. This should match the setting in skada-mixin-config.json! (This file is also in config folder)
+	enableCustomReticles = false
+
+#HUD settings
+[hud]
+	#Enable mob healthbars
+	enableMobHealthbars = false
+	#Enable damage indicators
+	enableDamageIndicators = true
+

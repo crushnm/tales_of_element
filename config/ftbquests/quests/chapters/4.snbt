@@ -1,0 +1,615 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: "4A260ADF3C475ACE"
+	id: "2A8F4E8A81CCE09D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "385F97A9BC32C50A"
+			tasks: [{
+				id: "5270C11BEB7CAE6B"
+				item: {
+					Count: 1
+					id: "gloom_caves:diminite_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "479746A292CB50BA"
+			tasks: [{
+				id: "661C1AD1A7884C54"
+				item: {
+					Count: 1
+					id: "gloom_caves:phylerite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "6C4CE9A49A68FD6A"
+			tasks: [{
+				id: "4176173B1FA8545E"
+				item: {
+					Count: 1
+					id: "chaos_project:soul_of_majesty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "05A5DBC51E1B20B1"
+			tasks: [{
+				id: "023BB1343F484E49"
+				item: {
+					Count: 1
+					id: "biomancy:living_flesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "691FC61C3C91E789"
+			tasks: [{
+				id: "0D8BB13D2208BF6F"
+				item: {
+					Count: 1
+					id: "skeleton_uprising:runed_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "0B6D0DCEB24A0CA7"
+			tasks: [{
+				id: "5ACFE54D436215A5"
+				item: {
+					Count: 1
+					id: "chaos_project:terrain_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "1B8BCD332613EF16"
+			tasks: [{
+				id: "6CA896207B8C4AA2"
+				item: {
+					Count: 1
+					id: "chaos_project:mintolis_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "38B6E0A42145AE76"
+			tasks: [{
+				id: "08A95F725452F7AA"
+				item: {
+					Count: 1
+					id: "kubejs:piglin_bone_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "0449FA683A8586A9"
+			tasks: [{
+				id: "6809C6C9F94AD3F6"
+				item: {
+					Count: 1
+					id: "biomancy:mob_sinew"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "19C083C827D9C009"
+			tasks: [{
+				id: "3283B90005623A05"
+				item: {
+					Count: 1
+					id: "biomancy:mob_fang"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "6B13FC6481B9BC30"
+			tasks: [{
+				id: "7B02ACE80EB1CD87"
+				item: {
+					Count: 1
+					id: "biomancy:mob_claw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "17C1A7A680508DF1"
+			tasks: [{
+				id: "790E9C433E669806"
+				item: {
+					Count: 1
+					id: "gaiadimension:proustite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "5330540400E4C5CA"
+			tasks: [{
+				id: "29BCADB49E597BC1"
+				item: {
+					Count: 1
+					id: "gaiadimension:tektite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "44E9B496E09A2F83"
+			tasks: [{
+				id: "7337435D6B85E676"
+				item: {
+					Count: 1
+					id: "gaiadimension:bismuth_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "2B1C579AC41EA256"
+			tasks: [{
+				id: "5454C14788EE3CAA"
+				item: {
+					Count: 1
+					id: "gaiadimension:goshenite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "2002CD3126EF9813"
+			tasks: [{
+				id: "525554FFCFF73A4D"
+				item: {
+					Count: 1
+					id: "gaiadimension:euclase"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "3C318050E91CA50B"
+			tasks: [{
+				id: "4B4006864FB22BA3"
+				item: {
+					Count: 1
+					id: "gaiadimension:diopside"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "5EBEE6D65FAFBA99"
+			tasks: [{
+				id: "63D879B3C97F5096"
+				item: {
+					Count: 1
+					id: "gaiadimension:stibnite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "3DC25AD081424946"
+			tasks: [{
+				id: "6D7C889C2AD75C58"
+				item: {
+					Count: 1
+					id: "gaiadimension:benitoite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "1140651258945E02"
+			tasks: [{
+				id: "4AC7DA05A71C2643"
+				item: {
+					Count: 1
+					id: "gaiadimension:albite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "16C7841A494D8345"
+			tasks: [{
+				id: "75BF1273E0401612"
+				item: {
+					Count: 1
+					id: "gaiadimension:carnelian"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "1F6A331E0AAC4AB4"
+			tasks: [{
+				id: "35B4B4723554C8B2"
+				item: {
+					Count: 1
+					id: "gaiadimension:twined_thread"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "17628E9C3F411D3C"
+			tasks: [{
+				id: "325A18CB9A944D47"
+				item: {
+					Count: 1
+					id: "gaiadimension:shiny_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "217EF4C76132C83B"
+			tasks: [{
+				id: "41E7E7A1769A2475"
+				item: {
+					Count: 1
+					id: "gaiadimension:celestine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "7C9570817E43DAB3"
+			tasks: [{
+				id: "0CDAAF7785F2F305"
+				item: {
+					Count: 1
+					id: "paladins_oath:dark_steel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "4ED5B64D78F0CC0A"
+			tasks: [{
+				id: "79B070A6C27389D0"
+				item: {
+					Count: 1
+					id: "skeleton_uprising:mystic_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "34CD6A8929DD083E"
+			tasks: [{
+				id: "7C65989CCEE8465D"
+				item: {
+					Count: 1
+					id: "legendary_monsters:molten_metal_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "2EC058C09AE5CC2D"
+			tasks: [{
+				id: "54E41CDE1B6A3D26"
+				item: {
+					Count: 1
+					id: "infinite_abyss:yellow_glowing_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "310F001E8A9B7666"
+			tasks: [{
+				id: "4D714409E320FE48"
+				item: {
+					Count: 1
+					id: "kubejs:kuoyu_gel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "7C5B39883BF59F56"
+			tasks: [{
+				id: "571A8E1935CE30AC"
+				item: {
+					Count: 1
+					id: "goety:jade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "5C3D550D0010C143"
+			tasks: [{
+				id: "2A6B3C021CFD0044"
+				item: {
+					Count: 1
+					id: "infinite_abyss:red_glowing_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "4C03863BE218A5CA"
+			tasks: [{
+				id: "105AFDA4F7E67515"
+				item: {
+					Count: 1
+					id: "infinite_abyss:pink_glowing_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "2F3D3C86AF22A088"
+			tasks: [{
+				id: "7E6333F6C150C946"
+				item: {
+					Count: 1
+					id: "chaos_project:amethynd_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "6A3119826ABB8264"
+			tasks: [{
+				id: "2081136A228F2809"
+				item: {
+					Count: 1
+					id: "kubejs:kyogai_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "2F58C07EB7EF7574"
+			tasks: [{
+				id: "37711546D4182ECF"
+				item: {
+					Count: 1
+					id: "soulsweapons:verglas"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "09FA5AD4F67AD9A5"
+			tasks: [{
+				id: "7AD6B53E2AFF2498"
+				item: {
+					Count: 1
+					id: "adventuresmod:aquatic_debris"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			id: "1A8BBA9CD510CE8D"
+			tasks: [{
+				id: "4EDC526482529A6A"
+				item: {
+					Count: 1
+					id: "adventuresmod:twisted_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "131E00B70F16FAF2"
+			tasks: [{
+				id: "172768BE010961EB"
+				item: {
+					Count: 1
+					id: "kubejs:rui_mother_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "7A6361F70444C0A0"
+			tasks: [{
+				id: "57BAE2762C8FBB50"
+				item: {
+					Count: 1
+					id: "biomancy:volatile_gland"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "15D3213DF5547200"
+			tasks: [{
+				id: "4AF828FAFD391FAC"
+				item: {
+					Count: 1
+					id: "legendary_monsters:corrupted_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "08639C6B8FBEC50E"
+			tasks: [{
+				id: "3FD76D3F5BDBDD5D"
+				item: {
+					Count: 1
+					id: "biomancy:toxin_gland"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "05ECE57F13FF20D7"
+			tasks: [{
+				id: "5FB6253FD2B41646"
+				item: {
+					Count: 1
+					id: "better_boss:ojh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "5E41381741B1801B"
+			tasks: [{
+				id: "7768DEB051E0A967"
+				item: {
+					Count: 1
+					id: "kubejs:chad_boxer_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["8,9,10章可获得材料"]
+	title: "4级"
+}

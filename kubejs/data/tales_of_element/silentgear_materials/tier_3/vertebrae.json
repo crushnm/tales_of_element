@@ -1,0 +1,63 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "skeleton_uprising:vertebrae"
+    }
+  },
+  "name": {
+    "translate": "脊椎骨"
+  },
+  "stats": {
+    "tip": {
+       "melee_damage": {
+        "add": 3.0
+      }
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "tales_of_element:soul_absorption_ii",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#BABABA"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#BABABA"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#BABABA"
+      }
+    ]
+  }
+}

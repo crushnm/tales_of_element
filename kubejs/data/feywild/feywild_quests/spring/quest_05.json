@@ -1,0 +1,37 @@
+{
+  "parent": "feywild:quest_04",
+  "complete": {
+    "description": {
+      "translate": "quest.feywild.spring.quest_05.complete.description"
+    },
+    "title": {
+      "translate": "quest.feywild.spring.quest_05.complete.title"
+    }
+  },
+  "icon": "feywild:spring_tree_sapling",
+  "reputation": 5,
+  "rewards": [
+    {
+      "id": "feywild:item",
+      "item": {
+        "count": 1,
+        "item": "kubejs:villagersoul"
+      }
+    }
+  ],
+  "start": {
+    "description": {
+      "translate": "quest.feywild.spring.quest_05.start.description"
+    },
+    "title": {
+      "translate": "quest.feywild.spring.quest_05.start.title"
+    }
+  },
+  "tasks": [
+    {
+      "id": "feywild:tree",
+      "times": 3,
+      "tree": "feywild:spring_tree"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5E6EF7E85179FF97"
+	group: "430456A023966AE7"
+	id: "5E6EF7E85179FF97"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4BCB767B04EC685D"]
+			id: "25ADDB8E064DFB7D"
+			tasks: [
+				{
+					count: 10L
+					id: "57C19709174AB05E"
+					item: {
+						Count: 10
+						id: "unearthed_journey:archstone_pillar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "49DAD3BDBA11A39A"
+					item: {
+						Count: 4
+						id: "unearthed_journey:neogene_portal_corner"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25ADDB8E064DFB7D"]
+			id: "1A555C0080135DD5"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "arcalis_bosses:captain_deadbone"
+					id: "3D83FEC90A93977D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "104857F40BD8C34C"
+					item: {
+						Count: 1
+						id: "arcalis_bosses:cursed_pirate_hat"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A555C0080135DD5"]
+			id: "7BCEA55088359AD4"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "frozone:cyromancer"
+					id: "2FB55FEF85C68891"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "32E39132104477DE"
+					item: {
+						Count: 1
+						id: "kubejs:cyromancer_orb"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1686C1889B097956"]
+			id: "654FD03236E1E0A1"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "goety:crone"
+					id: "5E1DEC0D1226D272"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0EE496334FD9CFF8"
+					item: {
+						Count: 1
+						id: "kubejs:crone_ring"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["654FD03236E1E0A1"]
+			id: "2D3E626B8823465B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "pedriki_extras:wizard"
+					id: "168D47CE4DDC0167"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2BEEED544B3038C4"
+					item: {
+						Count: 1
+						id: "kubejs:illawizard_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D3E626B8823465B"]
+			id: "4DE071AB51D98220"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "pedriki_extras:eyeillager"
+					id: "0F3BA59B82B7F253"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1E8F50853C8F7593"
+					item: {
+						Count: 1
+						id: "kubejs:eyeillager"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DE071AB51D98220"]
+			id: "5234E4D68E419338"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "goety:brood_mother"
+					id: "758B594812695854"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7B4C3326AEC79326"
+					item: {
+						Count: 1
+						id: "kubejs:orb_spider"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66DF389425CA09C8"]
+			id: "1A17485B3F196356"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "ancient_ones:amethyst_colossus"
+					id: "255554D5DDD8821B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "484ED09BA4CF99D6"
+					item: {
+						Count: 1
+						id: "chaos_project:ameclutch"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A17485B3F196356"]
+			description: ["&4注：这是一个场地boss"]
+			id: "3E71D07BC1FC945B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "pedriki_extras:keykeepernew"
+					id: "334025900757E978"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "644AF6176D8550CB"
+					item: {
+						Count: 1
+						id: "kubejs:suspicious_key"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BCEA55088359AD4"]
+			id: "1686C1889B097956"
+			tasks: [{
+				id: "4CD181B4FBCCDF88"
+				item: {
+					Count: 1
+					id: "immortalers_delight:enchantal_cooler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5234E4D68E419338"]
+			id: "66DF389425CA09C8"
+			tasks: [{
+				id: "290C8050C75E2109"
+				item: {
+					Count: 1
+					id: "biomancy:decomposer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+	]
+	title: "第十五章：新近纪"
+}

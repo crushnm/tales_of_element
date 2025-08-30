@@ -1,0 +1,64 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "organic",
+      "fiber"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "better_boss:ojh"
+    }
+  },
+  "name": {
+    "translate": "龙龙鳞片"
+  },
+  "stats": {
+    "coating": {
+       "armor": {
+        "add": 2.0
+      }
+    }
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "tales_of_element:moms_love",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "coating/all": [
+      {
+        "texture": "silentgear:coating_smooth",
+        "color": "#0D021C"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_base"
+      },
+      {
+        "texture": "silentgear:coating",
+        "color": "#0D021C"
+      },
+      {
+        "texture": "silentgear:coating_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#0D021C"
+      }
+    ]
+  }
+}

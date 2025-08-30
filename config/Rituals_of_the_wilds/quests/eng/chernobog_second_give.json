@@ -1,0 +1,20 @@
+{
+  "Quest name": "The Ink of Nightmares",
+  "Text Line": "Chernobog demands shadow¡¯s essence. Find a Shadow Ink Bottlefrom the void¡¯s depths and bring it to me.",
+  "Quest After Finishing Text": "",
+  "Quest Finishing Sound": "playsound minecraft:entity.evoker.prepare_attack neutral @s ~ ~ ~ 1 0.5",
+  "Quest Type": 1,
+  "Quest Item ID or Tag": "rituals_of_the_wilds:shadow_ink_bottle",
+  "Quest Item Count": 1,
+  "Quest Reward Item ID": "",
+  "Quest Reward Min Give Amount": 1,
+  "Quest Reward Max Give Amount": 1,
+  "Quest Reward Command": "",
+  "Quest Reward Command Execution Type": 0,
+  "Quest Reward Min Command Execution": 1,
+  "Quest Reward Max Command Execution": 1,
+  "Quest Reputation Reward": 10,
+  "Quest Reputation Source": 0,
+  "Next Quest ID": "",
+  "Next Quest Giver": 0
+}

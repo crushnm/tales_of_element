@@ -1,0 +1,63 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "biomancy:volatile_gland"
+    }
+  },
+  "name": {
+    "translate": "激变腺"
+  },
+  "stats": {
+    "lining": {
+       "armor": {
+        "add": 2.0
+      }
+    }
+  },
+  "traits": {
+    "lining": [
+      {
+        "name": "tales_of_element:fire_armor",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "lining/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#CF788C"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#CF788C"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#CF788C"
+      }
+    ]
+  }
+}

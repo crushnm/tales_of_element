@@ -1,0 +1,108 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "threateningly_mobs:nature_embryo"
+    }
+  },
+  "name": {
+    "translate": "大地胚胎"
+  },
+  "stats": {
+    "coating": {
+       "armor": {
+        "add": 2.0
+      }
+    }
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "tales_of_element:posion_goo_bullet",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:nature_damage",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "melee_weapon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:nature_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "coating/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#4E976A"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#4E976A"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#4E976A"
+      }
+    ]
+  }
+}

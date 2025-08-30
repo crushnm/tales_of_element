@@ -1,0 +1,358 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0241FA4F8CEBB786"
+	group: "430456A023966AE7"
+	id: "0241FA4F8CEBB786"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["64BE9B49E83AA5B3"]
+			id: "33AE9268B1EB97DB"
+			tasks: [
+				{
+					count: 10L
+					id: "7FEACD0B3E79F5C9"
+					item: {
+						Count: 10
+						id: "the_beginning_and_heaven:compact_cloud"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "49DA7A408A0B0983"
+					item: {
+						Count: 1
+						id: "the_beginning_and_heaven:heaven"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F6FE8D96F1CEAEB"
+					item: {
+						Count: 1
+						id: "the_beginning_and_heaven:blessed_scissors"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33AE9268B1EB97DB"]
+			id: "1444A154756E90D9"
+			tasks: [{
+				id: "0F8FCBCA6F21451A"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:blessed_boots_boots"
+					tag: {
+						Damage: 0
+						skada.armour_info.tagkey: {
+							armour_bonus: 0.0d
+							armour_toughness_bonus: 0.0d
+							attack_resists: { }
+							elemental_resists: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33AE9268B1EB97DB"]
+			id: "73A583A7345AC208"
+			tasks: [{
+				id: "6A08415F15F1D5B7"
+				structure: "the_beginning_and_heaven:solaragora"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73A583A7345AC208"]
+			id: "40A3184430DBEA3F"
+			tasks: [{
+				id: "46CF97834944B3BC"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:eospher_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40A3184430DBEA3F"]
+			id: "30F6311F7308C8BF"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "the_beginning_and_heaven:eospher"
+				id: "3D61B56523252EBE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73A583A7345AC208"]
+			id: "77F979E92D52573A"
+			tasks: [
+				{
+					id: "0D136A409DF7D403"
+					item: {
+						Count: 1
+						id: "the_beginning_and_heaven:archery_pillar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "38703A0833D4E56E"
+					item: {
+						Count: 1
+						id: "the_beginning_and_heaven:shield_table"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1B5A9D2A5D8C64BB"
+					item: {
+						Count: 1
+						id: "the_beginning_and_heaven:jewelry_table"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30F6311F7308C8BF"]
+			id: "6EDFB221717BCA09"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "26FC257EC9CEBE8F"
+					item: {
+						Count: 1
+						id: "rpgadventures:heart_of_machine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "rpgadventures:groblum"
+					id: "0C7495800DE75531"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["610BE18671FDE902"]
+			id: "2588E99FCF447590"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "arkane_domains:dark_shaman"
+					id: "47A353DB8A4416AA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "022B359104A09C40"
+					item: {
+						Count: 1
+						id: "kubejs:dark_shaman"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2588E99FCF447590"]
+			id: "06A52D9422229A3C"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "threateningly_mobs:re_rock_snail"
+					id: "5F35AA109DAACDEA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5E229B3799B8F53F"
+					item: {
+						Count: 1
+						id: "kubejs:hunter_scroll_0"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06A52D9422229A3C"]
+			id: "564947E162816660"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "threateningly_mobs:the_earthloong"
+					id: "7142B5B9B02594E4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6235BB9015924508"
+					item: {
+						Count: 1
+						id: "kubejs:hunter_scroll_1"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["564947E162816660"]
+			id: "6330D63DE5BC4890"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "kimetsunoyaiba:rui_father"
+					id: "191A77D9649CE784"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "366A8E7D76C4C8DD"
+					item: {
+						Count: 1
+						id: "kubejs:curse_bait_43"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B0C84FDDA3B136F"]
+			id: "2784102C521735AD"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mhheavenandhell:yian_kut_ku"
+					id: "08CC1DFAD8DE1FAA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4BAD33F3B8F5D75E"
+					item: {
+						Count: 1
+						id: "kubejs:hunter_scroll_2"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2784102C521735AD"]
+			description: ["&4注：这是一个场地boss"]
+			id: "073481D77D68C056"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mcb:ancient_ent"
+					id: "62329018CFA91253"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0FE12F468F1BFCF7"
+					item: {
+						Count: 1
+						id: "mcb:ancient_figurine"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EDFB221717BCA09"]
+			id: "610BE18671FDE902"
+			tasks: [{
+				id: "609DDBD6FACD374F"
+				item: {
+					Count: 1
+					id: "vintageimprovements:laser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6330D63DE5BC4890"]
+			id: "1B0C84FDDA3B136F"
+			tasks: [{
+				id: "253588C69D533CA9"
+				item: {
+					Count: 1
+					id: "create_new_age:energiser_t1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+	]
+	title: "第十三章：宁静天堂"
+}

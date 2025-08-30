@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6A1AA6640AEF622C"
+	group: "5ED8AD612E71F3A4"
+	id: "6A1AA6640AEF622C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "39628C61B3E3485C"
+		tasks: [{
+			id: "78B705C698BE1D32"
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "celestial_enchantments:withering_blade"
+						lvl: 1s
+					}]
+				}
+			}
+			type: "item"
+		}]
+		x: -3.5d
+		y: -1.0d
+	}]
+	title: "附魔收集"
+}

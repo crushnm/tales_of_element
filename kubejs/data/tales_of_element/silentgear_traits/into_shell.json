@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 5,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "chestplate"
+        }
+  ],
+  "name": {
+    "translate": "缩入壳中"
+  },
+  "description": {
+    "translate": "按下胸甲技能(默认shift+x)缩入壳中，获得抗性提升但无法移动(唯一胸甲技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

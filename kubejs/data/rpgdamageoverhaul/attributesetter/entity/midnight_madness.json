@@ -1,0 +1,12 @@
+{
+    "dark_wolf": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.50
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "groblum": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2200,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.70
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.50
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Reaper",
+  "tier": "Tier 1",
+  "health": 150.0,
+  "healthThreshold": 60.0,
+  "defaultDamage": 10.0,
+  "aoeDamage": 20.0,
+  "armor": 5.0,
+  "speed": 0.4,
+  "range": 7.0,
+  "playerHealthThreshold": 0.4,
+  "playerThreshold": 2,
+  "loot": [
+    {
+      "item": "minecraft:soul_sand",
+      "quantity": 1,
+      "chance": 0.55
+    },
+    {
+      "item": "alcaryabattle:reaper_spawn_egg",
+      "quantity": 1,
+      "chance": 0.25
+    }
+  ]
+}

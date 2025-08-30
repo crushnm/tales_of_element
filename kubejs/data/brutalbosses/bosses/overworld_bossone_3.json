@@ -1,0 +1,29 @@
+{
+  "entity": "zombie_variations:snowzombi",
+  "name": "雪僵尸",
+  "visualscale": 1.0,
+  "experience": 300,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 350,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+	"dropgear": 6  
+  },
+  "gear": {
+	"helmet": "{id: \"minecraft:enchanted_book\", Count: 1b, tag: {StoredEnchantments: [{lvl: 1s, id: \"extra_enchantments:fishermans_blade\"}]}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {},
+    "brutalbosses:shootsnowballs": {
+      "projectile_interval": 100,
+      "projectile_distance": 45
+    }
+  },
+  "spawnatchest": {
+  }
+}

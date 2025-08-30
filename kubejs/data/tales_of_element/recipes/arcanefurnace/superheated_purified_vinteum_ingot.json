@@ -1,0 +1,7 @@
+{
+	"type": "mna:arcane-furnace",
+	"tier": 2,
+	"input": "minecraft:brown_concrete",
+	"output": "minecraft:soul_sand",
+	"burnTime": 400
+}

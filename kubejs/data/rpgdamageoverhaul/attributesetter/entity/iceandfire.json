@@ -1,0 +1,16 @@
+{
+    "sea_serpent": [
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:piercing.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.resistance",
+      "value": -0.50
+    }
+  ]
+}

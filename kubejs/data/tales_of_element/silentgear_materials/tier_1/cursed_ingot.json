@@ -1,0 +1,146 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:iron",
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "goety:cursed_ingot"
+    }
+  },
+  "name": {
+    "translate": "诅咒金属锭"
+  },
+  "stats": {
+    "main": {
+      "durability": 450.0,
+      "armor_durability": 20.0,
+      "enchantment_value": 14.0,
+      "rarity": 20.0,
+      "charging_value": 0.7,
+      "harvest_speed": 6.0,
+      "melee_damage": 2.75,
+      "magic_damage": 1.5,
+      "attack_speed": 0.0,
+      "attack_speed/axe": -0.1,
+      "attack_speed/hoe": 0.0,
+      "ranged_damage": 1.1,
+      "ranged_speed": 0.1,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "armor": 17.0,
+      "magic_armor": 6.0
+    },
+    "rod": {},
+    "tip": {
+      "durability": {
+        "add": 128.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "tales_of_element:dark_damage",
+        "level": 2,
+        "conditions": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              }
+        ]
+      },
+      {
+        "name": "tales_of_element:dark_armor",
+        "level": 2,
+        "conditions": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              }
+        ]
+      },
+      {
+        "name": "tales_of_element:holy_weak",
+        "level": 1,
+        "conditions": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      }
+    ],
+    "tip": [
+      {
+        "name": "tales_of_element:dark_damage",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#284154"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#284154"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#284154"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#284154"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#284154"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#284154"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

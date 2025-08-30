@@ -1,0 +1,476 @@
+[
+  {
+    "authors": "sybsysj",
+    "name": "sons_of_sins模组汉化",
+    "desc": "VPGS，cc，版权方：paret",
+    "mods": "sons_of_sins",
+    "dynamic": false
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/block/SoulSteelBlockBlock"
+    },
+    "p": [
+      {
+        "k": "§5§oRemarkable resistance, but completely useless against you",
+        "v": "§5§o很坚固的材料，但对你无效"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/block/SoulSteelSlabBlock"
+    },
+    "p": [
+      {
+        "k": "§5§oRemarkable resistance, but completely useless against you",
+        "v": "§5§o很坚固的材料，但对你无效"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/block/SoulSteelStairsBlock"
+    },
+    "p": [
+      {
+        "k": "§5§oRemarkable resistance, but completely useless against you",
+        "v": "§5§o很坚固的材料，但对你无效"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/block/SoulSteelTilesBlock"
+    },
+    "p": [
+      {
+        "k": "§5§oRemarkable resistance, but completely useless against you",
+        "v": "§5§o很坚固的材料，但对你无效"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/SickleOfStruggleItem"
+    },
+    "p": [
+      {
+        "k": "§5§oBleeding and being dismembered, a bad fate",
+        "v": "§5§o流血、肢解？命运多舛"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/RemnantItem$Chestplate"
+    },
+    "p": [
+      {
+        "k": "§5§oAble to imprison attacks too brutal for the mortals",
+        "v": "§5§o能够付出代价来抵挡对凡人来说过于残忍的攻击"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/OsseousAxeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oExtract the ashes from the creatures",
+        "v": "§5§o从生物中提取以太灰烬"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/OsseousHoeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oExtract the ashes from the creatures",
+        "v": "§5§o从生物中提取以太灰烬"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/OsseousPickaxeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oExtract the ashes from the creatures",
+        "v": "§5§o从生物中提取以太灰烬"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/OsseousShovelItem"
+    },
+    "p": [
+      {
+        "k": "§5§oExtract the ashes from the creatures",
+        "v": "§5§o从生物中提取以太灰烬"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/OsseousSwordItem"
+    },
+    "p": [
+      {
+        "k": "§5§oExtract the ashes from the creatures",
+        "v": "§5§o从生物中提取以太灰烬"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/EtherAshesItem"
+    },
+    "p": [
+      {
+        "k": "§5§oDust you are and to dust shall you return...",
+        "v": "§5§o尘土，终将归于尘土......"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/SoulSteelItem"
+    },
+    "p": [
+      {
+        "k": "§5§oA remnant steel",
+        "v": "§5§o残余的钢"
+      }
+    ]
+  },
+
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/procedures/BottleOfBloodSpecialInformationProcedure"
+    },
+    "p": [
+      {
+        "k": "§5§oObtained from a Primary creature",
+        "v": "§5§o从生物上获得"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/BloodItem"
+    },
+    "p": [
+      {
+        "k": "§5§oA pit capable of healing all wounds, all of them",
+        "v": "§5§o一个能够治愈所有伤口的液体，所有的伤口"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/procedures/UrnSpecialInformationProcedure"
+    },
+    "p": [
+      {
+        "k": "§5§oCurrently contains ",
+        "v": "§5§o包含 "
+      },
+      {
+        "k": " ashes",
+        "v": " 以太灰烬"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/EtherSwordItem"
+    },
+    "p": [
+      {
+        "k": "§5§oCan extract vital energy from creatures",
+        "v": "§5§o可以从生物中提取生命能量"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/ShapeShiftingToolItem"
+    },
+    "p": [
+      {
+        "k": "§5§oAdapts to destroy every block",
+        "v": "§5§o可根据要摧毁的方块来改变形态"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/CrystallizedEtherItem"
+    },
+    "p": [
+      {
+        "k": "§5§oTransforms ash into usable energy",
+        "v": "§5§o以太灰烬转化的可用能源"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/FleshCarcassItem"
+    },
+    "p": [
+      {
+        "k": "§5§oHe never saw the light",
+        "v": "§5§o他从未见过光芒"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/SinfulAxeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oAn unbreakable tool from beyond the grave",
+        "v": "§5§o自墓外的牢不可破的工具"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/SinfulHoeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oAn unbreakable tool from beyond the grave",
+        "v": "§5§o自墓外的牢不可破的工具"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/SinfulPickaxeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oAn unbreakable tool from beyond the grave",
+        "v": "§5§o自墓外的牢不可破的工具"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/SinfulShovelItem"
+    },
+    "p": [
+      {
+        "k": "§5§oAn unbreakable tool from beyond the grave",
+        "v": "§5§o自墓外的牢不可破的工具"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/SinfulSwordItem"
+    },
+    "p": [
+      {
+        "k": "§5§oAn unbreakable tool from beyond the grave",
+        "v": "§5§o自墓外的牢不可破的工具"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/BloodyBoneItem"
+    },
+    "p": [
+      {
+        "k": "§5§oStronger than steel, sharper than a razor blade",
+        "v": "§5§o比钢更坚固，比剃刀更锋利"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/FleshAxeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oHas the ability to self-regenerate",
+        "v": "§5§o具有自我再生能力"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/FleshHoeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oHas the ability to self-regenerate",
+        "v": "§5§o具有自我再生能力"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/FleshPickaxeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oHas the ability to self-regenerate",
+        "v": "§5§o具有自我再生能力"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/FleshShovelItem"
+    },
+    "p": [
+      {
+        "k": "§5§oHas the ability to self-regenerate",
+        "v": "§5§o具有自我再生能力"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/FleshSwordItem"
+    },
+    "p": [
+      {
+        "k": "§5§oHas the ability to self-regenerate",
+        "v": "§5§o具有自我再生能力"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/PuppetOfStrifeItem"
+    },
+    "p": [
+      {
+        "k": "§5§oIt can use organ's capacities",
+        "v": "§5§o它能使用器官的能力"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/procedures/FleshCarcassSpecialInformation2Procedure"
+    },
+    "p": [
+      {
+        "k": "§7[Empty]",
+        "v": "§7[空]"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/procedures/FleshCarcassSpecialInformation3Procedure"
+    },
+    "p": [
+      {
+        "k": "§7[Empty]",
+        "v": "§7[空]"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/procedures/FleshCarcassSpecialInformationProcedure"
+    },
+    "p": [
+      {
+        "k": "§7[Empty]",
+        "v": "§7[空]"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/procedures/PuppetOfStrifeSpecialInformationProcedure"
+    },
+    "p": [
+      {
+        "k": "§7[Empty]",
+        "v": "§7[空]"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/HandOfRiotItem"
+    },
+    "p": [
+      {
+        "k": "§5§oMake entities around target the enemy",
+        "v": "§5§o它能使周围的实体以指定的敌人为目标"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/EtherEngineItem"
+    },
+    "p": [
+      {
+        "k": "§5§oCan corrupt the purest soul",
+        "v": "§5§o它能腐蚀最纯洁的灵魂"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/CursedHeadItem"
+    },
+    "p": [
+      {
+        "k": "§5§oTake ennemy's armor pieces off",
+        "v": "§5§o它能取下敌人的盔甲"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/TouchOfGreedItem"
+    },
+    "p": [
+      {
+        "k": "§5§oMake the ennemy go through the ground",
+        "v": "§5§o它能让敌人沉入地面"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/ButcherCleaverItem"
+    },
+    "p": [
+      {
+        "k": "§5§oLow is your health, stronger you will be",
+        "v": "§5§o它在你低生命值时更为强大"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "net/mcreator/sonsofsins/item/WistiversJawsItem"
+    },
+    "p": [
+      {
+        "k": "§5§oBecome stronger with each stroke",
+        "v": "§5§o它在每一次攻击后变得更强大"
+      }
+    ]
+  }
+]

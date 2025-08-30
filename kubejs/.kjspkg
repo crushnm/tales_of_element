@@ -1,0 +1,9 @@
+{
+    "author": "Kitsuny and error1number404",
+    "description": "Random loot bags",
+    
+    "versions": [9],
+    "modloaders": ["fabric", "forge"],
+    "dependencies": ["mod:lootjs"],
+    "incompatibilities": []
+}

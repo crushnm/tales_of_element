@@ -1,0 +1,22 @@
+{
+    "mutant_sniffer": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1050,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.60
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ]
+}

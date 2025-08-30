@@ -1,0 +1,94 @@
+{
+    "eospher": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2100,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 55,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": 0.70,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.40,
+      "operation": "BASE"
+    }
+  ],
+    "angel": [
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        }
+    ],
+    "fallen_angel": [
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "ascended": [
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.60
+        }
+    ],
+    "ethereal_soul": [
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 1.0
+        }
+    ],
+    "nicti": [
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        }
+    ],
+    "inerman": [
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        }
+    ],
+    "blust": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.50
+        }
+    ]
+}

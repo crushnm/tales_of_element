@@ -1,0 +1,174 @@
+{
+  "physical": {
+    "color": "GRAY",
+    "subClasses": {
+      "sharp": {
+        "color": "GRAY",
+        "subClasses": {
+          "piercing": {
+            "color": "GRAY"
+          },
+          "slashing": {
+            "color": "GRAY"
+          }
+        }
+      },
+      "blunt": {
+        "color": "GRAY"
+      }
+    }
+  },
+  "elemental": {
+    "subClasses": {
+      "fire": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "minecraft:flame",
+        "color": "RED",
+        "potions": {
+          "resistance": {
+            "minecraft:fire_resistance": 0.75
+          }
+        },
+        "enchantments": {
+          "damage": {
+            "minecraft:fire_aspect": 2
+          },
+          "resistance": {
+            "minecraft:fire_protection": 0.04
+          }
+        },
+        "damageTypes": [
+          "minecraft:on_fire"
+        ],
+        "tags": [
+          "minecraft:is_fire"
+        ]
+      },
+      "frost": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "minecraft:snowflake",
+        "enchantments": {
+          "resistance": {
+            "enigmaticaddons:frost_protection": 0.04,
+            "origins:water_protection": 0.04
+          },
+          "damage": {
+            "enigmaticaddons:frost_aspect": 2
+          }
+        },
+        "color": "#D0F9FF",
+        "damageTypes": [
+          "minecraft:freeze"
+        ],
+        "tags": [
+          "minecraft:is_freezing"
+        ]
+      },
+      "lightning": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "minecraft:wax_on",
+        "color": "AQUA",
+        "damageTypes": [
+          "minecraft:lightning_bolt"
+        ],
+        "tags": [
+          "minecraft:is_lightning"
+        ]
+      },
+      "wind": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "minecraft:sculk_soul",
+        "color": "#F0F1F2"
+      },
+      "nature": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "burrows:leaf",
+        "color": "GREEN"
+      },
+      "earth": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "alexsmobs:guster_sand_shot",
+        "color": "#B75439"
+      },
+      "soul": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "minecraft:sculk_soul",
+        "color": "DARK_AQUA"
+      },
+      "water": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "jujutsucraft:particle_water",
+        "color": "BLUE"
+      },
+      "dark": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "born_in_chaos_v1:dark_smoke",
+        "color": "BLACK"
+      },
+      "holy": {
+        "onHit": [
+          "rpgdamageoverhaul:particles"
+        ],
+        "particle": "terramity:holy_glint",
+        "color": "GOLD",
+        "enchantments": {
+          "damage": {
+            "minecraft:smite": 2
+          }
+        },
+        "potions": {
+          "resistance": {
+            "mowziesmobs:suns_blessing": 0.75
+          },
+          "damage": {
+            "mowziesmobs:suns_blessing": 2
+          }
+        }
+      }
+    }
+  },
+  "arcane": {
+    "onHit": [
+      "rpgdamageoverhaul:particles"
+    ],
+    "particle": "minecraft:portal",
+    "color": "DARK_PURPLE",
+    "armorEffectiveness": 0.5,
+    "damageTypes": [
+      "minecraft:magic",
+      "minecraft:indirect_magic"
+    ]
+  },
+  "true": {
+    "onHit": [
+      "rpgdamageoverhaul:particles"
+    ],
+    "particle": "minecraft:end_rod",
+    "color": "WHITE",
+    "armorEffectiveness": 0,
+    "tags": [
+      "minecraft:bypasses_resistance",
+      "minecraft:bypasses_enchantments",
+      "minecraft:bypasses_effects",
+      "minecraft:bypasses_armor"
+    ]
+  }
+}

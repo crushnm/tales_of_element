@@ -1,0 +1,28 @@
+{
+  "name": "Wizor",
+  "tier": "Tier 3",
+  "health": 395.0,
+  "healthThreshold": 99.0,
+  "defaultDamage": 40.0,
+  "aoeDamage": 50.0,
+  "armor": 15.0,
+  "speed": 0.18,
+  "range": 12.0,
+  "playerHealthThreshold": 0.2,
+  "playerThreshold": 2,
+  "loot": [
+    {
+      "item": "minecraft:potion",
+      "quantity": 1,
+      "chance": 0.55,
+      "nbt": {
+        "Potion": "minecraft:strength"
+      }
+    },
+    {
+      "item": "alcaryabattle:wizor_spawn_egg",
+      "quantity": 1,
+      "chance": 0.25
+    }
+  ]
+}

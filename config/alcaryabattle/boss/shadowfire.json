@@ -1,0 +1,25 @@
+{
+  "name": "ShadowFire",
+  "tier": "Tier 5",
+  "health": 700.0,
+  "healthThreshold": 0.0,
+  "defaultDamage": 150.0,
+  "aoeDamage": 170.0,
+  "armor": 80.0,
+  "speed": 0.4,
+  "range": 12.0,
+  "playerHealthThreshold": 0.0,
+  "playerThreshold": 0,
+  "loot": [
+    {
+      "item": "minecraft:netherite_ingot",
+      "quantity": 2,
+      "chance": 0.5
+    },
+    {
+      "item": "alcaryabattle:shadowfire_spawn_egg",
+      "quantity": 1,
+      "chance": 0.25
+    }
+  ]
+}

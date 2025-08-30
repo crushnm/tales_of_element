@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "leggings"
+        }
+  ],
+  "name": {
+    "translate": "赌石"
+  },
+  "description": {
+    "translate": "按下护腿技能键(默认shift+c)可丢出一个晶洞，看看你能开出什么吧！(唯一护腿技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

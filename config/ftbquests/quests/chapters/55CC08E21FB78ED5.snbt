@@ -1,0 +1,376 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "55CC08E21FB78ED5"
+	group: "430456A023966AE7"
+	id: "55CC08E21FB78ED5"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["114A9FB2BA854FC2"]
+			id: "5A6FE6F609BD0B21"
+			max_completable_dependents: 1
+			tasks: [
+				{
+					count: 10L
+					id: "3D3D24995B2921BD"
+					item: {
+						Count: 10
+						id: "minecraft:obsidian"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "74817AB303F2595C"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A6FE6F609BD0B21"]
+			id: "405BFC096FCCDCC4"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "just_in_nether:pigmar"
+					id: "40FEE16C1A258436"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5EF474476B5A6AE1"
+					item: {
+						Count: 1
+						id: "kubejs:piglin_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A6FE6F609BD0B21"]
+			id: "5373FA881EAC3FF2"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "just_in_nether:bullkindar"
+					id: "771E3BDA20C9C20E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2D5C03940EE9F507"
+					item: {
+						Count: 1
+						id: "kubejs:bullin_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5373FA881EAC3FF2"
+				"405BFC096FCCDCC4"
+			]
+			dependency_requirement: "one_started"
+			id: "6D1B4DAA1F653257"
+			min_required_dependencies: 1
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "fromtheshadows:nehemoth"
+					id: "2CF79A2B3E616A2C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "353D1B282DF8FE9E"
+					item: {
+						Count: 1
+						id: "kubejs:nehemoth"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F41643809525044"]
+			id: "65962805E07FA36A"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "chaos_project:zomber"
+					id: "1D5950818788980E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4F4E10AAE58A20ED"
+					item: {
+						Count: 1
+						id: "chaos_project:zombie_brain"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65962805E07FA36A"]
+			id: "403F38454454B4A7"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "greekfantasy:geryon"
+					id: "7E4C33B3617A287D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "618A356CE6FCC5C6"
+					item: {
+						Count: 1
+						id: "greekfantasy:gigante_head"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["403F38454454B4A7"]
+			id: "7E38CFBFF1108226"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "crimson_steves_mobs:big_snow_golem"
+					id: "561A75D3C62F8856"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5256691DDBF33F4C"
+					item: {
+						Count: 1
+						id: "kubejs:evil_snowball"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B091B9801D42BDF"]
+			id: "1DE189BF245DEDEE"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "foodbosses:pizza"
+					id: "75357D16FD170DB4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3622CB56B2B15102"
+					item: {
+						Count: 1
+						id: "foodbosses:pizza_item"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1DE189BF245DEDEE"]
+			id: "05902E148C945A63"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "inka:headclava"
+					id: "6F8C7133EB549BA8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "inka:capac"
+					id: "41CCA282EBED4114"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "634C6BAF23DE8E37"
+					item: {
+						Count: 1
+						id: "kubejs:tumi"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05902E148C945A63"]
+			description: ["&4注：这是一个场地boss"]
+			id: "73580066E38379C3"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "call_of_drowner:deepwater_piranha"
+					id: "3C5249CE254B27E3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1F83D77F2D5E02FB"
+					item: {
+						Count: 1
+						id: "kubejs:wither_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "call_of_drowner:drowner"
+					id: "793DDBB01D61DA0D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 26.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D1B4DAA1F653257"]
+			id: "4A680B3691839D45"
+			tasks: [{
+				id: "339D0EC4CB34EE38"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:air_compressor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A680B3691839D45"]
+			id: "1F41643809525044"
+			tasks: [
+				{
+					id: "0C20F284E5FFEB1A"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pressure_chamber_wall"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5A5C6AEE0AC070E7"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pressure_chamber_glass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4B792B15CD13E1D2"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pressure_chamber_interface"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "23CFF741E2845CD1"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pressure_chamber_valve"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E38CFBFF1108226"]
+			id: "1B091B9801D42BDF"
+			tasks: [{
+				id: "5AA288170C439C3C"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:thermopneumatic_processing_plant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B091B9801D42BDF"]
+			id: "2B4CA33587A333C6"
+			tasks: [{
+				id: "258185F0932CA097"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:fluid_mixer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+	]
+	title: "第十七章：我们应该更深入一些"
+}

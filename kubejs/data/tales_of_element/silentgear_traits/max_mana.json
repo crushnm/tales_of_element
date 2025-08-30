@@ -1,0 +1,19 @@
+{
+  "type": "silentgear:attribute",
+  "max_level": 10,
+  "name": {
+    "translate": "法术容器"
+  },
+  "description": {
+    "translate": "增加最大法力值"
+  },
+  "attribute_modifiers": {
+    "all": [
+      {
+        "attribute": "irons_spellbooks:max_mana",
+        "operation": 0,
+        "value":[100,200,300,400,500,600,700,800,900,1000]
+      }
+    ]
+  }
+}

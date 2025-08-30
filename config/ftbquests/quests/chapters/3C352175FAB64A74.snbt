@@ -1,0 +1,2222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3C352175FAB64A74"
+	group: "430456A023966AE7"
+	id: "3C352175FAB64A74"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["529359CDB4F7EBD8"]
+			id: "670D7379A8F27882"
+			tasks: [{
+				id: "582FB22F63F976D0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "home,sweet home"
+			x: -22.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["670D7379A8F27882"]
+			description: ["现在并不会生成铁矿石，但你仍有各种方式来获取铁锭"]
+			id: "454D8B878CE5F0D4"
+			tasks: [{
+				count: 3L
+				id: "4EED80C9FA3C77B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			title: "来硬的"
+			x: -20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["670D7379A8F27882"]
+			id: "1F313E937CAE58E6"
+			tasks: [
+				{
+					id: "2BC565E50B24143C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+				{
+					id: "36E992D35EBBB8DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					id: "653D72A6EB1976E8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:spider_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "0E097FD2F0D6C13B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					id: "3C3A7A3E2262084C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			title: "杀光它们"
+			x: -20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DE72DA772888ACC"]
+			id: "3B62CD765631B2DA"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "击败铁巨像"
+			tasks: [
+				{
+					id: "56C5EB975DC89031"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "armageddon_mod:iron_remote"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "armageddon_mod:the_iron_colossus"
+					id: "2857037C3C8BB9F4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "铁傀儡？"
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1F313E937CAE58E6"
+				"454D8B878CE5F0D4"
+			]
+			id: "5DE72DA772888ACC"
+			tasks: [{
+				id: "25D44F6E68DE1F05"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "kubejs:battle_wand"
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["171E6DA36392508F"]
+			id: "0BB490500BBB2CEF"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "使用奇怪的硬币召唤哥布林领主并击败"
+			tasks: [
+				{
+					id: "106A6164A26BF069"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "armageddon_mod:strange_coin"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "armageddon_mod:the_gobelin_lord"
+					id: "1D5798EEBB3DE7BE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "它盯上你了"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CC96617A3A5A6EB"]
+			id: "7B1C36E79B1DAFD5"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1276751AABCCB558"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "armageddon_mod:emerald_totem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "armageddon_mod:arion_tyrant_of_the_emerald_wrath_soldat"
+					id: "654D6A370D22E20F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "村民的死对头"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B1C36E79B1DAFD5"]
+			id: "4738D06C5D65127C"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6804034E4C2A6D45"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "armageddon_mod:builder_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "armageddon_mod:eldoraththe_ancient_builder"
+					id: "54B14050587D1C17"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "古老的建筑师"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4738D06C5D65127C"]
+			id: "333FA91411499205"
+			subtitle: "前往失落的城市并找到机械核心"
+			tasks: [{
+				id: "7EA638147E11C95A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "kubejs:mechanical_gear"
+				}
+				type: "item"
+			}]
+			title: "回到未来"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0842A9A8494A90F2"]
+			id: "217D48C3C2031660"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "使用结构指南针搜索aquamirae:ship"
+			tasks: [
+				{
+					id: "08C7D4496A1A48F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "aquamirae:shell_horn"
+					}
+					type: "item"
+				}
+				{
+					id: "00968109AD506617"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "kubejs:shell_horn"
+					}
+					type: "item"
+				}
+				{
+					entity: "alcaryabattle:reaper"
+					id: "4114495BE61CB92D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4738D06C5D65127C"]
+			description: ["整合包大修了附魔系统，你无法从附魔台正常附魔，你首先需找到对应的附魔书，右键附魔书可解锁附魔，解锁之后便可以在附魔台为武器制作附魔，每种附魔所需的材料均不一样，所以请多多收集整合包内各种各样的材料。"]
+			id: "04DE3FA126B6E6B1"
+			tasks: [{
+				id: "454F2170B650F76E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "minecraft:enchanting_table"
+				}
+				type: "item"
+			}]
+			title: "关于附魔"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A255A427E15F9B9"]
+			id: "1CE741A36C29A3A9"
+			rewards: [{
+				id: "374FE04E5D0E8359"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "gnumus:gnumus_doubloons"
+				}
+				type: "item"
+			}]
+			subtitle: "你可以通过击杀角魔工人或击碎他们的罐子来获得一些角魔金币"
+			tasks: [{
+				count: 3L
+				id: "50017646FB03CFDC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "gnumus:gnumus_doubloons"
+				}
+				type: "item"
+			}]
+			title: "钱钱钱!!!"
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B62CD765631B2DA"]
+			id: "6E4C4B460AE60CDF"
+			tasks: [
+				{
+					count: 3L
+					id: "4E38A17D13DD9520"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/zinc"
+						}
+					}
+					title: "Any #forge:ingots/zinc"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0CFED2806A036BD2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:natural_quartz"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7570DE022694D51C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/lead"
+						}
+					}
+					title: "Any #forge:ingots/lead"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "245F09F7D8C5D657"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "19F6FCA67D493CBF"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			title: "初级矿石"
+			x: -17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BB490500BBB2CEF"]
+			id: "53F2FD3E6BF1EECA"
+			tasks: [
+				{
+					count: 3L
+					id: "7B3314A35B995237"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1B2AF417993D6D3A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
+					title: "Any #forge:ingots/silver"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1880AE4ED5CE4307"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/nickel"
+						}
+					}
+					title: "Any #forge:ingots/nickel"
+					type: "item"
+				}
+			]
+			title: "中级矿石"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BB490500BBB2CEF"]
+			id: "613A5D9213A319AF"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "gomwaga:harpy_of_blades"
+					id: "0A7CB2C85AE4A8FD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "48D73D7E482C6901"
+					item: {
+						Count: 1
+						id: "gomwaga:sharp_leaf"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "鸟妖"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03D60FFE8F3B5B08"]
+			id: "171E6DA36392508F"
+			tasks: [
+				{
+					id: "2BCE785FC6348358"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:spirit_altar"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6684D66BAE3EB982"
+					item: {
+						Count: 4
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:runewood_item_pedestal"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76D29172E5BDBBCE"]
+			id: "03D60FFE8F3B5B08"
+			tasks: [{
+				count: 5L
+				id: "343F35A0CD559B37"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:runewood_log"
+				}
+				type: "item"
+			}]
+			title: "魔法木头"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1359BFDC0924B9C5"]
+			id: "76D29172E5BDBBCE"
+			tasks: [
+				{
+					id: "3B32A2F4BBD50533"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:earthen_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "582AF8B652174CED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:aqueous_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "21EB76280322520F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:aerial_spirit"
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31DC4AAAA5512B54"]
+			id: "1359BFDC0924B9C5"
+			tasks: [{
+				id: "2679343F31C590CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CE741A36C29A3A9"]
+			id: "31DC4AAAA5512B54"
+			rewards: [{
+				id: "410C356F0FF097EE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:encyclopedia_arcana"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37D44264684DBC10"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:processed_soulstone"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["613A5D9213A319AF"]
+			description: ["制作一个根之图腾。"]
+			id: "7C7FE5ECBC11B5B0"
+			rewards: [{
+				id: "57FB27E2F010A052"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34FC77585FA011CB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 100
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "灾厄村民的魔法"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C7FE5ECBC11B5B0"]
+			description: ["一些基础材料"]
+			id: "4CC96617A3A5A6EB"
+			rewards: [
+				{
+					count: 2
+					id: "711DE89E238B83F0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "goety:cursed_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "51ED9EDF98090CF6"
+					item: {
+						Count: 1
+						id: "goety:soul_emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2CAEEEF6EE66D90F"
+					item: {
+						Count: 1
+						id: "goety:soul_emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "663B54451F8CF5B3"
+					item: {
+						Count: 5
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "goety:cursed_ingot"
+					}
+					type: "item"
+				}
+			]
+			title: "简单转化"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["333FA91411499205"]
+			id: "178CC63868C63277"
+			rewards: [{
+				id: "3EFFE72E06582625"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			subtitle: "制作一些安山合金"
+			tasks: [{
+				count: 4L
+				id: "77DE4AD1CDF3C283"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			title: "安山！"
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["178CC63868C63277"]
+			id: "67B4A790B1DB2860"
+			tasks: [{
+				id: "36434545F93840E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "create:hand_crank"
+				}
+				type: "item"
+			}]
+			title: "劳动最光荣"
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67B4A790B1DB2860"]
+			id: "69B7AE45A0DCF3E9"
+			subtitle: "制作动力辊压机"
+			tasks: [{
+				id: "1D009361271D121B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "create:mechanical_press"
+				}
+				type: "item"
+			}]
+			title: "别被人看扁了"
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2924BEE1B8CDEF2B"]
+			id: "1C913DEA5EFD600F"
+			subtitle: "热力发电机可以使用煤炭，岩浆等热能物品产电，尽管它的效率并不高"
+			tasks: [{
+				id: "3A396FBED89CB493"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "mekanismgenerators:heat_generator"
+				}
+				type: "item"
+			}]
+			title: "基础生电"
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2924BEE1B8CDEF2B"
+				"1C913DEA5EFD600F"
+			]
+			id: "0842A9A8494A90F2"
+			subtitle: "电能炉可以制作一些基础的合金"
+			tasks: [{
+				id: "4AB517BDD9366A8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "ad_astra:etrionic_blast_furnace"
+				}
+				type: "item"
+			}]
+			title: "基础合金"
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C913DEA5EFD600F"]
+			id: "4CD3A3706BD730DF"
+			subtitle: "高效生产应力"
+			tasks: [
+				{
+					id: "76B01183011BB4F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "create:windmill_bearing"
+					}
+					type: "item"
+				}
+				{
+					id: "7EF42B647254D79B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "create:water_wheel"
+					}
+					type: "item"
+				}
+			]
+			title: "转起来吧！"
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69B7AE45A0DCF3E9"]
+			id: "2924BEE1B8CDEF2B"
+			subtitle: "使用动力辊压机获得一些铁板"
+			tasks: [{
+				id: "7B6B8DCC550E2AC0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ad_astra:iron_plates"
+					}
+				}
+				title: "Any #ad_astra:iron_plates"
+				type: "item"
+			}]
+			title: "压扁它们"
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CD3A3706BD730DF"]
+			id: "62499ED03A7CB576"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "召唤并击败赛博机器人"
+			tasks: [{
+				entity: "alcaryabattle:cyborg"
+				id: "429A8267100035DB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "赛博机器人"
+			x: 20.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0842A9A8494A90F2"]
+			id: "792045E40E90A0F4"
+			tasks: [{
+				count: 5L
+				id: "04D0771C830A9A7C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "大炼钢"
+			x: 20.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["792045E40E90A0F4"]
+			id: "68868B348EE627EC"
+			tasks: [{
+				count: 3L
+				id: "54D791322D181690"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "malum:soul_stained_steel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "魔力钢"
+			x: 18.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B62CD765631B2DA"]
+			id: "6A255A427E15F9B9"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "50E157DBEA48A75E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "meetyourfight:fossil_bait"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "meetyourfight:swampjaw"
+					id: "743F295FF5961B3C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			description: ["开箱子有几率获得史莱姆王冠，召唤史莱姆王并击败它把！"]
+			id: "5E980224DC8EA795"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "79B167AB470A96A6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "terrawhips_and_more:slime_crown"
+					}
+					type: "item"
+				}
+				{
+					entity: "terrawhips_and_more:thekingslime"
+					id: "0045B92769CEC304"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "黏糊糊"
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["76D29172E5BDBBCE"]
+			description: [
+				"{image:kubejs:item/ftb/spirit width:120 height:100 align:center}"
+				"图片来自mc百科"
+			]
+			id: "5D8114D0EA01C24B"
+			rewards: [
+				{
+					id: "70B7337DBF49FEC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "malum:rebound"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A186FE43E489BA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "malum:haunted"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03048234F55C84F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "malum:spirit_plunder"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获得所有种类的精魂"
+			tasks: [
+				{
+					id: "42197149099B2B7F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:sacred_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "314E88FE361EBC6D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:wicked_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "185D3512757015FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "4A149AC7292C5A2C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:eldritch_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "1C2646565AA7183E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:aerial_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "63C38B0BEE6FB74A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:aqueous_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "21C797B8883853A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:earthen_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "7075A439895FB601"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "malum:infernal_spirit"
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E4C4B460AE60CDF"]
+			id: "121ACC5AF03C20D1"
+			subtitle: "制作铁背包"
+			tasks: [{
+				id: "4428B2C8212800D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "beansbackpacks:metal_backpack"
+				}
+				type: "item"
+			}]
+			title: "更大更好"
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CE741A36C29A3A9"]
+			description: ["或许还不错"]
+			id: "6BB7B41F3631CC12"
+			tasks: [{
+				count: 5L
+				id: "6281C5A4131AD5F0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "gnumus:vintage_alloy_ingot"
+				}
+				type: "item"
+			}]
+			title: "角魔材料"
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CE741A36C29A3A9"]
+			id: "7996D9E003A6A603"
+			tasks: [{
+				count: 5L
+				id: "44ED1BBBF52D7E68"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gnumus:mouse_skin"
+				}
+				type: "item"
+			}]
+			title: "韧性不错"
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69B7AE45A0DCF3E9"]
+			id: "60D42D7FA48A814C"
+			rewards: [{
+				count: 3
+				id: "67E6C38DCA8BAE6E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			subtitle: "一些基础自动化工具"
+			tasks: [
+				{
+					id: "2785C43369D6C455"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "create:encased_fan"
+					}
+					type: "item"
+				}
+				{
+					id: "12493315465D3FE5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "create:mechanical_drill"
+					}
+					type: "item"
+				}
+				{
+					id: "426CCC702811584B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "create:mechanical_saw"
+					}
+					type: "item"
+				}
+				{
+					id: "46548C28A438FEB7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "create:mechanical_harvester"
+					}
+					type: "item"
+				}
+				{
+					id: "48993BEFC64C94A2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "create:mechanical_plough"
+					}
+					type: "item"
+				}
+			]
+			title: "转起来吧！"
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["171E6DA36392508F"]
+			id: "4CDE5D4686801769"
+			tasks: [{
+				id: "016312ED0873F5FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "confluence:magic_mirror"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F313E937CAE58E6"]
+			id: "55FDCADC6A45BA94"
+			rewards: [
+				{
+					id: "5AA357F7C4DC9A38"
+					item: {
+						Count: 1
+						id: "flintnpowder:botg"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5025F489468560FE"
+					item: {
+						Count: 1
+						id: "flintnpowder:log_cannon"
+						tag: {
+							Damage: 0
+							gunpowderloaded: 0b
+							stage3cpr: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "木质加农炮在发射一次之后便会坏掉"
+			tasks: [{
+				id: "0F2E323B3ADE8BBA"
+				item: {
+					Count: 1
+					id: "flintnpowder:log_cannon"
+					tag: {
+						Damage: 0
+						gunpowderloaded: 0b
+						stage3cpr: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "一发入魂"
+			x: -21.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F313E937CAE58E6"]
+			id: "21E682A87D03B39A"
+			tasks: [{
+				id: "138EB008FE78B98D"
+				item: {
+					Count: 1
+					id: "chaos_project:pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "biubiubiu"
+			x: -19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["171E6DA36392508F"]
+			id: "47E553CE7DB6693A"
+			rewards: [{
+				count: 10
+				id: "14127C2D98F783EB"
+				item: {
+					Count: 1
+					id: "flintnpowder:copper_roundshot_item"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6276A7D63E9782B7"
+				item: {
+					Count: 1
+					id: "flintnpowder:flinter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CE741A36C29A3A9"]
+			id: "6BEF76A93EFCC4E0"
+			rewards: [{
+				count: 16
+				id: "299E6BC737B1BD24"
+				item: {
+					Count: 1
+					id: "gnumus:vintage_bullet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F8D9E47011B11B1"
+				item: {
+					Count: 1
+					id: "gnumus:vintage_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+	]
+	title: "第一章：梦醒"
+}

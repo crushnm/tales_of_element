@@ -1,0 +1,24 @@
+{
+  "entity": "sansausremaster:horrortale_sans",
+  "name": "可怖sans",
+  "visualscale": 1,
+  "experience": 200,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 400,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+  },
+  "gear": {
+  },
+  "ai-goals": {
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+
+  }
+}

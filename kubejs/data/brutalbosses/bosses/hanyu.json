@@ -1,0 +1,26 @@
+{
+  "entity": "jujutsucraft:hanyu",
+  "name": "飞机女",
+  "visualscale": 1,
+  "experience": 200,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 200,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+    "dropgear": 6  
+  },
+  "gear": {
+    	"helmet": "{id: \"kubejs:hanyu_soul\", Count: 1b}"
+  },
+  "ai-goals": {
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+
+  }
+}

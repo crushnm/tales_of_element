@@ -1,0 +1,26 @@
+{
+    "frozen_warlock": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 750,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 18,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ]
+}

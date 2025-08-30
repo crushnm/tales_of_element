@@ -1,0 +1,26 @@
+{
+    "sand_warrior": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 600,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 15,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:slashing.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.45
+        }
+    ]
+}

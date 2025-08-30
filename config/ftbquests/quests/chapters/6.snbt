@@ -1,0 +1,531 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6"
+	group: "4A260ADF3C475ACE"
+	id: "79662FFC46AA2A00"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E0F3CDE5A8564CF"
+			tasks: [{
+				id: "479D2DE83CB3E70D"
+				item: {
+					Count: 1
+					id: "agonysing_hell:noviragium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "5E90387D17862587"
+			tasks: [{
+				id: "07AD9F2753483075"
+				item: {
+					Count: 1
+					id: "chaos_project:tontonolim_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "3804FBD19F63F60D"
+			tasks: [{
+				id: "479C38584E125758"
+				item: {
+					Count: 1
+					id: "valoria:amber_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "22C37C3F221B7ACD"
+			tasks: [{
+				id: "7AD1FCF379C162F5"
+				item: {
+					Count: 1
+					id: "valoria:sapphire_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "193F42AB79B9968D"
+			tasks: [{
+				id: "4F99B911FE74CA7D"
+				item: {
+					Count: 1
+					id: "valoria:ruby_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "5957A1AECAB55FA4"
+			tasks: [{
+				id: "2A4184AB45C23E41"
+				item: {
+					Count: 1
+					id: "valoria:cobalt_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "3E0250875C773A48"
+			tasks: [{
+				id: "15EC8EEFEFB44735"
+				item: {
+					Count: 1
+					id: "chaos_project:sting"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "0D94A1AD87B78D4A"
+			tasks: [{
+				id: "314DD6091F95F251"
+				item: {
+					Count: 1
+					id: "rpgadventures:steel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "6ABCB0D4AEC24215"
+			tasks: [{
+				id: "22E59E9AE7B42A57"
+				item: {
+					Count: 1
+					id: "magichem:signalite_meticulous"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			id: "31C8A4AF859171CE"
+			tasks: [{
+				id: "287C8B4529F28144"
+				item: {
+					Count: 1
+					id: "magichem:signalite_devouring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			id: "4FC41605E8895417"
+			tasks: [{
+				id: "5BC2D8E31BBCE22C"
+				item: {
+					Count: 1
+					id: "magichem:signalite_devouring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "50A1EA755A130874"
+			tasks: [{
+				id: "3950E158C69B6E10"
+				item: {
+					Count: 1
+					id: "naturesaura:sky_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "479059AD8398CDB6"
+			tasks: [{
+				id: "7A593FB8A0095AB6"
+				item: {
+					Count: 1
+					id: "chaos_project:crabby_claw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "1D7267838FDD70EC"
+			tasks: [{
+				id: "52D5D007F10473D1"
+				item: {
+					Count: 1
+					id: "magichem:signalite_equating"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "202806433B876B0A"
+			tasks: [{
+				id: "5E9B5E38E1DA1A58"
+				item: {
+					Count: 1
+					id: "threateningly_mobs:horsehoecrab_blood"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "0C32FE234CAC9D67"
+			tasks: [{
+				id: "425FF8BF6E9B0301"
+				item: {
+					Count: 1
+					id: "chaos_project:goo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "03D29CAF6D581F32"
+			tasks: [{
+				id: "1741CA8118C13D01"
+				item: {
+					Count: 1
+					id: "agonysing_hell:soul_of_the_forest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "475F681B1F42DB46"
+			tasks: [{
+				id: "50DF4A6A67AD6A3A"
+				item: {
+					Count: 1
+					id: "agonysing_hell:stone_shards"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "179051153AA371A1"
+			tasks: [{
+				id: "33F8B8972BE83127"
+				item: {
+					Count: 1
+					id: "magichem:signalite_gatekeeping"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			id: "4BDDC9B16A829146"
+			tasks: [{
+				id: "2B95A66118393FED"
+				item: {
+					Count: 1
+					id: "agonysing_hell:rotten_remains"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "2E803CEC2893D3A7"
+			tasks: [{
+				id: "73CE225FD2FF84AA"
+				item: {
+					Count: 1
+					id: "chaos_project:terrain_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "6E85B9D4E05CE19A"
+			tasks: [{
+				id: "708B97F81BC15C29"
+				item: {
+					Count: 1
+					id: "biomancy:bone_fragments"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "7EAC5864D36AB542"
+			tasks: [{
+				id: "37C946AB117B8EA1"
+				item: {
+					Count: 1
+					id: "biomancy:tough_fibers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "38E354BDA11026D8"
+			tasks: [{
+				id: "22D7F6F8B2BA46A9"
+				item: {
+					Count: 1
+					id: "biomancy:elastic_fibers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "1422DC764E0C6F8B"
+			tasks: [{
+				id: "73878014E0A6C698"
+				item: {
+					Count: 1
+					id: "biomancy:mineral_fragment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "06F40C395CF64A1E"
+			tasks: [{
+				id: "6C85AD2737925926"
+				item: {
+					Count: 1
+					id: "biomancy:gem_fragments"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "423DD00644031AF6"
+			tasks: [{
+				id: "6D109661A2DE2C57"
+				item: {
+					Count: 1
+					id: "biomancy:bio_lumens"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "507119D9B7B2DDBC"
+			tasks: [{
+				id: "0172F2689DA119A4"
+				item: {
+					Count: 1
+					id: "biomancy:toxin_extract"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "593948A505C6E5B6"
+			tasks: [{
+				id: "13CDDC9FE8F41914"
+				item: {
+					Count: 1
+					id: "biomancy:volatile_fluid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "33FDEDE5978943EF"
+			tasks: [{
+				id: "2E59CBAFB687F364"
+				item: {
+					Count: 1
+					id: "chaos_project:shine_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "0DC1E90353B4CCE7"
+			tasks: [{
+				id: "3F89FA74DA54CCD1"
+				item: {
+					Count: 1
+					id: "unearthed_journey:hide"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "4DB2E7D2A88B6F12"
+			tasks: [{
+				id: "0CFD2E95C6A4A783"
+				item: {
+					Count: 1
+					id: "unearthed_journey:pelt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "18DE081BBCB3CE88"
+			tasks: [{
+				id: "5E1EBFD9EF019A92"
+				item: {
+					Count: 1
+					id: "unearthed_journey:bear_claw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "5F8EF4C3D5062C69"
+			tasks: [{
+				id: "732ABE1C473C65C4"
+				item: {
+					Count: 1
+					id: "frozone:ice_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "0B4C800C12FBFA61"
+			tasks: [{
+				id: "3BFD0E6D417C656D"
+				item: {
+					Count: 1
+					id: "frozone:cyro_scrap"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "302B258BF1E99AFD"
+			tasks: [{
+				id: "0833061FBDF65FF8"
+				item: {
+					Count: 1
+					id: "frozone:blizzard_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "060969978382A9A6"
+			tasks: [{
+				id: "2366BDBAA1259B9C"
+				item: {
+					Count: 1
+					id: "chaos_project:alloy_of_nature"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["14,15,16章可获得材料"]
+	title: "6级"
+}

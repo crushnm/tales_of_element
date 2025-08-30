@@ -1,0 +1,18 @@
+
+#After changing config either restart your game, or simply restart your world and use the /reload command
+["Super Bosses Config"]
+	#The amount Super Bosses will multiply their drops by
+	"Super Loot Multiplier" = 4
+	#The amount Super Duper Bosses will multiply their drops by
+	"Super Duper Loot Multiplier" = 8
+	#The amount MEGA Bosses will multiply their drops by
+	"MEGA Loot Multiplier" = 22
+	#The amount ULTRA MEGA Bosses will multiply their drops by
+	"ULTRA MEGA Loot Multiplier" = 55
+	#
+	#Whitelist of mobs that will be able to spawn as Super Bosses. (example: "minecraft:pig") 
+	#By default any mob classified as a Monster will be included. If you add any invalid entities Super Bosses will no longer spawn!
+	"Mob Whitelist" = []
+	#Blacklist of mobs that will not spawn as Super Bosses (example: "minecraft:wither")
+	"Mob Blacklist" = []
+

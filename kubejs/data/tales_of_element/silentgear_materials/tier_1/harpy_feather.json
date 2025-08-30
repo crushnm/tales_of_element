@@ -1,0 +1,48 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "kubejs:harpy_feather"
+    }
+  },
+  "name": {
+    "translate": "哈比羽毛"
+  },
+  "stats": {
+    "fletching": {
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1
+    }
+  },
+  "model": {
+    "fletching/all": [
+      {
+        "texture": "silentgear:fletching_generic",
+        "color": "#54D541"
+      }
+    ],
+    "fletching/part": [
+      {
+        "texture": "silentgear:fletching",
+        "color": "#54D541"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#54D541"
+      }
+    ]
+  }
+}

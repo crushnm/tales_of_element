@@ -1,0 +1,62 @@
+{
+    "tofu_gandlem": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1150,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": 0.60
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": -0.5
+    }
+  ],
+   "shudofuspider": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1150,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": 0.60
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.5
+    }
+  ],
+  "tofu_golem": [
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": 0.60
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": -0.5
+    }
+  ],
+  "zundamite": [
+    {
+      "attribute": "rpgdamageoverhaul:nature.resistance",
+      "value": 0.60
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.5
+    }
+  ]
+}

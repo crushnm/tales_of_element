@@ -1,0 +1,66 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "gnumus:gnumus_horn"
+    }
+  },
+  "name": {
+    "translate": "角魔角"
+  },
+  "stats": {
+    "tip": {
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "tales_of_element:sharp_armor",
+        "level": 1,
+        "conditions": [
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "helmet"
+              }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#464C5D"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#464C5D"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#464C5D"
+      }
+    ]
+  }
+}

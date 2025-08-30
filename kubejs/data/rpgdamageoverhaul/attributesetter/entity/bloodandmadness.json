@@ -1,0 +1,24 @@
+{
+    "silverbeast": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2000,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 55,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": 0.70,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": -0.40,
+      "operation": "BASE"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mhheavenandhell:kut_ku_wing"
+    }
+  },
+  "name": {
+    "translate": "大怪鸟翅膀"
+  },
+  "stats": {
+    "lining": {
+       "armor": {
+        "add": 2.0
+      }
+    }
+  },
+  "traits": {
+    "lining": [
+      {
+        "name": "tales_of_element:fire_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:levitation",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "boots"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "lining/all": [
+      {
+        "texture": "silentgear:lining_smooth",
+        "color": "#BCA977"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_base"
+      },
+      {
+        "texture": "silentgear:lining",
+        "color": "#BCA977"
+      },
+      {
+        "texture": "silentgear:lining_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#BCA977"
+      }
+    ]
+  }
+}

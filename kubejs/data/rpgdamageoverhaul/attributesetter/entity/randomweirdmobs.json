@@ -1,0 +1,81 @@
+{
+    "eyeofwater": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 400,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 15,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.35
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.35
+        }
+    ],
+    "drownedlord": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 600,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 15,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.35
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.50
+        }
+    ],
+    "abomination": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 800,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 15,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.45
+        }
+    ],
+    "clone": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 8,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.45
+        }
+    ]
+}

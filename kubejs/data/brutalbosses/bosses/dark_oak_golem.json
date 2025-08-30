@@ -1,0 +1,40 @@
+{
+  "entity": "plenty_of_golems:dark_oak_golem",
+  "name": "深色橡木傀儡",
+  "visualscale": 1,
+  "experience": 200,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 300,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+  },
+  "gear": {
+  },
+  "ai-goals": {
+    "brutalbosses:itemshootgoal": {
+      "item": "{id: \"minecraft:dark_oak_button\", Count: 1b}",
+      "projectile_count": 5,
+      "projectile_interval": 300,
+      "projectile_aoe": true,
+      "projectile_distance": 20
+    },
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+    "minecraft:chests/end_city_treasure": 10,
+    "minecraft:chests/pillager_outpost": 2,
+    "dungeons_arise:chests/shiraz_palace/shiraz_palace_library": 1,
+    "endrem:chests/biblio": 1,
+    "illagers_plus:structure/illager_tower_enchanting": 1,
+    "totw_additions:chests/end_tower/end_tower_chest": 1,
+    "dungeoncrawl:chests/stage_5": 1,
+    "dungeons_arise:chests/mines_treasure_big": 1,
+    "dungeons_arise:chests/plague_asylum/plague_asylum_treasure": 1,
+    "awesomedungeonend:chests/awesome_dungeon": 3
+  }
+}

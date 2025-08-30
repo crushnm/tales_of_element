@@ -1,0 +1,442 @@
+{
+    "black_boarlin": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 120,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "black_piglin": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 120,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "black_piglin_archer": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 150,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "black_piglin_champion": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 400,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "black_piglin_giant": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 900,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 35,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "black_piglin_lord": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 28,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "black_piglin_shaman": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 200,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "black_zombie_boarlin": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 250,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 30,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "red_boarlin": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 100,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "red_piglin": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 100,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 20,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "red_piglin_archer": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 130,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "red_piglin_champion": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 300,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "red_piglin_giant": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 800,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 32,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "red_piglin_lord": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 450,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 26,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "red_piglin_shaman": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 130,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "white_boarlin": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 150,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        }
+    ],
+    "white_piglin": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 150,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        }
+    ],
+    "white_piglin_archer": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 200,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        }
+    ],
+    "white_piglin_champion": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 550,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 30,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        }
+    ],
+    "white_piglin_giant": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 950,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 38,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        }
+    ],
+    "white_piglin_lord": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 550,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 30,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        }
+    ],
+    "white_piglin_shaman": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 250,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        }
+    ]
+}

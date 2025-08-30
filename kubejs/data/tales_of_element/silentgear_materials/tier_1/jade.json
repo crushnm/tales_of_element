@@ -1,0 +1,207 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:iron",
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "call_of_yucutan:jade"
+    }
+  },
+  "name": {
+    "translate": "翡翠"
+  },
+  "stats": {
+    "main": {
+      "durability": 1080.0,
+      "armor_durability": 44.0,
+      "enchantment_value": 16.0,
+      "rarity": 40.0,
+      "charging_value": 1.0,
+      "repair_value": 0.25,
+      "harvest_speed": 10.0,
+      "melee_damage": 3.0,
+      "magic_damage": 2.0,
+      "attack_speed": 0.0,
+      "attack_speed/hoe": 1.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": -0.1,
+      "projectile_speed": 1.1,
+      "projectile_accuracy": 0.9,
+      "armor": 20.0,
+      "armor_toughness": 4.0,
+      "magic_armor": 6.0
+    },
+    "rod": {
+      "harvest_speed": {
+        "mul2": 0.3
+      }
+    },
+    "tip": {
+      "durability": {
+        "add": 512.0
+      },
+      "armor_durability": {
+        "add": 12.0
+      },
+      "harvest_speed": {
+        "add": 2.0
+      },
+      "melee_damage": {
+        "add": 1.0
+      },
+      "magic_damage": {
+        "add": 2.0
+      },
+      "ranged_damage": {
+        "add": 1.0
+      },
+      "rarity": {
+        "add": 20.0
+      }
+    },
+    "adornment": {}
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:brittle",
+        "level": 1
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 2
+      },
+      {
+        "name": "tales_of_element:nature_damage",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "melee_weapon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:nature_armor",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:brittle",
+        "level": 4,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "adornment": [
+      {
+        "name": "silentgear:reach",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#4EE7A8"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#4EE7A8"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#4EE7A8"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#4EE7A8"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#4EE7A8"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#4EE7A8"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "adornment/all": [
+      {
+        "texture": "silentgear:adornment_generic",
+        "color": "#4EE7A8"
+      },
+      {
+        "texture": "silentgear:adornment_highlight",
+        "color": "#4EE7A8"
+      }
+    ],
+    "adornment/part": [
+      {
+        "texture": "silentgear:adornment",
+        "color": "#4EE7A8"
+      },
+      {
+        "texture": "silentgear:adornment_highlight"
+      }
+    ]
+  }
+}

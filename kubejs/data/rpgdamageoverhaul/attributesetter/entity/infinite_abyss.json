@@ -1,0 +1,12 @@
+{
+    "the_stalker": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+
+[ModernInhibited]
+	validStructures = ["tales_of_element:undergarden_boss1", "tales_of_element:fossil"]
+	showEffectIcon = false
+	showEffectParticle = false
+

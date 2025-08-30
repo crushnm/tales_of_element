@@ -1,0 +1,25 @@
+{
+  "entity": "crimsonsteves_mutant_mobs:chad_withered_boxer",
+  "name": "凋零拳击手",
+  "visualscale": 1,
+  "experience": 200,
+  "protect_treasure": true,
+  "effects": {
+
+  },
+  "attributes": {
+    "generic.max_health": 400,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+  },
+  "gear": {
+  },
+  "ai-goals": {
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+
+  }
+}

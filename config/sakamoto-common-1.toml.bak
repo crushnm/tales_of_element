@@ -1,0 +1,64 @@
+
+["Configs for Sakamoto Mod"]
+
+	["Configs for Sakamoto Mod"."Monster Settings"]
+		#Can Monsters spawn in Minecraft? (default = true) 
+		Monster = true
+		#Can Cursed Spirits spawn in Minecraft? (default = true) 
+		Jurei = true
+		#Can Jujutsu Sorcerers spawn in Minecraft? (default = true) 
+		Jutsushi = true
+
+	["Configs for Sakamoto Mod"."Number of Cursed Spirits Required for Promotion"]
+		#Number of Grade 4 Cursed Spirits required to advance to Grade 4 (default = 20) 
+		Rank4 = 20
+		#Number of Grade 3 Cursed Spirits required to advance to Grade 3 (default = 30) 
+		Rank3 = 30
+		#Number of Semi Grade 2 Cursed Spirits required to advance to Semi Grade 2 (default = 30) 
+		Rank2Pre = 30
+		#Number of Grade 2 Cursed Spirits required to advance to Grade 2 (default = 30) 
+		Rank2 = 30
+		#Number of Semi Grade 1 Cursed Spirits required to advance to Semi Grade 1 (default = 40) 
+		Rank1Pre = 40
+		#Number of Grade 1 Cursed Spirits required to advance to Grade 1 (default = 40) 
+		Rank1 = 40
+		#Number of Grade Special Cursed Spirits required to advance to Grade Special (default = 10) 
+		Ranks = 10
+
+	["Configs for Sakamoto Mod"."Spirit Settings"]
+		#If the technique is "Idle Transfiguration", all but Spirit Damage will be recovered immediately. (default = true) 
+		"Spirit Damage Heal" = true
+
+	["Configs for Sakamoto Mod"."Battle Mode Settings"]
+		#Visibility of Cursed Power particles in battle mode. (default = true) 
+		"Cursed Power particles" = true
+
+	["Configs for Sakamoto Mod"."Exp Settings"]
+		#Multiplier of experience points received when exorcising cursed spirits. (default = 1.0) 
+		"Multiplier of experience points" = 0.0
+
+	["Configs for Sakamoto Mod"."Learn Skills Settings"]
+		#Allows the use of all skills regardless of level (default = false) 
+		Monster = false
+
+	["Configs for Sakamoto Mod"."Damage Multiplier Settings"]
+		#Damage multiplier for entities (default = 1.0) 
+		Monster = 1.0
+
+	["Configs for Sakamoto Mod"."Construction Settings"]
+		#Construction black list config
+		"black List" = ["sakamoto:example1", "sakamoto:example2"]
+		"Jujutsu+K, multiplier of curse power required when constructing items other than items added in minecraft (default = 2)" = 2.0
+		"Allow [Spawn Egg] construction (default = false)" = false
+		"Allow [Scroll Item] construction (default = false)" = false
+		"Allow [Creative Only Item] construction (default = false)" = false
+
+		["Configs for Sakamoto Mod"."Construction Settings"."Multiplier when the rarity of the item to be constructed is [Uncommon] (default = 2"]
+			"0)" = 2.0
+
+		["Configs for Sakamoto Mod"."Construction Settings"."Multiplier when the rarity of the item to be constructed is [Rare] (default = 4"]
+			"0)" = 4.0
+
+		["Configs for Sakamoto Mod"."Construction Settings"."Multiplier when the rarity of the item to be constructed is [Epic] (default = 6"]
+			"0)" = 6.0
+

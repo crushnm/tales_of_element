@@ -1,0 +1,202 @@
+{
+    "yahaba": [
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:piercing.resistance",
+      "value": 0.25,
+      "operation": "BASE"
+    }
+  ],
+  "hand_demon": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 600,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.45
+    }
+  ],
+  "susamaru": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1000,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.resistance",
+      "value": -0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.45
+    }
+  ],
+  "kyogai": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1100,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:soul.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.45
+    }
+  ],
+  "hakuji": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1100,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.50
+    }
+  ],
+  "rui_brother": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    }
+  ],
+  "rui_mother": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    }
+  ],
+  "makomo": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.resistance",
+      "value": -0.50
+    }
+  ],
+  "sabito": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": 0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.resistance",
+      "value": -0.50
+    }
+  ],
+  "rui_father": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1900,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": 0.50
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "kuro": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1900,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 50,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.70
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ]
+}

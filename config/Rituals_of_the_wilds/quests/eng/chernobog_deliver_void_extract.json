@@ -1,0 +1,20 @@
+{
+  "Quest name": "Essence of the Endless",
+  "Text Line": "Chernobog seeks 1 vial of Void Extract¡ªpure essence drawn from the abyss. Deliver it, and the void shall whisper your name back in echoes.",
+  "Quest After Finishing Text": "The extract pulses... potent and unspoiled. You¡¯ve brought me a taste of the abyss itself. In this, you show promise. The void watches, and it approves.",
+  "Quest Finishing Sound": "playsound minecraft:entity.evoker.prepare_attack neutral @s ~ ~ ~ 1 0.5",
+  "Quest Type": 1,
+  "Quest Item ID or Tag": "rituals_of_the_wilds:void_extract",
+  "Quest Item Count": 1,
+  "Quest Reward Item ID": "",
+  "Quest Reward Min Give Amount": 1,
+  "Quest Reward Max Give Amount": 1,
+  "Quest Reward Command": "",
+  "Quest Reward Command Execution Type": 0,
+  "Quest Reward Min Command Execution": 1,
+  "Quest Reward Max Command Execution": 1,
+  "Quest Reputation Reward": 2,
+  "Quest Reputation Source": 0,
+  "Next Quest ID": "",
+  "Next Quest Giver": 0
+}

@@ -1,0 +1,190 @@
+{
+    "type": "silentgear:nbt",
+    "__comment__": "Not tested, just included as a reference for NBT traits for now",
+    "max_level": 10,
+    "cancels_with": [],
+    "nbt": {
+        "all": [
+            {
+                
+                "level": 1,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 1
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 2,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 2
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 3,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 3
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 4,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 4
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 5,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 5
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 6,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 6
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 7,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 7
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 8,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 8
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 9,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 9
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            },
+            {
+                "level": 10,
+                "data":
+                {"ISB_Spells": {
+                    "maxSpells": 1,
+                    "mustEquip": 0,
+                    "data": [
+                        {
+                            "index": 0,
+                            "id": "irons_spellbooks:heartstop",
+                            "locked": 0,
+                            "level": 10
+                        }
+                    ],
+                    "spellWheel": 1
+                }}
+            }
+        ]
+    },
+    
+    "name": {
+        "translate": true,
+        "name": "止心术"
+    },
+    "description": {
+        "translate": true,
+        "name": "可以释放法术止心术"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "the_emerald_wrath": [
+    {
+      "attribute": "rpgdamageoverhaul:nature.damage",
+      "value": 2.5
+    }
+  ],
+  "iron_colossus_arm": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.damage",
+      "value": 1.5
+    }
+  ],
+  "the_worldshaper_axe": [
+    {
+      "attribute": "rpgdamageoverhaul:holy.damage",
+      "value": 2.5
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+    "emperor_skeleton_iii": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 600,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    }
+  ],
+  "revenant_general": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1300,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    }
+  ],
+  "rattler": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.50
+    }
+  ],
+  "plaguebone": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.50
+    }
+  ]
+}

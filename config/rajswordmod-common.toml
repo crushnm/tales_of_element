@@ -1,0 +1,72 @@
+
+["Configs for Sword Mod"]
+	#How long (in ticks) ArrowRender should go on cooldown
+	"ArrowRender Cooldown" = 200
+	#How much durability should ArrowRender use when finished
+	"ArrowRender Durability Cost" = 20
+	#How long should the player be allowed to use ArrowRenders Ability (in ticks)
+	"ArrowRender Use Time" = 200
+	#How many Projectiles need to be deleted for upgrade
+	"ArrowRender Upgrade Amount" = 50
+	#How long (in ticks) ArrowRenderUpgraded should go on cooldown
+	"ArrowRenderUpgraded Cooldown" = 150
+	#How Long can ArrowRender be upgraded (in ticks)
+	"ArrowRender Upgrade Time" = 3600
+	#How long (in ticks) should SentinelSword be used for
+	"SentinelSword Charge Time" = 10
+	#How long (in ticks) SentinelSword should go on cooldown
+	"SentinelSword Cooldown" = 100
+	#How long (in ticks) to MAX charge LegBreaker
+	"LegBreaker Charge Time" = 100
+	#How Long (in ticks) LegBreaker should go on cooldown?
+	"LegBreaker Cooldown" = 300
+	#What percentage of a mobs health should HolyFire deal (does this about once per 10 ticks in duration)
+	"Holy Fire Health Percentage" = 3
+	#What is the minimum damage (not percent) should holyFire deal?
+	"Holy Fire Min Damage" = 2
+	#How Long (in Ticks) should Holy Fire Last
+	"HolyFire Duration" = 50
+	#What percent of the swords damage should the GaiaBlade Projectile deal?
+	"GaiaProjectile Damage, 1=100%" = 0.5
+	#How much health should BloodGorger be able to store
+	"BloodGorger Max Health" = 20.0
+	#What Percentage should BloodGorger lifesteal be
+	"BloodGorger Lifesteal Percentage, 1=100%" = 0.15
+	#How fast should BloodGorger heal the player (in ticks)
+	"BloodGorger Heal Speed" = 5
+	#How long (in ticks) should the anti armor effect last . Should be longer than the ArmorPiercer cooldown
+	"AntiArmor Effect Duration" = 350
+	#How much Percent should anti armor effect reduce?
+	"AntiArmor Effect Percentage Per Level (1 = 100%)" = 0.2
+	#How long (in ticks) should the player be avle to charge ArmorPiercer
+	"ArmorPiercer Charge Duration" = 100
+	"How long (in ticks) should ArmorPiercer go on cooldown" = 300
+	#How much damage should ArmorPiercer's charge do?
+	"ArmorPiercer charge damage" = 8
+	# How long (in ticks) should DarkDeceiver go on cooldown
+	"DarkDeciever Cooldown" = 420
+	#How long (in ticks) should a DarkDeceiver clone last
+	"Clone Lifespan" = 140
+	#How rare should the swords be in jungle temples?
+	"Jungle Temple Weight" = 4
+	#How rare should the swords be in desert temples?
+	"Desert Temple Weight" = 3
+	#How rare should the swords be in nether fortresses?
+	"Nether Fortress Weight" = 3
+	#How rare should the swords be in bastion remnants?
+	"Bastion Remnant Weight" = 3
+	#How rare should the swords be in strongholds?
+	"Stronghold Weight" = 4
+	#How rare should the swords be in woodland mansions?
+	"Woodland Mansion Weight" = 4
+	#How rare should the swords be in abandoned mineshafts?
+	"Abandoned Mineshaft Weight" = 3
+	#How rare should the swords be in dungeons?
+	"Dingeon Weight" = 3
+
+	["Configs for Sword Mod"."HolyExplosion Chance, 2"]
+
+		["Configs for Sword Mod"."HolyExplosion Chance, 2"."5 = 2"]
+			#What is the Ramping Chance for a Holy Explosion to fire?
+			"5%" = 2.5
+

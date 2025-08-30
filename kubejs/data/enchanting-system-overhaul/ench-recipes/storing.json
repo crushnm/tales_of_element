@@ -1,0 +1,12 @@
+{
+	"enchantment_id": "enchantableblocks:storing",
+	"maxLevel": 0,
+	"levels": {
+		"1": [
+			{
+				"id": "minecraft:chest",
+				"amount": 1
+			}
+		]
+	}
+}

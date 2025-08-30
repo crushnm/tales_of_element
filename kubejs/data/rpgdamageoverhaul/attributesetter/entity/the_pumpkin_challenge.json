@@ -1,0 +1,106 @@
+{
+    "soul_charger_boss": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1000,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 30,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.50
+        }
+    ],
+    "pumpkin_rider": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1600,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 47,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.50
+        }
+    ],
+    "dark_witch": [
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.50
+        }
+    ],
+    "pumpkin_knight": [
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.50
+        }
+    ],
+    "pumpkin_reaper": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.50
+        }
+    ],
+    "maskling": [
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.50
+        }
+    ]
+}

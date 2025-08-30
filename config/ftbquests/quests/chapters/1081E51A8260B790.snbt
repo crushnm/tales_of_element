@@ -1,0 +1,403 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1081E51A8260B790"
+	group: "430456A023966AE7"
+	id: "1081E51A8260B790"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6724262CC9FF03D0"]
+			id: "73ADE5B125081607"
+			tasks: [{
+				id: "050C96BD680AE44A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vintageimprovements:centrifuge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73ADE5B125081607"]
+			id: "77145618AD1F3689"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "kimetsunoyaiba:susamaru"
+					id: "04B228D860E446E7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3838979B09772152"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_11"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "朱砂丸"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77145618AD1F3689"]
+			id: "5F3CDB5721D5A96F"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "goety:minister"
+					id: "5FD6D10EA2D1CFC1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0F19EB34439CE069"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:minister_mask"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "灾厄教父"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F3CDB5721D5A96F"]
+			id: "4F09E93A13FBBC7C"
+			subtitle: "大豆可以通过打草获得"
+			tasks: [
+				{
+					id: "44A5253BF1358799"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tofucraft:tofustick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0C73966FD53310C4"
+					item: {
+						Count: 10
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tofucraft:blocktofugrilled"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "鲜美多汁"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F09E93A13FBBC7C"]
+			id: "2EE7D26891B72E47"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "tofucraft:tofu_gandlem"
+					id: "11330715F53D9F03"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "tofucraft:shudofuspider"
+					id: "550F9D83709B96DF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "豆腐战神"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EE7D26891B72E47"]
+			id: "509C06443DBE25D1"
+			tasks: [{
+				id: "396E627CCFD621C2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vintageimprovements:vacuum_chamber"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["509C06443DBE25D1"]
+			id: "22121C6152C2EAEA"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "iter_rpg:insatiable"
+					id: "2E15F7A53EF4E205"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0E5E1FB489C4E798"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iter_rpg:seven_seas_concoction"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "贪婪"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22121C6152C2EAEA"]
+			id: "388221E0E7283558"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "youtubersgod:awita"
+					id: "25B1E2598D3F1F76"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5F155EFD659DFBF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:await_core"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["388221E0E7283558"]
+			id: "47BC62A6DDF2CD65"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7D39D13129D65E06"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "the_pumpkin_challenge:copper_pumpkin_medallion"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "the_pumpkin_challenge:soul_charger_boss"
+					id: "2BFC181D66D574B3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "the_pumpkin_challenge:pumpkin_reaper_boss"
+					id: "4406BEA0A719EF55"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "南瓜挑战"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47BC62A6DDF2CD65"]
+			id: "19FEF001279FA15B"
+			rewards: [{
+				id: "7BA1D59DA77B2891"
+				item: {
+					Count: 1
+					id: "plenty_of_golems:first_of_basalt_statue_item"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "plenty_of_golems:first_of_basalt"
+					id: "65840445D691A4F7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3BC97E0E146CB200"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:first_of_basalt"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "邪恶的玄武岩傀儡"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19FEF001279FA15B"]
+			description: ["&4注：这是一个场地boss"]
+			id: "57A71A59E27C51D5"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "59BC8E9513CF3819"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:eye_of_sandstorm"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "legendary_monsters:dune_sentinel"
+					id: "5882C0C0A57FA509"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "砂岩射手"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["509C06443DBE25D1"]
+			id: "7EEE155914AE38E3"
+			tasks: [{
+				id: "3779F5D484DFBF39"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iter_rpg:ametrine_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EEE155914AE38E3"]
+			description: ["秘术师工作台可以鉴别未识别的咒语，识别完毕后将咒语放置在副手，法杖在主手即可释放咒语。"]
+			id: "25E178A4488EB1B8"
+			rewards: [{
+				id: "28761D2EF295DE0B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iter_rpg:unidentified_spell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3499BCC1E3A15311"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iter_rpg:arcanist_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+	]
+	title: "第七章：豆腐豆腐！！"
+}

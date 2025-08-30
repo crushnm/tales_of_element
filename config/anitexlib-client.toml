@@ -1,0 +1,7 @@
+
+["Configs for AniTexLib"]
+	#Determine if example texture animation must be shown
+	to_show_example = false
+	#Determine if particles must use advanced render system
+	use_advanced_particle_renderer = true
+

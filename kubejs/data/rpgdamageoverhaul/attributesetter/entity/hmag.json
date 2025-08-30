@@ -1,0 +1,524 @@
+{
+    "alraune": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        }
+    ],
+    "banshee": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.50
+        }
+    ],
+    "catoblepas": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        }
+    ],
+    "creeper_girl": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": 0.25
+        }
+    ],
+    "crimson_slaughterer": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.45
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.25
+        }
+    ],
+    "cursed_doll": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.25
+        }
+    ],
+    "dodomeki": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.25
+        }
+    ],
+    "dogu": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.25
+        }
+    ],
+    "drowned_girl": [
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.25
+        }
+    ],
+    "dullahan": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.25
+        }
+    ],
+    "dyssomnia": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.25
+        }
+    ],
+    "ender_executor": [
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.25
+        }
+    ],
+    "fortress_keeper": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.45
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.25
+        }
+    ],
+    "ghastly_seeker": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.60
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.30
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.25
+        }
+    ],
+    "ghost": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.15
+        }
+    ],
+    "giant_mummy": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.25
+        }
+    ],
+    "glaryad": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        }
+    ],
+    "harpy": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.50
+        }
+    ],
+    "hornet": [
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        }
+    ],
+    "husk_girl": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.25
+        }
+    ],
+    "imp": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.25
+        }
+    ],
+    "jack_frost": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.25
+        }
+    ],
+    "jiangshi": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.25
+        }
+    ],
+    "kasha": [
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "kobold": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.25
+        }
+    ],
+    "lich": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.25
+        }
+    ],
+    "magical_slime": [
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.25
+        }
+    ],
+    "husk_gimelty_monsterrl": [
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.30
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.25
+        }
+    ],
+    "monolith": [
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.25
+        }
+    ],
+    "necrotic_reaper": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.25
+        }
+    ],
+    "nightwalker": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.35
+        }
+    ],
+    "ogre": [
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.40
+        }
+    ],
+    "redcap": [
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.40
+        }
+    ],
+    "savagefang": [
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.20
+        }
+    ],
+    "scorpion": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.20
+        }
+    ],
+    "skeleton_girl": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.20
+        }
+    ],
+    "slime_girl": [
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.20
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.20
+        }
+    ],
+    "snow_canine": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.40
+        }
+    ],
+    "spider_nest": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:poison.resistance",
+            "value": 0.40
+        }
+    ],
+    "stray_girl": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.25
+        }
+    ],
+    "wither_ghost": [
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.40
+        }
+    ],
+    "wither_skeleton_girl": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:sharp.resistance",
+            "value": 0.30
+        }
+    ],
+    "zombie_girl": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.10
+        }
+    ]
+}

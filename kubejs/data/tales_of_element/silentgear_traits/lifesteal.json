@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "dagger"
+        }
+  ],
+  "name": {
+    "translate": "嗜血"
+  },
+  "description": {
+    "translate": "右键获得生命偷取效果(唯一武器技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

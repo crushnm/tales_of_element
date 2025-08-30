@@ -1,0 +1,43 @@
+{
+  "entity": "zombie_variations:mushroom_zombie",
+  "name": "真菌僵尸",
+  "visualscale": 1.0,
+  "experience": 300,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 350,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+	"dropgear": 6  
+  },
+  "gear": {
+	"helmet": "{id: \"celestial_artifacts:gold_ring\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {},
+    "brutalbosses:summonmobs": {
+      "interval": 400,
+      "maxcount": 10,
+      "ownerdamagepct": 0,
+      "count": 2,
+      "entities": [
+        {
+          "entityid": "minecraft:zombie"
+        }
+      ]
+    },
+    "brutalbosses:itemshootgoal": {
+      "item": "{id: \"minecraft:red_mushroom\", Count: 1b}",
+      "projectile_count": 3,
+      "projectile_interval": 100,
+      "damage": 8,
+      "projectile_distance": 20
+    }
+  },
+  "spawnatchest": {
+  }
+}

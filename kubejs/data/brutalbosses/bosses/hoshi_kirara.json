@@ -1,0 +1,27 @@
+{
+  "entity": "jujutsucraft:hoshi_kirara",
+  "name": "星 绮罗罗",
+  "visualscale": 1,
+  "experience": 200,
+  "protect_treasure": true,
+  "effects": {
+    "minecraft:weakness":10
+  },
+  "attributes": {
+    "generic.max_health": 400,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+    "dropgear": 6  
+  },
+  "gear": {
+    	"helmet": "{id: \"kubejs:hoshi_kirara_soul\", Count: 1b}"
+  },
+  "ai-goals": {
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+
+  }
+}

@@ -1,0 +1,758 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "61108387D0208B30"
+	group: "430456A023966AE7"
+	id: "61108387D0208B30"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02800990A5348061"
+			rewards: [{
+				count: 5
+				id: "7ABBA12CBC38B351"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "你从一片黑暗中苏醒了，对于周边的一切都感到陌生，但唯一可以确定的是，此地不宜久留，你需要做的是尽快逃离此处。"
+			tasks: [{
+				id: "76EAE83B5F37BF59"
+				title: "永无止境的暗"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["02800990A5348061"]
+			id: "2F98C2BEB7288127"
+			rewards: [{
+				count: 5
+				id: "6230FB300B200AA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "legendarysurvivaloverhaul:plaster"
+				}
+				type: "item"
+			}]
+			subtitle: "你使用你方方正正的手对着树木敲击了几下，不一会儿便从树上掉下几块木头，你对此感到有些诧异，但很快便接受了这一事实。"
+			tasks: [{
+				count: 10L
+				id: "6FADF306229ACAE6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "伐木时间"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F98C2BEB7288127"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:crafting_table"
+			}
+			id: "1B0DE5815052899A"
+			subtitle: "你凭借着肌肉记忆用手中仅存的几块木头搓出了一件工作台，你自己也不清楚你是在何时何地获得的这项技能。"
+			tasks: [{
+				id: "7A28E949ED781E43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "minecraft:crafting_table"
+				}
+				type: "item"
+			}]
+			title: "手艺活"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["753E95FEC243DBD5"]
+			id: "340BA7FCF219C50D"
+			rewards: [{
+				count: 10
+				id: "3CD4AF9A2C76F9FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silentgear:template_board"
+				}
+				type: "item"
+			}]
+			subtitle: "暂时够用"
+			tasks: [{
+				count: 10L
+				id: "00487A83AA5BEEE7"
+				item: {
+					Count: 10
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silentgear:template_board"
+				}
+				type: "item"
+			}]
+			title: "工匠大师"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23FE4B01D120EFFB"]
+			id: "753E95FEC243DBD5"
+			subtitle: "你发现这里的石头里会夹杂着一些矿物，如果有一把镐子的话。。。"
+			tasks: [
+				{
+					count: 3L
+					id: "44597E6C046ACDE0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					title: "Any #forge:ingots/copper"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "007F5D92B448C905"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/tin"
+						}
+					}
+					title: "Any #forge:ingots/tin"
+					type: "item"
+				}
+			]
+			title: "黑暗中的矿产"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["340BA7FCF219C50D"]
+			id: "66086F9C6D2FB53B"
+			subtitle: "黑暗中，一些长的有些可憎的未知生物袭击了你，你拿出武器拼死反抗，尽管有些吃力，但你最终还是获得了胜利，并从它们身上获得了一些东西。"
+			tasks: [{
+				count: 5L
+				id: "099D1B9AAADF4090"
+				item: "undergarden:utheric_shard"
+				type: "item"
+			}]
+			title: "与恶兽搏斗"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B0DE5815052899A"]
+			id: "159C9B678313DE05"
+			subtitle: "或许可以利用这个为自己做一件合身的衣服"
+			tasks: [
+				{
+					id: "713DBE33927FCC45"
+					item: "sewingkit:sewing_station"
+					type: "item"
+				}
+				{
+					id: "66EECE9843718602"
+					item: {
+						Count: 1
+						id: "sewingkit:wood_sewing_needle"
+						tag: {
+							Damage: 0
+							idf.damage_class: "strike"
+							idf.default_applied: 1b
+							idf.equipment: 1b
+							idf.ranged_weapon: 0b
+							idf.thrown_weapon: 0b
+							idf.tooltip_border: 6
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "缝缝补补"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["340BA7FCF219C50D"]
+			id: "5FE89D6EBDB73451"
+			subtitle: "一种名为巨嘴兽的凶兽或许会掉落这种物品"
+			tasks: [{
+				id: "671FB1400B1940CD"
+				item: "undergarden:froststeel_nugget"
+				type: "item"
+			}]
+			title: "刺骨寒冷"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["159C9B678313DE05"]
+			id: "2945AEA50B340CE1"
+			subtitle: "这些材料可以让你做出一身还算不错的衣服"
+			tasks: [
+				{
+					count: 4L
+					id: "02BA4069A8F994CF"
+					item: "undergarden:goo_ball"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2571CF8B1ADC3ABE"
+					item: "undergarden:mogmoss"
+					type: "item"
+				}
+			]
+			title: "上好的布料"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B0DE5815052899A"]
+			id: "32578845C1841DA7"
+			rewards: [{
+				count: 3
+				id: "2D24036ED42CAA05"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "黑暗中不止有危险，同时也有美味。"
+			tasks: [
+				{
+					id: "14114D88A7D70B24"
+					item: "undergarden:gloomgourd_pie"
+					type: "item"
+				}
+				{
+					id: "0B00CD77B762CF72"
+					item: "undergarden:dweller_steak"
+					type: "item"
+				}
+				{
+					id: "3C8DB44826C8F13A"
+					item: "undergarden:cooked_gwibling"
+					type: "item"
+				}
+				{
+					id: "072989FEEF508361"
+					item: "undergarden:gloomper_leg"
+					type: "item"
+				}
+				{
+					id: "5C0C2CB98B46EC3A"
+					item: "undergarden:bloody_stew"
+					type: "item"
+				}
+				{
+					id: "3A88875E67D56C94"
+					item: "undergarden:inky_stew"
+					type: "item"
+				}
+				{
+					id: "2B091FAA5C0B4E65"
+					item: "undergarden:indigo_stew"
+					type: "item"
+				}
+				{
+					id: "00702AD3B2F64251"
+					item: "undergarden:veiled_stew"
+					type: "item"
+				}
+			]
+			title: "暗黑美食"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["340BA7FCF219C50D"]
+			description: ["使用结构指南针搜索tales_of_element:fossil，然后再结构内对沙之勇士祭坛使用沙之勇士召唤石即可召唤"]
+			id: "6A8C718BAA2A0941"
+			rewards: [{
+				id: "36C4081B21116BB5"
+				item: "structurecompass:structure_compass"
+				type: "item"
+			}]
+			subtitle: "黑暗深处突然传来了一声怒吼。。。去瞧瞧看吧"
+			tasks: [{
+				id: "4DECD5BDF11AECC7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:reaper_warrior_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "最后的决战"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A8C718BAA2A0941"]
+			id: "529359CDB4F7EBD8"
+			rewards: [{
+				id: "5AEC1A2EEA7B890B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "kubejs:catalyst_fake"
+				}
+				type: "item"
+			}]
+			subtitle: "击败赛博机器人"
+			tasks: [{
+				entity: "alcaryabattle:cyborg"
+				id: "7A29B1C71C6E1726"
+				type: "kill"
+				value: 1L
+			}]
+			title: "逃出生天"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["753E95FEC243DBD5"]
+			id: "20CE155FBC58A414"
+			subtitle: "在跑图过程中有几率会遇到深园试炼场，通过右键试炼场中心的祭坛可开启一场随机的boss战，一阶段的深园共有四场不同的boss战，击败boss会获得一些特殊物品，所以还请多多挑战。"
+			tasks: [{
+				id: "6EFEE0E916261137"
+				structure: "tales_of_element:undergarden_boss1"
+				type: "structure"
+			}]
+			title: "随机boss遭遇战"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["753E95FEC243DBD5"]
+			id: "0681E6265B44BFB4"
+			rewards: [
+				{
+					id: "0D20BBCDF574577C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "terramity:diamond_gauntlet"
+					}
+					type: "item"
+				}
+				{
+					id: "5E6836984D55C706"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "animalistic_a:white_talisman"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "发现深园所有的生物群系"
+			tasks: [{
+				advancement: "undergarden:undergarden/all_undergarden_biomes"
+				criterion: ""
+				id: "61394E1D70988F50"
+				type: "advancement"
+			}]
+			title: "深园探索家"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0681E6265B44BFB4"]
+			description: ["由于本整合包地狱流程较为靠后，因此提供了一个新的获取灵魂沙的方法，你可以使用奥术熔炉烧炼棕色混凝土以获取灵魂沙&4"]
+			id: "1258CFAECAC7A1D1"
+			rewards: [{
+				id: "087E2D0A43C27C4D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "animalistic_a:soul_bottle"
+				}
+				type: "item"
+			}]
+			subtitle: "使用召唤台可召唤伙伴，只需放入护身符，灵魂瓶以及鞍即可"
+			tasks: [{
+				id: "6833D2C592ABBE18"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "animalistic_a:mesainvo"
+				}
+				type: "item"
+			}]
+			title: "我的小伙伴"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["159C9B678313DE05"]
+			description: ["本整合包中的背包容量是按组计算的，例如普通背包容量为4组，而MC中大部分的物品都是64个为一组，则可容纳这类物品64×4个，而像工具或者末影珍珠这些无法堆叠或者不是64个为一组的，则按照他们自己的每组多少个物品来计算容量。"]
+			id: "2B868B4F06435DFF"
+			subtitle: "制作一个背包"
+			tasks: [{
+				id: "210E8F9B62E3B2FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "beansbackpacks:backpack"
+				}
+				type: "item"
+			}]
+			title: "有总比没有好"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340BA7FCF219C50D"]
+			id: "0E7C5536E0907452"
+			rewards: [{
+				count: 5
+				id: "49DFBAB6496E13E7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silentgear:template_board"
+				}
+				type: "item"
+			}]
+			subtitle: "出击吧！！"
+			tasks: [
+				{
+					id: "3215F06B6FBF934B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:sword_template"
+					}
+					type: "item"
+				}
+				{
+					id: "34E1CFECD51B5A56"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:rod_template"
+					}
+					type: "item"
+				}
+				{
+					id: "46ACD623C3224C90"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:shield_template"
+					}
+					type: "item"
+				}
+				{
+					id: "77BBEDD507039AA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:helmet_template"
+					}
+					type: "item"
+				}
+				{
+					id: "58EB60307B071633"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:chestplate_template"
+					}
+					type: "item"
+				}
+				{
+					id: "46D4706E058A7381"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:leggings_template"
+					}
+					type: "item"
+				}
+				{
+					id: "620858C269EE7E8C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:boots_template"
+					}
+					type: "item"
+				}
+				{
+					id: "0AC2AD2D426D120F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:slingshot_template"
+					}
+					type: "item"
+				}
+			]
+			title: "全副武装"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["340BA7FCF219C50D"]
+			id: "232A7691082963AA"
+			rewards: [{
+				count: 5
+				id: "6C666F5FD4480131"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silentgear:template_board"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A94DCC58CD4F43A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:pickaxe_template"
+					}
+					type: "item"
+				}
+				{
+					id: "6EB077339FF54221"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:shovel_template"
+					}
+					type: "item"
+				}
+				{
+					id: "753FF1FEE7969822"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:axe_template"
+					}
+					type: "item"
+				}
+				{
+					id: "39FF39D5ED2A71D1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "silentgear:hoe_template"
+					}
+					type: "item"
+				}
+			]
+			title: "全套工具"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B0DE5815052899A"]
+			id: "23FE4B01D120EFFB"
+			tasks: [{
+				id: "2C7356EB943EBA04"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mbd2:undergarden_furnace"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+	]
+	title: "序：逃出黑暗"
+}

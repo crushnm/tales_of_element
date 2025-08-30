@@ -1,0 +1,711 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "4A260ADF3C475ACE"
+	id: "0DC60BD0FAAD5077"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7A8BCFF2CAF76EBA"
+			tasks: [{
+				id: "2656E31E30324804"
+				item: {
+					Count: 1
+					id: "burrows:mole_claw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "573A82BBCC9300D7"
+			tasks: [{
+				id: "08ABB92FED473929"
+				item: {
+					Count: 1
+					id: "burrows:mole_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "4BA2190AA253F4CA"
+			tasks: [{
+				id: "7AFB9A3E92283133"
+				item: {
+					Count: 1
+					id: "burrows:mole_hide"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "278102070C6C9091"
+			tasks: [{
+				id: "7421C9C1355026F9"
+				item: {
+					Count: 1
+					id: "skeleton_uprising:vertebrae"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "6E3961956AF82CB4"
+			tasks: [{
+				id: "57902EAD6498A6D6"
+				item: {
+					Count: 1
+					id: "mna:vinteum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "6756D11A907C4993"
+			tasks: [{
+				id: "15DC697448E01B46"
+				item: {
+					Count: 1
+					id: "gomwaga:ritogium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "0FDC7B47A8A9678D"
+			tasks: [{
+				id: "1D5FF6067CFC1821"
+				item: {
+					Count: 1
+					id: "mna:purified_vinteum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "054828EB97201657"
+			tasks: [{
+				id: "26441200C9550EF8"
+				item: {
+					Count: 1
+					id: "mna:transmuted_silver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "03AF4F7E51B355AA"
+			tasks: [{
+				id: "25B259C9AFD8566C"
+				item: {
+					Count: 1
+					id: "skeleton_uprising:amalgamated_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "57499A2B232F674F"
+			tasks: [{
+				id: "19A71B65236700B1"
+				item: {
+					Count: 1
+					id: "kubejs:stunt_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "21158946564640B0"
+			tasks: [{
+				id: "4E12594319F1C6FD"
+				item: {
+					Count: 1
+					id: "kubejs:ferrous_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "3F8CFBA778A2C20B"
+			tasks: [{
+				id: "160898BD0380EB5E"
+				item: {
+					Count: 1
+					id: "paladins_oath:ingot_of_undying"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1A6804B6804CA299"
+			tasks: [{
+				id: "059CF782778A01EC"
+				item: {
+					Count: 1
+					id: "bosses_of_mass_destruction:ancient_anima"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "407B7B83FFF6FA99"
+			tasks: [{
+				id: "1D190DAB53CCD7B3"
+				item: {
+					Count: 1
+					id: "graveyard:dark_iron_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "02743202C3A46708"
+			tasks: [{
+				id: "6DC20DE9647DA5AD"
+				item: {
+					Count: 1
+					id: "kubejs:ghost_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "5F9F500DA400A32B"
+			tasks: [{
+				id: "06B2BD665B9E75F0"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "378B9F438F1224A0"
+			tasks: [{
+				id: "141C0EA3C7CDA96B"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "30481B5D2AB5851B"
+			tasks: [{
+				id: "6EBB76166D696561"
+				item: {
+					Count: 1
+					id: "undergarden:utherium_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "627174FF8D639092"
+			tasks: [{
+				id: "724D7A4E2441BA73"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "60DC796FE041566A"
+			tasks: [{
+				id: "7A81F4D13931FC6A"
+				item: {
+					Count: 1
+					id: "undergarden:regalium_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "613F01BAA76DBCE3"
+			tasks: [{
+				id: "6A5534DE06962AE4"
+				item: {
+					Count: 1
+					id: "kubejs:jungle_gel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "635A7CC9DD35A873"
+			tasks: [{
+				id: "4242C6E18F3CEF90"
+				item: {
+					Count: 1
+					id: "midnight:rockshroom_clump"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "4573E150498D5541"
+			tasks: [{
+				id: "19AC7249344B9AE1"
+				item: {
+					Count: 1
+					id: "midnight:virilux"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "7209697491DC45DE"
+			tasks: [{
+				id: "46B69C4759C771FD"
+				item: {
+					Count: 1
+					id: "midnight:ebonite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "6584A9984795302B"
+			tasks: [{
+				id: "6A286A335C72E600"
+				item: {
+					Count: 1
+					id: "midnight:rendium_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "26F233E803435567"
+			tasks: [{
+				id: "500480AE7A4E9ADF"
+				item: {
+					Count: 1
+					id: "midnight:rouxe_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "4FFBE0FBEF5F6E87"
+			tasks: [{
+				id: "483D5D8CC6461D8A"
+				item: {
+					Count: 1
+					id: "midnight:bloomcrystal_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "1BBDD026EBEC586E"
+			tasks: [{
+				id: "6B06786042704661"
+				item: {
+					Count: 1
+					id: "midnight:tenebrum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "2B72FB675904BC97"
+			tasks: [{
+				id: "42D89D6F9D662AB1"
+				item: {
+					Count: 1
+					id: "midnight:nagrilite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "30D6351CF891DE2D"
+			tasks: [{
+				id: "05246E10129B8833"
+				item: {
+					Count: 1
+					id: "call_of_yucutan:fragment_of_rebirth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "2BF5E2E24FB467B0"
+			tasks: [{
+				id: "0E1872AD53BB1845"
+				item: {
+					Count: 1
+					id: "call_of_yucutan:ancient_gold_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "60D9060FC7414D78"
+			tasks: [{
+				id: "47C46037FECC3B55"
+				item: {
+					Count: 1
+					id: "malum:hallowed_gold_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "44D164835FD2ED14"
+			tasks: [{
+				id: "276A378CC1CD7E48"
+				item: {
+					Count: 1
+					id: "pasterdream:protect_deck"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "37054401767A120F"
+			tasks: [{
+				id: "32F08A82DF722403"
+				item: {
+					Count: 1
+					id: "iter_rpg:abstruse_cloth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "69A138F2703817D4"
+			tasks: [{
+				id: "44356FFD3B17874C"
+				item: {
+					Count: 1
+					id: "kubejs:yahaba_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "0F03C26DD65EF3C5"
+			tasks: [{
+				id: "0A0255E2967437F3"
+				item: {
+					Count: 1
+					id: "kubejs:hoshi_kirara_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "209CA4DE92C0C54D"
+			tasks: [{
+				id: "40011774AD055CEA"
+				item: {
+					Count: 1
+					id: "enderzoology:ender_fragment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "303C9BD23E30AEE6"
+			tasks: [{
+				id: "3CB5A06FBC31DAA6"
+				item: {
+					Count: 1
+					id: "enderzoology:confusing_powder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			id: "04AA98086B3EE1BF"
+			tasks: [{
+				id: "7E061475F50C4D29"
+				item: {
+					Count: 1
+					id: "enderzoology:withering_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "2DA1E3748A77F60B"
+			tasks: [{
+				id: "4D28EA51975CA2FE"
+				item: {
+					Count: 1
+					id: "enemyexpansion:wasp_thorax"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "550CE86D2DB8F858"
+			tasks: [{
+				id: "2B678EE9B594D2B6"
+				item: {
+					Count: 1
+					id: "enemyexpansion:scorpion_tail"
+					tag: {
+						skada.current_attack_type.tagKey: 0
+						skada.num_attack_types.tagKey: 1
+						skada.weapon_info.tagkey: {
+							attack_types: {
+								"skada:strike": {
+									accuracy: 1.0d
+									attackSpeedMod: 1.0d
+									damageBonus: 0.0d
+									failChance: 0.0d
+									lethality: 0.0d
+									maxReach: 3.0d
+									minReach: 0.0d
+								}
+							}
+							ignore_attributes: 0b
+							spread: {
+								powerBudget: 1.0d
+								ratios: {
+									"skada:basic": 1.0d
+								}
+							}
+							weight: 0.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "00354B90086E9D18"
+			tasks: [{
+				id: "1558EF8C7DE1CF7F"
+				item: {
+					Count: 1
+					id: "midnight_madness:dark_wolf_skin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "30439E6553F85147"
+			tasks: [{
+				id: "203F23C7754752CC"
+				item: {
+					Count: 1
+					id: "celestial_core:guardian_spike"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "3A0D35C9737257C3"
+			tasks: [{
+				id: "142CA5245F6493A3"
+				item: {
+					Count: 1
+					id: "ancient_elements:palladium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "32013D8A42220AB7"
+			tasks: [{
+				id: "39996B9B2EC17153"
+				item: {
+					Count: 1
+					id: "goety:venomous_fang"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "586F29F9AB101A43"
+			tasks: [{
+				id: "5FC707AF12F50E67"
+				item: {
+					Count: 1
+					id: "midnight:archaic_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "026590F4CE4DF112"
+			tasks: [{
+				id: "170BE581627E7C25"
+				item: {
+					Count: 1
+					id: "burrows:kingclaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "2B23551DEFD809AE"
+			tasks: [{
+				id: "5ED0A79D4624D2E3"
+				item: {
+					Count: 1
+					id: "frozone:polar_bear_fur"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["2，3，4章可获得材料"]
+	title: "2级"
+}

@@ -1,0 +1,171 @@
+
+[settings]
+	#control if pigs should run away from the pizza boss, which is an easter egg reference to this_is_stupid123/yellowbross's first ever entity AI change test
+	#requires game restart
+	#default = true
+	pigs_runfrompizza = true
+
+	[settings."food spawning settings"]
+
+		[settings."food spawning settings".foodbosses]
+			#control the (natural) spawnrate for toy villagers
+			#requires game restart
+			#default = 1
+			#Range: 0 ~ 100
+			toyvillager_spawnrate = 1
+			#control the (natural) spawnrate for toy witches
+			#requires game restart
+			#default = 1
+			#Range: 0 ~ 100
+			toywitch_spawnrate = 1
+			#control the (natural) spawnrate for hamburgers
+			#requires game restart
+			#default = 5
+			#Range: 0 ~ 100
+			hamburger_spawnrate = 5
+			#control the (natural) spawnrate for french fry boxes
+			#requires game restart
+			#default = 5
+			#Range: 0 ~ 100
+			frenchfrybox_spawnrate = 5
+			#control the (natural) spawnrate for chocolate milk
+			#requires game restart
+			#default = 3
+			#Range: 0 ~ 100
+			chocolatemilk_spawnrate = 3
+			#control the (natural) spawnrate for gelatin
+			#requires game restart
+			#default = 3
+			#Range: 0 ~ 100
+			gelatin_spawnrate = 3
+			#control the (natural) spawnrate for hotdogs
+			#requires game restart
+			#default = 5
+			#Range: 0 ~ 100
+			hotdog_spawnrate = 5
+			#control the (natural) spawnrate for popcorn kernels
+			#requires game restart
+			#default = 5
+			#Range: 0 ~ 100
+			popcornkernel_spawnrate = 5
+			#control the (natural) spawnrate for salt shakers
+			#requires game restart
+			#default = 5
+			#Range: 0 ~ 100
+			saltshaker_spawnrate = 5
+			#control the (natural) spawnrate for pepper shakers
+			#requires game restart
+			#default = 5
+			#Range: 0 ~ 100
+			peppershaker_spawnrate = 5
+
+	[settings."healthy food settings"]
+		#list for which mobs you want the healthy foods to fight
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#requires game restart
+		healthyFoodsTarget = []
+		#list for which mobs you want them to fight back against the healthy foods, without provocation
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#requires game restart
+		mobsTargetHealthies = []
+		#list for which mobs you want them to retreat from the healthy foods
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#note that only villagers and wandering traders have special running speeds; every other mob set here will just use their normal movement speed
+		#requires game restart
+		mobsRetreatHealthies = []
+
+	[settings."unhealthy food settings"]
+		#list for which mobs you want the unhealthy foods to fight
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#requires game restart
+		unhealthyFoodsTarget = ["minecraft:villager", "minecraft:wandering_trader", "minecraft:iron_golem", "minecraft:vindicator", "minecraft:evoker", "minecraft:pillager", "minecraft:vex", "minecraft:ravager", "minecraft:witch", "minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:enderman", "illageandspillage"]
+		#list for which mobs you want them to fight back against the unhealthy foods, without provocation
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#requires game restart
+		mobsTargetUnhealthies = ["minecraft:iron_golem", "minecraft:snow_golem", "minecraft:vindicator", "minecraft:evoker", "minecraft:pillager", "minecraft:vex", "minecraft:ravager", "minecraft:witch", "illageandspillage:igniter", "illageandspillage:magispeller", "illageandspillage:twittollager", "illageandspillage:spiritcaller", "illageandspillage:freakager", "illageandspillage:ragno", "illageandspillage:absorber", "illageandspillage:preserver", "illageandspillage:crocofang"]
+		#list for which mobs you want them to retreat from the unhealthy foods
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#note that only villagers and wandering traders have special running speeds; every other mob set here will just use their normal movement speed
+		#requires game restart
+		mobsRetreatUnhealthies = ["minecraft:villager", "minecraft:wandering_trader"]
+		#control if unhealthy foods should despawn upon the player setting the world difficulty to peaceful
+		#default = true
+		unhealthyfoods_despawnpeaceful = true
+		#control if unhealthy foods and toys should die upon stepping on sculk
+		#default = true
+		unhealthyfoods_dieOnSculk = true
+
+		[settings."unhealthy food settings"."popcorn bag"]
+			#sets if the popcorn bag should make an obnoxiously loud explosion sound when it explodes
+			#requires game restart
+			#default = true
+			popcornBag_explodeSound = true
+			#sets if the popcorn bag should reset itself after exploding
+			#requires game restart
+			#default = false
+			popcornBag_resetAfterExplosion = false
+			#sets if the popcorn bag should heal itself after exploding (only works if resetAfterExplosion is set to true)
+			#requires game restart
+			#default = false
+			popcornBag_healAfterExplosion = false
+
+		[settings."unhealthy food settings"."chocolate milk"]
+			#blacklist for mobs that chocolate bubbles produced by chocolate milk cannot pick up
+			#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+			#you can use the /summon command to scroll through and find the IDs for mobs you want!
+			#requires game restart
+			chocolateBubbleBlacklist = ["minecraft:iron_golem", "minecraft:vex", "minecraft:ender_dragon", "minecraft:wither", "minecraft:hoglin", "minecraft:zoglin", "minecraft:ravager"]
+
+		[settings."unhealthy food settings"."pepper shaker"]
+			#mobs that are immune to sneezing
+			#generally undead/inorganic mobs should be put here since they don't breathe, and boss mobs so that it doesn't ruin the boss fight
+			#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+			#you can use the /summon command to scroll through and find the IDs for mobs you want!
+			#requires game restart
+			mobs_ImmuneToSneezing = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:stray", "minecraft:wither_skeleton", "minecraft:vex", "minecraft:ender_dragon", "minecraft:wither", "minecraft:snow_golem", "minecraft:iron_golem", "minecraft:zoglin", "minecraft:zombified_piglin", "minecraft:blaze", "minecraft:slime", "minecraft:magma_cube"]
+
+		[settings."unhealthy food settings".pastrypower]
+			#how many ticks it takes for a pastrypower to convert blocks further. set this to 0 if you do not want pastrypowers to convert blocks
+			#requires game restart
+			#default = 200
+			#Range: 0 ~ 999999999
+			pastrypower_ticks = 200
+			#1 in (number) chance to randomly spawn a food on a converted block. set to 0 to disable spawning
+			#requires game restart
+			#default = 50
+			#Range: 0 ~ 999999999
+			pastrypower_randomspawn = 50
+
+	[settings."toy settings"]
+		#mobs that will convert into toy villagers when killed by a toy
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#requires game restart
+		mobsConvertTo_ToyVillager = ["minecraft:villager", "minecraft:wandering_trader", "minecraft:zombie_villager"]
+		#mobs that will convert into toy steves when killed by a toy
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#requires game restart
+		mobsConvertTo_ToySteve = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"]
+		#mobs that will convert into toy iron golems when killed by a toy
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#requires game restart
+		mobsConvertTo_ToyIronGolem = ["minecraft:iron_golem"]
+		#mobs that will convert into toy witches when killed by a toy
+		#format must be like 'examplemod:entity'. example: "minecraft:zombie" if you want a specific entity, or just "minecraft" for a whole mod
+		#you can use the /summon command to scroll through and find the IDs for mobs you want!
+		#requires game restart
+		mobsConvertTo_ToyWitch = ["minecraft:witch"]
+		#sets if toy villagers are allowed to merge with toy iron golems to create the toy village boss.
+		#warning: toy village is currently work-in-progress and is nowhere near complete. until the toy village is complete, setting this to true is not recommended
+		#requires game restart
+		#default = false
+		toyVillage_allowedToSpawn = false
+

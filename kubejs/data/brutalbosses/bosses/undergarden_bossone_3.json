@@ -1,0 +1,47 @@
+{
+  "entity": "undergarden:scintling",
+  "name": "巨型蚙蜒",
+  "visualscale": 2.5,
+  "experience": 300,
+  "protect_treasure": true,
+  "effects": {
+    "minecraft:regeneration": 1
+  },
+  "attributes": {
+    "generic.max_health": 150,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+	"dropgear": 3
+  },
+  "gear": {
+	"feet": "{id: \"selfexpression:soldier_leggings\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "brutalbosses:whirlwind": {
+      "potiononhit": "undergarden:virulence",
+      "potionlevel": 1
+    },
+    "brutalbosses:charge": {
+	"healthinterval": "100-0",
+	"mindist": 3, 
+	"duration": 20,
+	"interval": 200
+    },
+    "brutalbosses:meleehit": {
+	"healthinterval": "100-0",
+	"attackdist": 2, 
+	"damage": 5,  
+	"potiononhit": "minecraft:slowness", 
+	"potionlevel": 1,
+	"potionduration": 60, 
+	"knockback": 0, 
+	"cooldown": 30  
+    },
+    "minecraft:target": {},
+    "minecraft:meleeattack": {}
+  },
+  "spawnatchest": {
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "common": {
+    "rarityTooltip": false,
+    "hungerTooltip": false,
+    "saturationTooltip": false,
+    "effectsTooltip": "WITH_ICON",
+    "armorTooltip": "PLAYER",
+    "bucketTooltip": true,
+    "spawnEggTooltip": true,
+    "durabilityTooltip": "VANILLA_BACKGROUND",
+    "containerTooltip": true,
+    "paintingTooltip": true,
+    "bannerTooltip": true,
+    "mapTooltip": true,
+    "itemGroupTooltip": true,
+    "debugInfoTooltip": true,
+    "enchantmentTooltip": "SHIFT_DETAIL"
+  },
+  "misc": {
+    "scaleFactor": 1.0,
+    "useNameColor": false,
+    "backgroundColor": -267386864,
+    "itemBorderColor": -5592406,
+    "mouseScrollTooltip": true
+  }
+}

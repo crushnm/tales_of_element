@@ -1,0 +1,67 @@
+
+#===============================================
+#===========Neko Endless Difficulty=============
+#==================Ver 1.0.0====================
+#===============================================
+# 
+# 
+#Scale Damage
+[DamageScale]
+	#Applicable target
+	#[0.disable 1.invasion 2.all][default:1]
+	#Range: 0 ~ 2
+	ApplicableTarget = 1
+	#Reduced damage will not be less than (MinDamage)
+	#[default:0.2]
+	#Range: 0.0 ~ 1.0
+	ScaleWithHealth = 0.2
+	#Damage below this value is not reduced
+	#[default:100]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	MinDamage = 5.0
+
+# 
+# 
+#Invasion
+[invasion]
+	#Intrusion mob immunity from non-player damage
+	#[default:true]
+	immunityNonPlayerDamage = true
+	#Minimum day interval
+	#[default:3]
+	#Range: > 0
+	MinDayInterval = 3
+	#Maximum day interval
+	#[default:7]
+	#Range: > 0
+	MaxDayInterval = 7
+	#Invasion probability
+	#[default:0.2]
+	#Range: 0.0 ~ 1.0
+	Probability = 0.2
+	#Duration of intrusion
+	#[default:10000][20tick = 1s]
+	#Range: 0 ~ 24000
+	Duration = 10000
+	#Invasion time)
+	#[default:-1][-1 = random]
+	#Range: -1 ~ 24000
+	DayTime = -1
+	#Invasion waves
+	#[default:10]
+	#Range: 1 ~ 1000
+	Waves = 10
+	#Intrusion wave count single time limit
+	#[default:35]
+	#Range: 1 ~ 300
+	MobSingleLimit = 35
+
+# 
+# 
+#Skill
+[Skill]
+	#Mob max skill
+	#[0.disable][default:10]
+	#Range: 0 ~ 30
+	MobMaxSkill = 10
+

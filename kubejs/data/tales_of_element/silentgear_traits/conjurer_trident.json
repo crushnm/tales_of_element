@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "chestplate"
+        }
+  ],
+  "name": {
+    "translate": "三叉戟狂潮"
+  },
+  "description": {
+    "translate": "按下胸甲技能(默认shift+x)发射三支召唤师三叉戟(唯一胸甲技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

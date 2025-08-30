@@ -1,0 +1,158 @@
+{
+    "crystal_maiden_hero": [
+    {
+      "attribute": "rpgdamageoverhaul:frost.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50,
+      "operation": "BASE"
+    }
+  ],
+  "crystal_arrow": [
+    {
+      "attribute": "rpgdamageoverhaul:frost.damage",
+      "value": 8,
+      "operation": "BASE"
+    }
+  ],
+  "axe_hero": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ],
+  "pudge_hero": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ],
+  "juggernaut_hero": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.55,
+      "operation": "BASE"
+    }
+  ],
+  "kez_hero": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1900,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.50,
+      "operation": "BASE"
+    }
+  ],
+  "wei_hero": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1900,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:soul.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.50,
+      "operation": "BASE"
+    }
+  ],
+  "lina_hero": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ]
+}

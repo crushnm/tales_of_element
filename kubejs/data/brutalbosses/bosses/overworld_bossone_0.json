@@ -1,0 +1,29 @@
+{
+  "entity": "bloodandmadness:beast_patient",
+  "name": "兽化病人",
+  "visualscale": 1.0,
+  "experience": 300,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 350,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+	"dropgear": 6  
+  },
+  "gear": {
+	"helmet": "{id: \"armageddon_mod:gilded_shackles\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "brutalbosses:whirlwind": {
+      "potiononhit": "attributeslib:bleeding",
+      "potionlevel": 1
+    },
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+  }
+}

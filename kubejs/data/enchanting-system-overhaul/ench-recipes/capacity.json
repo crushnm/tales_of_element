@@ -1,0 +1,52 @@
+{
+	"enchantment_id": "create:capacity",
+	"maxLevel": 0,
+	"levels": {
+		"1": [
+			{
+				"id": "create:copper_sheet",
+				"amount": 12
+			},
+			{
+				"id": "minecraft:copper_block",
+				"amount": 2
+			},
+			{
+				"id": "minecraft:dried_kelp",
+				"amount": 4
+			}
+		],
+		"2": [
+			{
+				"id": "create:brass_sheet",
+				"amount": 12
+			},
+			{
+				"id": "create:brass_ingot",
+				"amount": 8
+			},
+			{
+				"id": "create:andesite_alloy",
+				"amount": 16
+			},
+			{
+				"id": "minecraft:dried_kelp",
+				"amount": 16
+			}
+		],
+		"3": [
+			{
+				"id": "create:sturdy_sheet",
+				"amount": 8
+			},
+			{
+				"id": "create:electron_tube",
+				"amount": 2
+			},
+			{
+				"id": "create:precision_mechanism",
+				"amount": 4
+			}
+		]
+	}
+}

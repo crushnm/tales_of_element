@@ -1,0 +1,42 @@
+{
+    "king_slime": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1900,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.60
+    },
+    {
+      "attribute": "rpgdamageoverhaul:physical.resistance",
+      "value": 0.50
+    }
+  ],
+  "blue_slime": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.60
+    },
+    {
+      "attribute": "rpgdamageoverhaul:physical.resistance",
+      "value": 0.50
+    }
+  ]
+}

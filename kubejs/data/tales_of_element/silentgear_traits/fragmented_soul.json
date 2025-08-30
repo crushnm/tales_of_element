@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "melee_weapon"
+        }
+  ],
+  "name": {
+    "translate": "唤灵"
+  },
+  "description": {
+    "translate": "每三次攻击可召唤一个幽灵冲向敌人，造成灵魂伤害(唯一武器攻击特效)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

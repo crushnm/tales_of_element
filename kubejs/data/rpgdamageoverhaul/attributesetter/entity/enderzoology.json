@@ -1,0 +1,48 @@
+{
+    "concussion_creeper": [
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "dire_wolf": [
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "fallen_knight": [
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "infested_zombie": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "wither_cat": [
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ]
+}

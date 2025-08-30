@@ -1,0 +1,55 @@
+{
+  "type": "silentgear:target_effect",
+  "max_level": 5,
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "tool"
+    }
+  ],
+  "name": {
+    "translate": "流血"
+  },
+  "description": {
+    "translate": "攻击造成流血"
+  },
+  "effects": {
+    "tool": {
+      "1": [
+        {
+          "effect": "plenty_of_golems:bleed",
+          "amplifier": 0,
+          "duration": 4.0
+        }
+      ],
+      "2": [
+        {
+          "effect": "plenty_of_golems:bleed",
+          "amplifier": 0,
+          "duration": 8.0
+        }
+      ],
+      "3": [
+        {
+          "effect": "plenty_of_golems:bleed",
+          "amplifier": 1,
+          "duration": 4.0
+        }
+      ],
+      "4": [
+        {
+          "effect": "plenty_of_golems:bleed",
+          "amplifier": 1,
+          "duration": 8.0
+        }
+      ],
+      "5": [
+        {
+          "effect": "plenty_of_golems:bleed",
+          "amplifier": 2,
+          "duration": 4.0
+        }
+      ]
+    }
+  }
+}

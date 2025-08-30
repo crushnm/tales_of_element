@@ -1,0 +1,66 @@
+{
+    "alicanto": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        }
+    ],
+    "fractite": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        }
+    ],
+    "glacide": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        }
+    ],
+    "glacon": [
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        }
+    ],
+    "hastreus": [
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        }
+    ],
+    "rollum": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        }
+    ]
+}

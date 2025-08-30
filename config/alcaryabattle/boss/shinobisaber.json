@@ -1,0 +1,28 @@
+{
+  "name": "ShinobiSaber",
+  "tier": "Tier 2",
+  "health": 190.0,
+  "healthThreshold": 76.0,
+  "defaultDamage": 20.0,
+  "aoeDamage": 30.0,
+  "armor": 10.0,
+  "speed": 0.8,
+  "range": 5.0,
+  "playerHealthThreshold": 0.4,
+  "playerThreshold": 2,
+  "loot": [
+    {
+      "item": "minecraft:potion",
+      "quantity": 1,
+      "chance": 0.55,
+      "nbt": {
+        "Potion": "minecraft:swiftness"
+      }
+    },
+    {
+      "item": "alcaryabattle:shinobisaber_spawn_egg",
+      "quantity": 1,
+      "chance": 0.25
+    }
+  ]
+}

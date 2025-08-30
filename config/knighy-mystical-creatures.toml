@@ -1,0 +1,8 @@
+
+["King Lyian Shockwave Strength"]
+	#This is the exact damage it does, by default it's set to 20 (The weaker waves are half of this)
+	shockwave_power = 20.0
+
+["Oozing Assimilation Divider"]
+	oozerconsume = 10.0
+

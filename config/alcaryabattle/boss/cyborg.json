@@ -1,0 +1,25 @@
+{
+  "name": "Cyborg",
+  "tier": "Tier 1",
+  "health": 100.0,
+  "healthThreshold": 25.0,
+  "defaultDamage": 10.0,
+  "aoeDamage": 20.0,
+  "armor": 5.0,
+  "speed": 0.18,
+  "range": 5.0,
+  "playerHealthThreshold": 0.25,
+  "playerThreshold": 2,
+  "loot": [
+    {
+      "item": "minecraft:redstone",
+      "quantity": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "alcaryabattle:cyborg_spawn_egg",
+      "quantity": 1,
+      "chance": 0.25
+    }
+  ]
+}

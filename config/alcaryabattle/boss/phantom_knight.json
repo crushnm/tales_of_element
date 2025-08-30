@@ -1,0 +1,25 @@
+{
+  "name": "Phantom Knight",
+  "tier": "Tier 4",
+  "health": 500.0,
+  "healthThreshold": 200.0,
+  "defaultDamage": 50.0,
+  "aoeDamage": 60.0,
+  "armor": 30.0,
+  "speed": 0.23,
+  "range": 8.0,
+  "playerHealthThreshold": 0.25,
+  "playerThreshold": 2,
+  "loot": [
+    {
+      "item": "minecraft:bone",
+      "quantity": 2,
+      "chance": 0.75
+    },
+    {
+      "item": "alcaryabattle:phantom_knight_spawn_egg",
+      "quantity": 1,
+      "chance": 0.25
+    }
+  ]
+}

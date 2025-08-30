@@ -1,0 +1,162 @@
+{
+    "wicyborg_vindicatorzor": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 600,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 15,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.35
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        }
+    ],
+    "derpig": [
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    }
+  ],
+    "zombie_cow": [
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    }
+  ],
+    "zombie_pillager": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    }
+  ],
+    "zombie_vindicator": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.50
+    }
+  ],
+    "zombie_ravager": [
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.50
+    }
+  ],
+    "zombiefied_chad_villager": [
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": -0.50
+    }
+  ],
+    "creeper_golem": [
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    }
+  ],
+    "creesteve": [
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    }
+  ],
+  "t_rabus": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1030,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 22,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.60
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": -0.30
+        }
+    ],
+  "crude_redstone_monstrosity": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 40,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": -0.40
+        }
+    ],
+  "crude_redstone_golem": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 50,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.50
+        }
+    ]
+}

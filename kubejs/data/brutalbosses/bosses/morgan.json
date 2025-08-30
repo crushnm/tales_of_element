@@ -1,0 +1,25 @@
+{
+  "entity": "minepiece:morgan",
+  "name": "斧手摩根",
+  "visualscale": 1,
+  "experience": 200,
+  "protect_treasure": true,
+  "effects": {
+    "minecraft:weakness":4
+  },
+  "attributes": {
+    "generic.max_health": 400,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+  },
+  "gear": {
+  },
+  "ai-goals": {
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+
+  }
+}

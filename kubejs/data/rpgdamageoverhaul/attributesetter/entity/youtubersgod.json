@@ -1,0 +1,193 @@
+{
+    "fir": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 15,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "fir_naturaleza": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 15,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": -0.60
+        }
+    ],
+    "cuervo": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 10,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.60
+        }
+    ],
+    "farfadox": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 17,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.60
+        }
+    ],
+    "farfadox_frenzy": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 550,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 17,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.60
+        }
+    ],
+    "bobicraft": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 600,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 22,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        }
+    ],
+    "bobicraft_corrupto": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 600,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 22,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.60
+        }
+    ],
+    "awita": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1180,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 30,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": -0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        }
+    ]
+}

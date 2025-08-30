@@ -1,0 +1,102 @@
+{
+  "troll": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": -0.5,
+      "operation": "BASE"
+    }
+  ],
+  "starved": [
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.5,
+      "operation": "BASE"
+    }
+  ],
+  "sprinter": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    }
+  ],
+  "slugger": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    }
+  ],
+  "scorpion": [
+    {
+      "attribute": "rpgdamageoverhaul:piercing.resistance",
+      "value": 0.25,
+      "operation": "BASE"
+    }
+  ],
+  "wasp": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.25,
+      "operation": "BASE"
+    }
+  ],
+  "trollenraged": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": -1,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.5,
+      "operation": "BASE"
+    }
+  ],
+  "vampbiter": [
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    }
+  ],
+  "vampflyer": [
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.25,
+      "operation": "BASE"
+    }
+  ],
+  "vampire": [
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    }
+  ]
+}

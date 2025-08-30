@@ -1,0 +1,19 @@
+
+[creepis]
+	#Controls required attack counts for activating shield
+	requiredStacksForShield = 30.0
+	#Controls the duration of shield
+	shieldDuration = 20.0
+	#Controls the power of default explosion
+	defaultExplosionPower = 4.0
+	#Controls the power of charged explosion
+	chargedExplosionPower = 5.0
+	#Controls damage of punch attack, based on its base attack damage
+	punchDamageMultiplier = 1.0
+	#Controls damage of projectile attack, based on its base attack damage
+	projectileDamageMultiplier = 1.0
+	#Controls damage of tackle attack, based on its base attack damage
+	tackleDamageMultiplier = 1.5
+	#Controls damage of explosion attack, based on its base attack damage
+	explosionDamageMultiplier = 3.0
+

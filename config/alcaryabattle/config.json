@@ -1,0 +1,42 @@
+{
+  "arenes": [
+    {
+      "nom": "Arene en bois",
+      "portee": 8,
+      "coordonnees": [
+        178,
+        64,
+        100
+      ]
+    },
+    {
+      "nom": "Arene en pierre",
+      "portee": 8,
+      "coordonnees": [
+        107,
+        64,
+        85
+      ]
+    }
+  ],
+  "messages": [
+  ],
+  "messages_spawn_chance": [
+    {
+      "delay": 15000,
+      "proba": 0.75
+    }
+  ],
+  "boss_spawn_chance": [
+    {
+      "Tier 1": 0.0,
+      "Tier 2": 0.0,
+      "Tier 3": 0.0,
+      "Tier 4": 0.0,
+      "Tier 5": 0.0
+    }
+  ],
+  "spawn_message": [
+    "Un {bossName} ({tier}) vient de spawn dans l {arene} aux coordonnees x : {x} y : {y} z : {z}"
+  ]
+}

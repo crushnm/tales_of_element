@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4818C0DCD2BFE345"
+	group: "430456A023966AE7"
+	id: "4818C0DCD2BFE345"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["747CBA5F7141FE5C"]
+			id: "227FA4A934332156"
+			tasks: [
+				{
+					id: "0D4A41E38D24A887"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "divinerpg:snow_globe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "78360E81F6B33D8D"
+					item: {
+						Count: 10
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:snow_block"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["227FA4A934332156"]
+			id: "25614DC0E5392A13"
+			tasks: [{
+				id: "317A527ABCABEC5E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "naturesaura:nature_altar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "1E06E2EAEC455BB7"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mcb:undead_knight"
+					id: "27146B4B02388EE1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7305126AA667D96E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mcb:zombie_will"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "1F31D168797C3EB1"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "better_boss:rex_2"
+					id: "584B1291EE0B2BE0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3CB070EAB1FA1BE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "better_boss:egg"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F31D168797C3EB1"]
+			id: "041C2A7ABF2BCB7D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dota:kez_hero"
+					id: "1149500EE1022456"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7B11C707BE889FDF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_41"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["041C2A7ABF2BCB7D"]
+			id: "0498AE36B80F1B6A"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dota:wei_hero"
+					id: "13710AA17F0067A0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "34474E0367ED13A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_42"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0498AE36B80F1B6A"]
+			id: "64BE9B49E83AA5B3"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "bloodandmadness:silverbeast"
+					id: "42C7FA9EE48FBC87"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5D54A01D34E500F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodandmadness:eggs/silverbeast_spawn_egg"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E06E2EAEC455BB7"]
+			id: "70ED3571076C72E4"
+			tasks: [{
+				id: "5DEB8A7EABA23B51"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vintageimprovements:lathe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+	]
+	title: "第十二章：冰天雪地"
+}

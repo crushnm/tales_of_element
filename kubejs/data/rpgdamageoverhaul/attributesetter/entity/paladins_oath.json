@@ -1,0 +1,76 @@
+{
+    "dread_knight": [
+        {
+      "attribute": "minecraft:generic.max_health",
+      "value": 600,
+      "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.20
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.35
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.35
+        }
+    ],
+    "bone_revenant": [
+        {
+      "attribute": "minecraft:generic.max_health",
+      "value": 600,
+      "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:slashing.resistance",
+            "value": 0.35
+        },
+        {
+            "attribute": "rpgdamageoverhaul:piercing.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": -0.35
+        }
+    ],
+    "bone_supporter": [
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": -0.35
+        }
+    ],
+    "golem_of_undying_new": [
+        {
+      "attribute": "minecraft:generic.max_health",
+      "value": 700,
+      "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 13,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:blunt.resistance",
+            "value": 0.35
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.35
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.35
+        }
+    ],
+    "undying_apostle": [
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.35
+        }
+    ]
+}

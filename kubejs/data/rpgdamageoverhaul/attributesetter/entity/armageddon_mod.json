@@ -1,0 +1,79 @@
+{
+    "armageddon_mod:the_iron_colossus": [
+    {
+      "attribute": "rpgdamageoverhaul:physical.resistance",
+      "value": 0.15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.15,
+      "operation": "BASE"
+    }
+  ],
+  "the_gobelin_lord": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    }
+  ],
+  "eldoraththe_ancient_builder": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": 0.25,
+      "operation": "BASE"
+    }
+  ],
+  "ancient_allay": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ],
+  "arion_tyrantofthe_emerald_wrath_ravager": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ],
+  "arion_tyrant_of_the_emerald_wrath_soldat": [
+    {
+      "attribute": "rpgdamageoverhaul:slashing.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ]
+}

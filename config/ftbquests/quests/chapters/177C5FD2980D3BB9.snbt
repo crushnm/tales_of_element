@@ -1,0 +1,296 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "177C5FD2980D3BB9"
+	group: "49B33E7C130E1D2B"
+	id: "177C5FD2980D3BB9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F313E937CAE58E6"]
+			id: "2CE8ED0DA25257B1"
+			subtitle: "对蜂巢使用末影珍珠即可"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "3D7B5B53DDFEF83A"
+				type: "dimension"
+			}]
+			title: "前往蜂巢内部"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CE8ED0DA25257B1"]
+			id: "74A20CD74591FC84"
+			rewards: [{
+				count: 2
+				id: "269B3294DE30B9B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:honey_crystal_shards"
+				}
+				type: "item"
+			}]
+			subtitle: "随处可见，同时也是不错的寂静装备材料"
+			tasks: [{
+				count: 5L
+				id: "063E086D2F529EBD"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:honey_crystal_shards"
+				}
+				type: "item"
+			}]
+			title: "结晶蜂蜜"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CE8ED0DA25257B1"]
+			id: "4422C27E95A422F8"
+			rewards: [{
+				count: 4
+				id: "4DD32835EACC224F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:pollen_puff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "192D57BD8D7D937E"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:pollen_puff"
+				}
+				type: "item"
+			}]
+			title: "呛鼻"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74A20CD74591FC84"]
+			id: "247DA75D123E1FE7"
+			tasks: [{
+				id: "237E158D420A669B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:crystal_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "开炮！！"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"74A20CD74591FC84"
+				"4422C27E95A422F8"
+			]
+			id: "00D1FC3A66AA248D"
+			tasks: [{
+				id: "39641339CEDBC015"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:honey_compass"
+					tag: {
+						IsFailed: 0b
+						IsLoading: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00D1FC3A66AA248D"]
+			description: ["你可以使用一些方块或物品与女王交易，交易列表可在jei中查看"]
+			id: "0D2684CED8D10DA4"
+			subtitle: "在蜂巢迷宫中获取稀有指南针"
+			tasks: [{
+				advancement: "the_bumblezone:tools/obtain_throne_honey_compass"
+				criterion: ""
+				id: "5D32EC74523A0D41"
+				type: "advancement"
+			}]
+			title: "去见女王"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CE8ED0DA25257B1"]
+			id: "1F01F1330BC7BBD2"
+			subtitle: "挖掘空蜜脾育幼块获得"
+			tasks: [{
+				id: "1AC8B49607963582"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:empty_honeycomb_brood_block"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F01F1330BC7BBD2"]
+			id: "403F5C26E59090CE"
+			subtitle: "你可以从蜂巢领域中的一些箱子或者使用空蜜脾育幼块与蜜蜂女王交易获得"
+			tasks: [{
+				id: "0E2A88DCBEC06577"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:honeycomb_brood_block"
+				}
+				type: "item"
+			}]
+			title: "养蜂达人"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CE8ED0DA25257B1"]
+			id: "2A1E5A32E315F1BC"
+			subtitle: "用蜜蜂制品驯服一只巨峰"
+			tasks: [{
+				advancement: "the_bumblezone:beehemoth/tamed_beehemoth"
+				criterion: ""
+				id: "626D4136DB766FCF"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A1E5A32E315F1BC"]
+			description: ["喂食巨蜂可增长友谊度，使用蜂王浆喂食可增加250友谊，当友谊到达1000时巨蜂将进化为蜂后"]
+			id: "4CDA8A5670103231"
+			tasks: [{
+				advancement: "the_bumblezone:beehemoth/queen_beehemoth"
+				criterion: ""
+				id: "2E42E0CAF725BFD2"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D2684CED8D10DA4"]
+			id: "1CF1A6398C2A4A60"
+			subtitle: "与女王进行交易后可开启任务线，具体任务需前往进度中查看"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_beginning"
+				criterion: ""
+				id: "51D3BDC3EB2FB390"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CF1A6398C2A4A60"]
+			id: "13742919FB8E3502"
+			subtitle: "完成女王的任务可获得"
+			tasks: [{
+				id: "20F95E90D0421D3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:royal_jelly_bottle"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CE8ED0DA25257B1"]
+			description: ["使用结构指南针搜索queen_bee:beehive"]
+			id: "658BC90873E2FD04"
+			subtitle: "蜂后的结构有几率生成在蜂巢维度中"
+			tasks: [{
+				entity: "queen_bee:queen_bee"
+				id: "00F177CD5CE857ED"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13742919FB8E3502"]
+			description: ["&4这是一个需要很后期才能完成的任务，你现在不必管它"]
+			id: "67FE626CE31CC128"
+			subtitle: "完成女王所有的任务"
+			tasks: [{
+				id: "5C59DB4B06025A3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:essence_of_the_bees"
+				}
+				type: "item"
+			}]
+			title: "女王的认可"
+			x: 7.5d
+			y: -5.0d
+		}
+	]
+	title: "蜂巢历险记"
+}

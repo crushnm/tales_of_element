@@ -1,0 +1,714 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "140CFE10EEEC4C58"
+	group: "430456A023966AE7"
+	id: "140CFE10EEEC4C58"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["76A122E162126462"]
+			id: "0049535F62DB402A"
+			tasks: [{
+				count: 3L
+				id: "2BA24426186B2BAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:corrupted_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0049535F62DB402A"]
+			id: "5FC8582BE2F3F41A"
+			tasks: [{
+				id: "24730D538E850CF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:rift_placer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FC8582BE2F3F41A"]
+			id: "4C4F72CDC5F1CB4A"
+			subtitle: "开采一些乌木锭"
+			tasks: [{
+				count: 4L
+				id: "2975C69F2B1011B1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:ebonite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "木头做的锭？"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C4F72CDC5F1CB4A"]
+			description: [
+				"其中太古矿石只能在海沟石巨石内部少量生成。"
+				"鲁克斯水晶和盛开之花水晶生长在地表的水晶岩上。"
+				"将晶洞扔向石头可以砸碎晶洞，并掉落焕月晶碎片。"
+			]
+			id: "5AC45D488E5E992F"
+			subtitle: "午夜维度具有丰富的矿产资源，去开采它们吧"
+			tasks: [
+				{
+					count: 3L
+					id: "0B9ED366D732111D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:nagrilite_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "40AC4D6272CAE127"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:archaic_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1A966D1A6753FEAE"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:geode"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "31B722E6F48A2EE7"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:virilux"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3EBF589C74742DFA"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:dark_pearl"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "43B828CCE200C44A"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:rouxe_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "329117B3DDCC4382"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:bloomcrystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "午夜矿石"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FC8582BE2F3F41A"]
+			id: "61CEBC52237CA1D9"
+			subtitle: "探索午夜维度所有的生物群系"
+			tasks: [{
+				advancement: "midnight:adventure/visit_every_biome"
+				criterion: ""
+				id: "515C63D1F3AFAFB7"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C4F72CDC5F1CB4A"]
+			id: "0B2B5624BE80AE92"
+			subtitle: "收集各种各样的蘑菇制作成火药"
+			tasks: [
+				{
+					count: 3L
+					id: "28C136FD68A740AC"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:nightshroom_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "63FD264A48F530F3"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:dewshroom_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "31463354B7C77AAC"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:viridshroom_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1CEFA355C9448DDF"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:moonshroom_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "408D4A76FD3060CD"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "midnight:bogshroom_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "它们会爆炸"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FC8582BE2F3F41A"]
+			description: ["暗夜牧鹿有时会吃地上的暗夜草方块，当暗夜牧鹿在玩家面前吃草方块时视为向玩家‘鞠躬’，让所有九种颜色的暗夜牧鹿向你鞠躬吧！"]
+			id: "2BC792177A6B10B8"
+			tasks: [{
+				advancement: "midnight:husbandry/every_nightstag_bow"
+				criterion: ""
+				id: "02CC1D9D474452C6"
+				type: "advancement"
+			}]
+			title: "皇上"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C4F72CDC5F1CB4A"]
+			id: "5AC85741D34F012C"
+			subtitle: "一种不错的材料"
+			tasks: [{
+				count: 3L
+				id: "6D16C73C3E3512D8"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "midnight:rockshroom_clump"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "坚硬蘑菇"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67D256DD7432DC7A"]
+			id: "0F54AF4C8EE911B3"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "randomweirdmobs:abomination"
+					id: "48ED62A336464E38"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "02CDE161201F5B15"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:abomination_summoner"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "缝合怪"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F54AF4C8EE911B3"]
+			id: "545CE8C6C7690F92"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "sansausremaster:sudden_changes"
+					id: "772C8877DB5E6F99"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0F532A5D48799D7A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:sudden_skull"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "像你这样的孩子，应该在地狱燃烧"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["545CE8C6C7690F92"]
+			id: "2EBB3A63CFA7175B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "youtubersgod:fir_naturaleza"
+					id: "74DD35C9E5ABABC6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1D1B5EBD75026974"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:fir_core"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "自然守护者"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4807FA83EF50FA9E"]
+			id: "7E16DAB7CE53412E"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "kimetsunoyaiba:hand_demon"
+					id: "575900B52E79507C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7709BF7DCA27871B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_2"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "它有很多手"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E16DAB7CE53412E"]
+			id: "1D3C303F5FE8D08E"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "gomwaga:punisher"
+					id: "3497D6595727EE39"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "60068053C3447307"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:punisher_skull"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "处刑者"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56E7F00FB92E44B1"]
+			id: "464B8157771E4A55"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "youtubersgod:farfadox_frenzy"
+					id: "49946A9587926541"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "62772C80C7062698"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:farfadox_core"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "火焰守护者"
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["464B8157771E4A55"]
+			id: "03C7507331459A7D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "chaos_project:pumpmare"
+					id: "0E844C73B869537B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "484EBE0C65D68F05"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:infernal_worm"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "南瓜恶魔"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03C7507331459A7D"]
+			description: ["&4注：这是一个场地boss"]
+			id: "0A9CB26721962A55"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "call_of_yucutan:kukulkan"
+				id: "6DE320C89B14B80B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "古老的守护神"
+			x: 21.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C4F72CDC5F1CB4A"]
+			id: "67D256DD7432DC7A"
+			tasks: [{
+				id: "51402A9C1E1487CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "malum:runic_workbench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "符文大师"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EBB3A63CFA7175B"]
+			id: "4807FA83EF50FA9E"
+			tasks: [{
+				id: "54C7D59416D04C0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vintageimprovements:spring_coiling_machine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "弹簧制造"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D3C303F5FE8D08E"]
+			id: "56E7F00FB92E44B1"
+			tasks: [{
+				id: "367086FC6E66D706"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vintageimprovements:curving_press"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "冲压"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67D256DD7432DC7A"]
+			id: "77D4C875C078ABDC"
+			rewards: [{
+				id: "798ADA00AFA28E59"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "goety:pulverize_focus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "可以用于施放聚晶里的法术"
+			tasks: [{
+				id: "266817E3E768429F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "goety:dark_wand"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "灾厄法师"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77D4C875C078ABDC"]
+			id: "758F6213E4F2B9CF"
+			rewards: [{
+				id: "291ABF5BE5C5E253"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "goety:crafting_focus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25144F9D6B3393B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "goety:empty_focus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+	title: "第四章：裂隙之间"
+}

@@ -1,0 +1,674 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10D89C4B8C2B5F6B"
+	group: "430456A023966AE7"
+	id: "10D89C4B8C2B5F6B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["00924F7E46271C4C"]
+			id: "1F405A7B5AC6B0A4"
+			rewards: [{
+				id: "23E0B9DB306965B6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "reactive:journal"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EBE2BB965B486C3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "reactive:scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F405A7B5AC6B0A4"]
+			id: "4F1DBF76491F4A3F"
+			tasks: [{
+				id: "3F151184647AC219"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "reactive:crucible"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F1DBF76491F4A3F"]
+			id: "5FD988A26DF53407"
+			tasks: [
+				{
+					id: "6FBF4E04E8AA9ABF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "undergarden:catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "34F3B3B01722F675"
+					item: {
+						Count: 10
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_bricks"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "重返深园"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FD988A26DF53407"]
+			id: "5585688624E9FF4E"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "alcaryabattle:wizor"
+					id: "438A0011A6C5AF92"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "67488F67D23D4266"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:wizor_ring"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "施法者"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5585688624E9FF4E"]
+			id: "16F181DB1F379B8F"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "paladins_oath:golem_of_undying_new"
+					id: "737352E5CFEDB6B1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "58298DE2055F6AFD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:totem_of_undying_golem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "不死图腾复活了"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CA0FE323CF4B2F6"]
+			description: ["&4注：这是一个场地boss"]
+			id: "6DDC40AD9DD94C2F"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "7092B89EF6721AE6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "756C2AB3FC3F992E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:ferrous"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "坚韧无比"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6961B394154E37C2"]
+			id: "323D4FAC71B2BD57"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "crimson_steves_mobs:cyborg_vindicator"
+					id: "4DB38665153DC7E3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "64BFBA078D5CA51F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:mechanism_head"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "灾厄村民的战争机器"
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["323D4FAC71B2BD57"]
+			id: "7E19B07CD46B0E85"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "hs_bosses:sand_warrior"
+					id: "465DF07881905206"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0853ADAB8CAD6D69"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:sand_warrior_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "黄沙漫天"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E19B07CD46B0E85"]
+			id: "5D257A655E50D5A3"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "randomweirdmobs:eyeofwater"
+					id: "57399EE588C57BC0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1754E940D20F7491"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:drownlord_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "溺尸中的王者"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D257A655E50D5A3"]
+			id: "6555A54418008E9B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "terrawhips_and_more:soulofmountains"
+					id: "385C8F3CF4E2C5D0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "36A1C2BAA76771FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "terrawhips_and_more:spiritofthemountainssummoner"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "大山之灵"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69167BA5E05FAAEA"]
+			id: "76A122E162126462"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "too_much_bosses:frozen_warlock"
+					id: "6BD16FFCF9251FC3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "20E3433330C45799"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:frozen_warlock_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "冰冻魔法师"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16F181DB1F379B8F"]
+			id: "7CA0FE323CF4B2F6"
+			tasks: [{
+				id: "0D42A2087637A1E0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:basin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "搅拌，压实"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F1DBF76491F4A3F"]
+			description: [
+				"当两种能量互相冲突时，它们会互相毁灭并产生一些可怕的效果，当能够互相抵消的两种能量均衡时将会使坩埚结晶。"
+				"除了堙灭，还有许多有趣的反应，但它们貌似需要某些催化剂，因此在当前阶段并无法完全掌握它们。"
+				"（当产生反应后会在炼金术手册上进行记录）"
+			]
+			id: "608C39CA2F8EF99B"
+			subtitle: "物质堙灭"
+			tasks: [{
+				id: "2A35B2C71770A85A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "reactive:salt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "一次失败的尝试"
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F1DBF76491F4A3F"]
+			description: ["精神地衣生长时有几率长出记忆鳞茎，当给予其一个红石信号，它便会开始记录接下来接收到的红石信号，包括强度以及频率等，破坏鳞茎可保存红石信号。"]
+			id: "5E880491A564E8F1"
+			subtitle: "也许很有用"
+			tasks: [
+				{
+					id: "5711927CA2269AF1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "reactive:mind_lichen"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0A1B8AA6CC3A7415"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "reactive:mnemonic_bulb"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "红石记忆"
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F1DBF76491F4A3F"]
+			id: "6B72925E23B41FB2"
+			subtitle: "它具有腐蚀性"
+			tasks: [{
+				id: "3158914FEB0872B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "reactive:acid_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DDC40AD9DD94C2F"]
+			id: "6961B394154E37C2"
+			tasks: [{
+				id: "0F0F9470B2A3EB0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:spout"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "注入"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6555A54418008E9B"]
+			id: "69167BA5E05FAAEA"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "kimetsunoyaiba:yahaba"
+					id: "352554DCF19A9A3A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "40BA174D85FA51EF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_1"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "下级鬼"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CA0FE323CF4B2F6"]
+			description: ["它可以大大减少你的耗材,同时解锁一些高级配方"]
+			id: "226C724F06AE8568"
+			tasks: [{
+				id: "7F2158EB3CA197F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:cursed_infuser"
+				}
+				type: "item"
+			}]
+			title: "更便捷的转化"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["226C724F06AE8568"]
+			description: ["你可以使用结构指南针搜索bosses_of_mass_destruction:lich_tower来找寻巫妖之塔，也可以使用灵魂之星，找到巫妖之塔后将灵魂之星放在塔顶的四个基座上即可召唤巫妖。"]
+			id: "151025673C159034"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "召唤并击败巫妖"
+			tasks: [
+				{
+					id: "04D6E3B824CEEEF6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+				{
+					entity: "hmag:lich"
+					id: "7161C451CD2C01F5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F1DBF76491F4A3F"]
+			description: ["要想获得链缚折跃之瓶，你首先需要往坩埚中不断加入末影珍珠，随后，坩埚会产生一道末影裂隙，这个裂隙会将周围的实体传送至坩埚处，若你持有铁晶体则不会被传送，此时对坩埚使用石英瓶可获得链缚折跃之瓶"]
+			id: "2CA7ABBECC2F4BE0"
+			subtitle: "在裂空基座上使用链缚折跃之瓶可开启一道传送门"
+			tasks: [
+				{
+					id: "3852F26E0DACADBA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "reactive:rending_plinth"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "39189D6760F2B032"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "reactive:crystal_iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "折跃"
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CA0FE323CF4B2F6"]
+			id: "327DB0763E00916E"
+			subtitle: "你可以用它来晾晒干海带"
+			tasks: [{
+				id: "1D54261B8DB3DCCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:drying_rack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "晒干"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["327DB0763E00916E"]
+			id: "67193E6D259929EA"
+			tasks: [{
+				count: 3L
+				id: "2FDB450902212B77"
+				item: {
+					Count: 3
+					id: "create:belt_connector"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "物流"
+			x: -3.5d
+			y: -3.0d
+		}
+	]
+	title: "第三章：重返深园"
+}

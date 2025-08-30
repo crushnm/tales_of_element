@@ -1,0 +1,292 @@
+{
+    "curse_user_1": [
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.5
+    }
+  ],
+  "hoshi_kirara": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 600,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.5
+    }
+  ],
+  "charles_bernard": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.5
+    }
+  ],
+  "kukuru": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1000,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": -0.5
+    }
+  ],
+  "cursed_spirit_grade_212": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1000,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.5
+    }
+  ],
+  "cursed_spirit_grade_211": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1100,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.5
+    }
+  ],
+  "cursed_spirit_grade_210": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1100,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.5
+    }
+  ],
+  "haba": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1300,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": -0.5
+    }
+  ],
+  "hanyu": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1300,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.resistance",
+      "value": -0.4
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.5
+    }
+  ],
+  "yoshino_junpei": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1300,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": -0.499
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.5
+    }
+  ],
+  "cursed_spirit_grade_214": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": -0.499
+    },
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.5
+    }
+  ],
+  "nobara_kugisaki": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.499
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.5
+    }
+  ],
+  "miwa_kasumi": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.499
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.resistance",
+      "value": 0.5
+    }
+  ],
+  "cursed_spirit_grade_11": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1800,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:soul.resistance",
+      "value": -0.499
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.5
+    }
+  ],
+  "shigemo_haruta": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1600,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": -0.5
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.5
+    }
+  ]
+}

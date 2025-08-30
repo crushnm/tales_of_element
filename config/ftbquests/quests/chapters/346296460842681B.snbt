@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "346296460842681B"
+	group: "430456A023966AE7"
+	id: "346296460842681B"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["073481D77D68C056"]
+			id: "37761569DB853F20"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "unearthed_journey:methuselah_boss"
+					id: "2E9E81E6ACE9B53F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "62384727E924D118"
+					item: {
+						Count: 1
+						id: "kubejs:temple_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37761569DB853F20"]
+			id: "3E2B615A4238DE4A"
+			tasks: [
+				{
+					count: 10L
+					id: "276F2CECE042EBD1"
+					item: {
+						Count: 10
+						id: "unearthed_journey:archstone_pillar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1EBE7760C5B23B88"
+					item: {
+						Count: 4
+						id: "unearthed_journey:paleogene_portal_corner"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "75A3BC0C324C4034"
+					item: {
+						Count: 1
+						id: "unearthed_journey:eye_of_methuselah"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E2B615A4238DE4A"]
+			id: "1EF8A450C96C9740"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "agonysing_hell:kingshroos"
+					id: "1F024C5039B47273"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "08A2A919F993E258"
+					item: {
+						Count: 1
+						id: "agonysing_hell:shroomy_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EF8A450C96C9740"]
+			id: "6B52AF7BA420D058"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "rpgadventures:the_goblin_king"
+					id: "567795AA569D41FB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "61180B563D4116EA"
+					item: {
+						Count: 1
+						id: "rpgadventures:heart_of_goblins"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1182BF43D0EF3879"]
+			id: "419A563FA52F3119"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "egorsanss_bosses:nether_drillman"
+					id: "487F13C77E608971"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "60FD23CAD742EDC7"
+					item: {
+						Count: 1
+						id: "kubejs:nether_drill"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["419A563FA52F3119"]
+			id: "6968CF3E6FBE2475"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "egorsanss_bosses:nether_admillar"
+					id: "0198C1371A3D7298"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "14063A947F01E3D9"
+					item: {
+						Count: 1
+						id: "kubejs:fortress_lamp"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6968CF3E6FBE2475"]
+			id: "07B7FD80DF1D523F"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "sigmabosses:spellmaster"
+					id: "2AF80B5ADD67145A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1B9DD1C61C58F490"
+					item: {
+						Count: 1
+						id: "kubejs:spell_orb"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A41B792DA96753D"]
+			id: "654A9954404FB8D3"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "threateningly_mobs:beast_horseshoe_crab"
+					id: "2FB9A8BCF42CFAE3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "01C5FA2EB2AE77B5"
+					item: {
+						Count: 1
+						id: "kubejs:hunter_scroll_3"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["654A9954404FB8D3"]
+			description: ["&4注：这是一个场地boss"]
+			id: "4BCB767B04EC685D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "pedriki_extras:einstillager"
+					id: "35C28F48529F84BE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3E7E351F0663E653"
+					item: {
+						Count: 1
+						id: "kubejs:book_dog_eared"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B52AF7BA420D058"]
+			id: "1182BF43D0EF3879"
+			tasks: [{
+				id: "33CBF9A07430802F"
+				item: {
+					Count: 1
+					id: "naturesaura:offering_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07B7FD80DF1D523F"]
+			id: "4A41B792DA96753D"
+			size: 1.0d
+			tasks: [{
+				id: "4D5A14886E9526AF"
+				item: {
+					Count: 1
+					id: "magichem:alembic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+	]
+	title: "第十四章：古近纪"
+}

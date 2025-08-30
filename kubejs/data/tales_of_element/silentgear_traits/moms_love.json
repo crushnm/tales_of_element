@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "hoe"
+        }
+  ],
+  "name": {
+    "translate": "妈妈的爱抚"
+  },
+  "description": {
+    "translate": "使用锄头右键你的小龙龙可以让其获得力量！(唯一工具技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

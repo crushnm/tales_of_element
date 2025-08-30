@@ -1,0 +1,20 @@
+{
+  "Quest name": "Harvest of Hollow Roots",
+  "Text Line": "Chernobog requires 32 tied dried Voidroots. Gather them from the withered lands and return¡ªeach root feeds a hunger that light cannot touch.",
+  "Quest After Finishing Text": "You carry void like a faithful worm. Grow deeper still.",
+  "Quest Finishing Sound": "playsound minecraft:entity.evoker.prepare_attack neutral @s ~ ~ ~ 1 0.5",
+  "Quest Type": 1,
+  "Quest Item ID or Tag": "rituals_of_the_wilds:tied_dried_void_root",
+  "Quest Item Count": 32,
+  "Quest Reward Item ID": "",
+  "Quest Reward Min Give Amount": 1,
+  "Quest Reward Max Give Amount": 1,
+  "Quest Reward Command": "",
+  "Quest Reward Command Execution Type": 0,
+  "Quest Reward Min Command Execution": 1,
+  "Quest Reward Max Command Execution": 1,
+  "Quest Reputation Reward": 5,
+  "Quest Reputation Source": 0,
+  "Next Quest ID": "",
+  "Next Quest Giver": 0
+}

@@ -1,0 +1,30 @@
+
+[PiecesSettings]
+	#磁力戒指的吸引范围，默认5，范围1-269
+	#最好不要设置的太大，可能会有性能问题
+	#Radius of the Magnet Ring (Default: 5.0, Min: 1.0, Max: 269.0)
+	#do not set it too large, it may cause lag
+	#Range: 1.0 ~ 269.0
+	magnetRadius = 5.0
+	#强磁戒指的吸引范围，默认9，范围1-269
+	#最好不要设置的太大，可能会有性能问题
+	#Radius of the Strong Magnet Ring (Default: 9.0, Min: 1.0, Max: 269.0)
+	#do not set it too large, it may cause lag
+	#Range: 1.0 ~ 269.0
+	strongMagnetRadius = 9.0
+	#当玩家在启用杂鱼保护伞饰品且keepInventory为false时死亡，发送的提示(嘲讽)消息列表
+	#仅在'enableInsultMessage'设置为true时生效
+	#条目可以是本地化键（如my_mod.message.death）或直接文本（以text:开头，如text:下次好运！）//别忘了双引号 英文半角字符哦
+	#A list of messages to send when the player dies with the protection trinket enabled and keepInventory is false.
+	#Only active if 'enableInsultMessage' is true.
+	#Each entry can be a localization key (e.g., 'my_mod.message.death') or direct text starting with 'text:' (e.g., 'text:Better luck next time!').
+	DeathInsultMessages = ["lsp.newbie.newbie", "lsp.newbie.newbie1", "lsp.newbie.newbie2", "lsp.newbie.newbie3", "lsp.newbie.newbie4", "lsp.newbie.newbie5", "lsp.newbie.newbie6", "lsp.newbie.newbie7", "lsp.newbie.newbie8", "lsp.newbie.newbie9", "lsp.newbie.newbie10", "text:You Died!", "text:死"]
+
+[Function]
+	#是否启用伤害数值？
+	#Is Damage Number?
+	"boolean damage number" = true
+	#是否启用开局物品？
+	#Is Start Item?
+	"boolean start item" = true
+

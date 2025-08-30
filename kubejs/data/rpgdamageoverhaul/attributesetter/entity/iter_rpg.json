@@ -1,0 +1,42 @@
+{
+    "insatiable": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1150,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": 0.60
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.5
+    }
+  ],
+  "scallop": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": 0.60
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.5
+    }
+  ]
+}

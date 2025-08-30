@@ -1,0 +1,55 @@
+{
+    "harpy_of_blades": [
+    {
+      "attribute": "rpgdamageoverhaul:slashing.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    }
+  ],
+  "big_jungle_slime": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:slashing.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    }
+  ],
+  "punisher": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 850,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:slashing.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ],
+  "punisher_wariror": [
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ]
+}

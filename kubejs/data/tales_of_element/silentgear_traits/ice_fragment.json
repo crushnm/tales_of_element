@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "leggings"
+        }
+  ],
+  "name": {
+    "translate": "冰霜碎片"
+  },
+  "description": {
+    "translate": "按下护腿技能键(默认shift+c)射出一个冰霜碎片，造成冰属性伤害。(唯一护腿技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

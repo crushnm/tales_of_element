@@ -1,0 +1,5 @@
+
+["Configs for Thingamabobs and Doohickeys"]
+	#If this is set to true, the player using the mallet does not have to hold down right-click in order to hit villagers, iron golems, tamed animals, or other players.
+	"Mallet Friendly Fire" = false
+

@@ -1,0 +1,42 @@
+{
+    "undead_knight": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1600,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.5
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.5
+    }
+  ],
+   "ancient_ent": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2250,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.5
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.resistance",
+      "value": 0.8
+    }
+  ]
+}

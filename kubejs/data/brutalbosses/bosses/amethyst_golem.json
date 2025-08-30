@@ -1,0 +1,32 @@
+{
+  "entity": "plenty_of_golems:amethyst_golem",
+  "name": "紫水晶傀儡",
+  "visualscale": 1,
+  "experience": 200,
+  "protect_treasure": true,
+  "effects": {
+
+  },
+  "attributes": {
+    "generic.max_health": 300,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+  },
+  "gear": {
+  },
+  "ai-goals": {
+    "minecraft:target": {},
+    "brutalbosses:itemshootgoal": {
+      "item": "{id: \"minecraft:amethyst_shard\", Count: 1b}",
+      "projectile_count": 5,
+      "projectile_interval": 300,
+      "projectile_aoe": true,
+      "projectile_distance": 20
+    }
+  },
+  "spawnatchest": {
+
+  }
+}

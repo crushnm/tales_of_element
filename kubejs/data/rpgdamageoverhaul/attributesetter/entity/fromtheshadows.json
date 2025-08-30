@@ -1,0 +1,22 @@
+{
+    "bulldrogioth": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1800,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 50,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.50
+        }
+    ]
+}

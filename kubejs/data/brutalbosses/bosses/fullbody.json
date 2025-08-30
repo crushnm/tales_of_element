@@ -1,0 +1,27 @@
+{
+  "entity": "minepiece:fullbody",
+  "name": "全身人形",
+  "visualscale": 1,
+  "experience": 200,
+  "protect_treasure": true,
+  "effects": {
+    "minecraft:weakness":4
+  },
+  "attributes": {
+    "generic.max_health": 400,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+    "dropgear": 6  
+  },
+  "gear": {
+    	"helmet": "{id: \"kubejs:fullbody_soul\", Count: 1b}"
+  },
+  "ai-goals": {
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+
+  }
+}

@@ -1,0 +1,59 @@
+
+["Lost Soul spawn rates"]
+	"Lost Soul Overworld Spawna Odds" = 0.1
+	"Lost Soul Nether Spawna Odds" = 0.2
+
+["Maskling Settings"]
+	"Maskling Base Hp" = 10.0
+	"Maskling Hp Scale" = 0.1
+	"Maskling Base Damage" = 2.5
+	"Maskling Damage Scale" = 0.25
+
+["Pumpkin Rider"]
+	"Pumpkin Rider Base Hp" = 225.0
+	"Pumpkin Rider Hp Scale" = 0.125
+	"Pumpkin Rider Base Damage" = 7.5
+	"Pumpkin Rider Damage Scale" = 0.25
+	"Pumpkin Rider War Scream Healing" = true
+	#In percentage from 0 to 1
+	"Pumpkin Rider War Scream Healing Amount" = 0.1
+
+["Pumpkin Knight"]
+	"Pumpkin Knight Base Hp" = 25.0
+	"Pumpkin Knight Hp Scale" = 0.075
+	"Pumpkin Knight Base Damage" = 4.0
+	"Pumpkin Knight Damage Scale" = 0.2
+
+["Lost Soul"]
+	"Lost Soul Base Hp" = 12.0
+	"Lost Soul Hp Scale" = 0.05
+	"Lost Soul Base Damage" = 2.0
+	"Lost Soul Damage Scale" = 0.35
+
+["Pumpkin Reaper"]
+	"Pumpkin Reaper Base Hp" = 20.0
+	"Pumpkin Reaper Hp Scale" = 0.1
+	"Pumpkin Reaper Base Damage" = 3.0
+	"Pumpkin Reaper Damage Scale" = 0.25
+
+["Pumpkin Harvester"]
+	"Pumpkin Harvester Base Hp" = 150.0
+	"Pumpkin Harvester Hp Scale" = 0.125
+	"Pumpkin Harvester Base Damage" = 4.0
+	"Pumpkin Harvester Damage Scale" = 0.375
+
+["Dark Witch"]
+	"Dark Witch Base Hp" = 15.0
+	"Dark Witch Hp Scale" = 0.05
+	"Dark Witch Base Damage" = 1.5
+	"Dark Witch Damage Scale" = 0.075
+
+["Soul Charger"]
+	"Soul Charger Base Hp" = 200.0
+	"Soul Charger Hp Scale" = 0.25
+	"Soul Charger Base Damage" = 8.0
+	"Soul Charger Damage Scale" = 0.1
+	"Soul Charger Max Summons" = 20.0
+	"Soul Charger Summons" = 2.0
+	"Soul Charger Summons After Half Max" = 1.0
+

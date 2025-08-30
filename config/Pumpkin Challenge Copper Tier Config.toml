@@ -1,0 +1,15 @@
+
+["Copper Tier"]
+	"Tier Base Difficulty" = 0.0
+	"Tier Base Difficulty Gain" = 0.1
+	"Tier Base Difficulty Scale" = 0.05
+	"Tier Wave Until Boss" = 5.0
+	"Tier Base Wave Quota" = 5.0
+	"Tier Wave Quota Increase" = 1.0
+	#Instead of mobs per wave, requires a ser amount of damage to be dealed against mobs (does not work on bosses)
+	"Tier Hp Quota" = false
+	"Tier Base Hp Quota" = 100.0
+	"Tier Hp Quota Increase" = 25.0
+	"Tier Reward Quality" = 1.0
+	"Tier Hp Quota Scale" = 3.5
+

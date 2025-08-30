@@ -1,0 +1,46 @@
+{
+  "entity": "burrows:large_mole",
+  "name": "鼹鼠队长",
+  "visualscale": 1.0,
+  "experience": 300,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 350,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+	"dropgear": 6  
+  },
+  "gear": {
+	"helmet": "{id: \"aether:leather_gloves\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {},
+    "brutalbosses:summonmobs": {
+      "interval": 200,
+      "maxcount": 10,
+      "ownerdamagepct": 0,
+      "count": 2,
+      "entities": [
+        {
+          "entityid": "burrows:centipede"
+        }
+      ]
+    },
+    "brutalbosses:whirlwind": {
+      "potiononhit": "minecraft:poison",
+      "potionlevel": 1
+    },
+    "brutalbosses:charge": {
+	"healthinterval": "100-0",
+	"mindist": 3, 
+	"duration": 20,
+	"interval": 200
+    }
+  },
+  "spawnatchest": {
+  }
+}

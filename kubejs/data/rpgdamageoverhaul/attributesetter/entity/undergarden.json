@@ -1,0 +1,150 @@
+{
+    "undergarden:brute": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "undergarden:dweller": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "forgotten": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "forgotten_guardian": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.15
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.25
+        }
+    ],
+    "gloomper": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "minion": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "muncher": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "nargoyle": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "rotbeast": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.10
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        }
+    ],
+    "rotling": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "rotwalker": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "sploogie": [
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.25
+        }
+    ],
+    "smog_mog": [
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.25
+        }
+    ],
+    "stoneborn": [
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.25
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.25
+        }
+    ]
+}

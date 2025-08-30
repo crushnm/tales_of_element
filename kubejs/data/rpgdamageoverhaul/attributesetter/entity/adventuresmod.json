@@ -1,0 +1,22 @@
+{
+    "drowned_conjurer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.resistance",
+      "value": -0.499
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.resistance",
+      "value": 0.5
+    }
+  ]
+}

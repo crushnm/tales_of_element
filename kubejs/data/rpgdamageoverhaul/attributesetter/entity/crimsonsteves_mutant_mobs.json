@@ -1,0 +1,58 @@
+{
+    "mutant_skeleton": [
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ],
+  "stunt_skeleton_upper_body": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 400,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ],
+  "withered_boxer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1350,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.35,
+      "operation": "BASE"
+    }
+  ]
+}

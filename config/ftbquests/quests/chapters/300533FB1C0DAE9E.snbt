@@ -1,0 +1,817 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "300533FB1C0DAE9E"
+	group: "430456A023966AE7"
+	id: "300533FB1C0DAE9E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["217D48C3C2031660"]
+			description: ["整合包进行了调整，不仅feywild模组中的精灵会掉落粉尘，terramit与冰与火中的精灵也会掉落粉尘。"]
+			id: "12A5BADEF1529C31"
+			rewards: [{
+				count: 3
+				id: "554ED72DEB293838"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:fey_dust"
+				}
+				type: "item"
+			}]
+			subtitle: "你可以通过击杀精灵来获得它"
+			tasks: [{
+				count: 10L
+				id: "65A2F6483692A4FC"
+				item: {
+					Count: 10
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:fey_dust"
+				}
+				type: "item"
+			}]
+			title: "带有魔力的粉尘"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12A5BADEF1529C31"]
+			id: "6184C6310B1CE9FC"
+			subtitle: "你可以从世界上找到一些魔法树，当然，你也可以使用精魂祭坛制作它们的树苗。"
+			tasks: [
+				{
+					id: "61790F5F662CB29E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "feywild:summer_tree_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "12058938DC228386"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "feywild:autumn_tree_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "39048394A4077F26"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "feywild:spring_tree_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "37511B92C9FF37CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "feywild:winter_tree_sapling"
+					}
+					type: "item"
+				}
+			]
+			title: "魔法树苗"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12A5BADEF1529C31"]
+			id: "110B778F1A848FAE"
+			tasks: [{
+				id: "5B2864C7CEAA5F98"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:summer_fey_altar"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["286BFEFF96CBE0BF"]
+			id: "010EDC5C0E94E140"
+			tasks: [{
+				id: "4DA2F0A231ABA9E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:summoning_scroll_spring_pixie"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["286BFEFF96CBE0BF"]
+			id: "3C5839DDC1154DD7"
+			tasks: [{
+				id: "6C48881025AEDE72"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:summoning_scroll_summer_pixie"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["286BFEFF96CBE0BF"]
+			id: "0390CC004C23D10F"
+			tasks: [{
+				id: "40B6CB2B4B3A1EB7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:summoning_scroll_autumn_pixie"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["286BFEFF96CBE0BF"]
+			id: "79A8A7B753031CD8"
+			tasks: [{
+				id: "0D79B0F750CE2B08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:summoning_scroll_winter_pixie"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["110B778F1A848FAE"]
+			description: ["曼德拉种子通过破坏魔法树的树叶有概率掉落。"]
+			id: "5846E4473A262950"
+			subtitle: "种植曼德拉"
+			tasks: [{
+				id: "3165180AF9CE8A59"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:mandrake"
+				}
+				type: "item"
+			}]
+			title: "它会尖叫"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5846E4473A262950"]
+			description: ["加入之后不可更换阵容"]
+			id: "286BFEFF96CBE0BF"
+			subtitle: "通过制作四种精灵的召唤卷轴来加入它们对应的阵容"
+			tasks: [{
+				id: "42BA80BEA50E6E94"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:summoning_scroll"
+				}
+				type: "item"
+			}]
+			title: "加入精灵阵容"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"79A8A7B753031CD8"
+				"010EDC5C0E94E140"
+				"3C5839DDC1154DD7"
+				"0390CC004C23D10F"
+			]
+			dependency_requirement: "one_completed"
+			id: "097CFEFC9A951A82"
+			subtitle: "吃下缩小菇"
+			tasks: [{
+				id: "532A99AF8C63CE23"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:woodblewitt"
+				}
+				type: "item"
+			}]
+			title: "我变小了"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["097CFEFC9A951A82"]
+			description: [
+				"洞穴入口有几率生成在世界上，或者你也可以自己制作一个，查看另一个任务。"
+				"你需要拥有缩小buff才能进入洞穴"
+			]
+			id: "6E1370E1F85E6378"
+			subtitle: "通过观察洞穴入口完成此任务"
+			tasks: [{
+				id: "3A850F81CE1EBC81"
+				observe_type: 0
+				timer: 0L
+				to_observe: "burrows:burrowentrance"
+				type: "observation"
+			}]
+			title: "洞穴历险"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E1370E1F85E6378"]
+			id: "3AE5E023B076123D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "burrows:moleking"
+				id: "50FA6303051C6322"
+				type: "kill"
+				value: 1L
+			}]
+			title: "洞穴之主"
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E1370E1F85E6378"]
+			id: "740397C88FE1CC04"
+			subtitle: "一些鼹鼠掉落的材料"
+			tasks: [
+				{
+					id: "253628B4F264B70A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "burrows:mole_hide"
+					}
+					type: "item"
+				}
+				{
+					id: "537ED295A2DE5AC0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "burrows:mole_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "202B8077DBCF863C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "burrows:mole_claw"
+					}
+					type: "item"
+				}
+			]
+			title: "击杀鼹鼠"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E1370E1F85E6378"]
+			id: "72FAD993CF7BD24C"
+			subtitle: "使用逃生绳逃离洞穴"
+			tasks: [{
+				id: "4CB1D517E8A71B10"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "burrows:escape_rope"
+				}
+				type: "item"
+			}]
+			title: "逃出去"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71DE20FB4BAE9CBF"]
+			id: "1395907E3884DF26"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "对浮冰使用嬗变操作"
+			tasks: [
+				{
+					id: "696072E00C80F8D0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:freeze_gem"
+					}
+					type: "item"
+				}
+				{
+					entity: "dota:crystal_maiden_hero"
+					id: "0291FDF65936E842"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["097CFEFC9A951A82"]
+			id: "159480212A5045EE"
+			tasks: [{
+				id: "1FD4C3CB5131EDA8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "burrows:burrowentrance"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15FD6F872016EE84"]
+			id: "0D452F341AEC68D7"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "crimsonsteves_mutant_mobs:stunt_skeleton_upper_body"
+					id: "359AF137680E1DED"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "21790B4072360E25"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:stun_skeleton"
+					}
+					type: "item"
+				}
+			]
+			title: "会功夫的骷髅"
+			x: 23.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D452F341AEC68D7"]
+			id: "7BD7DF78851950E0"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "29BD24B7BD86DA82"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "skeleton_uprising:old_crown"
+					}
+					type: "item"
+				}
+				{
+					entity: "skeleton_uprising:emperor_skeleton_iii"
+					id: "275C8D81CF8B4C74"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "一代王者"
+			x: 25.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD7DF78851950E0"]
+			id: "22A786C22753881B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "gomwaga:big_jungle_slime"
+					id: "74D37E3B63F94CB9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6C05D4592355454D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:jungle_slime"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "丛林史莱姆"
+			x: 28.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01A71D685C0335EC"]
+			description: ["&4注：这是一个场地boss"]
+			id: "00924F7E46271C4C"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "goety:brood_mother"
+					id: "2610B9C2D2BCE1B7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "30F46C2E4BF6E5BE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:spider_tracker"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "育母蜘蛛"
+			x: 32.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE5E023B076123D"]
+			id: "1DF03C5D369DC911"
+			rewards: [{
+				id: "64F0EA7A0F8A2068"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:guide_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "在鼹鼠洞穴中挖掘温特姆矿石"
+			tasks: [{
+				id: "6895C31539AB8F5A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:vinteum_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "带有魔力的粉末"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1DF03C5D369DC911"]
+			description: ["织魔者魔杖是本模组的基础物品，你可以使用织魔者魔杖绘制一些魔法图案。"]
+			id: "42564FEBF1C4EF68"
+			tasks: [{
+				id: "00D00E5297799B4A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:manaweaver_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "编织魔法师"
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42564FEBF1C4EF68"]
+			description: ["当然，由于本整合包进行了一些限制，你在现阶段还完全无法掌握升阶的秘诀。"]
+			id: "71DE20FB4BAE9CBF"
+			subtitle: "奥秘之眼可以用来查看你当前的等阶"
+			tasks: [{
+				id: "7D54824864ACACB6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:occulus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "我们会发现什么样的大秘密"
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1395907E3884DF26"]
+			id: "15FD6F872016EE84"
+			tasks: [
+				{
+					id: "2DB03D70C5C5A6C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "malum:runewood_totem_base"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "54A452E939C8C8D5"
+					item: {
+						Count: 5
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "malum:runewood_log"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22A786C22753881B"]
+			id: "01A71D685C0335EC"
+			tasks: [{
+				id: "20370B7597453290"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:runeforge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71DE20FB4BAE9CBF"]
+			id: "4BA1ECAE293B8AA4"
+			subtitle: "更好用的工作台"
+			tasks: [{
+				id: "56954C42073D9CE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:magicians_workbench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "自动化？"
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71DE20FB4BAE9CBF"]
+			id: "11D386876A560F13"
+			subtitle: "你可以将你的奥秘古典放置在上面"
+			tasks: [{
+				id: "6DA506605B4B366A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:book_stand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "用来装饰"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71DE20FB4BAE9CBF"]
+			id: "3CB8A3ED6EBD528F"
+			subtitle: "织魔放映机可以自动绘制图案"
+			tasks: [{
+				id: "6D845857DF01C760"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:manaweave_projector"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "自动编织"
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42564FEBF1C4EF68"]
+			id: "29C06CCF3F329F01"
+			tasks: [{
+				id: "10B9230C82E8DAC0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "skeleton_uprising:skeleton_war_banner_item"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "一大波骷髅正在来袭"
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29C06CCF3F329F01"]
+			id: "73342970B6ECA0C4"
+			subtitle: "可以容纳16桶液体"
+			tasks: [{
+				id: "11381A89826883F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:fluid_jug"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "大型液体容器"
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01A71D685C0335EC"]
+			id: "36B423032B2FCBD2"
+			tasks: [{
+				id: "775BB0C8008F2988"
+				item: {
+					Count: 1
+					id: "flintnpowder:cast_iron_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: -2.5d
+		}
+	]
+	title: "第二章：地穴探险"
+}

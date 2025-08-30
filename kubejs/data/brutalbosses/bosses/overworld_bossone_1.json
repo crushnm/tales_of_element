@@ -1,0 +1,40 @@
+{
+  "entity": "bloodandmadness:church_doctor",
+  "name": "教会人员",
+  "visualscale": 1.0,
+  "experience": 300,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 350,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+	"dropgear": 6  
+  },
+  "gear": {
+	"helmet": "{id: \"minecraft:enchanted_book\", Count: 1b, tag: {StoredEnchantments: [{lvl: 1s, id: \"enchantableblocks:storing\"}]}}"
+  },
+  "ai-goals": {
+    "brutalbosses:whirlwind": {
+      "potiononhit": "attributeslib:bleeding",
+      "potionlevel": 1
+    },
+    "brutalbosses:summonmobs": {
+      "interval": 400,
+      "maxcount": 10,
+      "ownerdamagepct": 0,
+      "count": 2,
+      "entities": [
+        {
+          "entityid": "minecraft:husk"
+        }
+      ]
+    },
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+  }
+}

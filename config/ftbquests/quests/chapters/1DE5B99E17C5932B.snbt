@@ -1,0 +1,350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1DE5B99E17C5932B"
+	group: "430456A023966AE7"
+	id: "1DE5B99E17C5932B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28ABB86B923FCC9C"]
+			id: "1B556183D0D88171"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "organizers:furiousarmor"
+					id: "7B6D2833350B162E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "36B5EDE33ED73D8D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:furious_head"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "全副武装"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B556183D0D88171"]
+			id: "116232999C94B1E1"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "faded_conquest_2:puny_juggernaut"
+					id: "2B9CC35215F0DB07"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "56BEFA32E2798F11"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "faded_conquest_2:terrible_tensummon"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "它会分裂"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["116232999C94B1E1"]
+			id: "7FCE92DF77D0690D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "youtubersgod:bobicraft_corrupto"
+					id: "04E4D317853C13E4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5C34EA7AF95B0D42"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:bobicraft_core"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CB6D8D38733D69D"]
+			id: "6F3EFFA29DC7CEB5"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3B11C2398D34CA6A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:bone_crush"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "chaos_project:bone_breaker"
+					id: "0F55A5A36129A093"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "碎骨者"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F3EFFA29DC7CEB5"]
+			description: ["&4注：这是一个场地boss"]
+			id: "0E22C61E20CEA43A"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "79866C978569F9AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:eye_of_moss"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "legendary_monsters:overgrown_colossus"
+					id: "2F453E34FAB884FB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "蔓石巨像"
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A9CB26721962A55"]
+			id: "0B57E2B36EA43B53"
+			tasks: [{
+				id: "1D79DA97F95C4117"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:lesser_fey_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "亮闪闪"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B57E2B36EA43B53"]
+			id: "30ED1468DD3134A2"
+			subtitle: "召唤你自己的矮人工匠"
+			tasks: [{
+				id: "6738196559EE85C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:summoning_scroll_dwarf_blacksmith"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "私家工匠"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30ED1468DD3134A2"]
+			id: "43AF7EAE59A39975"
+			subtitle: "它必须有一个矮人工匠才能工作"
+			tasks: [{
+				id: "0D8D417785732710"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "feywild:dwarven_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FCE92DF77D0690D"]
+			id: "4CB6D8D38733D69D"
+			tasks: [{
+				id: "1D55C458E83B35E6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vintageimprovements:vibrating_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CB6D8D38733D69D"]
+			id: "7140CFA44B4ED6C2"
+			tasks: [{
+				id: "48C070DB078D0B8C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cutting_board"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "切菜"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43AF7EAE59A39975"]
+			id: "185B544B7CE000A0"
+			tasks: [{
+				id: "0BCFF82C0A043B2E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cooking_pot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43AF7EAE59A39975"]
+			id: "3DE976FDC64BAEC4"
+			subtitle: "在深海底部右键即可进入深渊第一层"
+			tasks: [{
+				id: "326ABB89C1002196"
+				item: {
+					Count: 1
+					id: "aquaticcreaturesmod:mesopelagic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "进入深渊"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43AF7EAE59A39975"]
+			id: "59F8EA7835D728EC"
+			tasks: [{
+				id: "56DD728362F0DBF3"
+				item: {
+					Count: 1
+					id: "valoria:jeweler_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DE976FDC64BAEC4"]
+			hide_dependency_lines: false
+			id: "28ABB86B923FCC9C"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "faded_conquest_2:aero_guardian"
+					id: "25C3C57C9057D47D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2FB583F75D35321D"
+					item: {
+						Count: 1
+						id: "kubejs:aero_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	title: "第五章：深渊第一层"
+}

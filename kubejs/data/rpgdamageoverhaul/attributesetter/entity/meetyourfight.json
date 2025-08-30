@@ -1,0 +1,38 @@
+{
+    "meetyourfight:swampjaw": [
+    {
+      "attribute": "rpgdamageoverhaul:piercing.resistance",
+      "value": 0.15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": -0.20,
+      "operation": "BASE"
+    }
+  ],
+  "bellringer": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1080,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 25,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:soul.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ]
+}

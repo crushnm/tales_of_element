@@ -1,0 +1,68 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "464D4ADBC0115139"
+	group: "5ED8AD612E71F3A4"
+	id: "464D4ADBC0115139"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "41183B44D9ECDE05"
+			tasks: [{
+				id: "3F49AF21EB081A89"
+				item: {
+					Count: 1
+					id: "kaleidoscope_doll:doll_2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "0BF784DE2215A15C"
+			tasks: [{
+				id: "5DC9DDD4676AFB9E"
+				item: {
+					Count: 1
+					id: "kaleidoscope_doll:doll_3"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "3D1AE3CEEAFAF501"
+			tasks: [{
+				id: "62D272CB06B232F4"
+				item: {
+					Count: 1
+					id: "kaleidoscope_doll:doll_4"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "3F4A457C0ADB55A3"
+			tasks: [{
+				id: "005B58B66935CB47"
+				item: {
+					Count: 1
+					id: "kaleidoscope_doll:doll_65"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	title: "玩偶收集"
+}

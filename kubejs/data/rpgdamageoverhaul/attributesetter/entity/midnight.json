@@ -1,0 +1,42 @@
+{
+  "hunter": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.50
+    }
+  ],
+  "nova": [
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.50
+    }
+  ],
+  "stinger": [
+    {
+      "attribute": "rpgdamageoverhaul:sharp.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    }
+  ],
+  "nightshade": [
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.50
+    }
+  ]
+}

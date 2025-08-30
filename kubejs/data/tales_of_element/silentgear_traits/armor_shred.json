@@ -1,0 +1,55 @@
+{
+  "type": "silentgear:target_effect",
+  "max_level": 5,
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "tool"
+    }
+  ],
+  "name": {
+    "translate": "碎甲"
+  },
+  "description": {
+    "translate": "攻击造成碎甲"
+  },
+  "effects": {
+    "tool": {
+      "1": [
+        {
+          "effect": "biomancy:armor_shred",
+          "amplifier": 1,
+          "duration": 4.0
+        }
+      ],
+      "2": [
+        {
+          "effect": "biomancy:armor_shred",
+          "amplifier": 1,
+          "duration": 8.0
+        }
+      ],
+      "3": [
+        {
+          "effect": "biomancy:armor_shred",
+          "amplifier": 2,
+          "duration": 4.0
+        }
+      ],
+      "4": [
+        {
+          "effect": "biomancy:armor_shred",
+          "amplifier": 2,
+          "duration": 8.0
+        }
+      ],
+      "5": [
+        {
+          "effect": "biomancy:armor_shred",
+          "amplifier": 2,
+          "duration": 4.0
+        }
+      ]
+    }
+  }
+}

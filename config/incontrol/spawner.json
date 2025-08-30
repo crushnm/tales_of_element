@@ -1,0 +1,615 @@
+[
+  {
+    "mob": ["enderzoology:concussion_creeper", "enderzoology:dire_wolf", "enderzoology:enderminy", "enderzoology:fallen_knight", "enderzoology:infested_zombie", "enderzoology:owl", "enderzoology:wither_cat", "enderzoology:wither_witch"],
+    "weights": [3,2,3,1,3,2,2,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "undergarden:undergarden",
+      "mindist": 25,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 50,
+      "maxthis": 10
+    }
+  },
+  {
+    "mob": ["enemyexpansion:sprinter", "enemyexpansion:slugger","enemyexpansion:scorpion"],
+    "weights": [3,2,2],
+    "persecond": 0.15,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "burrows:the_burrows",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 80,
+      "maxthis": 10,
+      "and": {
+        "biome": "burrows:burrow_caves"
+      }
+    }
+  },
+  {
+    "mob": ["enemyexpansion:ladybug", "enemyexpansion:wasp"],
+    "weights": [3,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "burrows:the_burrows",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 80,
+      "maxthis": 10,
+      "and": {
+        "biome": "burrows:spider_nest"
+      }
+    }
+  },
+  {
+    "mob": ["enemyexpansion:crawler", "enemyexpansion:direwolf"],
+    "weights": [3,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "ceilands:the_ceilands",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "ceilands:inverted_peaks"
+      }
+    }
+  },
+  {
+    "mob": ["enemyexpansion:botfly", "skeleton_uprising:rattler"],
+    "weights": [3,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "ceilands:the_ceilands",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "ceilands:arid_roof"
+      }
+    }
+  },
+  {
+    "mob": ["enemyexpansion:faller", "enemyexpansion:equestrian"],
+    "weights": [3,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "ceilands:the_ceilands",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "ceilands:luzawood_forest"
+      }
+    }
+  },
+  {
+    "mob": ["enemyexpansion:drone", "enemyexpansion:huntsman"],
+    "weights": [3,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "ceilands:the_ceilands",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "ceilands:snow_roof"
+      }
+    }
+  },
+  {
+    "mob": ["enemyexpansion:drone", "enemyexpansion:flutterfly"],
+    "weights": [3,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "ceilands:the_ceilands",
+      "norestrictions":true,
+      "mindist": 20,
+      "inair":true,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "ceilands:topsy_forest"
+      }
+    }
+  },
+  {
+    "mob": ["chaos_project:circulon", "chaos_project:slamer"],
+    "weights": [2,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "gloom_caves:gloomcaves",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "gloom_caves:gloomterrace"
+      }
+    }
+  },
+  {
+    "mob": ["enemyexpansion:intruder"],
+    "weights": [2],
+    "persecond": 0.10,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "tofucraft:tofu_world",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "inair":true,
+      "maxthis": 10,
+      "and": {
+        "biome": "tofucraft:tofu_waste",
+        "seesky":true
+      }
+    }
+  },
+  {
+    "mob": "enemyexpansion:troll",
+    "persecond": 0.10,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "tofucraft:tofu_world",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "tofucraft:tofu_plains",
+        "seesky":true
+      }
+    }
+  },
+  {
+    "mob": ["midnight_madness:dark_wolf","crimson_steves_mobs:derpig","crimson_steves_mobs:zombie_cow","enemyexpansion:vampire"],
+    "weights": [3,4,4,2],
+    "persecond": 0.20,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "midnight:the_midnight",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "seesky":true
+      }
+    }
+  },
+  {
+    "mob": "enemyexpansion:starved",
+    "persecond": 0.10,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "tofucraft:tofu_world",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "tofucraft:tofu_mountain",
+        "seesky":true
+      }
+    }
+  },
+  {
+    "mob": ["crimson_steves_mobs:zombie_pillager","crimson_steves_mobs:zombie_vindicator","crimson_steves_mobs:zombie_ravager","crimson_steves_mobs:zombiefied_chad_villager"],
+    "weights": [3,3,2,1],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "tofucraft:tofu_world",
+      "norestrictions":true,
+      "inair":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "maxlight_full": 8,
+        "seesky":true
+      }
+    }
+  },
+  {
+    "mob": ["crimson_steves_mobs:creeckin"],
+    "weights": [2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "tofucraft:tofu_world",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "tofucraft:soybean_forest",
+        "seesky":true
+      }
+    }
+  },
+  {
+    "mob": ["crimson_steves_mobs:creepig"],
+    "weights": [2],
+    "persecond": 0.10,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "tofucraft:tofu_world",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "tofucraft:soybean_forest_sparse",
+        "seesky":true
+      }
+    }
+  },
+  {
+    "mob": ["crimson_steves_mobs:creeper_golem"],
+    "weights": [2],
+    "persecond": 0.025,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "tofucraft:tofu_world",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "tofucraft:tofu_forest",
+        "seesky":true
+      }
+    }
+  },
+  {
+    "mob": ["crimson_steves_mobs:creesteve"],
+    "weights": [2],
+    "persecond": 0.10,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "tofucraft:tofu_world",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "tofucraft:zunda_forest",
+        "seesky":true
+      }
+    }
+  },
+  {
+    "mob": ["chaos_project:trappo", "skeleton_uprising:cursebinder"],
+    "weights": [2,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "gloom_caves:gloomcaves",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "gloom_caves:quietite_falls"
+      }
+    }
+  },
+  {
+    "mob": ["skeleton_uprising:corrupted_skeleton", "skeleton_uprising:plaguebone"],
+    "weights": [2,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "gloom_caves:gloomcaves",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "gloom_caves:ancient_desert"
+      }
+    }
+  },
+  {
+    "mob": ["skeleton_uprising:skeleton_alchemist", "enemyexpansion:tarantula"],
+    "weights": [1,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "gloom_caves:gloomcaves",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "gloom_caves:silence_gloom"
+      }
+    }
+  },
+  {
+    "mob": ["enemyexpansion:goblin", "enemyexpansion:intruder"],
+    "weights": [3,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "gloom_caves:gloomcaves",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "gloom_caves:salt_basin"
+      }
+    }
+  },
+  {
+    "mob": ["chaos_project:mossy_gecko", "chaos_project:thrower", "chaos_project:hungry"],
+    "weights": [3,2,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "infinite_abyss:first_layer",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "infinite_abyss:first_layer_cavern"
+      }
+    }
+  },
+  {
+    "mob": ["chaos_project:tortured", "chaos_project:stone_dweller", "chaos_project:the_stalker"],
+    "weights": [3,2],
+    "persecond": 0.15,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "infinite_abyss:second_layer",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 50,
+      "maxthis": 10,
+      "and": {
+        "biome": "infinite_abyss:second_layer_cavern"
+      }
+    }
+  },
+  {
+    "mob": ["chaos_project:goodle", "chaos_project:howler"],
+    "weights": [3,2],
+    "persecond": 0.20,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "unearthed_journey:paleogene",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 150,
+      "maxthis": 10,
+      "and": {
+        "biome": "unearthed_journey:messel_pit"
+      }
+    }
+  },
+  {
+    "mob": ["chaos_project:buzzard", "chaos_project:crabby"],
+    "weights": [3,2],
+    "persecond": 0.20,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "unearthed_journey:paleogene",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 150,
+      "maxthis": 10,
+      "and": {
+        "biome": "unearthed_journey:cerrejon_formation"
+      }
+    }
+  },
+  {
+    "mob": ["agonysing_hell:garbage", "agonysing_hell:death_crawler", "agonysing_hell:death_crawler","agonysing_hell:pseudolegder"],
+    "weights": [3,2,2],
+    "persecond": 0.20,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "unearthed_journey:neogene",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 150,
+      "maxthis": 10,
+      "and": {
+        "biome": "unearthed_journey:pebas_formation"
+      }
+    }
+  },
+  {
+    "mob": ["rpgadventures:goblin", "rpgadventures:gobliner", "rpgadventures:engoblined","rpgadventures:earthage","rpgadventures:earthager","rpgadventures:earthagered"],
+    "weights": [8,4,1,6,3,1],
+    "persecond": 0.20,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "unearthed_journey:neogene",
+      "norestrictions":true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 150,
+      "maxthis": 10,
+      "and": {
+        "biome": "unearthed_journey:pebas_formation"
+      }
+    }
+  },
+  {
+    "mob": ["iceandfire:sea_serpent","born_in_chaos_v1:thornshell_crab","born_in_chaos_v1:corpse_fish","born_in_chaos_v1:glutton_fish"],
+    "weights": [1,7,10,2],
+    "persecond": 0.10,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "aquaticcreaturesmod:mesopelagic",
+      "norestrictions":true,
+      "inwater": true,
+      "mindist": 20,
+      "maxdist": 50,
+      "minheight": 15,
+      "maxheight": 150,
+      "maxthis": 10
+    }
+  }
+]

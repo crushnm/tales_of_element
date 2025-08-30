@@ -1,0 +1,46 @@
+{
+    "brood_mother": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:physical.resistance",
+      "value": 0.20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50,
+      "operation": "BASE"
+    }
+  ],
+  "minister": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1130,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 28,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.75,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": -0.50,
+      "operation": "BASE"
+    }
+  ]
+}

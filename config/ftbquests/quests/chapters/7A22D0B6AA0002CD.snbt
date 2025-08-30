@@ -1,0 +1,481 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7A22D0B6AA0002CD"
+	group: "430456A023966AE7"
+	id: "7A22D0B6AA0002CD"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0E22C61E20CEA43A"]
+			id: "5892B3E4BA4498E4"
+			tasks: [
+				{
+					id: "2A2577E8FBB963BA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ceilands:ceilands_portal_activator"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "651C80069B29143C"
+					item: {
+						Count: 10
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:reinforced_deepslate"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "天空之上的维度"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5892B3E4BA4498E4"]
+			id: "3A3ECC1B837E213F"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "击败城堡领主和蜘蛛女王"
+			tasks: [
+				{
+					entity: "ceilands:castle_lord"
+					id: "0E912EB0DAECFAB9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ceilands:spider_monarch"
+					id: "2872993335ABC0BB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "天空强者"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F448FA71920B73B"]
+			id: "703607F52A54D3D5"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "alcaryabattle:phantom_knight"
+					id: "779968EC5218622D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4CE5C9AAB53B544A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:knight_ring"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "幻影骑士"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["703607F52A54D3D5"]
+			id: "3F9A27143F9B5F14"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "crimson_steves_mobs:t_rabus"
+					id: "65E58DF85B58889A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1D80FCCD5AD37750"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:mechanical_carrot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "机械疣猪兽"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F9A27143F9B5F14"]
+			id: "23CE7E0DD11558A8"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "sansausremaster:horrortale_sans"
+					id: "43D948B1FF393BF4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "09460E04FBB82133"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:horror_skull"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "可怖sans"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071F48BB6D4AE071"]
+			id: "4E29F16D4FDEA388"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "themutantmobsmod:mutant_sniffer"
+					id: "75B8CE87A9E9439A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3C761224F91DC9B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:mutant_sniffer_egg"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "变异嗅探兽"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E29F16D4FDEA388"]
+			id: "2E49C2265ADE43E1"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5967F95F2333F505"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "meetyourfight:haunted_bell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "meetyourfight:bellringer"
+					id: "153C2E250745E57B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E49C2265ADE43E1"]
+			description: ["&4注：这是一个场地boss"]
+			id: "6724262CC9FF03D0"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "710213F33A800191"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:eye_of_frost"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "legendary_monsters:frostbitten_golem"
+					id: "37A5ACDBC2356E44"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "寒霜巨像"
+			x: 17.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23CE7E0DD11558A8"]
+			id: "071F48BB6D4AE071"
+			tasks: [{
+				id: "6F781AAC30F6B782"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createmetallurgy:foundry_mixer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "这并不是匠魂"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A3ECC1B837E213F"]
+			id: "3F448FA71920B73B"
+			tasks: [{
+				id: "22ECDCFFAF248188"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vintageimprovements:belt_grinder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "打磨"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071F48BB6D4AE071"]
+			id: "12C578F5FEFC6112"
+			tasks: [{
+				id: "19998128267F796A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:deployer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "指哪打哪"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["071F48BB6D4AE071"]
+			id: "2D3F80E32B0A3583"
+			subtitle: "将从野外获取到的各种作物堆放进去即可获得种子"
+			tasks: [{
+				id: "2458BAE0B7B05CA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "flavor_immersed_daily:agriculturalappraisalmachine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "种子鉴定"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D3F80E32B0A3583"]
+			id: "6EBF42B14B77DF02"
+			subtitle: "各种各样的加工方块"
+			tasks: [
+				{
+					id: "232059A2EF34CCBF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "flavor_immersed_daily:eggbreakingmachine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0204257B149C8B91"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "flavor_immersed_daily:meatmincer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "214BB8469838DBCD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "flavor_immersed_daily:choppingboard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "132174C1CFB39BC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "flavor_immersed_daily:jar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "45A876D42A38592C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "flavor_immersed_daily:teapot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "48A093C8576DCB88"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "flavor_immersed_daily:drinkingmachine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "11FB647189247BAD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "flavor_immersed_daily:squeezingmachine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "56B03172047CFB90"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "flavor_immersed_daily:dryer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1EE7438C6AE3ADF5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "flavor_immersed_daily:millstone"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "厨房套件"
+			x: 10.5d
+			y: 4.0d
+		}
+	]
+	title: "第六章：垂顶之地"
+}

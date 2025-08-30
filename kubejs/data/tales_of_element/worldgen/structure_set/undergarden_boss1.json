@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tales_of_element:undergarden_boss1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 189295808,
+    "spacing": 24,
+    "separation": 8
+  }
+}

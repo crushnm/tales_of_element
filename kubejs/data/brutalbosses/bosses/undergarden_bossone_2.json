@@ -1,0 +1,35 @@
+{
+  "entity": "tales_of_element:undergardenenderman",
+  "name": "深园女巫",
+  "visualscale": 1.0,
+  "experience": 300,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 150,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+	"dropgear": 4
+  },
+  "gear": {
+	"leggings": "{id: \"selfexpression:soldier_leggings\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "brutalbosses:summonmobs": {
+      "interval": 600,
+      "maxcount": 4,
+      "count": 2,
+      "entities": [
+        {
+          "entityid": "minecraft:zombie"
+        }
+      ]
+    },
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+  }
+}

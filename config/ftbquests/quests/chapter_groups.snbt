@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "430456A023966AE7", title: "主线" }
+		{ id: "49B33E7C130E1D2B", title: "支线" }
+		{ id: "4A260ADF3C475ACE", title: "寂静装备材料大全" }
+		{ id: "01AEB0DB023F2D18", title: "休闲生活" }
+		{ id: "5ED8AD612E71F3A4", title: "收集博物馆" }
+	]
+}

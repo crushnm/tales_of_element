@@ -1,0 +1,710 @@
+[
+  {
+    "name": "born_in_chaos_[Forge]1.20.1_1.7",
+    "desc": "汉化翻译",
+    "mods": "born_in_chaos_[Forge]1.20.1_1.7",
+    "authors": "meynzed",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/BadFeelingactivationProcedure",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§cYou feel like something is chasing you...",
+        "value": "§c你感觉到好像有什么东西正在追逐你..."
+      },
+      {
+        "key": "§cSomething powerful is invading this world...",
+        "value": "§c某种强大的力量正在入侵这个世界..."
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/ItemsDescriptionTooltipProcedure",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Right click on the block to summon",
+        "value": "§6右键方块可以召唤"
+      },
+      {
+        "key": "§8two controlled Baby Skeletons",
+        "value": "§6两只受控的小骷髅"
+      },
+      {
+        "key": "§8Press Shift to show tooltip",
+        "value": "§8按[§fSHIFT§8]查看物品描述"
+      },
+      {
+        "key": "§8While in hand:",
+        "value": "§7手持时："
+      },
+      {
+        "key": "§8Saves from lethal damage",
+        "value": "§6在你遭受致命伤时能避免死亡并且在以消耗饱食度的前提下"
+      },
+      {
+        "key": "§8and grants temporary power",
+        "value": "§6并且在以消耗饱食度的前提下"
+      },
+      {
+        "key": "§8in exchange for your hunger",
+        "value": "§6赋予你临时的强大力量"
+      },
+      {
+        "key": "§9Intoxication (0:05)",
+        "value": "§9酒中毒（0:05）"
+      },
+      {
+        "key": "§9Stimulation (0:10)",
+        "value": "§9亢奋（0:10）"
+      },
+      {
+        "key": "§8Removes Magic Depletion and Fatigue",
+        "value": "§6饮用后移除你的魔力耗尽和挖掘疲劳效果"
+      },
+      {
+        "key": "§8Capable of storing the",
+        "value": "§6能够用来储存恶魔马"
+      },
+      {
+        "key": "§8spirit of the Felsteed",
+        "value": "§6的灵魂"
+      },
+      {
+        "key": "§9Rampage (1:50)",
+        "value": "§9轻度暴怒（1:50）"
+      },
+      {
+        "key": "§8Effect stacks",
+        "value": "§6效果可不断叠加"
+      },
+      {
+        "key": "§8Completely restores oxygen",
+        "value": "§6食用时完全恢复你的"
+      },
+      {
+        "key": "§8when eaten",
+        "value": "§6氧气值"
+      },
+      {
+        "key": "§8Right click to rip",
+        "value": "§6右键扯破它"
+      },
+      {
+        "key": "§8Removes rotten stench and hunger",
+        "value": "§6去除腐臭和饥饿"
+      },
+      {
+        "key": "§8Will extinguish you when eaten",
+        "value": "§6食用后会扑灭你身上的火焰"
+      },
+      {
+        "key": "§8Right-clicking turns some mobs",
+        "value": "§6右键可以将一些生物和方块"
+      },
+      {
+        "key": "§8and blocks into something else",
+        "value": "§6转换成别的东西"
+      },
+      {
+        "key": "§7Dark Metal Upgrade",
+        "value": "§7暗金属升级"
+      },
+      {
+        "key": "§7Applies to:",
+        "value": "§7应用于："
+      },
+      {
+        "key": "§9 Netherite Equipment",
+        "value": "§9下界合金装备"
+      },
+      {
+        "key": "§7Ingredients:",
+        "value": "§7所需原材料："
+      },
+      {
+        "key": "§9 Dark Metal Armor Plate",
+        "value": "§9暗金属板"
+      },
+      {
+        "key": "§8When right clicked, grants",
+        "value": "§6右键使用后，骸骨之心会"
+      },
+      {
+        "key": "§8a bone barrier that blocks one hit",
+        "value": "§6给予你可抵挡一次伤害的护盾"
+      },
+      {
+        "key": "§8Requires Ethereal Spirit to cast",
+        "value": "§6需要配合虚魂使用"
+      },
+      {
+        "key": "§8Increases the power of shots fired,",
+        "value": "§6用于增强魔血法杖"
+      },
+      {
+        "key": "§8from the Staff of Magic Arrows",
+        "value": "§6穿血打击的伤害"
+      },
+      {
+        "key": "§9Vampiric Touch (3:00)",
+        "value": "§9噬血之触（3:00）"
+      },
+      {
+        "key": "§9Wither Resistance (3:00)",
+        "value": "§9凋零抗性（3:00）"
+      },
+      {
+        "key": "§9Insect Protection (5:00)",
+        "value": "§9骇虫保护（5:00）"
+      },
+      {
+        "key": "§8Right-clicking grants you the Dark Ward",
+        "value": "§6右键会授予你黑暗守护效果"
+      },
+      {
+        "key": "§8effect, which can save you from death",
+        "value": "§6它会拯救你于死亡之中"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/WeaponDescriptionProcedure",
+        "method": ""
+    },
+    "pairs": [
+      {
+         "key": "§8Attacks heal you while also draining the",
+         "value": "§6你的攻击会带有吸血效果"
+      },
+      {
+        "key": "§8target you attack and preventing them",
+        "value": "§6同时会弱化你的攻击目标"
+      },
+      {
+        "key": "§8from using some magical abilities",
+        "value": "§6并阻止他们使用其自身的魔法能力"
+      },
+      {
+        "key": "§8Press Shift to show tooltip",
+        "value": "§8按[§fSHIFT§8]查看物品描述"
+      },
+      {
+        "key": "§8When you kill an enemy, you go on a rampage,",
+        "value": "§6当你杀死一个敌人时,你会获得轻度暴怒效果"
+      },
+      {
+        "key": "§8each subsequent kill in a row increases the effect",
+        "value": "§6每击杀一个敌人都会提升你的暴怒效果"
+      },
+      {
+        "key": "§8of the rampage up to five",
+        "value": "§6最高可叠加五层（我就是席卷人间的巨浪！）"
+      },
+      {
+        "key": "§8Right-clicking an animal or minion will",
+        "value": "§6右键动物或者你的宠物"
+      },
+      {
+        "key": "§8sacrifice it healing you and giving you",
+        "value": "§6会将他们进行献祭"
+      },
+      {
+        "key": "§8a strength effect",
+        "value": "§6并且给予你生命恢复和力量效果"
+      },
+      {
+        "key": "§8Jumping attacks stun opponents",
+        "value": "§6跳劈可以使敌人眩晕"
+      },
+      { 
+        "key": "§8Available only in creative",
+        "value": "§6只能在创造模式下获得"
+      },
+      {
+        "key": "§8Deals increased damage to undead",
+        "value": "§6对亡灵类生物可造成额外伤害"
+      },
+      {
+        "key": "§8Deals increased damage to spirits",
+        "value": "§6对幽灵类生物可造成额外伤害"
+      },
+      {
+        "key": "§8Attacks inflict intoxicating poison",
+        "value": "§6攻击会使生物陷入酒中毒状态"
+      },
+      {
+        "key": "§8Attacks apply soul stratification",
+        "value": "§6攻击会给敌人施加灵魂剥离效果，会减慢敌人的行进速度"
+      },
+      {
+        "key": "§8which slows down the target and, at the end of the effect,",
+        "value": "§6灵魂剥离效果结束后会造成"
+      },
+      {
+        "key": "§8deals damage depending on the current health of the target",
+        "value": "§6取决于敌人当前生命值的百分比伤害"
+      },
+      {
+        "key": "§cThis weapon can only be used",
+        "value": "§c这件武器只有在拥有力量效果的时候才能使用"
+      },
+      {
+        "key": "§cwhile underthe effect of strength",
+        "value": "§6在力量效果的驱使下"
+      },
+      {
+        "key": "§8Attacks have a devastating effect",
+        "value": "§6每次攻击都会对敌人造成毁灭性的打击"
+      },
+      {
+         "key": "§8Deals increased damage if",
+         "value": "§6如果你和你的目标都在水下或雨中"
+      },
+      {
+        "key": "§8you and your target are in water or rain",
+        "value": "§6你的攻击能够对它造成额外伤害"
+      },
+      {
+        "key": "§8Attacks set the target on fire with",
+        "value": "§6攻击会用地狱之火来点燃目标的灵魂"
+      },
+      {
+        "key": "§8infernal fire, and also apply soul stratification",
+        "value": "§6同时会对敌人造成灵魂剥离效果"
+      },
+      {
+        "key": "§8Attacks infect the target. Upon death, a",
+        "value": "§6攻击会使敌人感染。在敌人死亡之后"
+      },
+      {
+        "key": "§8baby spider may appear from an infected enemy",
+        "value": "§6一个小蜘蛛会从被感染的敌人尸体中出现"
+      },
+      {
+        "key": "§8While in inventory:",
+        "value": "§7在物品栏时："
+      },
+      {
+        "key": "§8Makes all baby spiders you summon",
+        "value": "§6所有你召唤出来的小蜘蛛"
+      },
+      {
+        "key": "§8automatically tamed",
+        "value": "§6都会被自动驯服"
+      } 
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/DescriptionArmorProcedure",
+        "method": ""
+    },
+    "pairs": [
+      {
+         "key": "§8Full Set Bonus:",
+         "value": "§7全套装备加成："
+      },
+      {
+        "key": "§8You go on a rampage when your health is low",
+        "value": " §8- §6在你生命值过低时给予你暴怒效果"
+      },
+      {
+        "key": "§8Wither protection",
+        "value": " §8- §6凋零免疫"
+      },
+      {
+        "key": "§8Press Shift to show tooltip",
+        "value": "§8按[§fSHIFT§8]查看物品描述"
+      },
+      {
+        "key": "§8Increases the effectiveness",
+        "value": " §8- §6增强黑暗魔法物品"
+      },
+      {
+        "key": "§8of dark magic items and weapons",
+        "value": "§6以及武器的特殊效果"
+      },
+      {
+        "key": "§8You move faster in the dark",
+        "value": "§6在黑暗中你将快如鬼魅"
+      },    
+      {
+        "key": "§8Deals retaliatory damage to whoever attacks you",
+        "value": "§6可以反伤敌人对你造成的伤害"
+      },
+      {
+        "key": "§8Doubles retaliatory damage",
+        "value": " §8- §6双倍反伤效果"
+      },
+      {
+        "key": "§8Spiny shell protection",
+        "value": " §8- §6刺壳保护"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/HatsDescriptionProcedure",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§cThe hat can't be taken off",
+        "value": "§c这件帽子一旦带上，不能被取下"
+      },
+      {
+        "key": "§cYou detonate when your health is low",
+        "value": "§c当你生命值过低时，你会发生爆炸"
+      },
+      {
+        "key": "§8When you are attacked by a monster,",
+        "value": "§6当你被怪物攻击时"
+      },
+      {
+        "key": "§8you summon your allied Baby Skeleton",
+        "value": "§6会自动召唤一只受控的小骷髅"
+      },
+      {
+        "key": "§8When triggered, casts Magical Depletion on you",
+        "value": "§6触发之后你会陷入魔力耗尽的状态"
+      },
+      {
+        "key": "§8Press Shift to show tooltip",
+        "value": "§8按[§fSHIFT§8]查看物品描述"
+      },
+      {
+        "key": "§8Strengthens summoned",
+        "value": "§6戴上这顶帽子"
+      },
+      {
+        "key": "§8Baby Skeletons with Bonescaller Staff",
+        "value": "§6会增强骷髅法杖召唤的小骷髅"
+      },
+      {
+        "key": "§8Strengthens pumpkin weapons",
+        "value": "§6戴上这顶帽子会增强你的南瓜武器"
+      },
+      {
+        "key": "§8Grants immunity to fire and Soul Stratification",
+        "value": "§6并且使你免疫火焰伤害和灵魂剥离效果"
+      },
+      {
+        "key": "§8Casts Infernal Fire on those attacking you",
+        "value": "§6并且这顶帽子会向攻击你的敌人投掷地狱之火"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/procedures/SweetItemDescriptionProcedure",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8By right-clicking, you can bite off a piece,",
+        "value": "§6右键可以咬一口"
+      },
+      {
+        "key": "§8restoring a small supply of hunger",
+        "value": "§6可以回复少量饱食度"
+      },
+      {
+        "key": "§8Press Shift to show tooltip",
+        "value": "§8按[§fSHIFT§8]查看物品描述"
+      },
+      {
+        "key": "§9Fire Resistance (0:15)",
+        "value": "§9抗火（0:15）"
+      },
+      {
+        "key": "§9Vampiric Touch (0:15)",
+        "value": "§9噬血之触（0:15）"
+      },
+      {
+        "key": "§9Restores 2 HP",
+        "value": "§9回复2点生命值"
+      },
+      {
+        "key": "§9Speed II (0:15)",
+        "value": "§9迅捷II（0:15）"
+      },
+      {
+        "key": "§8You can eat as much as you want",
+        "value": "§6“食之不尽，用之不竭”"
+      },
+      {
+        "key": "§8Can grant a random set of effects when consumed",
+        "value": "§6食用后立即赋予你一组随机效果"
+      },
+      {
+        "key": "§8Right click to open",
+        "value": "§6右键打开"
+      },
+      {
+        "key": "§8Attacking an enemy freezes them, gradually slowing them down,",
+        "value": "§6对敌人造成伤害会冻结他们，降低他们的移动速度"
+      },
+      {
+        "key": "§8each repeated attack on the target increases the effect.",
+        "value": "§6每次重复攻击目标都会增加效果"
+      },
+      {
+        "key": "§8Right click creates an ice splash",
+        "value": "§6右键发射一个冰霜吐息"
+      },
+      {
+        "key": "§8that freezes all enemies around you",
+        "value": "§6吐息会冻结你周围的所有敌人"
+      },
+      {
+        "key": "§9Removes all effects",
+        "value": "§9移除所有效果"
+      },
+      {
+        "key": "§9+3 to naughtiness",
+        "value": "§9+3 淘气点"
+      },
+      {
+        "key": "§9Removes magic depletion",
+        "value": "§9移除魔力耗尽效果"
+      },
+      {
+        "key": "§9-3 to naughtiness",
+        "value": "§9-3 淘气点"
+      },
+      {
+        "key": "§9-5 to naughtiness",
+        "value": "§9-5 淘气点"
+      },
+      {
+        "key": "§8The attack has a chance to knock off",
+        "value": "§6对目标造成攻击"
+      },
+      {
+        "key": "§8the headgear of its wearer",
+        "value": "§6有几率使目标掉落他的头饰"
+      },
+      {
+        "key": "§9Ice Barrier (3:00)",
+        "value": "§9寒冰屏障 (3:00)"
+      },
+      {
+        "key": "§8When used, summons a small",
+        "value": "§6当你使用后，会召唤一个小型暴风雪"
+      },
+      {
+        "key": "§8snow storm around you",
+        "value": "§6它会对你周围的生物造成伤害并减速它们"
+      },
+      {
+        "key": "§8Deals more damage to unruly players",
+        "value": "§9对不守规矩的玩家造成更多伤害"
+      },
+      {
+        "key": "§8-When used, displays your number",
+        "value": "§6-当你使用后"
+      },
+      {
+        "key": "§8of naughtiness points",
+        "value": "§6会展示你当前的淘气点"
+      },
+      {
+        "key": "§8- At a critically high value,",
+        "value": "§6-当你的淘气点过高时"
+      },
+      {
+        "key": "§8grants the Strength effect",
+        "value": "§6则会获得力量效果"
+      },
+      {
+        "key": "§8When thrown, randomly buffs all monsters in the area it hits, but increases the experience gained from them when killed",
+        "value": "§6扔出去后，会给予该范围所有怪物任何随机buff，但是会增加击杀后所获得的经验值"
+      },  
+      {
+        "key": "§8Random effect:",
+        "value": "§9在以下效果中随机选择一个："
+      },
+      {
+        "key": "§9Rabbit Agility (10:00-30:00)",
+        "value": "§9动若脱兔 (10:00-30:00)"
+      },
+      {
+        "key": "§9Stone Persistence (10:00-30:00)",
+        "value": "§9坚如磐石 (10:00-30:00)"
+      },
+      {
+        "key": "§9Predator's Desire (10:00-30:00)",
+        "value": "§9猎欲如焚 (10:00-30:00)"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/Tombstone2DlingBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Not every problem has an answer, sometimes all you need is to let go",
+        "value": "§6世事未必皆有解，适时放手亦为智"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneCarrionBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Where does it begin and when will it end",
+        "value": "§6始于何地，又终于何时"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneDarkTitan066Block",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8How dare you awaken me! Betrayer",
+        "value": "§你竟敢唤醒我？你这个背叛者，盗墓贼！"
+      },
+      {
+        "key": "§8and Graverobber, you will know fear...",
+        "value": "§6我会让你知道何为真正的恐惧..."
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneDerivasBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Now you will be eternal",
+        "value": "§6自此，汝当永恒不朽"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneFeralBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Blood pumps through my garden’s veins, the crops mature. Shifting tendons shape anatomy, mutation of the heart",
+        "value": "§6鲜血灌溉园圃脉络，稼穑渐熟；筋络翻涌重塑躯骸，心腔终畸生。"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneFubukiBanzaiBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8The moon is hollow,",
+        "value": "§6月球乃虚妄之壳"
+      },
+      {
+        "key": "§8Fate's cold hand closes, unseen—",
+        "value": "§6命运的缄默之手正在收拢"
+      },
+      {
+        "key": "§8All light fades to black.",
+        "value": "§6任何光辉终将归于黑暗"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneMemesusBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Someone consumed by the VOID and the passion for it",
+        "value": "§6堕入虚空者，竟在永恒的溃败中品尝欢愉"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneMikeRoryBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Here lie the lovers",
+        "value": "§6爱人于此长眠"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneOrionBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Time you enjoy wasting,",
+        "value": "§6既已欢愉度日"
+      },
+      {
+        "key": "§8is not time wasted",
+        "value": "§6怎又何谈虚妄"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstonePetasiBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Don't tell me... You can see me?",
+        "value": "§6你别告诉我...你能看见我？"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneSomfunambulistBlock",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Memory sometimes makes merciful deletions",
+        "value": "§6记忆总在某个转角悄悄的卸下沉重的行囊"
+      }
+    ]
+  },
+  {
+    "target_class": {
+        "name": "net/mcreator/borninchaosv/block/TombstoneTEM187Block",
+        "method": ""
+    },
+    "pairs": [
+      {
+        "key": "§8Note: When your friend Midas says you shouldn't touch him, listen...",
+        "value": "§6注意了，当迈达斯说别碰他的时候，一定要听劝！"
+      }
+    ]
+  }
+]

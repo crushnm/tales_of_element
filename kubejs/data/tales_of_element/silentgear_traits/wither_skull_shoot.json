@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 5,
+  "name": {
+    "translate": "凋零射击"
+  },
+  "description": {
+    "translate": "右键可射出凋零骷髅头"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "Higher levels increase range"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "entity": "jujutsucraft:cursed_spirit_grade_211",
+  "name": "二级咒灵:狼人",
+  "visualscale": 1,
+  "experience": 200,
+  "protect_treasure": true,
+  "effects": {
+
+  },
+  "attributes": {
+    "generic.max_health": 400,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+    "dropgear": 6  
+  },
+  "gear": {
+    	"helmet": "{id: \"kubejs:cursed_spirit_grade_211_soul\", Count: 1b}"
+  },
+  "ai-goals": {
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+
+  }
+}

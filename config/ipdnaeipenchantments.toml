@@ -1,0 +1,15 @@
+#Should shields be able to be enchanted at enchanting tables:
+enchantable_shields = true
+#Should this mod's crossbow enchantments be allowed on bows at the enchanting table:
+crossbow_enchantments_on_bows = false
+#Should this mod's bow enchantments be allowed on crossbows at the enchanting table:
+bow_enchantments_on_crossbows = false
+#Should piercing be able to be applied to and work on bows:
+piercing_bow = false
+#Should power, punch, and flame be able to be applied to and work on crossbows:
+power_punch_flame_crossbow = false
+#Should the damage of draw arrows be reduced to account for the increased damage due to increased velocity:
+draw_reduce_damage = true
+#Should the sniper enchantment zoom be relative to the player's FOV scale:
+sniper_relative_zoom = true
+

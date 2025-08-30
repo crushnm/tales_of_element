@@ -1,0 +1,13 @@
+
+["A_Dimension Config"]
+	#Continue with precaution, any change to numerical values should be tested previously with some calculations!
+	#Range: 0.1 ~ 3.0
+	"Multiplies by X times the evolution modifier (Phase 4: 100% more stats multiplied X)" = 1.0
+	"Should Infection Points Be Modified?" = true
+	#Range: 0 ~ 4
+	"Infection Points Modifier (add/remove 10 points multiplied X)" = 1
+	#Range: 64 ~ 256
+	"The distance required for Soulless Ones to de-spawn" = 128
+	"The Soulless Ones that can spawn randomly in the Broken Cataclysm Event" = ["invasion:monstrosity", "invasion:bhoul", "invasion:quadruped_nightmare", "invasion:paraxenos", "invasion:soulless_trap", "invasion:sinner", "invasion:soulless_pig", "invasion:soulless_cow", "invasion:abnormity", "invasion:soulless_enderman", "invasion:pillar"]
+	"The possible names for the Soulless Player Entity on spawn" = ["Test1", "SuperDave0", "LunarBox", "Farid", "PaperWasAlive", "S0ull3ss 0n3", "Hero Brian", "Zeeker", "SharkBoy", "The Slayer", "Jhonny", "EnderUpdate777", "ShieldBoy", "AxeBoy", "Charger", "Amy", "Jebby", "Karat Feng", "Dezz", "Troubled boy", "Dr. Pilot", "Notch_mc", "TheOneBeyond", "TacoBoy", "PRO_MIN3CRAFTER", "Cerati", "Adele", "Rotch_YT", "Dweller-Hater", "Nahuel", "Wiley", "Jeffar", "WhackRanas", "Mr. Egg", "  n u l l  ", "PaperWasAlive"]
+

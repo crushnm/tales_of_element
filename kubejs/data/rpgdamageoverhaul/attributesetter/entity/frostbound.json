@@ -1,0 +1,21 @@
+{
+    "glacier": [
+        {
+      "attribute": "minecraft:generic.max_health",
+      "value": 600,
+      "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.20
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.35
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.35
+        }
+    ]
+}

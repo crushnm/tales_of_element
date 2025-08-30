@@ -1,0 +1,15 @@
+
+["Iron Tier"]
+	"Tier Base Difficulty" = 0.5
+	"Tier Base Difficulty Gain" = 0.1
+	"Tier Base Difficulty Scale" = 0.1
+	"Tier Wave Until Boss" = 7.0
+	"Tier Base Wave Quota" = 7.0
+	"Tier Wave Quota Increase" = 1.25
+	#Instead of mobs per wave, requires a ser amount of damage to be dealed against mobs (does not work on bosses)
+	"Tier Hp Quota" = false
+	"Tier Base Hp Quota" = 125.0
+	"Tier Hp Quota Increase" = 35.0
+	"Tier Reward Quality" = 1.0
+	"Tier Hp Quota Scale" = 5.0
+

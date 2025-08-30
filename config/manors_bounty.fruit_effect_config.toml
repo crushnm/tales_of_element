@@ -1,0 +1,131 @@
+
+[do_fruit_effect_enable]
+	#No comments
+	do_fruit_effect_enable = true
+
+[fruit_effect_time_config]
+
+	[fruit_effect_time_config.bTypeFoods]
+		#No comments
+		b_type_foods_add_time = 360.0
+		#No comments
+		b_type_foods_new_time = 720.0
+
+	[fruit_effect_time_config.cTypeFoods]
+		#No comments
+		c_type_foods_new_time = 480.0
+
+	[fruit_effect_time_config.xTypeFoods]
+		#No comments
+		x_type_foods_value = 0.3
+
+[fruit_foods_cooldown_config]
+	#No comments
+	a_type_foods_cooldown = 720.0
+	#No comments
+	b_type_foods_cooldown = 300.0
+	#No comments
+	c_type_foods_cooldown = 480.0
+	#No comments
+	x_type_foods_cooldown = 1080.0
+
+[fruit_effect_amount_config]
+
+	[fruit_effect_amount_config.RosaHedgeConfig]
+		#No comments
+		rosa_hedge_amount = 0.5
+
+	[fruit_effect_amount_config.RutinLemoneneConfig]
+		#No comments
+		rutin_lemonene_amount = 0.1
+		#No comments
+		rutin_lemonene_max_level = 60.0
+		#No comments
+		rutin_lemonene_level_amount = 0.0125
+
+	[fruit_effect_amount_config.BurstingBerryConfig]
+		#No comments
+		bursting_berry_amount = 0.15
+
+	[fruit_effect_amount_config.ToughAsNutConfig]
+		#No comments
+		tough_as_nut_armor_amount = 0.03
+		#No comments
+		tough_as_nut_armor_toughness_amount = 0.5
+
+	[fruit_effect_amount_config.CherryBlossomsWeepingConfig]
+		#No comments
+		cherry_blossoms_weeping_amount = 0.1
+
+	[fruit_effect_amount_config.BerryBloodConfig]
+		#No comments
+		berry_blood_heal_amount_1 = 0.2
+		#No comments
+		berry_blood_heal_amount_2 = 0.02
+
+	[fruit_effect_amount_config.MomentaryMeteorConfig]
+		#No comments
+		momentary_meteor_chance = 0.01
+		#No comments
+		momentary_meteor_max_amount = 100.0
+		#No comments
+		momentary_meteor_minuend_amount = 25.0
+
+	[fruit_effect_amount_config.SummerHeatwave]
+		#No comments
+		summer_heatwave_movement_speed_amount = 0.02
+		#No comments
+		summer_heatwave_swim_speed_amount = 0.04
+
+	[fruit_effect_amount_config.OriginalEvolutionConfig]
+		#No comments
+		original_evolution_amount = 0.05
+		#No comments
+		original_evolution_metamorphosis_amount = 0.08
+
+	[fruit_effect_amount_config.MelonGravityConfig]
+		#No comments
+		melon_gravity_knockback_resistance_amount = 0.08
+		#No comments
+		melon_gravity_step_height_amount = 0.15
+
+	[fruit_effect_amount_config.SeaTouchConfig]
+		#No comments
+		sea_touch_entity_amount = 0.1
+		#No comments
+		sea_touch_block_amount = 0.1
+
+	[fruit_effect_amount_config.HackedThornsConfig]
+		#No comments
+		hacked_thorns_amount = 0.35
+		#No comments
+		hacked_thorns_time = 16.0
+		#No comments
+		hacked_thorns_knockback_chance = 0.08
+
+		[fruit_effect_amount_config.HackedThornsConfig.KiwingWhereabouts]
+			#No comments
+			kiwing_whereabouts_time = 2.0
+			#No comments
+			kiwing_whereabouts_level = 2.0
+			#No comments
+			kiwing_whereabouts_fall_resistance_amount = 0.04
+
+		[fruit_effect_amount_config.HackedThornsConfig.LurkingDanger]
+			#No comments
+			lurking_danger_lurk_time = 30.0
+			#No comments
+			lurking_danger_lurk_time_reduce = 1.0
+			#No comments
+			lurking_danger_lurk_hidden_reach_radius = 4.0
+			#No comments
+			lurking_danger_lurk_sneaking_movement_speed_base = 0.8
+			#No comments
+			lurking_danger_lurk_sneaking_movement_speed_add = 0.06
+			#No comments
+			lurking_danger_lurk_strength_level = 4.0
+			#No comments
+			lurking_danger_lurk_strength_time = 20.0
+			#No comments
+			lurking_danger_lurk_attacked_penalty_time = -10.0
+

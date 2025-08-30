@@ -1,0 +1,148 @@
+
+[Settings]
+	# 
+	#Mobs put in this list cannot have their AI modified by this mod. Use this to manually fix otherwise unresolved compatibility issues.
+	#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+	#Use the /summon command to scroll through and find the IDs for mobs you want
+	#Please note that if you do find an incompatibility, you should still report it to the mod developers.
+	#Requires game restart
+	aiChangesNotAllowed = ["blue_skies:arachnarch"]
+
+	[Settings.Defender]
+		# 
+		#Determines if mobs should stop to stare at Defender's ultimate attacks.
+		#Default = true
+		defender_distractEnemies = true
+
+	[Settings."Creeper Infection"]
+		# 
+		#Creeper Infection custom transformations.
+		#Format MUST be the entity name, followed by the creeper you want the mob to turn into. Example: "minecraft:zombie,yellowbrossextras:freaker"
+		#Use the /summon command to scroll through and find the IDs for mobs you want
+		#Requires game restart
+		creeperInfection_turnTo = ["minecraft:zombie,yellowbrossextras:freaker", "minecraft:creeper,yellowbrossextras:freaker"]
+
+	[Settings.Vilvgaver]
+		# 
+		#The modified movement speed multiplier that Vilvgavers in the Vilvgaver Challenge will move at
+		#Default = 0.6
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vilvgaverChallenge_defaultSpeed = 0.6
+		# 
+		#The number of seconds that Vilvgavers in the Vilvgaver Challenge have the glowing effect for
+		#Default = 30
+		#Range: > 1
+		vilvgaverChallenge_glowTime = 30
+		# 
+		#The delay in seconds that Vilvgavers in the Vilvgaver Challenge have to wait before acting
+		#Default = 10
+		#Range: > 1
+		vilvgaverChallenge_delayTime = 10
+		# 
+		#The delay in seconds before jumping for Vilvgavers in the Vilvgaver Challenge
+		#Default = 1
+		#Range: > 0
+		vilvgaverChallenge_jumpDelay = 1
+		# 
+		#The breathing time in seconds the player has after escaping a Vilvgaver in the Vilvgaver Challenge
+		#Default = 60
+		#Range: > 1
+		vilvgaverChallenge_escapeTime = 60
+		# 
+		#The radius in which lava in the Nether will freeze when walked over by the player in the Vilvgaver Challenge
+		#Default = 3.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vilvgaverChallenge_lavaFreezeRadius = 3.0
+		# 
+		#Determines if the player's hunger bar will remain always full in the Vilvgaver Challenge
+		#Default = true
+		vilvgaverChallenge_restoreHunger = true
+		# 
+		#Blocks put in this list are ones the player can instabreak in the Vilvgaver Challenge.
+		#Mainly used to make the Nether section of the Vilvgaver Challenge possible
+		#Format must be like 'examplemod:block'. Example: "minecraft:netherrack"
+		vilvgaverChallenge_blockInstabreaks = ["minecraft:netherrack", "minecraft:magma_block", "minecraft:nether_gold_ore", "minecraft:nether_quartz_ore", "minecraft:basalt", "minecraft:blackstone", "minecraft:warped_nylium", "minecraft:crimson_nylium", "minecraft:nether_wart_block", "minecraft:warped_wart_block", "minecraft:soul_sand", "minecraft:soul_soil", "yellowbrossextras:frozen_lava"]
+		# 
+		#The volume of Vilvgaver's ambient noise
+		#Default = 2.5
+		#Range: 0.1 ~ 1.7976931348623157E308
+		vilvgaver_ambienceVolume = 2.5
+		# 
+		#How much Vilvgaver should be pushed back by each projectile in the Vilvgaver Challenge
+		#Be careful with how you set this factor; this can make the challenge impossible or way too easy if used poorly.
+		#For reference, 1 means that Vilvgaver would have to take 2 seconds to recover
+		#Default = 1
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vilvgaverChallenge_snowballPush = 1.0
+		# 
+		#The limit on how much projectiles can push Vilvgaver back
+		#Be careful with how you set this factor; this can make the challenge impossible or way too easy if used poorly.
+		#For reference, 2 is already a pretty long limit; Vilvgaver would have to take 4 seconds to recover
+		#Default = 2
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vilvgaverChallenge_pushLimit = 2.0
+		# 
+		#The amplifier for the Player's own movement speed buff in the Vilvgaver Challenge
+		#Play around with this value and Vilvgaver's own speed multiplier if you want to make the challenge even harder.
+		#Default = -1
+		#Range: -1 ~ 128
+		vilvgaverChallenge_speedBuff = -1
+		# 
+		#If this value is over 0, Vilvgavers in the Vilvgaver Challenge will move at a different speed in the Nether.
+		#An alternative to the idea of projectiles pushing Vilvgaver back, which might have been too specific of a weakness.
+		#Default = 0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vilvgaverChallenge_netherSpeed = 0.0
+		# 
+		#In addition to the breathing time, Vilvgaver by default has only a random chance of spawning every tick to build even more tension.
+		#Default = 16
+		#Range: > 0
+		vilvgaverChallenge_randomSpawnChance = 16
+
+		[Settings.Vilvgaver."Blacklist and Radius"]
+			# 
+			#Mobs that during the challenge, Vilvgaver cannot spawn when the Player is near.
+			#Mainly used to make some parts of progression less tedious, such as getting Blaze Rods
+			#However, it can also be used to stop Vilvgaver from messing with boss fights if needed
+			#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+			#Use the /summon command to scroll through and find the IDs for mobs you want
+			#Requires game restart
+			vilvgaverChallenge_mustNotSpawnNear = ["minecraft:blaze"]
+			# 
+			#Blocks that during the challenge, Vilvgaver cannot spawn when the Player is near.
+			#Use this to create free passes for parts of the game that'd be way too annoying in the challenge otherwise
+			#Format must be like 'examplemod:entity'. Example: "minecraft:grass"
+			#Use the /summon command to scroll through and find the IDs for mobs you want
+			#Requires game restart
+			vilvgaverChallenge_blocklist = ["minecraft:obsidian", "minecraft:nether_bricks", "minecraft:warped_nylium"]
+			# 
+			#Blocks that Vilvgaver cannot smash through.
+			#Format must be like 'examplemod:entity'. Example: "minecraft:grass"
+			#Use the /summon command to scroll through and find the IDs for mobs you want
+			#Requires game restart
+			vilvgaverChallenge_smashBlacklist = ["minecraft:bedrock"]
+			# 
+			#Radius of the Vilvgaver Challenge's Mob Blacklist
+			#Default = 30.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			vilvgaverChallenge_moblistRadius = 30.0
+			# 
+			#Radius of the Vilvgaver Challenge's Block Blacklist
+			#Default = 10.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			vilvgaverChallenge_blocklistRadius = 10.0
+
+	[Settings.Oryctolins]
+		# 
+		#Determines if Oryctolins should celebrate their victory against an Illager Raid by dancing
+		#Do note this feature chews up a lot of performance the more Oryctolins there are onscreen; not recommended for slower computers
+		#Default = false
+		oryctolin_victoryDance = false
+
+		[Settings.Oryctolins."Raid spawnrates"]
+			# 
+			#How many Converslins each wave
+			#Requires game restart
+			#Currently, this list must have no more and no less than 10 integers
+			converslin_raidcount = [1, 1, 1, 2, 2, 2, 3, 3, 4, 5]
+

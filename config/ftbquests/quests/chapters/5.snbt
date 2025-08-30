@@ -1,0 +1,541 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5"
+	group: "4A260ADF3C475ACE"
+	id: "5785BC6DC5EFA296"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E53E9A0DAB0DCDD"
+			tasks: [{
+				id: "38616F01E7B585FF"
+				item: {
+					Count: 1
+					id: "kubejs:sabito_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "5A20FC3584EE31BC"
+			tasks: [{
+				id: "36C0E1E5D7D19CA1"
+				item: {
+					Count: 1
+					id: "infinite_abyss:opal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "54245029234C425E"
+			tasks: [{
+				id: "001E3EF64D015B99"
+				item: {
+					Count: 1
+					id: "divinerpg:oxdrite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "07704C73D7205AD3"
+			tasks: [{
+				id: "727160922E880E23"
+				item: {
+					Count: 1
+					id: "extendedcrafting:black_iron_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "5828A1C513DBF1FF"
+			tasks: [{
+				id: "4F7A3834D727896D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:redstone_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "63F5A5776F322763"
+			tasks: [{
+				id: "5EF74B94B9EADC49"
+				item: {
+					Count: 1
+					id: "iter_rpg:sanguarnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "4DE1F36223DE07FF"
+			tasks: [{
+				id: "16E8B147877E29C1"
+				item: {
+					Count: 1
+					id: "naturesaura:tainted_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			id: "44DDFB23055C699D"
+			tasks: [{
+				id: "37B2E6E160DD97C7"
+				item: {
+					Count: 1
+					id: "divinerpg:ice_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "7A570D18B24A38EF"
+			tasks: [{
+				id: "626614CCA5389E6F"
+				item: {
+					Count: 1
+					id: "naturesaura:infused_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "35D5A389A8531CC1"
+			tasks: [{
+				id: "01B5344B345FE704"
+				item: {
+					Count: 1
+					id: "infinite_abyss:deeprock_golem_spirit_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "5B8B36AF365F48EB"
+			tasks: [{
+				id: "56BF92D5AF714707"
+				item: {
+					Count: 1
+					id: "chaos_project:stalker_skin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "726198191656805E"
+			tasks: [{
+				id: "31B323D48A8B8F08"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:ether_powder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "02A8DB503B32BD2B"
+			tasks: [{
+				id: "58ED9AC615FFF0AB"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:resonant_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "7933B16D4114EAF2"
+			tasks: [{
+				id: "45AE0170C2B2D3FF"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:heaven_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "370F2FE71AF7AB2A"
+			tasks: [{
+				id: "511E3E5DEA307D21"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:pure_copper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "13CE0FD5017E89F7"
+			tasks: [{
+				id: "28494C6B8676D846"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:light_fallen"
+					tag: {
+						skada.current_attack_type.tagKey: 0
+						skada.num_attack_types.tagKey: 1
+						skada.weapon_info.tagkey: {
+							attack_types: {
+								"skada:strike": {
+									accuracy: 1.0d
+									attackSpeedMod: 1.0d
+									damageBonus: 0.0d
+									failChance: 0.0d
+									lethality: 0.0d
+									maxReach: 3.0d
+									minReach: 0.0d
+								}
+							}
+							ignore_attributes: 0b
+							spread: {
+								powerBudget: 1.0d
+								ratios: {
+									"skada:basic": 1.0d
+								}
+							}
+							weight: 0.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "2F17D54C2633DEAF"
+			tasks: [{
+				id: "60A2B0C49ED8AC9C"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:eternal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "6B53A3CB396EE32A"
+			tasks: [{
+				id: "64809066F45BC378"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:marinne"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "7BC88CEACE65228A"
+			tasks: [{
+				id: "60933D05239331E0"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:aetherium"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "0CB835D00CF7B83D"
+			tasks: [{
+				id: "5B51D31ABE681123"
+				item: {
+					Count: 1
+					id: "the_beginning_and_heaven:celestial"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "04039A7DA4C91030"
+			tasks: [{
+				id: "69CA535EBE12DF99"
+				item: {
+					Count: 1
+					id: "kubejs:buchi_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "33EF841A11760A70"
+			tasks: [{
+				id: "15C6DBA08A5AF82E"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:cloth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "7A72CDE7A89EEA8B"
+			tasks: [{
+				id: "7131040E8F824A09"
+				item: {
+					Count: 1
+					id: "threateningly_mobs:nature_shell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "290AE7B949051E7D"
+			tasks: [{
+				id: "69C5F03607F4F1F0"
+				item: {
+					Count: 1
+					id: "threateningly_mobs:nature_embryo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "61A0C7010A4698BA"
+			tasks: [{
+				id: "7CE8E86C778CF178"
+				item: {
+					Count: 1
+					id: "threateningly_mobs:wood_horn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "7174C181BC057944"
+			tasks: [{
+				id: "6B5DA288D0F706BD"
+				item: {
+					Count: 1
+					id: "threateningly_mobs:lighting_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			id: "3669A65303E0AF5D"
+			tasks: [{
+				id: "4EC1E6587071E818"
+				item: {
+					Count: 1
+					id: "mhheavenandhell:kut_ku_scale"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "28DA6E6F15D4B0C5"
+			tasks: [{
+				id: "7C4AEADEC8181EC8"
+				item: {
+					Count: 1
+					id: "mhheavenandhell:kut_ku_wing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			id: "4885B763668D0593"
+			tasks: [{
+				id: "0F45991FFA2BF9AD"
+				item: {
+					Count: 1
+					id: "mhheavenandhell:flame_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "583F6234ADF22A85"
+			tasks: [{
+				id: "56945B55190173F2"
+				item: {
+					Count: 1
+					id: "kubejs:rui_father_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "7C99056352319069"
+			tasks: [{
+				id: "29335407908A0777"
+				item: {
+					Count: 1
+					id: "frozone:hound_tooth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "51BA9D604BE00435"
+			tasks: [{
+				id: "3EC88F4C4DDAA507"
+				item: {
+					Count: 1
+					id: "frozone:frost_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "79C277C90360B0FE"
+			tasks: [{
+				id: "395E4B596AE363DB"
+				item: {
+					Count: 1
+					id: "frozone:frost_fabric"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "2AE5C94AE3452F7C"
+			tasks: [{
+				id: "000242F38CC0E6A1"
+				item: {
+					Count: 1
+					id: "terrawhips_and_more:frostcore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			id: "385D819D454D8D7E"
+			tasks: [{
+				id: "786EBE3000E8A45D"
+				item: {
+					Count: 1
+					id: "fromtheshadows:crimson_shell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "164761E02AA58967"
+			tasks: [{
+				id: "179DF08CE865CD5D"
+				item: {
+					Count: 1
+					id: "chaos_project:dweller_spike"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["11,12,13章可获得材料"]
+	title: "5级"
+}

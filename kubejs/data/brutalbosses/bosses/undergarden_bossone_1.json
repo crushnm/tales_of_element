@@ -1,0 +1,39 @@
+{
+  "entity": "undergarden:rotbeast",
+  "name": "巨腐衰凶兽",
+  "visualscale": 1.5,
+  "experience": 300,
+  "protect_treasure": true,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 170,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+	"dropgear": 5 
+  },
+  "gear": {
+	"chestplate": "{id: \"selfexpression:soldier_chestplate\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "brutalbosses:summonmobs": {
+      "interval": 600,
+      "maxcount": 4,
+      "count": 2,
+      "entities": [
+        {
+          "entityid": "undergarden:rotling"
+        }
+      ]
+    },
+    "minecraft:target": {},
+    "brutalbosses:whirlwind": {
+      "potiononhit": "minecraft:poison",
+      "potionlevel": 1
+    }
+  },
+  "spawnatchest": {
+  }
+}

@@ -1,0 +1,407 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2C0B3F877AF86F3C"
+	group: "430456A023966AE7"
+	id: "2C0B3F877AF86F3C"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4CCA1DC9BF9FCDCD"]
+			id: "44487679C322228F"
+			tasks: [
+				{
+					id: "2C6E4A0EBDA46B8D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "infinite_abyss:second_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0FD5F6EA46F4E408"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "infinite_abyss:deepstone"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44487679C322228F"]
+			id: "1B9253D5E1620B92"
+			tasks: [{
+				id: "2D54C6EE9ED390B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "naturesaura:gold_fiber"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B9253D5E1620B92"]
+			id: "2FA256D068E2748C"
+			tasks: [
+				{
+					id: "7AFC2C7F59C69652"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "naturesaura:gold_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "123C07809857D7DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "naturesaura:wood_stand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2FA256D068E2748C"]
+			id: "5CB7C1F8043B6F44"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "kimetsunoyaiba:makomo"
+					id: "6F37139F9618B3F1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "60B7EFE1DC63182A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_30"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CB7C1F8043B6F44"]
+			id: "7F166856799D570A"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "kimetsunoyaiba:sabito"
+					id: "368D43680E1FB450"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "124459BA61BC1B4C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:curse_bait_31"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D54A639BE27DE34"]
+			id: "3C414F1B85320421"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "fromtheshadows:bulldrogioth"
+					id: "37F824C722D47998"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "457CCB883AA00FAA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:bulldrogioth"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C414F1B85320421"]
+			id: "079D6C5281698453"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "terrawhips_and_more:souloficewitch"
+					id: "0A00B3B884FBCAE1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3E5FFE78627B582A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "terrawhips_and_more:theancestorofice"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["079D6C5281698453"]
+			id: "55B844CD65443F49"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "themutantmobsmod:mutant_zombified_piglin"
+					id: "75E20B763F4994D2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5D19580F6DC0EAE7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:mutant_zombified_piglin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55B844CD65443F49"]
+			id: "747CBA5F7141FE5C"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "terra_entity:king_slime"
+					id: "0866CB63CE0EBA62"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1F3367399C5A6F1E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:slime_king2"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F166856799D570A"]
+			id: "4D54A639BE27DE34"
+			tasks: [{
+				id: "7FDCDFDF84FB2044"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vintageimprovements:helve_hammer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44487679C322228F"]
+			id: "7CCDDCAACB47AF3E"
+			tasks: [{
+				id: "6E111620CCC9FDA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iter_rpg:sanguarnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CCDDCAACB47AF3E"]
+			description: ["副手持玻璃瓶，使用血契击杀村民或动物可获得血瓶"]
+			id: "329296C86223EC04"
+			tasks: [
+				{
+					id: "7054D8754A8BC9F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iter_rpg:bloodletter"
+						tag: {
+							Damage: 0
+							Power: 0.125d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "291400572D72B323"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iter_rpg:blood_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2FA256D068E2748C"]
+			id: "14F0093A94E2EA0F"
+			tasks: [
+				{
+					id: "738F0A11EA580108"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iter_rpg:ametrine_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F518A738D7655D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iter_rpg:enchantome"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+	title: "第十一章：粉水晶洞穴"
+}

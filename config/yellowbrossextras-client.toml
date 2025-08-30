@@ -1,0 +1,5 @@
+
+["Client Settings"]
+	#Setting this to false will disable camera shakes.
+	cameraShakesAllowed = true
+

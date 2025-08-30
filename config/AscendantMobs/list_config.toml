@@ -1,0 +1,8 @@
+
+[Blacklist]
+	#write the registry name of the entities
+	banned = [" "]
+	death_messages = false
+	locked_mobs = ["100/minecraft:ender_dragon", "150/minecraft:wither", "000/alcaryabattle:cyborg", "060/gomwaga:punisher", "015/gomwaga:punisher_wariror", "015/youtubersgod:cuervo", "060/kimetsunoyaiba:hand_demon", "060/youtubersgod:fir", "060/youtubersgod:fir_naturaleza", "060/randomweirdmobs:abomination", "060/sansausremaster:sudden_changes", "000/randomweirdmobs:clone", "030/alcaryabattle:shinobisaber", "050/too_much_bosses:frozen_warlock", "050/paladins_oath:golem_of_undying_new", "050/mowziesmobs:ferrous_wroughtnaut", "010/paladins_oath:undying_apostle", "030/alcaryabattle:wizor", "030/palcaryabattle:magmagolem", "030/paladins_oath:dread_knight", "030/skeleton_uprising:emperor_skeleton_iii", "010/paladins_oath:bone_supporter", "030/paladins_oath:bone_revenant", "050/goety:brood_mother", "050/gomwaga:big_jungle_slime", "030/crimsonsteves_mutant_mobs:stunt_skeleton_upper_body", "030/crimsonsteves_mutant_mobs:mutant_skeleton", "030/dota:crystal_maiden_hero", "010/meetyourfight:swampjaw", "005/armageddon_mod:the_iron_colossus", "005/armageddon_mod:the_gobelin_lord", "005/armageddon_mod:arion_tyrantofthe_emerald_wrath_ravager", "005/armageddon_mod:arion_tyrant_of_the_emerald_wrath_soldat", "005/armageddon_mod:eldoraththe_ancient_builder", "015/gomwaga:harpy_of_blades", "010/alcaryabattle:reaper", "020/terrawhips_and_more:thekingslime", "015/burrows:moleking", "050/crimson_steves_mobs:cyborg_vindicator", "050/randomweirdmobs:eyeofwater", "050/randomweirdmobs:drownedlord", "050/terrawhips_and_more:soulofmountains", "050/kimetsunoyaiba:yahaba", "010/terrawhips_and_more:soulcreeper"]
+	can_be_ascendant = ["minecraft:zombie", "minecraft:skeleton"]
+

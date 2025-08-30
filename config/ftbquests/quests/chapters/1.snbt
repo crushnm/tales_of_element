@@ -1,0 +1,779 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "4A260ADF3C475ACE"
+	id: "669B2D0E9386B16A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4C3BCF8E86D1FDDD"
+			tasks: [{
+				id: "4D519A8A94062228"
+				item: {
+					Count: 1
+					id: "minecraft:copper_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "1DE7C38B47406ED5"
+			tasks: [{
+				id: "6135C5459BCAE95C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/tin"
+					}
+				}
+				title: "Any #forge:ingots/tin"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "229658947B39376E"
+			tasks: [{
+				id: "2FF0BE2B8734EA8E"
+				item: {
+					Count: 1
+					id: "minecraft:iron_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "5047A4D12D10CE43"
+			tasks: [{
+				id: "73E1996872AFDA14"
+				item: {
+					Count: 1
+					id: "minecraft:lapis_lazuli"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "444DC531F6D3705A"
+			tasks: [{
+				id: "761DAC1D9583C0DD"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "73C2A110BD50450F"
+			tasks: [{
+				id: "525D587E85615FBB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/lead"
+					}
+				}
+				title: "Any #forge:ingots/lead"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "5623CF3702C441CD"
+			tasks: [{
+				id: "2C6CD5BD331ABC5C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "581540935D0718FA"
+			tasks: [{
+				id: "68D4077112BACFE6"
+				item: {
+					Count: 1
+					id: "malum:natural_quartz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "23438ED7BF74F646"
+			tasks: [{
+				id: "2CB7AA0AEB50957E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/silver"
+					}
+				}
+				title: "Any #forge:ingots/silver"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "7AAA77BCA79235ED"
+			tasks: [{
+				id: "713518591A5165E1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/nickel"
+					}
+				}
+				title: "Any #forge:ingots/nickel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "507E7FA9A44C8BB9"
+			tasks: [{
+				id: "5406AB87F11D0558"
+				item: {
+					Count: 1
+					id: "minecraft:gold_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "101A05186CDFC64D"
+			tasks: [{
+				id: "3E30B0CB0A94DB4C"
+				item: {
+					Count: 1
+					id: "goety:soul_emerald"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "75EDD37FCE5133A9"
+			tasks: [{
+				id: "398E630DAF9BF575"
+				item: {
+					Count: 1
+					id: "goety:cursed_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "2242A07D68133852"
+			tasks: [{
+				id: "72C071BEE3831497"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "11A08B61DA2B78DF"
+			tasks: [{
+				id: "7A2E4B08AF214662"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "2D22F846044429F7"
+			tasks: [{
+				id: "1FAB2AC033D7951C"
+				item: {
+					Count: 1
+					id: "malum:soul_stained_steel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "573CD6A89EC0EF41"
+			tasks: [{
+				id: "44BC053952BF389A"
+				item: {
+					Count: 1
+					id: "undergarden:mogmoss"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "44C51B28F6A7990B"
+			tasks: [{
+				id: "3C875938F5561727"
+				item: {
+					Count: 1
+					id: "gnumus:vintage_alloy_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "11C5C53A567C37FF"
+			tasks: [{
+				id: "071D740A1AE6101D"
+				item: {
+					Count: 1
+					id: "gnumus:mouse_skin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "5282647A07BC1C5E"
+			tasks: [{
+				id: "1E6D43CB104AB7AD"
+				item: {
+					Count: 1
+					id: "malum:processed_soulstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "0A28E4C5C27B02E4"
+			tasks: [{
+				id: "50A4E15DB994232B"
+				item: {
+					Count: 1
+					id: "meetyourfight:mossy_tooth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "0829DD432E6417E3"
+			tasks: [{
+				id: "5DD848016E6218B8"
+				item: {
+					Count: 1
+					id: "armageddon_mod:colossal_iron_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "61574D0D615FD5E3"
+			tasks: [{
+				id: "1E8E4DA54B746DCE"
+				item: {
+					Count: 1
+					id: "armageddon_mod:gilded_plate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "7AEBC2BC4685D328"
+			tasks: [{
+				id: "7E2F692A44228A99"
+				item: {
+					Count: 1
+					id: "undergarden:utheric_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "542FA3EAD80E1288"
+			tasks: [{
+				id: "46E0899D29D98A46"
+				item: {
+					Count: 1
+					id: "goety:savage_tooth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "66924B9915D8F611"
+			tasks: [{
+				id: "5F28B4A01F50DADD"
+				item: {
+					Count: 1
+					id: "terrawhips_and_more:gel_real"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "451B5318970CA699"
+			tasks: [{
+				id: "7A9B3B244487E365"
+				item: {
+					Count: 1
+					id: "minecraft:prismarine_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "17335107291BF57C"
+			tasks: [{
+				id: "46D54032E6876993"
+				item: {
+					Count: 1
+					id: "minecraft:prismarine_crystals"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "1C30A8B975E92713"
+			tasks: [{
+				id: "663F957DA20A873E"
+				item: {
+					Count: 1
+					id: "minecraft:string"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "7AF8943A455AD420"
+			tasks: [{
+				id: "1EF43B802703055C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "64AAFFDF8970BF41"
+			tasks: [{
+				id: "3DC4DDA90DE8C030"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cobblestone/normal"
+					}
+				}
+				title: "Any #forge:cobblestone/normal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "241070F53B14B887"
+			tasks: [{
+				id: "7AFEB90A59ACB893"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "75623D8024A45CEA"
+			tasks: [{
+				id: "31F23EC4509DDE1B"
+				item: {
+					Count: 1
+					id: "minecraft:scute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "778729F7FA827E42"
+			tasks: [{
+				id: "02CFB336495DBD1B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+				title: "Any #minecraft:leaves"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "4A9D688A8208E4FC"
+			tasks: [{
+				id: "6ACCF32018EF5AAD"
+				item: {
+					Count: 1
+					id: "minecraft:leather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "1A536C249F13AF25"
+			tasks: [{
+				id: "5CC84C40A8001BD5"
+				item: {
+					Count: 1
+					id: "minecraft:feather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "7E6325FFDCEBA97D"
+			tasks: [{
+				id: "6460568259383DE2"
+				item: {
+					Count: 1
+					id: "minecraft:phantom_membrane"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "34F11A36D8F42EE3"
+			tasks: [{
+				id: "31FD3F9C205AA4B4"
+				item: {
+					Count: 1
+					id: "minecraft:flint"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "0E66DC48E5821834"
+			tasks: [{
+				id: "3EF1894A15034D6F"
+				item: {
+					Count: 1
+					id: "minecraft:obsidian"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "0F092D43B80DB54F"
+			tasks: [{
+				id: "6F181FE484661DEB"
+				item: {
+					Count: 1
+					id: "silentgear:sinew_fiber"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "33BBD3BD5642FD16"
+			tasks: [{
+				id: "3B3912A77B695BE5"
+				item: {
+					Count: 1
+					id: "silentgear:fine_silk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "7338F4C87F82B4DA"
+			tasks: [{
+				id: "6BA05AC284E11262"
+				item: {
+					Count: 1
+					id: "silentgear:flax_string"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "3BC9A0EEDF5681A5"
+			tasks: [{
+				id: "715E8F8E2F9B40C5"
+				item: {
+					Count: 1
+					id: "pasterdream:fabric"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "4B8DBAD224E5A305"
+			tasks: [{
+				id: "53DA65F301762652"
+				item: {
+					Count: 1
+					id: "iter_rpg:abyssquartz_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			id: "20C2C5239B3A08CA"
+			tasks: [{
+				id: "6B93D8CB9A86A6D2"
+				item: {
+					Count: 1
+					id: "adventuresmod:topaz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "14D568448F48C3F0"
+			tasks: [{
+				id: "222C6C11C89E9FC3"
+				item: {
+					Count: 1
+					id: "gnumus:gnumus_claw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "53C1E0146FF6B658"
+			tasks: [{
+				id: "59BB7F74C7F0199D"
+				item: {
+					Count: 1
+					id: "hmag:evil_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "6BE5E79A52878152"
+			tasks: [{
+				id: "014226A91622F852"
+				item: {
+					Count: 1
+					id: "gnumus:gnumus_horn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "52982D54A4EBF72F"
+			tasks: [{
+				id: "3AD185F16F533A68"
+				item: {
+					Count: 1
+					id: "mowziesmobs:naga_fang"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "48B969988C5ED0F5"
+			tasks: [{
+				id: "5A242F415BE27D61"
+				item: {
+					Count: 1
+					id: "iceandfire:sapphire_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "7C9BFF63A3CC75D5"
+			tasks: [{
+				id: "0BB1C30CD302A884"
+				item: {
+					Count: 1
+					id: "minecraft:amethyst_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			id: "66BF400CD637BA17"
+			tasks: [{
+				id: "61201E3C04C74929"
+				item: {
+					Count: 1
+					id: "terramity:ruby"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "0981E9FDED93B017"
+			tasks: [{
+				id: "3D27203BC1DCE405"
+				item: {
+					Count: 1
+					id: "kubejs:harpy_feather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+	]
+	subtitle: ["序章以及第一章可获得材料"]
+	title: "1级"
+}
