@@ -1,4 +1,5 @@
 !defaultconfigs/
 !config/
 !kubejs/
+kubejs/probe
 !.gitignore
