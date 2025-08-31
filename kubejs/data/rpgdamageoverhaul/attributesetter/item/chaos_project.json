@@ -1,0 +1,14 @@
+{
+    "carrot_hammer": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 14,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.damage",
+      "value": 14,
+      "operation": "BASE"
+    }
+  ]
+}

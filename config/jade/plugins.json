@@ -126,11 +126,11 @@
     "key": true,
     "crusher": true
   },
-  "petrolpark": {
-    "contamination": true
-  },
   "waystones": {
     "waystone": true
+  },
+  "astages": {
+    "block_component_provider": true
   },
   "goety": {
     "block_owner": true,

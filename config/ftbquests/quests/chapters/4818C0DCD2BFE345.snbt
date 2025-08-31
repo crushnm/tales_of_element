@@ -41,7 +41,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -61,10 +61,11 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 0.5d
 		}
 		{
+			dependencies: ["69D5F0A58D084026"]
 			id: "1E06E2EAEC455BB7"
 			shape: "pentagon"
 			size: 1.5d
@@ -90,10 +91,11 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
+			dependencies: ["70ED3571076C72E4"]
 			id: "1F31D168797C3EB1"
 			shape: "pentagon"
 			size: 1.5d
@@ -229,7 +231,32 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25614DC0E5392A13"]
+			id: "69D5F0A58D084026"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5AEE0EECFAAF4D96"
+					item: {
+						Count: 1
+						id: "kubejs:curse_bait_38"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "dota:windranger_hero"
+					id: "24AC9EDEBEFAECCD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
 			y: 0.5d
 		}
 	]

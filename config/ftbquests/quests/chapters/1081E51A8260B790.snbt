@@ -398,6 +398,74 @@
 			x: 7.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["4F09E93A13FBBC7C"]
+			id: "61D46EF796C787F0"
+			subtitle: "存入豆奶或放入嫩豆腐，豆腐，石豆腐和豆腐宝石可以收集豆腐能"
+			tasks: [{
+				id: "0D856E7C8421BC69"
+				item: {
+					Count: 1
+					id: "tofucraft:tf_storage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "新式能源"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61D46EF796C787F0"]
+			description: ["基础天线可用于传输豆腐能，只需在耗能设备与供能设备上均放置一个即可"]
+			id: "026C962BD1595A9D"
+			tasks: [{
+				id: "3D25FFCE8A926FD9"
+				item: {
+					Count: 1
+					id: "tofucraft:antenna_basic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "能量传输"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["026C962BD1595A9D"]
+			id: "553A60E9F7034B3F"
+			subtitle: "需要豆腐能才能运作"
+			tasks: [{
+				id: "4EB9C59E7FD99ACC"
+				item: {
+					Count: 1
+					id: "tofucraft:tf_crafting_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "豆腐工艺"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F09E93A13FBBC7C"]
+			id: "27236C2D21185DB2"
+			subtitle: "豆腐锅能烹饪某些菜品，需要在下方放置一个热源才能工作"
+			tasks: [{
+				id: "453557C941AAC5A2"
+				item: {
+					Count: 1
+					id: "tofucraft:tofu_pot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "热乎乎的豆腐"
+			x: 3.5d
+			y: 2.0d
+		}
 	]
 	title: "第七章：豆腐豆腐！！"
 }

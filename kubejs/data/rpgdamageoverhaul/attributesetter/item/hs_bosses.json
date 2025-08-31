@@ -1,0 +1,8 @@
+{
+    "sand_sword_test": [
+    {
+      "attribute": "rpgdamageoverhaul:earth.damage",
+      "value": 2.5
+    }
+  ]
+}

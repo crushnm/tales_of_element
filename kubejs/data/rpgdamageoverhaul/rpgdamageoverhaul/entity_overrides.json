@@ -546,6 +546,7 @@
   "paladins_oath:ground_crystal":{"piercing": 0.5,"earth": 0.5},
   "paladins_oath:dungeon_guard":{"piercing": 0.5,"earth": 0.5},
   "paladins_oath:dungeon_bearer":{"piercing": 0.5,"earth": 0.5},
+  "paladins_oath:rock":{"blunt": 0.5,"earth": 0.5},
   "paladins_oath:boulder":{"piercing": 0.5,"earth": 0.5},
   "paladins_oath:roc":{"piercing": 0.5,"earth": 0.5},
 
@@ -559,6 +560,7 @@
   "armageddon_mod:gilded_nugget_projectile":{"blunt": 0.75, "arcane": 0.25},
   "armageddon_mod:eldoraththe_ancient_builder":{"slashing": 0.75, "holy": 0.25},
   "armageddon_mod:ancient_allay":{"slashing": 0.75, "holy": 0.25},
+  "armageddon_mod:fire_spark":{"piercing": 0.65, "fire": 0.35},
   "armageddon_mod:arion_tyrantofthe_emerald_wrath_ravager":{"blunt": 1},
   "armageddon_mod:arion_tyrant_of_the_emerald_wrath_soldat":{"slashing": 1},
 
@@ -574,6 +576,8 @@
   "terrawhips_and_more:soulofmountains":{"blunt": 0.5,"soul": 0.5},
   "terrawhips_and_more:soulcreeper":{"blunt": 0.5,"soul": 0.5},
   "terrawhips_and_more:projectile_fragmented_soul":{"blunt": 0.5,"soul": 0.5},
+  "terrawhips_and_more:projectile_spirit_proyectile":{"blunt": 0.5,"soul": 0.5},
+  "terrawhips_and_more:spirit_creeper":{"blunt": 0.5,"soul": 0.5},
   "terrawhips_and_more:souloficewitch":{"blunt": 0.5,"frost": 0.5},
   "terrawhips_and_more:ice_golem":{"blunt": 0.5,"frost": 0.5},
   "terrawhips_and_more:projectile_circleproyectil":{"blunt": 0.5,"frost": 0.5},
@@ -709,6 +713,9 @@
   "dota:lina_arrow_cast_1":{"piercing": 0.50, "fire": 0.50},
   "dota:kez_hero":{"slashing": 0.50, "wind": 0.50},
   "dota:wei_hero":{"slashing": 0.50, "soul": 0.50},
+  "dota:windranger_hero":{"piercing": 0.50, "wind": 0.50},
+  "dota:windranger_arrow":{"piercing": 0.50, "wind": 0.50},
+  "dota:windranger_arrow_cast":{"piercing": 0.50, "wind": 0.50},
 
   "iceandfire:sea_serpent":{"piercing": 0.50, "water": 0.50},
 

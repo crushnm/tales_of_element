@@ -45,7 +45,7 @@
 				}
 			]
 			title: "伸手不见五指"
-			x: -13.0d
+			x: -11.0d
 			y: 0.0d
 		}
 		{
@@ -84,7 +84,7 @@
 				}
 			]
 			title: "黑暗矿产"
-			x: -11.0d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -115,7 +115,7 @@
 				}
 			]
 			title: "鼓之鬼"
-			x: -7.0d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -146,42 +146,11 @@
 				}
 			]
 			title: "狛治"
-			x: -5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["57AC4733E91D5FB9"]
-			id: "522E89E2F385C95C"
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [
-				{
-					entity: "crimsonsteves_mutant_mobs:chad_withered_boxer"
-					id: "0DE8E5E2C2899AC8"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "11AA026AEAA249F7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:chad_boxer"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "擂台赛"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["522E89E2F385C95C"]
+			dependencies: ["57AC4733E91D5FB9"]
 			id: "1D1EABFB8F16A23E"
 			shape: "pentagon"
 			size: 1.5d
@@ -377,7 +346,7 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -465,7 +434,7 @@
 				type: "item"
 			}]
 			title: "有魔法的骨头"
-			x: -13.0d
+			x: -11.0d
 			y: -1.5d
 		}
 		{
@@ -486,7 +455,7 @@
 				type: "item"
 			}]
 			title: "精英骷髅入侵"
-			x: -13.0d
+			x: -11.0d
 			y: -3.0d
 		}
 	]

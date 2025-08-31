@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => { //listen for the "recipes" server event.
 
   //还没用
-
+  event.remove({ id: 'paladins_oath:a_7' })
   // boss掉落
   event.remove({ id: 'iter_rpg:ring_iron_sanguarnet_craft' })
   event.remove({ id: 'iter_rpg:ring_iron_diamond_craft' })
@@ -22,6 +22,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   event.remove({ id: 'undergarden:shard_to_crystal' })
   // event.remove({output:'beansbackpacks:backpack'})
   event.remove({id:'kaleidoscope_doll:doll_machine'})
+  event.remove({id:'the_beginning_and_heaven:recetajoyeria'})
   event.remove({ id: 'undergarden:froststeel_nugget_to_ingot' })
   event.remove({ id: 'beansbackpacks:leather_backpack' })
   event.remove({ id: 'beansbackpacks:iron_backpack' })
@@ -159,6 +160,41 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     C: 'armageddon_mod:colossal_iron_ingot',
     D: 'gnumus:vintage_charger',
     E: '#minecraft:logs'
+  }
+  )
+
+  event.remove({ id: 'create_new_age:shaped/redstone_magnet' })
+  event.shaped('2x create_new_age:redstone_magnet', [// arg 1: output
+    ' A ',
+    'ABA', // arg 2: the shape (array of strings)
+    ' A '
+  ], {
+    A: 'extendedcrafting:redstone_ingot',
+    B: 'create_new_age:magnetite_block'
+  }
+  )
+
+  event.remove({ id: 'create_new_age:shaped/layered_magnet' })
+  event.shaped('2x create_new_age:layered_magnet', [// arg 1: output
+    ' C ',
+    'ABA', // arg 2: the shape (array of strings)
+    ' C '
+  ], {
+    A: 'create_new_age:overcharged_gold',
+    B: 'create_new_age:magnetite_block',
+    C: 'create_new_age:overcharged_iron'
+  }
+  )
+
+  event.remove({ id: 'create_new_age:shaped/fluxuated_magnetite' })
+  event.shaped('2x create_new_age:fluxuated_magnetite', [// arg 1: output
+    'BAB',
+    'ACA', // arg 2: the shape (array of strings)
+    'BAB'
+  ], {
+    A: 'create_new_age:overcharged_diamond',
+    B: 'create_new_age:magnetite_block',
+    C: 'threateningly_mobs:lighting_gem'
   }
   )
 
@@ -394,6 +430,18 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   }
   )
 
+  event.remove({ id: 'flavor_immersed_daily:bonecutterknifemaking' })
+  event.shaped('flavor_immersed_daily:bonecutterknife', [// arg 1: output
+    ' CC',
+    'CBB', // arg 2: the shape (array of strings)
+    '  A'
+  ], {
+    A: '#forge:rods/wooden',
+    B: '#forge:ingots/bronze',
+    C: '#forge:nugget/bronze'  //arg 3: the mapping object
+  }
+  )
+
   event.remove({ id: 'pneumaticcraft:thermopneumatic_processing_plant' })
   event.shaped('pneumaticcraft:thermopneumatic_processing_plant', [// arg 1: output
     'CCC',
@@ -618,6 +666,20 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
       B: 'pasterdream:fabric',
       C: 'terrawhips_and_more:soul',
       A: 'minecraft:grass_block'
+    }
+  )
+
+  event.remove({ id: 'skeleton_uprising:cloth_r' })
+  event.shaped(
+    Item.of('4x skeleton_uprising:cloth'),
+    [
+      'AB ',
+      'BB ',
+      'B  '
+    ],
+    {
+      B: '#minecraft:wool',
+      A: 'silentgear:fluffy_puff'
     }
   )
 
@@ -969,6 +1031,17 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     E: 'frozone:cyro_scrap'
   })
 
+  event.remove({ id: 'legendary_monsters:monstrous_anchor' })
+  event.recipes.create.mechanical_crafting('legendary_monsters:monstrous_anchor', [
+    'CCC',
+    ' A ',
+    ' B '
+  ], {
+    A: 'silentgear:pickaxe_blueprint',
+    B: 'legendary_monsters:anchor_handle',
+    C: 'minecraft:iron_block',
+  })
+
   event.remove({ id: 'silentgear:coating_template' })
   event.recipes.create.mechanical_crafting('silentgear:coating_template', [
     'DDD',
@@ -1200,6 +1273,14 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
 
   //压块塑性
   event.recipes.create.compacting('youkaishomecoming:drying_rack', ['reactive:force_rock', 'minecraft:stripped_bamboo_block'])
+  event.remove({ id: 'overworldpiglins:piglin_slayer_helmet' })
+  event.remove({ id: 'overworldpiglins:piglin_slayer_chestplate' })
+  event.remove({ id: 'overworldpiglins:piglin_slayer_boots' })
+  event.remove({ id: 'overworldpiglins:piglin_slayer_leggins' })
+  event.recipes.create.compacting('overworldpiglins:piglin_slayer_armor_2_helmet', ['2x overworldpiglins:small_piglin_fang', 'overworldpiglins:grand_piglin_fang','5x mna:transmuted_silver','silentgear:helmet_blueprint'])
+  event.recipes.create.compacting('overworldpiglins:piglin_slayer_armor_2_chestplate', ['4x overworldpiglins:small_piglin_fang', '3x overworldpiglins:grand_piglin_fang','8x mna:transmuted_silver','silentgear:chestplate_blueprint'])
+  event.recipes.create.compacting('overworldpiglins:piglin_slayer_armor_2_leggings', ['3x overworldpiglins:small_piglin_fang', '2x overworldpiglins:grand_piglin_fang','7x mna:transmuted_silver','silentgear:leggings_blueprint'])
+  event.recipes.create.compacting('overworldpiglins:piglin_slayer_armor_2_boots', ['overworldpiglins:small_piglin_fang', 'overworldpiglins:grand_piglin_fang','4x mna:transmuted_silver','silentgear:boots_blueprint'])
 
   //序列组装
   let inter = "kubejs:misc_box"
@@ -1472,6 +1553,36 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
       {
         "type": "earthen",
         "count": 8
+      }
+    ]
+  )
+
+  event.remove({id:'armageddon_mod:sparkling_stick_recipe'})
+  spirit_infusion(["8x minecraft:coal"], "jerotes:simple_spear", "armageddon_mod:sparkling_stick",
+    [
+      {
+        "type": "infernal",
+        "count": 4
+      }
+    ]
+  )
+
+  event.remove({id:'legendary_monsters:the_great_frost'})
+  spirit_infusion(["2x legendary_monsters:primal_ice_shard","legendary_monsters:frozen_rune","2x undergarden:froststeel_ingot"], "silentgear:machete_blueprint", "legendary_monsters:the_great_frost",
+    [
+      {
+        "type": "aqueous",
+        "count": 16
+      }
+    ]
+  )
+
+  event.remove({id:'paladins_oath:spe'})
+  spirit_infusion(["2x paladins_oath:boulder_rod","3x paladins_oath:dark_steel_ingot","4x gaiadimension:sturdy_pebble"], "silentgear:spear_blueprint", "paladins_oath:boulder_breaker_spear",
+    [
+      {
+        "type": "earthen",
+        "count": 16
       }
     ]
   )
@@ -1831,6 +1942,24 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     ]
   )
 
+  event.remove({ id: 'chaos_project:carrot_craft' })
+  spirit_infusion(["3x kitchenkarrot:gem_carrot", "chaos_project:soul_of_majesty", "3x chaos_project:mintolis_ingot"], "silentgear:hammer_blueprint", "chaos_project:carrot_hammer",
+    [
+      {
+        "type": "earthen",
+        "count": 16
+      },
+      {
+        "type": "wicked",
+        "count": 4
+      },
+      {
+        "type": "arcane",
+        "count": 8
+      }
+    ]
+  )
+
   event.remove({ id: 'malum:spirit_infusion/hallowed_gold_ingot' })
   spirit_infusion(["4x reactive:quartz"], "minecraft:gold_ingot", "malum:hallowed_gold_ingot",
     [
@@ -2048,6 +2177,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
 
   altar(["flavor_immersed_daily:rawpigheart", "minecraft:prismarine_shard", "enderzoology:ender_fragment", "enderzoology:ender_fragment", "enderzoology:ender_fragment"], "kubejs:drownlord_heart")
   event.remove({ id: 'feywild:dwarven_anvil' })
+  altar(["feywild:fey_dust", "feywild:lesser_fey_gem", "feywild:lesser_fey_gem", "flintnpowder:flinter", "kubejs:steel_ingot"], "flintnpowder:volleygun")
   altar(["feywild:fey_dust", "feywild:lesser_fey_gem", "feywild:lesser_fey_gem", "minecraft:iron_block", "ad_astra:steel_block"], "feywild:dwarven_anvil")
   event.remove({ id: 'skeleton_uprising:skeleton_war_banner_r' })
   altar(["mna:transmuted_silver", "mna:transmuted_silver", "skeleton_uprising:cloth", "skeleton_uprising:cloth", "feywild:fey_ink_bottle"], "skeleton_uprising:skeleton_war_banner_item")
@@ -2138,7 +2268,11 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   tree_ritual(["unearthed_journey:psilocybe_azurescens", "minecraft:red_mushroom", "minecraft:brown_mushroom", "chaos_project:goo", "naturesaura:infused_iron", "naturesaura:infused_iron"], "agonysing_hell:shroomy_crown", "gaiadimension:green_agate_sapling", 600)
   tree_ritual(["land_of_goblins:blank_totem", "create_new_age:overcharged_gold", "chaos_project:tontonolim_ingot", "chaos_project:goo", "kubejs:steel_ingot", "kubejs:steel_ingot", "naturesaura:infused_iron"], "rpgadventures:heart_of_goblins", "gaiadimension:green_agate_sapling", 600)
   tree_ritual(["threateningly_mobs:horsehoecrab_blood", "minecraft:writable_book", "magichem:signalite_meticulous", "magichem:signalite_equating", "magichem:signalite_devouring", "naturesaura:token_rage", "naturesaura:sky_ingot", "chaos_project:crabby_claw"], "kubejs:book_dog_eared", "gaiadimension:green_agate_sapling", 600)
-  tree_ritual(["minecraft:lapis_block", "minecraft:lapis_block", "naturesaura:sky_ingot", "frozone:ice_core", "goety:cursed_ingot", "goety:cursed_ingot", "unearthed_journey:chert_bricks", "unearthed_journey:chert_bricks"], "immortalers_delight:enchantal_cooler", "gaiadimension:blue_agate_sapling", 600)
+  // tree_ritual(["minecraft:lapis_block", "minecraft:lapis_block", "naturesaura:sky_ingot", "frozone:ice_core", "goety:cursed_ingot", "goety:cursed_ingot", "unearthed_journey:chert_bricks", "unearthed_journey:chert_bricks"], "immortalers_delight:enchantal_cooler", "gaiadimension:blue_agate_sapling", 600)
+  tree_ritual(["terrawhips_and_more:frostcore", "terrawhips_and_more:frostcore", "vintageimprovements:palladium_rod", "vintageimprovements:palladium_rod", "unusual_delight:snow_head", "silentgear:sickle_blueprint"], "terrawhips_and_more:frostscythe", "gaiadimension:blue_agate_sapling", 600)
+  event.remove({ id: 'terrawhips_and_more:frosscytlecraft' })
+  tree_ritual(["the_beginning_and_heaven:pure_copper", "the_beginning_and_heaven:pure_copper", "adventuresmod:aquatic_debris", "adventuresmod:aquatic_debris", "adventuresmod:twisted_bone", "adventuresmod:twisted_bone", "silentgear:trident_blueprint"], "adventuresmod:conjurer_trident", "gaiadimension:blue_agate_sapling", 600)
+  event.remove({ id: 'adventuresmod:conjurer_trident' })
 
   //自然祭坛
   function naturealtar(input, output, aura, time) {
@@ -2212,6 +2346,10 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   dwarven_anvil(["feywild:shiny_fey_gem", "minecraft:heart_of_the_sea"], 50, "aquaticcreaturesmod:mesopelagic_heart", "feywild:schematics_elven_quartz")
   event.remove({ id: 'valoria:jeweler_table' })
   dwarven_anvil(["minecraft:crafting_table", "feywild:raw_spring_elven_quartz", "feywild:raw_summer_elven_quartz", "feywild:raw_autumn_elven_quartz", "feywild:raw_winter_elven_quartz"], 300, "valoria:jeweler_table", "feywild:schematics_elven_quartz")
+  event.remove({ id: 'skeleton_uprising:bonecutter_r' })
+  dwarven_anvil(["allthecompressed:bone_block_1x", "skeleton_uprising:runed_bone", "minecraft:iron_ingot", "minecraft:iron_ingot", "silentgear:katana_blueprint"], 300, "skeleton_uprising:bonecutter", "feywild:schematics_elven_quartz")
+    event.remove({ id: 'skeleton_uprising:occult_scarf_r' })
+  dwarven_anvil(["skeleton_uprising:cloth", "skeleton_uprising:cloth", "skeleton_uprising:runed_bone", "skeleton_uprising:runed_bone", "silentgear:helmet_blueprint"], 300, "skeleton_uprising:occult_scarf_helmet", "feywild:schematics_elven_quartz")
 
   //符文锻炉
   function arcane_furnace(tier, input, output, burnTime) {
@@ -2227,12 +2365,8 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   }
 
   arcane_furnace(1, "tide:bait", "kubejs:curse_bait_0", 600)
-  event.remove({ id: 'gomwaga:gomwagnum_ore_smelting' })
-  event.remove({ id: 'gomwaga:ritogium_smelting' })
-  event.remove({ id: 'flintnpowder:cast_iron_ingot_blasting' })
-  arcane_furnace(1, "gomwaga:raw_ritogium", "gomwaga:ritogium_ingot", 600)
-  arcane_furnace(1, "gomwaga:raw_gomwagnum", "gomwaga:gomwagnumingot", 600)
-  arcane_furnace(1, "flintnpowder:cast_iron_alloy", "flintnpowder:cast_iron_ingot", 600)
+  event.recipes.mna.arcaneFurnace("flintnpowder:cast_iron_alloy","flintnpowder:cast_iron_ingot",600)
+  event.recipes.mna.arcaneFurnace("gomwaga:raw_ritogium","gomwaga:ritogium_ingot",600)
 
 
   //卷簧机
@@ -2878,7 +3012,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   offering("minecraft:soul_lantern", "valoria:amber_gem", "kubejs:fortress_lamp")
   offering("kubejs:steel_orb", "naturesaura:token_euphoria", "kubejs:spell_orb")
   offering("tide:lucky_bait", "naturesaura:token_terror", "kubejs:curse_bait_46")
-  offering("reactive:crucible", "jujutsucraft:death_painting", "magichem:alembic")
+  offering("reactive:crucible", "egorsanss_bosses:ultra_drill", "magichem:alembic")
   offering("kubejs:curse_bait_46", "magichem:signalite", "kubejs:curse_bait_47")
   offering("kubejs:freeze_gem", "magichem:signalite_gatekeeping", "kubejs:cyromancer_orb")
   offering("kubejs:curse_bait_48", "biomancy:bio_lumens", "kubejs:curse_bait_49")

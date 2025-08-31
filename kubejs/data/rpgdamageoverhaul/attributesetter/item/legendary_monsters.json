@@ -35,12 +35,23 @@
   "legendary_monsters:the_great_frost": [
     {
       "attribute": "minecraft:generic.attack_damage",
-      "value": 2,
+      "value": 13,
       "operation": "BASE"
     },
     {
       "attribute": "rpgdamageoverhaul:frost.damage",
-      "value": 4
+      "value": 10
+    }
+  ],
+  "legendary_monsters:monstrous_anchor": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 22,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:slashing.damage",
+      "value": 14
     }
   ],
   "legendary_monsters:axe_of_lightning": [

@@ -535,6 +535,20 @@
 			x: -1.0d
 			y: -1.0d
 		}
+		{
+			id: "05197B393D542298"
+			tasks: [{
+				id: "22A6628FB3029479"
+				item: {
+					Count: 1
+					id: "rpgadventures:vyanomite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
 	]
 	subtitle: ["11,12,13章可获得材料"]
 	title: "5级"

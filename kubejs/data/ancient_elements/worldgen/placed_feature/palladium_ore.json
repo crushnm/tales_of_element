@@ -21,11 +21,10 @@
       }
     },
     {
-      "type": "minecraft:biome"
+      "type": "minecraft:biome",
+      "biomes": [
+        "burrows:burrow_caves"
+      ]
     }
-  ],
-  "dimension_filter": {
-    "type": "minecraft:in_dimension", 
-    "dimension": "burrows:the_burrows"
-  }
+  ]
 }

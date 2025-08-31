@@ -5,5 +5,46 @@
       "value": 4,
       "operation": "BASE"
     }
+  ],
+  "bonecutter": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 11,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:piercing.damage",
+      "value": 10,
+      "operation": "BASE"
+    }
+  ],
+  "soulblade": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:soul.damage",
+      "value": 15,
+      "operation": "BASE"
+    }
+  ],
+  "occult_scarf_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 7,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.armor",
+      "value": 4.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.armor",
+      "value": -3,
+      "operation": "BASE"
+    }
   ]
 }

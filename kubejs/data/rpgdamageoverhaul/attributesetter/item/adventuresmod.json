@@ -1,0 +1,14 @@
+{
+    "conjurer_trident": [
+    {
+      "attribute": "rpgdamageoverhaul:piercing.damage",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.damage",
+      "value": 15,
+      "operation": "BASE"
+    }
+  ]
+}

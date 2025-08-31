@@ -44,7 +44,8 @@ const element_item = {
       "flintnpowder:steel_buckshot":"50%钝器&50%火",
       "flintnpowder:steel_roundshot":"50%钝器&50%火",
       "flintnpowder:heavy_cast_iron_roundshot":"50%钝器&50%土",
-      "chaos_project:pistol":"10伤害\n50%钝器&50%火"
+      "chaos_project:pistol":"10伤害\n50%钝器&50%火",
+      "armageddon_mod:sparkling_stick":"15伤害\n65%突刺&35%火"
 }
 for(let items in element_item){
   element_item_tooltip(items,element_item[items])

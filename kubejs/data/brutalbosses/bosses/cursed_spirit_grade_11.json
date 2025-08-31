@@ -1,6 +1,6 @@
 {
-  "entity": "jujutsucraft:cursed_spirit_grade_11",
-  "name": "准1级咒灵:尊巴",
+  "entity": "dota:windranger_hero",
+  "name": "风行者",
   "visualscale": 1,
   "experience": 200,
   "protect_treasure": true,

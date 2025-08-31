@@ -426,6 +426,24 @@
 			x: 9.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["4AB805856BB1EA96"]
+			id: "13865A0EA162D2DC"
+			subtitle: "宝石袋可以用来装模组中的宝石"
+			tasks: [{
+				id: "7D430D93081AC021"
+				item: {
+					Count: 1
+					id: "gaiadimension:gemstone_pouch"
+					tag: {
+						Items: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
 	]
 	title: "第九章：宝石国度"
 }

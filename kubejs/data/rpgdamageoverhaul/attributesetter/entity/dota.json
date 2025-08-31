@@ -133,6 +133,28 @@
       "operation": "BASE"
     }
   ],
+  "windranger_hero": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1700,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": 0.50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": -0.50,
+      "operation": "BASE"
+    }
+  ],
   "lina_hero": [
     {
       "attribute": "minecraft:generic.max_health",

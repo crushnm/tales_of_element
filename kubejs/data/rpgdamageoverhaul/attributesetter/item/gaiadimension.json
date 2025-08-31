@@ -1,0 +1,82 @@
+{
+    "malachite_guard_headgear": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 8,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.armor",
+      "value": -3,
+      "operation": "BASE"
+    }
+  ],
+  "malachite_guard_brace": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.armor",
+      "value": -3,
+      "operation": "BASE"
+    }
+  ],
+  "malachite_guard_gear": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.armor",
+      "value": -3,
+      "operation": "BASE"
+    }
+  ],
+  "malachite_guard_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 7.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.armor",
+      "value": -3,
+      "operation": "BASE"
+    }
+  ],
+  "malachite_guard_baton": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.damage",
+      "value": 15,
+      "operation": "BASE"
+    }
+  ]
+}

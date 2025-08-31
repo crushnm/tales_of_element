@@ -1,0 +1,70 @@
+{
+    "piglin_slayer_armor_2_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 8,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.armor",
+      "value": -3,
+      "operation": "BASE"
+    }
+  ],
+  "piglin_slayer_armor_2_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 18,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.armor",
+      "value": -3,
+      "operation": "BASE"
+    }
+  ],
+  "piglin_slayer_armor_2_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 14,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.armor",
+      "value": -3,
+      "operation": "BASE"
+    }
+  ],
+  "piglin_slayer_armor_2_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 7,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:water.armor",
+      "value": -3,
+      "operation": "BASE"
+    }
+  ]
+}

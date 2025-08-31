@@ -641,6 +641,20 @@
 			x: 1.5d
 			y: 4.5d
 		}
+		{
+			id: "16C81B90748961FC"
+			tasks: [{
+				id: "0B605212BA6C116D"
+				item: {
+					Count: 1
+					id: "armageddon_mod:splintered_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
 	]
 	subtitle: ["5,6,7章可获得材料"]
 	title: "3级"

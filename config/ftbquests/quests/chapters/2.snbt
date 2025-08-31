@@ -498,20 +498,6 @@
 			y: 4.5d
 		}
 		{
-			id: "0F03C26DD65EF3C5"
-			tasks: [{
-				id: "0A0255E2967437F3"
-				item: {
-					Count: 1
-					id: "kubejs:hoshi_kirara_soul"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -0.5d
-			y: 4.5d
-		}
-		{
 			id: "209CA4DE92C0C54D"
 			tasks: [{
 				id: "40011774AD055CEA"
@@ -688,7 +674,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: -0.5d
 			y: 4.5d
 		}
 		{

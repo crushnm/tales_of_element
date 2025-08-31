@@ -1,6 +1,16 @@
 {
   "ferrous_wroughtnaut": [
     {
+      "attribute": "minecraft:generic.max_health",
+      "value": 250,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
       "attribute": "rpgdamageoverhaul:elemental.resistance",
       "value": -0.5
     },

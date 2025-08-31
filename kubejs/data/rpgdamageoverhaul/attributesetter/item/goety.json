@@ -1,0 +1,8 @@
+{
+    "fanged_dagger": [
+    {
+      "attribute": "rpgdamageoverhaul:nature.damage",
+      "value": 3
+    }
+  ]
+}

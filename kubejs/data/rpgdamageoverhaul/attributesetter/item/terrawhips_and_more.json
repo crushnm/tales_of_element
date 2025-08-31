@@ -1,0 +1,14 @@
+{
+    "frostscythe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.damage",
+      "value": 15,
+      "operation": "BASE"
+    }
+  ]
+}

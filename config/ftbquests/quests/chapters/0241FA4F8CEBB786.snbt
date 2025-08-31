@@ -353,6 +353,43 @@
 			x: 13.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["1B0C84FDDA3B136F"]
+			id: "78E481F9240F2021"
+			subtitle: "放弃你的水车和风车吧"
+			tasks: [
+				{
+					id: "3444713AC89852AF"
+					item: {
+						Count: 1
+						id: "create_new_age:basic_solar_heating_plate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2BF5F63A24D1D583"
+					item: {
+						Count: 1
+						id: "create_new_age:heat_pipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4ECD02CAE413808D"
+					item: {
+						Count: 1
+						id: "create_new_age:stirling_engine"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "热能动力"
+			x: 13.0d
+			y: -1.0d
+		}
 	]
 	title: "第十三章：宁静天堂"
 }

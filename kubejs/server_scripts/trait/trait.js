@@ -148,7 +148,7 @@ ItemEvents.rightClicked('born_in_chaos_v1:supreme_measure', event => {
     const { item, player, entity, level } = event
     const { x, y, z } = player
     let time = 0
-    player_shootprojectile(event, "the_beginning_and_heaven:p_bolade_blustnieve", 15, 'chaos_project:crabby_hurt', 1, 1)
+    player_shootprojectile(event, "rpgadventures:projectile_starshot", 15, 'chaos_project:crabby_hurt', 1, 1)
     const block = player.block
     // block_summon(event,"paladins_oath:roc",15,block)
     // player.mergeNbt({ ForgeCaps: {"jujutsucraft:player_variables":{PlayerCursePower:600.0,PlayerCurseTechnique:1.0,PlayerSelectCurseTechnique:1.0}}})
