@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 5,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "harvest_tool"
+        }
+  ],
+  "name": {
+    "translate": "急迫"
+  },
+  "description": {
+    "translate": "右键获得急迫效果(唯一工具技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高效果越高"
+    }
+  ]
+}

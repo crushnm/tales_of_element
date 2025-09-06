@@ -495,12 +495,7 @@
 					id: "40BA174D85FA51EF"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_1"
+						id: "kubejs:curse_bait_0"
 						tag: { }
 					}
 					type: "item"

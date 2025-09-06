@@ -1,0 +1,14 @@
+{
+    "kut_ku_hammer": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.damage",
+      "value": 22,
+      "operation": "BASE"
+    }
+  ]
+}

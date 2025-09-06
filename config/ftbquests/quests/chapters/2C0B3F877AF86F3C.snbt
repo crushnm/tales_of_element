@@ -118,12 +118,7 @@
 					id: "60B7EFE1DC63182A"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_30"
+						id: "kubejs:curse_bait_11"
 						tag: { }
 					}
 					type: "item"
@@ -148,12 +143,7 @@
 					id: "124459BA61BC1B4C"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_31"
+						id: "kubejs:curse_bait_12"
 						tag: { }
 					}
 					type: "item"

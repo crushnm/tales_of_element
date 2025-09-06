@@ -123,12 +123,7 @@
 					id: "7B74D85345C9ECB0"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_21"
+						id: "kubejs:curse_bait_5"
 						tag: { }
 					}
 					type: "item"
@@ -154,12 +149,7 @@
 					id: "6D7ED2B10CEB589C"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_22"
+						id: "kubejs:curse_bait_6"
 						tag: { }
 					}
 					type: "item"
@@ -268,12 +258,7 @@
 					id: "4FFD7C8A626A5E66"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_26"
+						id: "kubejs:curse_bait_7"
 						tag: { }
 					}
 					type: "item"
@@ -299,12 +284,7 @@
 					id: "1E2633BC247D7A9A"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_27"
+						id: "kubejs:curse_bait_8"
 						tag: { }
 					}
 					type: "item"
@@ -330,12 +310,7 @@
 					id: "07090E9D223A75E3"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_28"
+						id: "kubejs:curse_bait_9"
 						tag: { }
 					}
 					type: "item"
@@ -360,12 +335,7 @@
 					id: "3A2FB074B843BAB7"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_29"
+						id: "kubejs:curse_bait_10"
 						tag: { }
 					}
 					type: "item"

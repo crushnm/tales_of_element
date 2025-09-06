@@ -1,0 +1,11 @@
+{
+  "dimensions": [
+    "[min]0[minEnd][max]40[maxEnd]minecraft:overworld",
+    "[min]20[minEnd][max]80[maxEnd]minecraft:the_nether",
+    "[min]40[minEnd][max]100[maxEnd]minecraft:the_end",
+    "[min]10[minEnd][max]60[maxEnd]aether:the_aether",
+    "[min]10[minEnd][max]60[maxEnd]twilightforest:twilight_forest",
+    "[min]10[minEnd][max]60[maxEnd]eternal_starlight:starligh",
+    "[min]10[minEnd][max]60[maxEnd]deeperdarker:otherside"
+  ]
+}

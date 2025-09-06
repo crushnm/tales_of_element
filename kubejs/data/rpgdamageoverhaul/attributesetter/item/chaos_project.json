@@ -10,5 +10,17 @@
       "value": 14,
       "operation": "BASE"
     }
+  ],
+  "haunting_knife": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.damage",
+      "value": 22,
+      "operation": "BASE"
+    }
   ]
 }

@@ -220,3 +220,29 @@
 	#Range: 0.0 ~ 1.0
 	entityDropDonutPossibility = 0.009999999776482582
 
+["The Abyss of Illusion Spell"]
+	#Whether Illusion: Be Fear can be obtained from loot chests
+	illusionFearAllowLooting = true
+	#Whether Illusion: Be Crazy can be obtained from loot chests
+	illusionCrazyAllowLooting = true
+	#Range: 1.0 ~ 128.0
+	illusionCrazySearchRadius = 8.0
+
+["Young For You Spell"]
+	#Whether Young For You can be obtained from loot chests
+	youngForYouAllowLooting = true
+
+["Black Flame Wings (Fake) Spell"]
+	#Whether Black Flame Wings (Fake) can be obtained from loot chests
+	blackFlameWingsAllowLooting = true
+
+["Black Fireball/ Fireball of Chaos Spell"]
+	#Whether Black Fireball/ Fireball of Chaos can be obtained from loot chests
+	blackFireballAllowLooting = true
+
+["Abyss and Priest"]
+	#Whether certain spells (like Abyssal/Eldritch spells from this mod) anger Priests
+	abyssAngerPriest = false
+	#Spells that will anger Priests
+	spellsPriestDontLike = ["peyroscythe:death_smoke", "peyroscythe:black_flame_wings", "peyroscythe:black_fireball", "peyroscythe:chaos_cradle"]
+

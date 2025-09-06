@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:simple_trait",
+  "max_level": 1,
+  "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "helmet"
+        }
+  ],
+  "name": {
+    "translate": "紫水晶射击"
+  },
+  "description": {
+    "translate": "按下头盔技能键（默认shift+z）可吐出三个紫水晶，造成神圣属性伤害(唯一头盔技能)"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "等级越高伤害越高"
+    }
+  ]
+}

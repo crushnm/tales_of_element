@@ -140,12 +140,7 @@
 					id: "7B11C707BE889FDF"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_41"
+						id: "kubejs:curse_bait_14"
 						tag: { }
 					}
 					type: "item"
@@ -170,12 +165,7 @@
 					id: "34474E0367ED13A8"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_42"
+						id: "kubejs:curse_bait_15"
 						tag: { }
 					}
 					type: "item"
@@ -244,7 +234,7 @@
 					id: "5AEE0EECFAAF4D96"
 					item: {
 						Count: 1
-						id: "kubejs:curse_bait_38"
+						id: "kubejs:curse_bait_13"
 						tag: { }
 					}
 					type: "item"

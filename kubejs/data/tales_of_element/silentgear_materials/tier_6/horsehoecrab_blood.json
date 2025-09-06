@@ -1,0 +1,78 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 6,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "threateningly_mobs:horsehoecrab_blood"
+    }
+  },
+  "name": {
+    "translate": "鳖血"
+  },
+  "stats": {
+    "coating": {
+       "melee_damage": {
+        "add": 3.0
+      }
+    }
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "tales_of_element:healing_received",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "shield"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "coating/all": [
+      {
+        "texture": "silentgear:coating_smooth",
+        "color": "#477E85"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_base"
+      },
+      {
+        "texture": "silentgear:coating",
+        "color": "#477E85"
+      },
+      {
+        "texture": "silentgear:coating_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#477E85"
+      }
+    ]
+  }
+}

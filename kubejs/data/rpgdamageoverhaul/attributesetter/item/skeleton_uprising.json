@@ -30,6 +30,18 @@
       "operation": "BASE"
     }
   ],
+  "spinewhip": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:soul.damage",
+      "value": 12,
+      "operation": "BASE"
+    }
+  ],
   "occult_scarf_helmet": [
     {
       "attribute": "minecraft:generic.armor",

@@ -1,0 +1,48 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "unearthed_journey:down"
+    }
+  },
+  "name": {
+    "translate": "软毛"
+  },
+  "stats": {
+    "fletching": {
+      "projectile_speed": 1.2,
+      "projectile_accuracy": 1.5
+    }
+  },
+  "model": {
+    "fletching/all": [
+      {
+        "texture": "silentgear:fletching_generic",
+        "color": "#E9BEB9"
+      }
+    ],
+    "fletching/part": [
+      {
+        "texture": "silentgear:fletching",
+        "color": "#E9BEB9"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#E9BEB9"
+      }
+    ]
+  }
+}

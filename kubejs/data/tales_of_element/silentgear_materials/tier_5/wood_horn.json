@@ -30,7 +30,7 @@
     "tip": [
       {
         "name": "tales_of_element:lightning_damage",
-        "level": 2,
+        "level": 4,
         "conditions": [
           {
             "type": "silentgear:and",

@@ -174,6 +174,19 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   }
   )
 
+  event.remove({ id: 'skeleton_uprising:spinewhip_r' })
+  event.shaped('skeleton_uprising:spinewhip', [// arg 1: output
+    ' AC',
+    'ABB', // arg 2: the shape (array of strings)
+    'DC '
+  ], {
+    A: 'armageddon_mod:splintered_bone',
+    B: 'skeleton_uprising:vertebrae',
+    C: 'skeleton_uprising:mystic_bone',
+    D: 'silentgear:fishing_rod_blueprint'
+  }
+  )
+
   event.remove({ id: 'create_new_age:shaped/layered_magnet' })
   event.shaped('2x create_new_age:layered_magnet', [// arg 1: output
     ' C ',
@@ -1252,10 +1265,10 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
 
 
   //粉碎轮
-  event.recipes.create.crushing('kubejs:curse_bait_26', 'tide:lucky_bait').processingTime(500)
-  event.recipes.create.crushing('kubejs:curse_bait_27', 'kubejs:curse_bait_26').processingTime(500)
-  event.recipes.create.crushing('kubejs:curse_bait_28', 'kubejs:curse_bait_27').processingTime(500)
-  event.recipes.create.crushing('kubejs:curse_bait_29', 'kubejs:curse_bait_28').processingTime(500)
+  event.recipes.create.crushing('kubejs:curse_bait_7', 'tide:lucky_bait').processingTime(500)
+  event.recipes.create.crushing('kubejs:curse_bait_8', 'kubejs:curse_bait_7').processingTime(500)
+  event.recipes.create.crushing('kubejs:curse_bait_9', 'kubejs:curse_bait_8').processingTime(500)
+  event.recipes.create.crushing('kubejs:curse_bait_10', 'kubejs:curse_bait_9').processingTime(500)
 
 
   //混合搅拌
@@ -1991,7 +2004,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     })
   }
 
-  spirit_focusing(6, "tide:lucky_bait", "kubejs:curse_bait_21",
+  spirit_focusing(6, "tide:lucky_bait", "kubejs:curse_bait_5",
     [
       {
         "type": "sacred",
@@ -2004,7 +2017,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     ], 1800
   )
 
-  spirit_focusing(6, "kubejs:curse_bait_21", "kubejs:curse_bait_22",
+  spirit_focusing(6, "kubejs:curse_bait_5", "kubejs:curse_bait_6",
     [
       {
         "type": "arcane",
@@ -2017,7 +2030,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     ], 1800
   )
 
-  spirit_focusing(6, "kubejs:curse_bait_22", "kubejs:curse_bait_23",
+  spirit_focusing(6, "kubejs:curse_bait_6", "kubejs:curse_bait_23",
     [
       {
         "type": "sacred",
@@ -2135,7 +2148,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
 
   reactive_transmutation("kubejs:catalyst_fake", "undergarden:catalyst", ["reactive:warp", "reactive:acid"], 200, 200)
   reactive_transmutation("aether:golden_ring", "kubejs:wizor_ring", ["reactive:warp", "reactive:acid"], 400, 400)
-  reactive_transmutation("tide:bait", "kubejs:curse_bait_1", ["reactive:curse"], 1000, 1000)
+  reactive_transmutation("tide:bait", "kubejs:curse_bait_0", ["reactive:curse"], 1000, 1000)
   reactive_transmutation("midnight_madness:soul", "4x malum:infernal_spirit", ["reactive:blaze"], 100, 100)
   reactive_transmutation("midnight_madness:soul", "4x malum:earthen_spirit", ["reactive:verdant"], 100, 100)
   reactive_transmutation("midnight_madness:soul", "4x malum:aqueous_spirit", ["reactive:body"], 100, 100)
@@ -2241,8 +2254,8 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
       "time": time
     })
   }
-  tree_ritual(["tide:lucky_bait", "infinite_abyss:blue_glowing_crystal", "infinite_abyss:pink_glowing_crystal", "infinite_abyss:yellow_glowing_crystal", "infinite_abyss:green_glowing_crystal"], "kubejs:curse_bait_30", "minecraft:spruce_sapling", 600)
-  tree_ritual(["minecraft:rabbit_foot", "infinite_abyss:deeprock_golem_spirit_stone", "infinite_abyss:red_deepstone", "infinite_abyss:red_deepstone", "infinite_abyss:cut_red_crystal"], "kubejs:curse_bait_31", "minecraft:dark_oak_sapling", 600)
+  tree_ritual(["tide:lucky_bait", "infinite_abyss:blue_glowing_crystal", "infinite_abyss:pink_glowing_crystal", "infinite_abyss:yellow_glowing_crystal", "infinite_abyss:green_glowing_crystal"], "kubejs:curse_bait_11", "minecraft:spruce_sapling", 600)
+  tree_ritual(["minecraft:rabbit_foot", "infinite_abyss:deeprock_golem_spirit_stone", "infinite_abyss:red_deepstone", "infinite_abyss:red_deepstone", "infinite_abyss:cut_red_crystal"], "kubejs:curse_bait_12", "minecraft:dark_oak_sapling", 600)
   tree_ritual(["fright:bolts", "fright:bolts", "kubejs:electrum_gear", "kubejs:electrum_gear", "malum:alchemical_impetus", "malum:alchemical_impetus"], "kubejs:curse_bait_32", "minecraft:birch_sapling", 600)
   tree_ritual(["feywild:raw_winter_elven_quartz", "feywild:raw_winter_elven_quartz", "kubejs:bronze_gear", "kubejs:bronze_gear", "infinite_abyss:opal", "infinite_abyss:opal"], "kubejs:curse_bait_33", "gaiadimension:blue_agate_sapling", 600)
   tree_ritual(["chaos_project:corrupted_rotten_flesh", "chaos_project:corrupted_rotten_flesh", "infinite_abyss:cut_red_crystal", "naturesaura:token_fear", "destroy:chalk_dust", "destroy:chalk_dust"], "kubejs:mutant_zombified_piglin", "gaiadimension:pink_agate_sapling", 600)
@@ -2273,6 +2286,26 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   event.remove({ id: 'terrawhips_and_more:frosscytlecraft' })
   tree_ritual(["the_beginning_and_heaven:pure_copper", "the_beginning_and_heaven:pure_copper", "adventuresmod:aquatic_debris", "adventuresmod:aquatic_debris", "adventuresmod:twisted_bone", "adventuresmod:twisted_bone", "silentgear:trident_blueprint"], "adventuresmod:conjurer_trident", "gaiadimension:blue_agate_sapling", 600)
   event.remove({ id: 'adventuresmod:conjurer_trident' })
+  event.remove({ id: 'chaos_project:stalker_knife_craft' })
+  event.recipes.naturesaura.tree_ritual('chaos_project:haunting_knife', [
+    'chaos_project:redoricter_rapier',
+    'chaos_project:stalker_skin',
+    'chaos_project:stalker_skin',
+    'chaos_project:natrium_ingot',
+    'chaos_project:natrium_ingot',
+    'chaos_project:dweller_spike',
+    'silentgear:dagger_blueprint',
+  ],'gaiadimension:corrupted_sapling')
+  event.remove({ id: 'threateningly_mobs:ep_craft' })
+  event.recipes.naturesaura.tree_ritual('threateningly_mobs:earthpunch', [
+    'threateningly_mobs:nature_shell',
+    'threateningly_mobs:nature_shell',
+    'threateningly_mobs:nature_shell',
+    'threateningly_mobs:nature_shell',
+    'extendedcrafting:black_iron_ingot',
+    'extendedcrafting:black_iron_ingot',
+    'silentgear:shield_blueprint',
+  ],'malum:runewood_sapling')
 
   //自然祭坛
   function naturealtar(input, output, aura, time) {
@@ -2304,11 +2337,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
       "time": time
     })
   }
-  naturealtar("tide:lucky_bait", "kubejs:curse_bait_36", 100000, 300)
-  naturealtar("kubejs:curse_bait_36", "kubejs:curse_bait_37", 100000, 300)
-  naturealtar("kubejs:curse_bait_37", "kubejs:curse_bait_38", 100000, 300)
-  naturealtar("kubejs:curse_bait_38", "kubejs:curse_bait_39", 100000, 300)
-  naturealtar("kubejs:curse_bait_38", "kubejs:curse_bait_39", 100000, 300)
+  naturealtar("tide:lucky_bait", "kubejs:curse_bait_13", 100000, 300)
   naturealtar_withcatalyst("minecraft:book", "kubejs:hunter_scroll_3", "naturesaura:conversion_catalyst", 100000, 300)
 
   //矮人铁砧
@@ -2348,9 +2377,10 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   dwarven_anvil(["minecraft:crafting_table", "feywild:raw_spring_elven_quartz", "feywild:raw_summer_elven_quartz", "feywild:raw_autumn_elven_quartz", "feywild:raw_winter_elven_quartz"], 300, "valoria:jeweler_table", "feywild:schematics_elven_quartz")
   event.remove({ id: 'skeleton_uprising:bonecutter_r' })
   dwarven_anvil(["allthecompressed:bone_block_1x", "skeleton_uprising:runed_bone", "minecraft:iron_ingot", "minecraft:iron_ingot", "silentgear:katana_blueprint"], 300, "skeleton_uprising:bonecutter", "feywild:schematics_elven_quartz")
-    event.remove({ id: 'skeleton_uprising:occult_scarf_r' })
+  event.remove({ id: 'skeleton_uprising:occult_scarf_r' })
   dwarven_anvil(["skeleton_uprising:cloth", "skeleton_uprising:cloth", "skeleton_uprising:runed_bone", "skeleton_uprising:runed_bone", "silentgear:helmet_blueprint"], 300, "skeleton_uprising:occult_scarf_helmet", "feywild:schematics_elven_quartz")
-
+  event.remove({ id: 'mhheavenandhell:kut_ku_hammer_recipe' })
+  dwarven_anvil(["mhheavenandhell:kut_ku_beak", "mhheavenandhell:kut_ku_wing", "mhheavenandhell:kut_ku_wing", "silentgear:hammer_blueprint", "reactive:blaze_bottle"], 300, "mhheavenandhell:kut_ku_hammer", "feywild:schematics_elven_quartz")
   //符文锻炉
   function arcane_furnace(tier, input, output, burnTime) {
     output = Item.of(output)
@@ -2379,7 +2409,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     ],
     "results": [
       {
-        "item": "kubejs:curse_bait_2",
+        "item": "kubejs:curse_bait_1",
         "count": 1
       }
     ],
@@ -2486,15 +2516,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     ],
     "results": [
       {
-        "item": "kubejs:curse_bait_11",
-        "count": 1
-      },
-      {
-        "item": "kubejs:curse_bait_12",
-        "count": 1
-      },
-      {
-        "item": "kubejs:curse_bait_13",
+        "item": "kubejs:curse_bait_2",
         "count": 1
       }
     ],
@@ -2833,8 +2855,8 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     })
   }
 
-  // optical("tide:lucky_bait",200,1,"kubejs:curse_bait_14")
-  // optical("tide:lucky_bait",200,0,"kubejs:curse_bait_15")
+  // optical("tide:lucky_bait",200,1,"kubejs:curse_bait_3")
+  // optical("tide:lucky_bait",200,0,"kubejs:curse_bait_4")
   // optical("kubejs:stun_skeleton",200,3,"kubejs:chad_boxer")
   // optical("overworldpiglins:grand_piglin_fang",200,3,"kubejs:curse_bait_16")
 
@@ -2945,7 +2967,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   laser_cutting("minecraft:copper_block", "the_beginning_and_heaven:pure_copper", 8000, 60)
   laser_cutting("minecraft:white_wool", "forbidden_arcanus:cloth", 6000, 60)
   laser_cutting("minecraft:writable_book", "kubejs:hunter_scroll_0", 12000, 60)
-  laser_cutting("tide:lucky_bait", "kubejs:curse_bait_43", 12000, 60)
+  laser_cutting("tide:lucky_bait", "kubejs:curse_bait_16", 12000, 60)
 
   //车床
   function turning(ingredients, results, processingTime) {
@@ -2966,9 +2988,8 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
       "processingTime": processingTime
     })
   }
-  turning("tide:lucky_bait", "kubejs:curse_bait_40", 600)
-  turning("kubejs:curse_bait_40", "kubejs:curse_bait_41", 600)
-  turning("kubejs:curse_bait_41", "kubejs:curse_bait_42", 600)
+  turning("tide:lucky_bait", "kubejs:curse_bait_14", 600)
+  turning("kubejs:curse_bait_14", "kubejs:curse_bait_15", 600)
 
   //充电
   function energising(energy_needed, ingredients, results) {
@@ -3103,8 +3124,6 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   pressure_chamber(["2x chaos_project:redorict_ingot","2x chaos_project:corrupted_rotten_flesh","minecraft:skeleton_skull","chaos_project:shine_soul"],3,["chaos_project:zombie_brain"])
   pressure_chamber(["2x netherexp:verdant_frogmist","8x minecraft:quartz","minecraft:skeleton_skull"],3,["greekfantasy:gigante_head"])
   pressure_chamber(["minecraft:gold_ingot","4x minecraft:blaze_powder","biomancy:volatile_fluid"],3,["silentgear:blaze_gold_ingot"])
-  pressure_chamber(["kubejs:curse_bait_50","minecraft:netherite_sword"],3,["kubejs:curse_bait_51"])
-  pressure_chamber(["kubejs:curse_bait_51","2x goety:taglock_kit"],3,["kubejs:curse_bait_52"])
   pressure_chamber(["call_of_drowner:broken_drowned_soul","minecraft:heart_of_the_sea","celestial_core:ocean_essence","inka:headclavablock"],3,["kubejs:wither_heart"])
 
   //热气动加工机

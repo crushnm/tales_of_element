@@ -1,0 +1,10 @@
+{
+  "ascendant_loot_table": "minecraft:chests/end_city_treasure",
+  "ascendant_effects_min_level": 50.0,
+  "ascendant_effects_chance": 0.5,
+  "random_effects": true,
+  "use_legacy_hud": true,
+  "hide_hud_for": [
+    ""
+  ]
+}

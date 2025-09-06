@@ -24,9 +24,9 @@ function compareArrays(arr1, arr2) {
 
 function hastrait(item, trait, form) {
     //检查特性
-    const right = ["tales_of_element:natto_ball","tales_of_element:strong_fireball","tales_of_element:spear_spirit", "tales_of_element:flyshot", "tales_of_element:attack", "tales_of_element:arrow", "tales_of_element:yahaba2", "tales_of_element:thrower_skull", "tales_of_element:soul_absorption_ii", "tales_of_element:water", "tales_of_element:web_shot", "tales_of_element:hobblade", "tales_of_element:absorption", "tales_of_element:yahaba"]
-    const left = ["tales_of_element:axe_throw_projectile","tales_of_element:p_bolade_nieve", "tales_of_element:arrow_left", "tales_of_element:ritogium_tomahawkprj", "tales_of_element:fragmented_soul", "tales_of_element:nova_spike"]
-    const helmet = ["tales_of_element:confusion","tales_of_element:posion_goo_bullet","tales_of_element:drug", "tales_of_element:soul_rage", "tales_of_element:diver", "tales_of_element:bomb"]
+    const right = ["tales_of_element:natto_ball","tales_of_element:haste_right","tales_of_element:strong_fireball","tales_of_element:spear_spirit", "tales_of_element:flyshot", "tales_of_element:attack", "tales_of_element:arrow", "tales_of_element:yahaba2", "tales_of_element:thrower_skull", "tales_of_element:soul_absorption_ii", "tales_of_element:water", "tales_of_element:web_shot", "tales_of_element:hobblade", "tales_of_element:absorption", "tales_of_element:yahaba"]
+    const left = ["tales_of_element:axe_throw_projectile","tales_of_element:projectile_poisonous_tonsil_shot","tales_of_element:p_bolade_nieve", "tales_of_element:arrow_left", "tales_of_element:ritogium_tomahawkprj", "tales_of_element:fragmented_soul", "tales_of_element:nova_spike"]
+    const helmet = ["tales_of_element:confusion","tales_of_element:projectile_ameshot","tales_of_element:posion_goo_bullet","tales_of_element:drug", "tales_of_element:soul_rage", "tales_of_element:diver", "tales_of_element:bomb"]
     const chestplate = ["tales_of_element:hoshi_kirara","tales_of_element:into_shell", "tales_of_element:poison_shockwave", "tales_of_element:strength"]
     const legging = ["tales_of_element:thrown_geode","tales_of_element:ice_fragment", "tales_of_element:flesh_blob"]
     const boots = ["tales_of_element:levitation", "tales_of_element:speed"]
@@ -62,7 +62,8 @@ ItemEvents.rightClicked(event => {
         const trait_effect = {
             "tales_of_element:absorption": ["minecraft:absorption", 5, 10],
             "tales_of_element:soul_absorption_ii": ["skeleton_uprising:soul_absorption_ii", 5, 15],
-            "tales_of_element:lifesteal": ["terramity:lifesteal", 5, 15]
+            "tales_of_element:lifesteal": ["terramity:lifesteal", 5, 15],
+            "tales_of_element:haste_right": ["minecraft:haste", 5, 15]
 
         }
         const trait_demonart = {
@@ -133,6 +134,7 @@ ItemEvents.firstLeftClicked(event => {
             "tales_of_element:axe_throw_projectile": ["sansausremaster:axe_throw_projectile", 7.5, 3,'', 1],
             "tales_of_element:spider_net_3": ["kimetsunoyaiba:spider_net_3_projectile", 8, 3,'', 1],
             "tales_of_element:p_bolade_nieve": ["the_beginning_and_heaven:p_bolade_nieve", 9, 3,'', 1],
+            "tales_of_element:projectile_poisonous_tonsil_shot": ["chaos_project:projectile_poisonous_tonsil_shot", 7, 2,'chaos_project:listener_shoot', 1],
         }
         for (let trait in trait_projectile) {
             if (hastrait(item, trait, "left")) {
@@ -148,7 +150,7 @@ ItemEvents.rightClicked('born_in_chaos_v1:supreme_measure', event => {
     const { item, player, entity, level } = event
     const { x, y, z } = player
     let time = 0
-    player_shootprojectile(event, "rpgadventures:projectile_starshot", 15, 'chaos_project:crabby_hurt', 1, 1)
+    player_shootprojectile(event, "chaos_project:projectile_poisonous_tonsil_shot", 15, 'chaos_project:crabby_hurt', 1, 1)
     const block = player.block
     // block_summon(event,"paladins_oath:roc",15,block)
     // player.mergeNbt({ ForgeCaps: {"jujutsucraft:player_variables":{PlayerCursePower:600.0,PlayerCurseTechnique:1.0,PlayerSelectCurseTechnique:1.0}}})
@@ -170,6 +172,7 @@ NetworkEvents.dataReceived('helmet_skill', event => {
     const armor_projectile_traits = {
         "tales_of_element:bomb": ["legendary_monsters:bomb", 7.5, 20, '', 1, 1],
         "tales_of_element:posion_goo_bullet": ["threateningly_mobs:posion_goo_bullet", 12, 20, 'threateningly_mobs:impact_1', 1, 1],
+        "tales_of_element:projectile_ameshot": ["chaos_project:projectile_ameshot", 15, 20, 'chaos_project:throw_1', 3, 1],
     }
     const armor_effect_traits = {
         "tales_of_element:confusion": [["minecraft:strength", "mna:confusion"], 10, 20],

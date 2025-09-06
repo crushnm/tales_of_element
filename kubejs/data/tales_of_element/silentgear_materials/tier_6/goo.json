@@ -1,0 +1,74 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 6,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "chaos_project:goo"
+    }
+  },
+  "name": {
+    "translate": "粘液"
+  },
+  "stats": {
+    "lining": {
+       "armor": {
+        "add": 2.0
+      }
+    }
+  },
+  "traits": {
+    "lining": [
+      {
+        "name": "tales_of_element:regeneration",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "lining/all": [
+      {
+        "texture": "silentgear:lining_smooth",
+        "color": "#318360"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_base"
+      },
+      {
+        "texture": "silentgear:lining",
+        "color": "#318360"
+      },
+      {
+        "texture": "silentgear:lining_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#318360"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "silentgear:wielder_effect",
+  "max_level": 5,
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "armor"
+    }
+  ],
+  "name": {
+    "translate": "生命源泉"
+  },
+  "description": {
+    "translate": "全套获得生命恢复效果"
+  },
+  "extra_wiki_lines": [
+    {
+      "text": "  - The item cannot be destroyed by fire or lava"
+    }
+  ],
+  "potion_effects": {
+    "armor": [
+      {
+        "type": "full_set_only",
+        "effect": "minecraft:regeneration",
+        "level": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  }
+}

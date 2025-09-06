@@ -435,12 +435,7 @@
 					id: "7709BF7DCA27871B"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_2"
+						id: "kubejs:curse_bait_1"
 						tag: { }
 					}
 					type: "item"

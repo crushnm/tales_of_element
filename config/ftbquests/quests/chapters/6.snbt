@@ -36,48 +36,6 @@
 			y: -1.5d
 		}
 		{
-			id: "3804FBD19F63F60D"
-			tasks: [{
-				id: "479C38584E125758"
-				item: {
-					Count: 1
-					id: "valoria:amber_gem"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.5d
-		}
-		{
-			id: "22C37C3F221B7ACD"
-			tasks: [{
-				id: "7AD1FCF379C162F5"
-				item: {
-					Count: 1
-					id: "valoria:sapphire_gem"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.5d
-		}
-		{
-			id: "193F42AB79B9968D"
-			tasks: [{
-				id: "4F99B911FE74CA7D"
-				item: {
-					Count: 1
-					id: "valoria:ruby_gem"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
 			id: "5957A1AECAB55FA4"
 			tasks: [{
 				id: "2A4184AB45C23E41"
@@ -145,34 +103,6 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 0.5d
-		}
-		{
-			id: "4FC41605E8895417"
-			tasks: [{
-				id: "5BC2D8E31BBCE22C"
-				item: {
-					Count: 1
-					id: "magichem:signalite_devouring"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: 0.5d
-		}
-		{
-			id: "50A1EA755A130874"
-			tasks: [{
-				id: "3950E158C69B6E10"
-				item: {
-					Count: 1
-					id: "naturesaura:sky_ingot"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -466,8 +396,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.5d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			id: "5F8EF4C3D5062C69"
@@ -480,8 +410,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			id: "0B4C800C12FBFA61"
@@ -494,8 +424,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			id: "302B258BF1E99AFD"
@@ -508,8 +438,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 4.5d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			id: "060969978382A9A6"
@@ -524,6 +454,48 @@
 			}]
 			x: 9.5d
 			y: -1.5d
+		}
+		{
+			id: "2F13C569F49B6DB8"
+			tasks: [{
+				id: "4DC2C3D86EEECC0F"
+				item: {
+					Count: 1
+					id: "agonysing_hell:living_shards"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "6D1DE09AF6167530"
+			tasks: [{
+				id: "26FF46242C44F711"
+				item: {
+					Count: 1
+					id: "unearthed_journey:manganese_steel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "6E11C1B3969209FB"
+			tasks: [{
+				id: "1DC71A86F07E463F"
+				item: {
+					Count: 1
+					id: "unearthed_journey:down"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
 		}
 	]
 	subtitle: ["14,15,16章可获得材料"]

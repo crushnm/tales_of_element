@@ -103,12 +103,7 @@
 					id: "04C730318C8EB836"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_14"
+						id: "kubejs:curse_bait_3"
 						tag: { }
 					}
 					type: "item"
@@ -134,12 +129,7 @@
 					id: "124DD75AC10CEFEC"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_15"
+						id: "kubejs:curse_bait_4"
 						tag: { }
 					}
 					type: "item"

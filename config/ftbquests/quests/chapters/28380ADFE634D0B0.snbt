@@ -1357,21 +1357,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["76E5C002B10656AB"]
-			id: "739F8BD6F970546F"
-			tasks: [{
-				id: "369E383CE9A6466A"
-				item: {
-					Count: 1
-					id: "valoria:amber_gem"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 3.0d
-		}
-		{
 			id: "082B429B013425B0"
 			tasks: [{
 				dimension: "unearthed_journey:neogene"
@@ -1397,21 +1382,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["082B429B013425B0"]
-			id: "2AF3B6A3CB3033D2"
-			tasks: [{
-				id: "6918A72DFF720D31"
-				item: {
-					Count: 1
-					id: "valoria:sapphire_gem"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 5.0d
-		}
-		{
 			id: "6797978C9F2E8EE4"
 			tasks: [{
 				dimension: "unearthed_journey:pleistocene"
@@ -1419,21 +1389,6 @@
 				type: "dimension"
 			}]
 			x: 4.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6797978C9F2E8EE4"]
-			id: "6BBA4D49E0A86445"
-			tasks: [{
-				id: "4DFAF52B6E251BCE"
-				item: {
-					Count: 1
-					id: "valoria:ruby_gem"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 6.0d
 			y: 7.0d
 		}
 		{
@@ -1448,7 +1403,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 7.0d
 		}
 		{

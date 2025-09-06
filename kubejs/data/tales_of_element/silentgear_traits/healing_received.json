@@ -1,0 +1,19 @@
+{
+  "type": "silentgear:attribute",
+  "max_level": 20,
+  "name": {
+    "translate": "自我再生"
+  },
+  "description": {
+    "translate": "增加获得的治疗效果"
+  },
+  "attribute_modifiers": {
+    "all": [
+      {
+        "attribute": "attributeslib:healing_received",
+        "operation": 0,
+        "value":[0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10]
+      }
+    ]
+  }
+}

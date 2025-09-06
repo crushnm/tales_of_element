@@ -43,12 +43,7 @@
 					id: "3838979B09772152"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "kubejs:curse_bait_11"
+						id: "kubejs:curse_bait_2"
 						tag: { }
 					}
 					type: "item"

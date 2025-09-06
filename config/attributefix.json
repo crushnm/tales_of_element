@@ -759,6 +759,17 @@
         "value": 1
       }
     },
+    "artifactory:max_attunement_slots": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "sgl:mssx": {
       "enabled": false,
       "min": {
@@ -2255,6 +2266,17 @@
         "value": 1
       }
     },
+    "alshanex_familiars:sound_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "cos_mc:can_sit": {
       "enabled": false,
       "min": {
@@ -2550,6 +2572,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "alshanex_familiars:sound_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "cartoon_soul:dmg": {

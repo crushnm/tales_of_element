@@ -1,24 +1,10 @@
-#Enables hardcore mode: all bosses will have x10 hp, x2 damage, 100 armor, Shields and Over Shield, Healing, damage absorption 90%
-hardcore = false
-#Hardcore mode Hp scale
-#Range: 1 ~ 2100000000
+#Cruel mode Hp scale
+#Range: 1.0 ~ 2.1E9
 bossHP = 10
-#Hardcore mode attack scale
-#Range: 1 ~ 2100000000
+#Cruel mode attack scale
+#Range: 1.0 ~ 2.1E9
 bossAttack = 2
-#Hardcore mode armor and armor toughness
-#Range: 1 ~ 2100000000
-armorHardcore = 100
-#Hardcore mode damage absorb percent
-#Range: 0.0 ~ 1.0
-absorbHardcore = 0.9
-#Hardcore mode Shield from hp percent 1 is 100%
-#Range: 1.0 ~ 2.1E9
-shieldHardcore = 1.5
-#Hardcore mode Over Shield from hp percent
-#Range: 1.0 ~ 2.1E9
-overShieldHardcore = 1.0
-#Hardcore mode Heal percent from max hp
+#Cruel mode Heal percent from max hp
 #Range: 0.0 ~ 2.1E9
 healPercent = 0.005
 #Challenge cooldown in hours
@@ -27,11 +13,8 @@ cooldown = 8
 #How many % of stellar chance will you get on failure
 #Range: 0 ~ 100
 stellarChanceIncrease = 10
-#Base Martyr's Habergeon(armor) value
-#Range: > 0
-armorAbsorbBase = 40
-#Martyr's Habergeon absorption increase %. 1 is 100%, 0.1 is 10%.
-#Range: 0.0 ~ 1.0
+#Martyr's Habergeon Pain Gauge increase % from Ultimate. 1 is 100%, 0.1 is 10%.
+#Range: 0.0 ~ 2.147483647E9
 armorAbsorbPercent = 1.0
 #Borders for Anomaly's Ultimate teleportation. Leave at 0 for world's max border.
 #Range: > 0
@@ -42,9 +25,6 @@ atlasChance = 0.2
 #Level limit for stellar Catalyst
 #Range: 0 ~ 255
 catalystLvlLimit = 255
-#How many debuffs can Catalyst absorb.
-#Range: > 0
-catalystDeffence = 5
 #How many speed will Cat Ears give.
 #Range: 0.0 ~ 10.0
 catSpeed = 1.0
@@ -102,7 +82,7 @@ donutHealBonus = 40
 #How many Shield % will Ball Lightning reduce
 #Range: 0.01 ~ 1.0
 ballShield = 0.1
-#Hardcore mode Shield from hp percent 1 is 100%
+#How many OverShield % will Ball Lightning reduce
 #Range: 0.01 ~ 1.0
 ballOverShield = 0.2
 #Amount of Chaos Core reflection hits from Special
@@ -125,69 +105,9 @@ anomaly = false
 #Minutes before Chaos Core challenge reset
 #Range: 1 ~ 2100000000
 chaostime = 15
-#Chance for Refresher after completing Stellar challenge. 1 is 100%, 0.5 is 50%.
+#Chance for Refresher after completing Stellar challenge. 1 is 100%, 0.25 is 25%.
 #Range: 0.0 ~ 1.0
 refresherChance = 0.5
-#This is the number on how many challenge 1 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce1 = 0
-#This is the number on how many challenge 2 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce2 = 0
-#This is the number on how many challenge 3 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce3 = 0
-#This is the number on how many challenge 4 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce4 = 0
-#This is the number on how many challenge 5 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce5 = 0
-#This is the number on how many challenge 6 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce6 = 0
-#This is the number on how many challenge 7 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce7 = 0
-#This is the number on how many challenge 8 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce8 = 0
-#This is the number on how many challenge 9 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce9 = 0
-#This is the number on how many challenge 10 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce10 = 0
-#This is the number on how many challenge 11 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce11 = 0
-#This is the number on how many challenge 12 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce12 = 0
-#This is the number on how many challenge 13 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce13 = 0
-#This is the number on how many challenge 14 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce14 = 0
-#This is the number on how many challenge 15 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce15 = 0
-#This is the number on how many challenge 16 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce16 = 0
-#This is the number on how many challenge 17 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce17 = 0
-#This is the number on how many challenge 18 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce18 = 0
-#This is the number on how many challenge 19 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce19 = 0
-#This is the number on how many challenge 20 maximum progress will be reduced
-#Range: -2100000000 ~ 2100000000
-challengeReduce20 = 0
 #additional bosses: 
 bosses = "hullbreaker,tremorzilla,nucleeper, luxtructosaurus,atlatitan,forsaken,ignited_revenant,void_worm"
 #repairObjectsId: 
@@ -199,4 +119,142 @@ repairBlackList = ""
 vortexReduction = 0
 #Enables Easter event
 easter = false
+#Set false to disable chat messages with Lore
+lore = true
+#Cooldown in milliseconds for any Vestiges abilities. 100 is 0.1 sec.
+#Range: 0 ~ 9223372036854775807
+vestigesCooldown = 50
+#Those are numbers for each Challenge to reduce their maximum
+reduceChallenges = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+#If true, numbers above for reducing Challenges maximum number will count as Percent from maximum
+reduceChallengesPercent = false
+#Each Vestige Power Scale in percents.
+powerScale = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+#Power Scale increase by completing new challenges.
+#Range: 1.0 ~ 2.1E9
+powerBoost = 5.0
+#Enables Cruel mode: all bosses will have x4 hp, x2 damage, 100 armor, Shields and Over Shield, Healing, damage absorption 90%
+cruelMode = false
+#Cruel mode armor and armor toughness
+#Range: 1 ~ 2100000000
+armorCruel = 100
+#Cruel mode damage percent from maximum hp when starving, drowning. Set 0 to disable.
+#Range: 0.0 ~ 2.1E9
+damageCruel = 0.15
+#Cruel mode DPS cap from max health %, 0.1 is 10%
+#Range: 0.0 ~ 2.147483647E9
+absorbCruel = 0.2
+#Cruel mode Shield from hp percent 1 is 100%
+#Range: 0.1 ~ 2.1E9
+shieldCruel = 0.75
+#Cruel mode Over Shield from hp percent
+#Range: 0.1 ~ 2.1E9
+overShieldCruel = 0.25
+#Exp base multiplier from bosses in Cruel mode
+#Range: 1.0 ~ 2.1E9
+expMultiplier = 10.0
+#Nightmare Bosses boxes chance 0.5 is 50%
+#Range: 0.0 ~ 1.0
+nightmareAllBoxChance = 1.0
+#Nightmare Bosses Refresher chance 0.1 is 10%
+#Range: 0.0 ~ 1.0
+nightmareRefresherChance = 0.1
+#Nightmare Bosses max fragments
+#Range: 1 ~ 2100000000
+nightmareFrags = 26
+#Nightmare Bosses min fragments
+#Range: 1 ~ 2100000000
+nightmareFragsMin = 13
+#Nightmare Bosses max loot multiplier
+#Range: 1 ~ 2100000000
+nightmareLoot = 20
+#Nightmare Bosses min loot multiplier
+#Range: 1 ~ 2100000000
+nightmareLootMin = 10
+#Nightmare Bosses max boxes
+#Range: 1 ~ 2100000000
+nightmareBoxes = 8
+#Nightmare Bosses min boxes
+#Range: 1 ~ 2100000000
+nightmareBoxesMin = 4
+#How many debuffs can Catalyst absorb.
+#Range: > 0
+catalystDefence = 20
+#How much Shield Bonus will Ball Lightning reduce in percent
+#Range: 0.0 ~ 2.147483647E9
+ballDebuff = 75.0
+#Minutes for fish to fed up
+#Range: 1 ~ 2100000000
+eatingMinutes = 1
+#blacklist for bosses: 
+blacklistBosses = "void_worm_part,"
+#Additional chance for Easter Egg 10 is 10%
+#Range: > 0
+easterChance = 0
+#fishObjects: 
+fishObjects = "fish,shell,pearl,boot,treasure,sunken,drown,lure,prismarin,water,ocean,coral,shark,whale,manta,rain,abyss,deep,sea,pirate,ship,bottle,wet,river"
+#Rare Items for fishing by Abyssal Pearl: 
+rareItems = "item.vp.hearty_pearl,item.vp.seashell,abyssal_heart,ichor_bottle,boot"
+#Fishing Blacklist for Abyssal Pearl: 
+fishingBlacklist = "item.vp.pearl"
+#Chance of rare drop in current biome from Fishing with Pearl or by defending Silly Seashell.
+#Range: 0.0 ~ 1.0
+rareFishingDropChance = 0.001
+#Fails flowers Challenge when they are being placed.
+failFlowers = false
+#Damage per second cap for Nightmare Bosses in max hp % -> 0.01 is 1%
+#Range: 0.0 ~ 3.4028234663852886E38
+nightmareDpsCap = 0.01
+#For servers with maxed out desync and hp lock to 2048 or if you just have problems with MaxHp.
+unlockHp = false
+#Event mode that disables all teleportations and fly.
+eventMode = false
+#Chance for Item to define as rare for Prism challenge. For example carrot has 0.025 chance to drop from zobmie
+#Range: 1.0E-4 ~ 1.0
+rareItemChance = 0.025
+#Chance to spawn Empowered mob in Hardcore mode
+#Range: 0.0 ~ 2.1E9
+empoweredChance = 0.001
+#Defines blacklist for random potion effects as from Heirloom's Special: 
+debuffBlacklist = "crystallized,"
+#Defines blacklist for items that cannot be cloned with Celestial Mirror: 
+cloneBlackList2 = "bundle,pouch,bag,backpack,chest,box,pocket,store,storage,satchel,knapsack,cargo,vault,locker,crate,trunk,barrel,bin,safe,drawer,compartment,cache,case,basket,haversack,receptacle,container,ghostly_pickaxe,soul_gem,horse_flute,sack,broom,jar,bottle"
+#Defines whitelist for items that can be cloned with Celestial Mirror with highest priority. F.e. chestplate to not be blocked by chest in blacklist: 
+cloneWhiteList = "chestplate,box_eggs,box_saplings,item.vp.box,item.vp.mystery_chest"
+#List of existing mirrors UUID: 
+mirrorUUIDList = ""
+#List of dupers: 
+dupersList = ""
+#Ip address for leaderboard: 
+leaderboardHost = ""
+#Ip port for leaderboard: 
+leaderboardPort = ""
+#Defines if Leaderboard should be enabled: 
+leaderboard = false
+#Reduce modifier for Chaos Core Stellar ability of max hp lowering from Healing Debt
+#Range: 0.0 ~ 2.1E9
+chaosCoreStellarHpRes = 10.0
+#Base chance for spawning Hungry Oyster per 8000 ticks
+#Range: 0.0 ~ 1.0
+oysterChance = 0.05
+#Base chance for spawning Silly Seashell per 8000 ticks
+#Range: 0.0 ~ 1.0
+seashellChance = 0.05
+#Loot tables for Mystery Chest common/rare/mystic/legendary. All chances are independent so 0.7(70% chance) on common cause dropping air in 30% cases.
+lootDrops = "1<item.vp.corrupted_fragment,item.vp.box_saplings,item.irons_spellbooks.blank_rune4,item.irons_spellbooks.rare_ink5,block.minecraft.wither_skeleton_skull,item.minecraft.end_crystal4,item.minecraft.netherite_scrap2,block.aether.enchanted_gravitite8,item.irons_spellbooks.arcane_salvage,item.minecraft.diamond4,item.botania.black_lotus8,item.bloodmagic.blankslate16,item.bloodmagic.reinforcedslate8,item.bloodmagic.infusedslate4,item.eidolon.soul_shard8,item.alexscaves.darkened_apple,block.minecraft.glass32,block.minecraft.quartz_block16,block.minecraft.gold_block4>0.3<item.vp.corrupted_item,item.minecraft.totem_of_undying,item.vp.shard,item.vp.stellar,item.vp.corrupted_fragment16,item.aquamirae.ship_graveyard_echo4,item.enigmaticlegacy.earth_heart,item.enigmaticlegacy.etherium_ore5,item.skilltree.wisdom_scroll4,block.occultism.storage_stabilizer_tier3,item.celestisynth.supernal_netherite_ingot4,item.enigmaticlegacy.angel_blessing,item.enigmaticlegacy.ocean_stone,item.enigmaticlegacy.blazing_core,item.enigmaticlegacy.eye_of_nebula,item.irons_spellbooks.lightning_upgrade_orb,item.irons_spellbooks.ice_upgrade_orb,item.irons_spellbooks.protection_upgrade_orb,item.irons_spellbooks.mana_upgrade_orb,item.irons_spellbooks.ender_upgrade_orb,item.irons_spellbooks.cooldown_upgrade_orb,item.irons_spellbooks.nature_upgrade_orb,item.irons_spellbooks.evocation_upgrade_orb,item.irons_spellbooks.fire_upgrade_orb,item.irons_spellbooks.holy_upgrade_orb,item.irons_spellbooks.blood_upgrade_orb,item.irons_spellbooks.epic_ink5,item.vp.stellar2,item.vp.stellar3,item.botania.terrasteel_ingot,item.botania.blacker_lotus8,item.bloodmagic.demonslate8,item.bloodmagic.etherealslate4,item.bloodmagic.hellforgedparts4,item.eidolon.lesser_soul_gem4,item.twilightforest.charm_of_life_1,item.twilightforest.charm_of_life_2,item.twilightforest.charm_of_keeping_1>0.05<item.vp.hearty_pearl,item.vp.vortex,item.vp.seashell,item.vp.corrupted_item8,item.enigmaticlegacy.cosmic_heart,item.aquamirae.abyssal_amethyst8,item.enigmaticlegacy.astral_fruit,item.enigmaticlegacy.ichor_bottle,item.enigmaticlegacy.void_pearl,item.irons_spellbooks.legendary_ink5,item.vp.stellar10,item.vp.stellar16,block.occultism.storage_stabilizer_tier4,item.vp.chaos_orb,block.minecraft.dragon_egg,item.twilightforest.charm_of_keeping_64,item.vp.box,item.vp.box_eggs2,item.vp.refresher,item.mythicbotany.alfsteel_ingot,block.alexscaves.tremorzilla_egg,item.enigmaticlegacy.soul_crystal,item.enigmaticlegacy.abyssal_heart,item.vp.vip,item.alexsmobs.warped_mixture>0.001<item.vp.chaos_orb64,item.vp.celestial_mirror,item.vp.pinky_pearl20,item.enigmaticlegacy.the_cube>"
+#Enables strict optimization that may increase performance but break a lot of mechanics. WIP 
+strictOptimization = false
+#Chance to obtain Mystery Chest from advancement
+#Range: 0.0 ~ 1.0
+mysteryChestAdvancementChance = 0.01
+#Chance increase per each advancement
+#Range: 0.0 ~ 1.0
+mysteryChestAdvancementBoost = 5.0E-4
+#Chance to obtain Mystery Chest from challenge
+#Range: 0.0 ~ 1.0
+mysteryChestChallengeChance = 0.33
+#Id of items that drop of Mineral Cluster should contain: 
+mineralClusterList = "_gem_,mineral,diamond,emerald,jadeite,quartz,feldspar,mica,fluorite,halite,gypsum,_talc,graphite,pyrite,_galena,hematite,magnetite,bauxite,corundum,sapphire,ruby,topaz,amethyst,citrine,agate,jasper,opal,garnet,zircon,olivine,tourmaline,beryl,aquamarine,biotite,muscovite,orthoclase,plagioclase,amphibole,pyroxene,apatite,barite,sulfur,malachite,azurite,bornite,chalcopyrite,sphalerite,cassiterite,rutile,ilmenite,chromite,kaolinite,serpentine,epidote,staurolite,kyanite,andalusite,sillimanite"
+#Black list for items in Mineral Cluster: 
+mineralClusterBlacklist = ""
 

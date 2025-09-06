@@ -93,6 +93,8 @@
 	"可以拥有血条的精英" = ["jerotesvillage:big_witch", "jerotesvillage:meror_champion", "jerotesvillage:meror_monstrosity"]
 	#Meror Monstrosity Speical Glow
 	"莫厄巨兽特殊发光" = true
+	#Random Skin Mob Has Under Texture
+	"随机纹理生物拥有底层纹理" = false
 
 [Villager]
 	#New Profession Villager Give Custom Gift
@@ -635,7 +637,7 @@
 			#[Boss] Max Health : 348.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Gemstone Malignasaur Max Health" = 348.0
-			#[Boss] Melee Damage : 14.0
+			#[Boss] Melee Damage : 18.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Gemstone Malignasaur Melee Damage" = 14.0
 			#[Boss] Armor : 4.0

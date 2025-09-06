@@ -312,20 +312,6 @@
 			y: 2.0d
 		}
 		{
-			id: "04039A7DA4C91030"
-			tasks: [{
-				id: "69CA535EBE12DF99"
-				item: {
-					Count: 1
-					id: "kubejs:buchi_soul"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: 2.0d
-		}
-		{
 			id: "33EF841A11760A70"
 			tasks: [{
 				id: "15C6DBA08A5AF82E"
@@ -546,8 +532,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: -1.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["11,12,13章可获得材料"]

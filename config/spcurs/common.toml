@@ -1,0 +1,16 @@
+
+[Debug]
+	#Whether to output the ScSpawner DataBase on loading
+	ScSpawnerDataOutput = false
+
+[Dev]
+	#Enter DevMode to prevent in-game behaviour when constructing structures.
+	DevMode = false
+
+[Game]
+	#The distance for the spawner of casino.
+	#Range: 16 ~ 64
+	CasinoScDistance = 16
+	#Whether to keep the ScSpawner active once it is loaded. Could lead to performance issues if too many ScSpawners are loaded.
+	ScSpawnerConstActive = false
+

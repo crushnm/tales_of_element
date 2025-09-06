@@ -1,0 +1,97 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 6,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "frozone:ice_core"
+    }
+  },
+  "name": {
+    "translate": "冰晶核心"
+  },
+  "stats": {
+    "coating": {
+       "melee_damage": {
+        "add": 3.0
+      }
+    }
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "tales_of_element:frost_damage",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "melee_weapon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:ice_spell_power",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "coating/all": [
+      {
+        "texture": "silentgear:coating_smooth",
+        "color": "#9FE7F8"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_base"
+      },
+      {
+        "texture": "silentgear:coating",
+        "color": "#9FE7F8"
+      },
+      {
+        "texture": "silentgear:coating_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#9FE7F8"
+      }
+    ]
+  }
+}

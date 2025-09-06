@@ -1,0 +1,55 @@
+{
+  "type": "silentgear:target_effect",
+  "max_level": 5,
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "tool"
+    }
+  ],
+  "name": {
+    "translate": "致毒"
+  },
+  "description": {
+    "translate": "攻击造成致毒效果"
+  },
+  "effects": {
+    "tool": {
+      "1": [
+        {
+          "effect": "undergarden:virulence",
+          "amplifier": 1,
+          "duration": 4.0
+        }
+      ],
+      "2": [
+        {
+          "effect": "undergarden:virulence",
+          "amplifier": 1,
+          "duration": 8.0
+        }
+      ],
+      "3": [
+        {
+          "effect": "undergarden:virulence",
+          "amplifier": 2,
+          "duration": 4.0
+        }
+      ],
+      "4": [
+        {
+          "effect": "undergarden:virulence",
+          "amplifier": 2,
+          "duration": 8.0
+        }
+      ],
+      "5": [
+        {
+          "effect": "undergarden:virulence",
+          "amplifier": 3,
+          "duration": 4.0
+        }
+      ]
+    }
+  }
+}
