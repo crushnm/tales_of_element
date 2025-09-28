@@ -418,7 +418,7 @@
 			#[Boss] Max Health : 200.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Ominous Banner Projection Max Health" = 200.0
-			#[Boss] Melee Damage : 0.0
+			#[Boss] Melee Damage : 2.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Ominous Banner Projection Melee Damage" = 0.0
 			#[Boss] Armor : 0.0

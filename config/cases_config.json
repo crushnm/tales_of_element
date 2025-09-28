@@ -1,0 +1,421 @@
+{
+  "excludedItems": [
+
+  ],
+  "specialRankedItems": {
+    "minecraft:nether_star": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:diamond_horse_armor": {
+      "rarity": "legendary",
+      "type": "armor"
+    },
+    "minecraft:iron_horse_armor": {
+      "rarity": "epic",
+      "type": "armor"
+    },
+    "minecraft:golden_horse_armor": {
+      "rarity": "rare",
+      "type": "armor"
+    },
+    "minecraft:leather_horse_armor": {
+      "rarity": "common",
+      "type": "armor"
+    },
+    "minecraft:netherite_ingot": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:golden_apple": {
+      "rarity": "epic",
+      "type": "food"
+    },
+    "minecraft:golden_carrot": {
+      "rarity": "epic",
+      "type": "food"
+    },
+    "minecraft:cake": {
+      "rarity": "epic",
+      "type": "food"
+    },
+    "minecraft:enchanted_golden_apple": {
+      "rarity": "legendary",
+      "type": "food"
+    },
+    "minecraft:coast_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:eye_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:host_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:raiser_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special",
+      "amount": "25-55"
+    },
+    "minecraft:rib_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:shaper_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:silence_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:snout_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:spire_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:tide_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:vex_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:ward_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:wild_armor_trim_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:trident": {
+      "rarity": "legendary",
+      "type": "weapon"
+    },
+    "minecraft:shield": {
+      "rarity": "rare",
+      "type": "weapon"
+    },
+    "minecraft:brush": {
+      "rarity": "common",
+      "type": "tool"
+    },
+    "minecraft:shears": {
+      "rarity": "common",
+      "type": "tool"
+    },
+    "minecraft:flint_and_steel": {
+      "rarity": "common",
+      "type": "tool"
+    },
+    "minecraft:fishing_rod": {
+      "rarity": "common",
+      "type": "tool"
+    },
+    "minecraft:bow": {
+      "rarity": "common",
+      "type": "weapon"
+    },
+    "minecraft:crossbow": {
+      "rarity": "rare",
+      "type": "weapon"
+    },
+    "minecraft:end_crystal": {
+      "rarity": "epic",
+      "type": "weapon"
+    },
+    "minecraft:totem_of_undying": {
+      "rarity": "epic",
+      "type": "special"
+    },
+    "minecraft:recovery_compass": {
+      "rarity": "epic",
+      "type": "tool"
+    },
+    "minecraft:name_tag": {
+      "rarity": "rare",
+      "type": "special"
+    },
+    "minecraft:compass": {
+      "rarity": "common",
+      "type": "tool"
+    },
+    "minecraft:elytra": {
+      "rarity": "legendary",
+      "type": "armor"
+    },
+    "minecraft:spyglass": {
+      "rarity": "epic",
+      "type": "tool"
+    },
+    "minecraft:saddle": {
+      "rarity": "epic",
+      "type": "special"
+    },
+    "minecraft:heart_of_the_sea": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:creeper_banner_pattern": {
+      "rarity": "rare",
+      "type": "special"
+    },
+    "minecraft:flower_banner_pattern": {
+      "rarity": "rare",
+      "type": "special"
+    },
+    "minecraft:globe_banner_pattern": {
+      "rarity": "rare",
+      "type": "special"
+    },
+    "minecraft:mojang_banner_pattern": {
+      "rarity": "rare",
+      "type": "special"
+    },
+    "minecraft:piglin_banner_pattern": {
+      "rarity": "rare",
+      "type": "special"
+    },
+    "minecraft:skull_banner_pattern": {
+      "rarity": "rare",
+      "type": "special"
+    },
+    "minecraft:angler_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:archer_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:arms_up_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:blade_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:brewer_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:burn_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:danger_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:explorer_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:friend_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:heart_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:heartbreak_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:howl_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:miner_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:mourner_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:plenty_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:prize_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:sheaf_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:shelter_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:skull_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:snort_pottery_sherd": {
+      "rarity": "common",
+      "type": "special"
+    },
+    "minecraft:nautilus_shell": {
+      "rarity": "rare",
+      "type": "special"
+    },
+    "minecraft:beacon": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:conduit": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:lodestone": {
+      "rarity": "epic",
+      "type": "special"
+    },
+    "minecraft:budding_amethyst": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:goat_horn": {
+      "rarity": "rare",
+      "type": "special"
+    },
+    "minecraft:music_disc_11": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_13": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_5": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_blocks": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_cat": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_chirp": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_far": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_mall": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_mellohi": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_otherside": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_pigstep": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_relic": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_stal": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_strad": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_wait": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:music_disc_ward": {
+      "rarity": "legendary",
+      "type": "special"
+    },
+    "minecraft:experience_bottle": {
+      "rarity": "epic",
+      "type": "enchantment"
+    },
+    "minecraft:paper": {
+      "rarity": "common",
+      "type": "enchantment"
+    },
+    "minecraft:leather": {
+      "rarity": "common",
+      "type": "enchantment"
+    },
+    "minecraft:bookshelf": {
+      "rarity": "rare",
+      "type": "enchantment"
+    },
+    "minecraft:book": {
+      "rarity": "rare",
+      "type": "enchantment"
+    },
+    "minecraft:stick": {
+      "rarity": "common",
+      "type": "arrow",
+      "amount": "16-64"
+    },
+    "minecraft:string": {
+      "rarity": "common",
+      "type": "arrow",
+      "amount": "32"
+    },
+    "minecraft:chainmail_boots": {
+      "rarity": "rare",
+      "type": "armor"
+    }
+  },
+  "durabilitySettings": {
+    "disableRandomDurability": false,
+    "excludedItems": [
+    ],
+    "excludedLootCaseTypes": [
+    ]
+  },
+  "customCases": {}
+}
+
+
+

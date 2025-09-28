@@ -27,7 +27,7 @@ function hastrait(item, trait, form) {
     const right = ["tales_of_element:natto_ball","tales_of_element:haste_right","tales_of_element:strong_fireball","tales_of_element:spear_spirit", "tales_of_element:flyshot", "tales_of_element:attack", "tales_of_element:arrow", "tales_of_element:yahaba2", "tales_of_element:thrower_skull", "tales_of_element:soul_absorption_ii", "tales_of_element:water", "tales_of_element:web_shot", "tales_of_element:hobblade", "tales_of_element:absorption", "tales_of_element:yahaba"]
     const left = ["tales_of_element:axe_throw_projectile","tales_of_element:projectile_poisonous_tonsil_shot","tales_of_element:p_bolade_nieve", "tales_of_element:arrow_left", "tales_of_element:ritogium_tomahawkprj", "tales_of_element:fragmented_soul", "tales_of_element:nova_spike"]
     const helmet = ["tales_of_element:confusion","tales_of_element:projectile_ameshot","tales_of_element:posion_goo_bullet","tales_of_element:drug", "tales_of_element:soul_rage", "tales_of_element:diver", "tales_of_element:bomb"]
-    const chestplate = ["tales_of_element:hoshi_kirara","tales_of_element:into_shell", "tales_of_element:poison_shockwave", "tales_of_element:strength"]
+    const chestplate = ["tales_of_element:hoshi_kirara","tales_of_element:rejuvenation","tales_of_element:shrink","tales_of_element:frenzy","tales_of_element:enlarge","tales_of_element:disperse","tales_of_element:into_shell", "tales_of_element:poison_shockwave", "tales_of_element:strength"]
     const legging = ["tales_of_element:thrown_geode","tales_of_element:ice_fragment", "tales_of_element:flesh_blob"]
     const boots = ["tales_of_element:levitation", "tales_of_element:speed"]
     const Traitsarray = item.nbt.SGear_Data.Properties.Traits
@@ -247,13 +247,17 @@ NetworkEvents.dataReceived('chestplate_skill', event => {
     const block = player.block
     // console.log(block)
     const armor_effect_traits = {
-        "tales_of_element:strength": [["minecraft:strength"], 10, 20],
-        "tales_of_element:into_shell": [["minecraft:resistance","greekfantasy:stunned"], 10, 20]
+        "tales_of_element:strength": [[["minecraft:strength",0]], 10, 20],
+        "tales_of_element:into_shell": [[["minecraft:resistance",1],["greekfantasy:stunned",0]], 6, 20],
+        "tales_of_element:disperse": [[["kitchenkarrot:disperse",0]], 10, 20],
+        "tales_of_element:enlarge": [[["minecraft:strength",1],["mna:enlarged",0],["minecraft:slowness",1]], 10, 20],
+        "tales_of_element:frenzy": [[["biomancy:frenzy",0],["mna:confusion",0]], 10, 20],
+        "tales_of_element:shrink": [[["minecraft:speed",1],["mna:reduced",0]], 10, 20],
+        "tales_of_element:rejuvenation": [[["attributeslib:vitality",0],["minecraft:hunger",0]], 10, 20]
     }
     const armor_projectile_traits = {
         "tales_of_element:conjurer_trident": ['adventuresmod:conjurer_trident', 5, 30, '', 1, 3]
     }
-
     if (!player.hasEffect('kubejs:chestplate_skill')) {
         if (hastrait(chestArmorItem, "tales_of_element:hoshi_kirara", "chestplate")) {
             $NichirinswordSenior2EntitySwingsItemProcedure.execute(player)
@@ -264,10 +268,11 @@ NetworkEvents.dataReceived('chestplate_skill', event => {
             player.potionEffects.add('kubejs:chestplate_skill', 20 * 15)
         }
         for (let armor_effect_trait in armor_effect_traits) {
+            console.log(armor_effect_trait)
             if (hastrait(chestArmorItem, armor_effect_trait, "chestplate")) {
                 let level = hastrait(chestArmorItem, armor_effect_trait, "chestplate")
                 for (let i in armor_effect_traits[armor_effect_trait][0]) {
-                    player.potionEffects.add(armor_effect_traits[armor_effect_trait][0][i], 20 * armor_effect_traits[armor_effect_trait][1], level - 1)
+                    player.potionEffects.add(armor_effect_traits[armor_effect_trait][0][i][0], 20 * armor_effect_traits[armor_effect_trait][1], level - 1 + armor_effect_traits[armor_effect_trait][0][i][1])
                 }
                 player.potionEffects.add('kubejs:chestplate_skill', 20 * armor_effect_traits[armor_effect_trait][2])
             }

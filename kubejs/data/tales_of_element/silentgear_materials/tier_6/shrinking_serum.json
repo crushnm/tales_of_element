@@ -1,0 +1,78 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 6,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "biomancy:shrinking_serum"
+    }
+  },
+  "name": {
+    "translate": "缩小血清"
+  },
+  "stats": {
+    "coating": {
+       "armor": {
+        "add": 2.0
+      }
+    }
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "tales_of_element:shrink",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "chestplate"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "coating/all": [
+      {
+        "texture": "silentgear:coating_smooth",
+        "color": "#C4B946"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_base"
+      },
+      {
+        "texture": "silentgear:coating",
+        "color": "#C4B946"
+      },
+      {
+        "texture": "silentgear:coating_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#C4B946"
+      }
+    ]
+  }
+}

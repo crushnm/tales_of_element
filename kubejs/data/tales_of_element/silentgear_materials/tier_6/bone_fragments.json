@@ -1,0 +1,97 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 6,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "biomancy:bone_fragments"
+    }
+  },
+  "name": {
+    "translate": "骨头碎片"
+  },
+  "stats": {
+    "tip": {
+       "armor": {
+        "add": 3.0
+      }
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "tales_of_element:sharp_armor",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "shield"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tales_of_element:arrow_damage",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:and",
+            "values": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.6
+              },
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#FCF8EA"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#FCF8EA"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#FCF8EA"
+      }
+    ]
+  }
+}

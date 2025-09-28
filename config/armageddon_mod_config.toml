@@ -35,3 +35,7 @@
 	#If true the nether will be blocked until Eldorath is defeated. Default = true
 	is_nether_blocked = true
 
+[are_enchanted_tools_blocked]
+	#If true the enchanted tools will not be usable until Eldorath's death. Default = true
+	are_enchanted_tools_blocked = true
+

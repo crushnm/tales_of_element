@@ -1,0 +1,19 @@
+{
+  "type": "silentgear:attribute",
+  "max_level": 20,
+  "name": {
+    "translate": "闪避概率提升"
+  },
+  "description": {
+    "translate": "有几率闪避近战或投射物攻击"
+  },
+  "attribute_modifiers": {
+    "all": [
+      {
+        "attribute": "attributeslib:dodge_chance",
+        "operation": 0,
+        "value":[0.02,0.04,0.06,0.08,0.1,0.12,0.14,0.16,0.18,0.2,0.22,0.24,0.26,0.28,0.3,0.32,0.34,0.36,0.38,0.4]
+      }
+    ]
+  }
+}

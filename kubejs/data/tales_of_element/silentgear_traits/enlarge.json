@@ -1,6 +1,6 @@
 {
   "type": "silentgear:simple_trait",
-  "max_level": 5,
+  "max_level": 2,
   "conditions": [
         {
           "type": "silentgear:gear_type",
@@ -8,10 +8,10 @@
         }
   ],
   "name": {
-    "translate": "强壮"
+    "translate": "极巨化"
   },
   "description": {
-    "translate": "按下胸甲技能(默认shift+x)获得力量buff(唯一胸甲技能)"
+    "translate": "按下胸甲技能(默认shift+x)使自己变大，获得抗性和力量，但是会减慢移动速度(唯一胸甲技能)"
   },
   "extra_wiki_lines": [
     {

@@ -1,26 +1,37 @@
 {
   "common": {
+    "itemDisplayTooltip": "HEADER",
     "rarityTooltip": false,
+    "itemGroupTooltip": true,
+    "": {},
     "hungerTooltip": false,
     "saturationTooltip": false,
     "effectsTooltip": "WITH_ICON",
+    "enchantmentTooltip": "SHIFT_DETAIL",
     "armorTooltip": "PLAYER",
     "bucketTooltip": true,
     "spawnEggTooltip": true,
     "durabilityTooltip": "VANILLA_BACKGROUND",
-    "containerTooltip": true,
+    "containerTooltip": "IMAGE",
     "paintingTooltip": true,
     "bannerTooltip": true,
     "mapTooltip": true,
-    "itemGroupTooltip": true,
-    "debugInfoTooltip": true,
-    "enchantmentTooltip": "SHIFT_DETAIL"
+    "debugInfoTooltip": true
   },
   "misc": {
+    "blacklist": [],
+    "": {},
     "scaleFactor": 1.0,
+    "mouseScrollTooltip": false,
     "useNameColor": false,
+    "useImageBackground": false,
+    "useImageBorder": false,
     "backgroundColor": -267386864,
     "itemBorderColor": -5592406,
-    "mouseScrollTooltip": true
+    "itemZoomSize": 100,
+    "itemZoomXOffset": 0,
+    "itemZoomYOffset": 0,
+    "enchantmentSort": "DEFAULT",
+    "advancedEnchantmentColor": false
   }
 }

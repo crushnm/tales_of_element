@@ -1,0 +1,132 @@
+{
+    "methuselah_boss": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 2500,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 55,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.80
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.50
+        }
+    ],
+    "bulwark_brute": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.40
+        }
+    ],
+    "bulwark_lobber": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.40
+        }
+    ],
+    "alligator_mississippiensis": [
+        {
+            "attribute": "rpgdamageoverhaul:physical.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.40
+        }
+    ],
+    "acherontisuchus": [
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": -0.40
+        }
+    ],
+    "titanis": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.40
+        }
+    ],
+    "arctodus_pristinus": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.40
+        }
+    ],
+    "acrophyseter": [
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": -0.40
+        }
+    ],
+    "pseudoprepotherium": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.40
+        }
+    ],
+    "purussaurus_brasiliensis": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.40
+        }
+    ],
+    "livyatan": [
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": -0.40
+        }
+    ],
+    "megalodon": [
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.40
+        }
+    ]
+}

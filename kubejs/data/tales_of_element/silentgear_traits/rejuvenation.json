@@ -1,6 +1,6 @@
 {
   "type": "silentgear:simple_trait",
-  "max_level": 5,
+  "max_level": 1,
   "conditions": [
         {
           "type": "silentgear:gear_type",
@@ -8,10 +8,10 @@
         }
   ],
   "name": {
-    "translate": "强壮"
+    "translate": "活力迸发"
   },
   "description": {
-    "translate": "按下胸甲技能(默认shift+x)获得力量buff(唯一胸甲技能)"
+    "translate": "按下胸甲技能(默认shift+x)迸发活力，获得的治疗效果提升，但是会饥饿(唯一胸甲技能)"
   },
   "extra_wiki_lines": [
     {

@@ -316,34 +316,6 @@
 			y: 2.5d
 		}
 		{
-			id: "507119D9B7B2DDBC"
-			tasks: [{
-				id: "0172F2689DA119A4"
-				item: {
-					Count: 1
-					id: "biomancy:toxin_extract"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: 2.5d
-		}
-		{
-			id: "593948A505C6E5B6"
-			tasks: [{
-				id: "13CDDC9FE8F41914"
-				item: {
-					Count: 1
-					id: "biomancy:volatile_fluid"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 11.5d
-			y: 2.5d
-		}
-		{
 			id: "33FDEDE5978943EF"
 			tasks: [{
 				id: "2E59CBAFB687F364"
@@ -495,6 +467,104 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "56B53B40FFE27A9A"
+			tasks: [{
+				id: "68EE4CE8179B4174"
+				item: {
+					Count: 1
+					id: "biomancy:ageing_serum"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "727FCF8033B340E4"
+			tasks: [{
+				id: "2C9023D08E328E97"
+				item: {
+					Count: 1
+					id: "biomancy:cleansing_serum"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "7224D1B46C29AE7B"
+			tasks: [{
+				id: "01086C9640AEB263"
+				item: {
+					Count: 1
+					id: "biomancy:enlargement_serum"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "6BED709DDFAEB123"
+			tasks: [{
+				id: "1242CAE1D44F125F"
+				item: {
+					Count: 1
+					id: "biomancy:frenzy_serum"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "7BFD6D4674CCF5A8"
+			tasks: [{
+				id: "292B39A7DE66B38C"
+				item: {
+					Count: 1
+					id: "biomancy:shrinking_serum"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "03262048B25C6C0E"
+			tasks: [{
+				id: "64CB57F3C7F45016"
+				item: {
+					Count: 1
+					id: "biomancy:rejuvenation_serum"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			id: "7FAE0B7CBE6BEFCC"
+			tasks: [{
+				id: "20F8D93C37537E2B"
+				item: {
+					Count: 1
+					id: "kubejs:demonite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
 			y: 4.5d
 		}
 	]

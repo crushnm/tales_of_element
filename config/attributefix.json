@@ -297,6 +297,17 @@
         "value": 1
       }
     },
+    "egorsanss_bosses:action_state": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "cos_mc:is_reverbelle": {
       "enabled": false,
       "min": {

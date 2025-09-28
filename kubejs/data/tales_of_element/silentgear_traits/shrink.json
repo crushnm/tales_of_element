@@ -1,6 +1,6 @@
 {
   "type": "silentgear:simple_trait",
-  "max_level": 5,
+  "max_level": 1,
   "conditions": [
         {
           "type": "silentgear:gear_type",
@@ -8,10 +8,10 @@
         }
   ],
   "name": {
-    "translate": "强壮"
+    "translate": "缩小化"
   },
   "description": {
-    "translate": "按下胸甲技能(默认shift+x)获得力量buff(唯一胸甲技能)"
+    "translate": "按下胸甲技能(默认shift+x)可以缩小，提升移动速度，但是会降低最大生命值(唯一胸甲技能)"
   },
   "extra_wiki_lines": [
     {
