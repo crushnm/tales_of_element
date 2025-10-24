@@ -35,7 +35,7 @@ EntityEvents.spawned(event => {
         event.cancel()
     }
     
-event.server.runCommand(`say ${event.entity.type}`)
+// event.server.runCommand(`say ${event.entity.type}`)
 
 })
 

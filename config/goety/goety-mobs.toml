@@ -80,6 +80,8 @@
 		#Spawn minimum group count for Necromancer, Default: 1
 		#Range: > 1
 		necromancerSpawnMinCount = 1
+		#Whether Necromancers can be part of structure spawn pools. Default: false
+		necromancerSpawnStructure = false
 
 	[Spawning."Icy Spider"]
 		#Spawn maximum group count for Icy Spiders, must be equal or higher than min count, Default: 4
@@ -547,6 +549,10 @@
 			slimeServantTexture = true
 
 		[Textures."Summoned Mobs"."Illager Servants"]
+			#If Storm Caster Servants have custom textures, Default: true
+			stormCasterServantTexture = true
+			#If Piker Servants have custom textures, Default: true
+			pikerServantTexture = true
 			#If Pillager Servants have custom textures, Default: true
 			pillagerServantTexture = true
 			#If Vindicator Servants have custom textures, Default: true
@@ -555,10 +561,16 @@
 			evokerServantTexture = true
 			#If Geomancer Servants have custom textures, Default: true
 			geomancerServantTexture = true
+			#If Cryologer Servants have custom textures, Default: true
+			cryologerServantTexture = true
 			#If Iceologer Servants have custom textures, Default: true
 			iceologerServantTexture = true
+			#If Mountaineer Servants have custom textures, Default: true
+			mountaineerServantTexture = true
 			#If Wind Caller Servants have custom textures, Default: true
 			windCallerServantTexture = true
+			#If Crusher Servants have custom textures, Default: true
+			crusherServantTexture = true
 
 		[Textures."Summoned Mobs"."Ghast Servants"]
 			#If Ghast Servants have custom textures, Default: true

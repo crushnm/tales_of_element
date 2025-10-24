@@ -1,0 +1,57 @@
+[
+        {
+            "matchItems":
+                [
+                    "chaos_project:raw_tin_block",
+                    "#forge:storage_blocks/raw_tin"
+                ],
+            "resultItems": "ancient_elements:raw_tin_block"
+        },
+        {
+            "matchItems":
+                [
+                    "chaos_project:tin_block",
+                    "#forge:storage_blocks/tin"
+                ],
+            "resultItems": "ancient_elements:block_of_tin"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:storage_blocks/silver",
+                    "fright:silver_block",
+                    "dungeons_and_combat:silver_block"
+                ],
+            "resultItems": "eidolon:silver_block"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:storage_blocks/raw_silver",
+                    "fright:raw_silver_block",
+                    "dungeons_and_combat:raw_silver_block"
+                ],
+            "resultItems": "eidolon:raw_silver_block"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:storage_blocks/lead"
+                ],
+            "resultItems": "eidolon:lead_block"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:storage_blocks/raw_lead"
+                ],
+            "resultItems": "eidolon:raw_lead_block"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:storage_blocks/steel"
+                ],
+            "resultItems": "kubejs:steel_block"
+        }
+    ]

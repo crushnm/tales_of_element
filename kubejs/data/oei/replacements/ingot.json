@@ -1,0 +1,34 @@
+[
+        {
+            "matchItems":
+                [
+                    "chaos_project:tin_ingot",
+                    "#forge:ingots/tin"
+                ],
+            "resultItems": "ancient_elements:tin_ingot"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:ingots/silver",
+                    "greek_tales:silver_ingot",
+                    "fright:silver_ingot",
+                    "dungeons_and_combat:silver_ingot"
+                ],
+            "resultItems": "eidolon:silver_ingot"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:ingots/lead"
+                ],
+            "resultItems": "eidolon:lead_ingot"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:ingots/steel"
+                ],
+            "resultItems": "kubejs:steel_ingot"
+        }
+    ]

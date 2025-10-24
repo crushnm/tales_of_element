@@ -22,5 +22,17 @@
       "value": 22,
       "operation": "BASE"
     }
+  ],
+  "sword_of_life": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.damage",
+      "value": 24,
+      "operation": "BASE"
+    }
   ]
 }

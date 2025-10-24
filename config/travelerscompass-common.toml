@@ -1,85 +1,118 @@
 
-[compass-behavior]
-	#Maximum search radius of blocks (in blocks). Large values may result in lag issues.
-	#Range: > 1
-	blockSearchRadiusLimit = 100
-	#Maximum search radius of containers (in blocks). Large values may result in lag issues.
-	#Range: > 1
-	containersSearchRadiusLimit = 100
-	#Maximum radius of search for entities
-	#Range: > 1
-	entitySearchRadiusLimit = 200
-	#Maximum wide search radius (in blocks). Large values may result in serious lag issues.
-	#Range: > 1
-	wideSearchRadiusLimit = 200
-	#How often the compass search target will be updated. Low values can cause SERIOUS performance problems.
-	#Range: > 1
-	search_rate = 50
-	#Will experience be drained for using the compass?
-	xp_drain = false
-	#How much XP will be drained from player when Compass is active?
+[general]
+	#Allows the compass to locate specific blocks in the world.
+	enable_blocks_search = true
+	#Allows the compass to locate fluid blocks (water, lava, etc.).
+	enable_fluids_search = true
+	#Allows the compass to locate all container types based on their contents.
+	enable_containers_search = true
+	#Allows searching for villagers based on their trades.
+	enable_villagers_search = true
+	#Allows the compass to locate spawners by their mob type.
+	enable_spawners_search = true
+	#Allows the compass to locate specific mobs by their spawn eggs.
+	enable_mobs_search = true
+	#Allows the compass to locate Entities based on items in their inventory.
+	enable_inventories_search = true
+	#Allows the compass to locate players based on items in their inventory.
+	enable_players_inventories_search = true
+	#Allows the compass to locate dropped items on the ground.
+	enable_item_entities_search = true
+	#Allows the compass to locate mobs based on their potential loot drops.
+	enable_drops_search = true
+	#Allows the compass to search inside block containers (chests, furnaces, barrels, etc.).
+	#Requires 'enable_containers_search' to be enabled.
+	enable_block_containers_search = true
+
+[behavior]
+	#Maximum search radius in chunks from the player.
+	#Applies to any block scanning search mode
 	#Range: > 0
-	xp_cost = 2
-	#How often experience will be spent for using the compass?
+	chunk_search_range = 10
+	#Maximum search radius in blocks from the player.
+	#Applies to any entity
+	#Range: > 0
+	entities_search_range = 200
+	#Maximum search radius in chunks from the player.
+	#Applies to any block
+	#Range: > 0
+	wide_search_range = 16
+	#Delay in ticks between search updates (20 ticks = 1 second).
 	#Range: > 1
-	xp_drain_rate = 300
+	search_interval = 40
+	#Maximum number of chunk scan operations per tick, shared across all players on the server (or just one in singleplayer).
+	#This value has a direct impact on server performance.
+	#Range: 0 ~ 199
+	chunks_scans_per_tick_on_server = 8
+	#Maximum chunk scans per compass per search cycle.
+	#Limits individual compass performance impact.
+	#Range: 0 ~ 199
+	chunks_scans_per_compass = 3
+	#Maximum new chunks that can be generated or loaded per tick during search.
+	#Set to 0 to disable searching in ungenerated chunks.
+	#High values may cause lag spikes.
+	#Range: 0 ~ 199
+	force_chunk_generation_limit = 2
+	#Limits how many matching locations per compass will be stored after scanning.
+	#Only the closest or most relevant targets will be cached, based on priority and distance.
+	#Range: > 0
+	max_cached_locations = 180
 
-[compass-functions]
-	#Allows players to search for blocks.
-	block_search = true
-	#Allows players to search for containers (chests, furnaces, etc.) based on their contents.
-	container_search = true
-	#Allows players to search for mobs based on their Spawn Eggs.
-	mob_search = true
-	#Allows players to search for mobs based on their drop.
-	drop_search = true
-	#Allows players to search for Villagers based on their trade items.
-	villager_search = true
-	#Allows players to search for items lying on the ground.
-	item_entity_search = true
-	#Allows players to search for spawners.
-	mob_spawner_search = true
-	#Allows players to search for entities based on their inventories.
-	mob_inventory_search = true
-	#Allows the player to use a search function that has a wider search radius.
-	enableWiderSearch = true
-	#Setting the value to true will make the compass search for all objects except those specified in the list.
-	#Setting it to false will make the compass search only for objects listed in the list.
-	black_list_filter_type = true
-	#Items and blocks in this list will be filtered based on the filtering mode set above.
-	#Example: ["minecraft.diamond_block", "minecraft.carrot", "twilightforest.cicada"]
-	filter_by_names = []
-	#Items and blocks in this list will be filtered based on their tags.
-	#Example: ["forge:stone"]
-	filter_by_tags = []
-	#Entities in this list will be filtered based on their names.
-	#Example: ["entity.minecraft.trader_llama", "entity.mowziesmobs.foliaath"]
-	filter_entities = []
-	#All items and blocks will (not) be searched if the mod they belong to is in the list below
-	mods_filter_items = []
-	#Entities in this list will be filtered based on what mod they are from.
-	#Example: ["creeperoverhaul", "deeperdarker", "minecraft"]
-	mods_filter_entities = []
-	#Anything related to the mods in the list below will (not) be searched by compass.
-	#Example: ["alexscaves", "ae2", "minecraft"]
+[search-filters]
+	#Filter mode for mod namespaces.
+	#Allowed Values: WHITELIST, BLACKLIST
+	mods_filter_type = "BLACKLIST"
+	#List of mod namespaces to filter.
+	#Example: ["minecraft", "ae2", "alexscaves"]
 	mods_filter = []
-	#Allows players to search for fluids based on their buckets.
-	fluid_search = true
-	#Enables the slow search mode forcibly. It cannot be disabled in the game
-	forcedLazySearchMode = false
-	#Will the player in the game be able to access the HUD that displays information about the found object?
-	enableHud = true
+	#Filter mode for specific items.
+	#Allowed Values: WHITELIST, BLACKLIST
+	items_filter_type = "BLACKLIST"
+	#List of item IDs to filter.
+	#Example: ["minecraft:carrot", "minecraft:diamond_ore"]
+	items_filter = []
+	#Filter mode for item tags.
+	#Allowed Values: WHITELIST, BLACKLIST
+	item_tags_filter_type = "BLACKLIST"
+	#List of item tags to filter.
+	#Example: ["minecraft:logs", "c:ores"]
+	item_tags_filter = []
+	#Filter mode for entities.
+	#Allowed Values: WHITELIST, BLACKLIST
+	entities_filter_type = "BLACKLIST"
+	#List of entity IDs to filter.
+	#Example: ["minecraft:enderman", "aether:valkyrie"]
+	entities_filter = []
 
-[compass-compatibility]
-	#JEI/REI interaction -> drag and drop items from the JEI/REI panel to the compass inventory
-	#Enable interaction with the REI panel
-	rei_compatibility = true
-	#Enable interaction with the JEI panel
+[hud]
+	#Enables the compass HUD overlay.
+	enable_hud = true
+	#Shows target coordinates in the HUD.
+	hud_show_coords = true
+	#Base x hud offset in px
+	#Range: > -2147483648
+	default_x_hud_offset = 0
+	#Base x hud offset in px
+	#Range: > -2147483648
+	default_y_hud_offset = 0
+	#Default hud scale
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	default_hud_scale = 1.0
+
+[compatibility]
+	#Enables Lootr containers searching when Lootr mod is installed.
+	enable_lootr_search = true
+	#Lootr search behavior
+	#Allowed Values: CLOSED, OPENED, ALL
+	lootr_search_mode = "ALL"
+	#Enable dragging items from the JEI panel into Compass inventory
 	jei_compatibility = true
-	#Enable the search for the contents of chests and minecarts from the Lootr mod that have not yet been opened by the player
-	lootr_compatibility = true
-	#Allows to show Jade tooltips regarding blocks/entities that you can/can't search for
+	#Enable dragging items from the REI panel into Compass inventory
+	rei_compatibility = true
+	#Enable dragging items from the EMI panel into Compass inventory
+	emi_compatibility = true
+	#Enable displaying Block/Entity search info in the Jade info panel
 	jade_compatibility = true
-	#Allows to show TOP tooltips regarding blocks/entities that you can/can't search for
-	top_compatibility = true
+	#Enable displaying Block/Entity search info in the TOP info panel
+	the_one_probe_compatibility = true
 

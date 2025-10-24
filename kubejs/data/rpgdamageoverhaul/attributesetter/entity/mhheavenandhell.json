@@ -2,8 +2,8 @@
     "yian_kut_ku": [
         {
             "attribute": "minecraft:generic.max_health",
-            "value": 1900,
-            "operation": "BASE"
+            "value": 1700,
+            "operation": "ADDITION"
         },
         {
             "attribute": "minecraft:generic.attack_damage",
@@ -12,7 +12,7 @@
         },
         {
             "attribute": "rpgdamageoverhaul:fire.resistance",
-            "value": -0.70
+            "value": 0.70
         },
         {
             "attribute": "rpgdamageoverhaul:water.resistance",

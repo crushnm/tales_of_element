@@ -1,0 +1,27 @@
+[
+        {
+            "matchItems":
+                [
+                    "chaos_project:raw_tin",
+                    "#forge:raw_materials/tin"
+                ],
+            "resultItems": "ancient_elements:raw_tin"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:raw_materials/silver",
+                    "greek_tales:raw_silver",
+                    "fright:raw_silver",
+                    "dungeons_and_combat:raw_silver"
+                ],
+            "resultItems": "eidolon:raw_silver"
+        },
+         {
+            "matchItems":
+                [
+                    "#forge:raw_materials/lead"
+                ],
+            "resultItems": "eidolon:raw_lead"
+        }
+    ]

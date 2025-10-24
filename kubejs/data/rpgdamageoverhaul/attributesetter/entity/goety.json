@@ -42,5 +42,27 @@
       "value": -0.50,
       "operation": "BASE"
     }
+  ],
+  "crone": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1800,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 65,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.75,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:blunt.resistance",
+      "value": -0.50,
+      "operation": "BASE"
+    }
   ]
 }

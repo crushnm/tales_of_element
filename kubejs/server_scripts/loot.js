@@ -59,6 +59,7 @@ LootJS.modifiers((event)=>{
     event.addEntityLootModifier('mcb:king_piece').addLoot(LootEntry.of('kubejs:chess',4))
     event.addEntityLootModifier('gomwaga:harpy_of_blades').addLoot(LootEntry.of('kubejs:harpy_feather',2))
     event.addEntityLootModifier('mcb:undead_knight').addLoot(LootEntry.of('kubejs:lathe_gear',4))
+    event.addEntityLootModifier('threateningly_mobs:hydra').addLoot(LootEntry.of('threateningly_mobs:horsehoecrab_blood',2))
     event.addEntityLootModifier('alcaryabattle:cyborg').addLoot(LootEntry.of('iter_rpg:iron_ring_sanguarnet'))
     event.addEntityLootModifier('alcaryabattle:reaper').addLoot(LootEntry.of('iter_rpg:iron_ring_diamond'))
     event.addEntityLootModifier('crimson_steves_mobs:cyborg_vindicator').addLoot(LootEntry.of('iter_rpg:iron_ring_emerald'))

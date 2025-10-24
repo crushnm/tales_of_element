@@ -38,5 +38,25 @@
       "attribute": "rpgdamageoverhaul:physical.resistance",
       "value": 0.50
     }
+  ],
+   "eye_of_cthulhu": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 3000,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 70,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": 0.8
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.6
+    }
   ]
 }

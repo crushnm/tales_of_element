@@ -1,0 +1,42 @@
+{
+    "nether_drillman": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 2400,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 60,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.80
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
+    ],
+    "nether_admillar": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 2400,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 60,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.80
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ]
+}

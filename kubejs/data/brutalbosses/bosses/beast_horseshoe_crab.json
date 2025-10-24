@@ -1,6 +1,6 @@
 {
-  "entity": "threateningly_mobs:beast_horseshoe_crab",
-  "name": "巨兽鳖",
+  "entity": "threateningly_mobs:hydra",
+  "name": "海三头蛇",
   "visualscale": 1,
   "experience": 200,
   "protect_treasure": true,

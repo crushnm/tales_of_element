@@ -1,0 +1,42 @@
+{
+    "cyromancer": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 2800,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 64,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.70
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "coldread": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 2800,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 67,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": 0.70
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ]
+}

@@ -8,6 +8,8 @@
 		#Define the toughness for each armor piece, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		cursedPaladinToughness = 1.0
+		#Whether armor pieces don't break but no longer provide armor, Default: true
+		cursedPaladinPersist = true
 		#Define the Durability Multiplier for the armor, higher number the better, Default: 30
 		#Range: > 1
 		cursedPaladinDurability = 30
@@ -74,6 +76,8 @@
 		#Define how much knockback resistance each armor piece provides, Default: 0.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		cursedKnightKnockResist = 0.0
+		#Whether armor pieces don't break but no longer provide armor, Default: true
+		cursedKnightPersist = true
 
 		[Armor."Cursed Knight Armor"."Armor Points"]
 			#Define how much armor points wearing the Leggings provides, Default: 5
@@ -90,6 +94,8 @@
 			cursedKnightChest = 6
 
 	[Armor."Black Iron Armor"]
+		#Whether armor pieces don't break but no longer provide armor, Default: true
+		blackIronPersist = true
 		#Define the Durability Multiplier for the armor, higher number the better, Default: 15
 		#Range: > 1
 		blackIronDurability = 30

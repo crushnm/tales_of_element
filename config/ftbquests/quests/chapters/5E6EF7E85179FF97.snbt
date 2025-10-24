@@ -161,31 +161,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4DE071AB51D98220"]
-			id: "5234E4D68E419338"
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [
-				{
-					entity: "goety:brood_mother"
-					id: "758B594812695854"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "7B4C3326AEC79326"
-					item: {
-						Count: 1
-						id: "kubejs:orb_spider"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 13.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["66DF389425CA09C8"]
 			id: "1A17485B3F196356"
 			shape: "pentagon"
@@ -209,7 +184,7 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -235,7 +210,7 @@
 					type: "item"
 				}
 			]
-			x: 20.5d
+			x: 18.5d
 			y: 0.5d
 		}
 		{
@@ -254,7 +229,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5234E4D68E419338"]
+			dependencies: ["4DE071AB51D98220"]
 			id: "66DF389425CA09C8"
 			tasks: [{
 				id: "290C8050C75E2109"
@@ -265,7 +240,7 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: 0.5d
 		}
 	]

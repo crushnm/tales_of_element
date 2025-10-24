@@ -1,0 +1,92 @@
+{
+    "kingshroos": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1700,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 60,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.70
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "shroomus": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 50,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 30,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.60
+        }
+    ],
+    "shroomitated": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 70,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 30,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.40
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.60
+        }
+    ],
+    "garbage": [
+        {
+            "attribute": "rpgdamageoverhaul:wind.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:lightning.resistance",
+            "value": -0.50
+        }
+    ],
+    "death_crawler": [
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ],
+    "pseudolegder": [
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": -0.50
+        }
+    ]
+}

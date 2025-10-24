@@ -234,6 +234,9 @@
 		#Entangling Spell Cost, Default: 8
 		#Range: > 0
 		entanglingCost = 8
+		#Maximum amount of targets that can be entangled when cast using Wild Staff, Default: 8
+		#Range: > 1
+		entanglingStaffAmount = 8
 
 	[Spells."Whispering Spell"]
 		#Time to cast Whispering Spell, Default: 100
@@ -337,6 +340,20 @@
 		#How much base damage Steam Missiles deals, Default: 4.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		steamingDamage = 4.0
+
+	[Spells."Illuminate Spell"]
+		#Illuminate Spell Cost, Default: 4
+		#Range: > 0
+		illuminateCost = 4
+		#Minimum block light level below which the spell attempts to light up, Default: 5
+		#Range: 0 ~ 15
+		illuminateMinLightLevel = 5
+		#Time to cast Illuminate Spell per second, Default: 5
+		#Range: 0 ~ 72000
+		illuminateTime = 5
+		#How many ticks the Illuminate Spell much charge before casting, Default: 0
+		#Range: > 0
+		illuminateChargeUp = 0
 
 	[Spells."Lava Bomb Spell"]
 		#Time to cast Lava Bomb Spell, Default: 40
@@ -1188,12 +1205,9 @@
 		#Vexing Spell Cost, Default: 18
 		#Range: > 0
 		vexCost = 18
-		#Number of Vex Servants that can be spawn with a wand, without instantly dying, around the player, Default: 8
+		#Number of Vex Servants that an individual player can have in total, Default: 8
 		#Range: > 1
-		wandVexLimit = 8
-		#Number of Vex Servants that can be spawn with a staff, without instantly dying, around the player, Default: 16
-		#Range: > 1
-		staffVexLimit = 16
+		vexLimit = 8
 		#Vexing Spell Summon Down, Default: 340
 		#Range: 0 ~ 72000
 		vexSummonDown = 340
@@ -1328,7 +1342,7 @@
 		#Number of Watchling Servants that can a player can have, Default: 32
 		#Range: > 1
 		watchlingLimit = 32
-		#Watching Spell Cooldown, Default: 200
+		#Watching Spell Cooldown, Default: 300
 		#Range: > 0
 		watchlingCoolDown = 200
 
@@ -1347,7 +1361,7 @@
 		iceChunkCoolDown = 300
 
 	[Spells."Snaring Spell"]
-		#Snaring Spell Cooldown, Default: 200
+		#Snaring Spell Cooldown, Default: 350
 		#Range: > 0
 		snarelingCoolDown = 200
 		#Snaring Spell Cost, Default: 24
@@ -1429,7 +1443,7 @@
 		bubbleStreamChargeUp = 0
 
 	[Spells."Blasting Spell"]
-		#Blasting Spell Cooldown, Default: 200
+		#Blasting Spell Cooldown, Default: 400
 		#Range: > 0
 		blastlingCoolDown = 200
 		#Number of Blastling Servants that an individual player can have in total, Default: 32

@@ -13,6 +13,7 @@ ServerEvents.tags('item', event => {
   event.add('vintageimprovements:curving_heads', 'iter_rpg:ether_dust')
   event.add('forge:gem/topaz', 'adventuresmod:topaz')
   event.add('forge:gem/topaz', 'terramity:topaz')
+  event.remove('forge:ingots/silver','infinite_abyss:deepsilver_ingot')
 })
 
 

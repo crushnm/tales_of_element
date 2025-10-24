@@ -362,20 +362,33 @@
 			dependencies: ["7EEE155914AE38E3"]
 			description: ["秘术师工作台可以鉴别未识别的咒语，识别完毕后将咒语放置在副手，法杖在主手即可释放咒语。"]
 			id: "25E178A4488EB1B8"
-			rewards: [{
-				id: "28761D2EF295DE0B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "28761D2EF295DE0B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iter_rpg:unidentified_spell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5E7BBECFDE023D02"
+					item: {
+						Count: 1
+						id: "iter_rpg:abyssquartz_wand"
+						tag: {
+							Damage: 0
 						}
 					}
-					id: "iter_rpg:unidentified_spell"
-					tag: { }
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "3499BCC1E3A15311"
 				item: {

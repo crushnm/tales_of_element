@@ -158,5 +158,25 @@
             "attribute": "rpgdamageoverhaul:lightning.resistance",
             "value": -0.50
         }
+    ],
+    "lava_mutant_zombie": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 3000,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 67,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": 0.80
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": -0.50
+        }
     ]
 }

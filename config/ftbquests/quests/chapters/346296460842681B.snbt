@@ -207,7 +207,7 @@
 			size: 1.5d
 			tasks: [
 				{
-					entity: "threateningly_mobs:beast_horseshoe_crab"
+					entity: "threateningly_mobs:hydra"
 					id: "2FB9A8BCF42CFAE3"
 					type: "kill"
 					value: 1L

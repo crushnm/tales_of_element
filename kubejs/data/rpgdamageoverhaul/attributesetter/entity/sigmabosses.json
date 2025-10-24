@@ -1,0 +1,22 @@
+{
+    "spellmaster": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 2550,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 60,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": 0.80
+        },
+        {
+            "attribute": "rpgdamageoverhaul:piercing.resistance",
+            "value": -0.40
+        }
+    ]
+}

@@ -92,8 +92,8 @@
   "re_rock_snail": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 2200,
-      "operation": "BASE"
+      "value": 2000,
+      "operation": "ADDITION"
     },
     {
       "attribute": "minecraft:generic.attack_damage",
@@ -109,11 +109,35 @@
       "value": -0.50
     }
   ],
+  "hydra": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2500,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 65,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:frost.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:nature.resistance",
+      "value": 0.40
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": -0.50
+    }
+  ],
   "the_earthloong": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 2200,
-      "operation": "BASE"
+      "value": 2000,
+      "operation": "ADDITION"
     },
     {
       "attribute": "minecraft:generic.attack_damage",

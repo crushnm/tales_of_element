@@ -549,7 +549,7 @@
     }
   },
   {
-    "mob": ["agonysing_hell:garbage", "agonysing_hell:death_crawler", "agonysing_hell:death_crawler","agonysing_hell:pseudolegder"],
+    "mob": ["agonysing_hell:garbage", "agonysing_hell:death_crawler","agonysing_hell:pseudolegder"],
     "weights": [3,2,2],
     "persecond": 0.20,
     "attempts": 5,

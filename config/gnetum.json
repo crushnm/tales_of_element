@@ -62,6 +62,12 @@
       },
       "pass": 3
     },
+    "netherexp:agitated": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 4
+    },
     "sakamoto:scope_hud": {
       "enabled": {
         "value": "AUTO"
@@ -332,6 +338,12 @@
       },
       "pass": 4
     },
+    "kaleidoscope_cookery:pot_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "patchouli:multiblock_progress": {
       "enabled": {
         "value": "AUTO"
@@ -404,6 +416,12 @@
       },
       "pass": 4
     },
+    "tridot:boss_bars": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "goety:ravager_roar_hud": {
       "enabled": {
         "value": "AUTO"
@@ -415,6 +433,12 @@
         "value": "AUTO"
       },
       "pass": 4
+    },
+    "youkaishomecoming:cuisine_hint": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
     },
     "aether:hammer_cooldown": {
       "enabled": {
@@ -445,6 +469,12 @@
         "value": "AUTO"
       },
       "pass": 4
+    },
+    "youkaishomecoming:power_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
     },
     "create:schematic": {
       "enabled": {
@@ -614,6 +644,12 @@
       },
       "pass": 4
     },
+    "peyroscythe:flashbang_whiteout": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "eidolon:hearts": {
       "enabled": {
         "value": "AUTO"
@@ -643,16 +679,28 @@
         "value": "AUTO"
       },
       "pass": 4
-    },
-    "netherexp:agitated": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 4
     }
   },
   "mapModdedElementsPre": {
+    "terramity": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
     "jerotes": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "egorsanss_bosses": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "armageddon_mod": {
       "enabled": {
         "value": "AUTO"
       },
@@ -664,13 +712,103 @@
       },
       "pass": 1
     },
+    "cartoon_soul": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mokels_bossfight_saphyra": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
     "just_parry": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 1
     },
-    "undead_revamp2": {
+    "macabre": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "paladins_oath": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "dota": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "chloride": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "unreal": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "rpgadventures": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "agonysing_hell": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "the_beginning_and_heaven": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mhheavenandhell": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "gamma_creatures": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "wrd": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "jerotesvillage": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "fright": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "kimetsunoyaiba": {
       "enabled": {
         "value": "AUTO"
       },
@@ -682,7 +820,31 @@
       },
       "pass": 1
     },
-    "fright": {
+    "plenty_of_golems": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "greek_tales": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "pedriki_extras": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "iter_rpg": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "undead_revamp2": {
       "enabled": {
         "value": "AUTO"
       },
@@ -690,7 +852,25 @@
     }
   },
   "mapModdedElementsPost": {
+    "scguns": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 4
+    },
     "enigmaticlegacy": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 4
+    },
+    "valoria": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 4
+    },
+    "architectury": {
       "enabled": {
         "value": "AUTO"
       },

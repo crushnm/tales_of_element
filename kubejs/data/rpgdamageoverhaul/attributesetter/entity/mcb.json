@@ -22,8 +22,8 @@
    "ancient_ent": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 2250,
-      "operation": "BASE"
+      "value": 2050,
+      "operation": "ADDITION"
     },
     {
       "attribute": "minecraft:generic.attack_damage",
@@ -37,6 +37,78 @@
     {
       "attribute": "rpgdamageoverhaul:nature.resistance",
       "value": 0.8
+    }
+  ],
+   "king_piece": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2100,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 68,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": 0.5
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": 0.5
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.6
+    }
+  ],
+   "knight_piece": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2000,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 68,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wind.resistance",
+      "value": 0.5
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": 0.5
+    },
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.6
+    }
+  ],
+   "dread_doctor": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 3100,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 69,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:fire.resistance",
+      "value": 0.5
+    },
+    {
+      "attribute": "rpgdamageoverhaul:lightning.resistance",
+      "value": 0.5
+    },
+    {
+      "attribute": "rpgdamageoverhaul:soul.resistance",
+      "value": -0.6
     }
   ]
 }

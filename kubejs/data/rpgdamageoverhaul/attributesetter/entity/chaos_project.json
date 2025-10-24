@@ -140,5 +140,93 @@
             "attribute": "rpgdamageoverhaul:holy.resistance",
             "value": -0.50
         }
+    ],
+    "goodle": [
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "howler": [
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "buzzard": [
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:fire.resistance",
+            "value": -0.50
+        }
+    ],
+    "crabby": [
+        {
+            "attribute": "rpgdamageoverhaul:slashing.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:water.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:frost.resistance",
+            "value": -0.50
+        }
+    ],
+    "ametholem": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 1900,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 66,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.70
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.50
+        }
+    ],
+    "amethangel": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 90,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 33,
+            "operation": "BASE"
+        },
+        {
+            "attribute": "rpgdamageoverhaul:holy.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:dark.resistance",
+            "value": -0.60
+        }
     ]
 }

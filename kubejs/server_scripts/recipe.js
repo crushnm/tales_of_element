@@ -653,6 +653,20 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     }
   )
 
+  event.remove({ id: 'chaos_project:terrain_craft' })
+  event.shaped('chaos_project:terrain_gem',
+    [
+      ' C ',
+      'BAB',
+      ' C '
+    ],
+    {
+      B: 'biomancy:regenerative_fluid',
+      A: 'chaos_project:mintolis_ingot',
+      C: 'chaos_project:terrain_shard'
+    }
+  )
+
   event.remove({ id: 'vintageimprovements:craft/vacuum_chamber' })
   event.shaped('vintageimprovements:vacuum_chamber', [// arg 1: output
     ' D ',
@@ -3074,6 +3088,9 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
 
   event.remove({id:'mcb:white_king_chess_piece_recipe'})
   event.remove({id:'biomancy:bio_forging/bio_lab'})
+  event.remove({id:'iter_rpg:bloodjade_awoken'})
+  event.remove({id:'chaos_project:alloy_craft'})
+  event.remove({id:'chaos_project:nature_sword_craft'})
   bio_forging(["3x biomancy:flesh_bits","4x biomancy:tough_fibers","3x biomancy:mineral_fragment","2x flavor_immersed_daily:cookedpigear"],10,"kubejs:pyromancer")
   bio_forging(["3x biomancy:flesh_bits","16x terramity:artificial_lava_display","3x chaos_project:corrupted_rotten_flesh","2x midnight:nightshroom_powder"],50,"kubejs:lava_demon")
   bio_forging(["2x biomancy:creator_mix","2x unearthed_journey:manganese_steel_ingot","better_boss:ojh","5x tide:magnetic_bait"],50,"kubejs:curse_bait_50")
@@ -3081,6 +3098,10 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
   bio_forging(["2x biomancy:creator_mix","4x biomancy:exotic_dust","1x kubejs:chess","2x biomancy:living_flesh","flavor_immersed_daily:steamedfish"],50,"biomancy:bio_lab")
   bio_forging(["minecraft:enchanted_book","4x biomancy:bone_fragments","1x biomancy:insomnia_cure","2x eidolon:bone_pile"],50,"midnight_madness:enchanted_midnight_necronomicon")
   bio_forging(["2x minecraft:spider_eye","biomancy:organic_compound","8x goety:haunted_glass","biomancy:insomnia_cure"],50,"kubejs:suspicious_eyes")
+  bio_forging(["iter_rpg:sanguarnet","4x iter_rpg:blood_bottle","5x minecraft:rotten_flesh"],10,"iter_rpg:awakened_sanguarnet")
+  bio_forging(["chaos_project:emberoted_chunk","2x chaos_project:mintolis_ingot","2x biomancy:regenerative_fluid","4x minecraft:gold_ingot"],10,"2x chaos_project:alloy_of_nature")
+  bio_forging(["silentgear:sword_blueprint","chaos_project:soul_of_majesty","3x naturesaura:infused_iron","iter_rpg:awakened_sanguarnet","4x chaos_project:alloy_of_nature"],100,"chaos_project:sword_of_life")
+
 
   //活体酿造台
   function bio_brewing(ingredients,nutrientsCost,processingTime,reactant,result){

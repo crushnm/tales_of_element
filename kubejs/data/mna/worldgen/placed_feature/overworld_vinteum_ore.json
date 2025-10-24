@@ -23,9 +23,5 @@
 		{
 			"type": "minecraft:biome"
 		}
-	],
-  "dimension_filter": {
-    "type": "minecraft:in_dimension", 
-    "dimension": "burrows:the_burrows"
-  }
+	]
 }

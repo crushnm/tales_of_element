@@ -70,3 +70,8 @@
 		#Casting interval
 		crystalStormCastingInterval = 400
 
+#Vanilla changes
+[vanilla_changes]
+	#Modified Vanilla Shield (Uses Valoria properties, Default: true)
+	modifiedVanillaShield = true
+

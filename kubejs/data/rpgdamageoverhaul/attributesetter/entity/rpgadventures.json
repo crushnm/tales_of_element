@@ -18,5 +18,101 @@
       "attribute": "rpgdamageoverhaul:nature.resistance",
       "value": -0.50
     }
-  ]
+  ],
+   "the_goblin_king": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1300,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 60,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.70
+    },
+    {
+      "attribute": "rpgdamageoverhaul:dark.resistance",
+      "value": -0.50
+    }
+  ],
+   "goblin_guard": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 180,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": -0.70
+    }
+  ],
+    "goblin": [
+        {
+            "attribute": "rpgdamageoverhaul:slashing.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        }
+    ],
+    "gobliner": [
+        {
+            "attribute": "rpgdamageoverhaul:slashing.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        }
+    ],
+    "engoblined": [
+        {
+            "attribute": "rpgdamageoverhaul:slashing.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:arcane.resistance",
+            "value": -0.50
+        }
+    ],
+    "earthage": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.50
+        }
+    ],
+    "earthager": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.50
+        }
+    ],
+    "earthagered": [
+        {
+            "attribute": "rpgdamageoverhaul:earth.resistance",
+            "value": 0.50
+        },
+        {
+            "attribute": "rpgdamageoverhaul:nature.resistance",
+            "value": -0.50
+        }
+    ]
 }

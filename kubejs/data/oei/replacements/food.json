@@ -1,0 +1,76 @@
+[
+        {
+            "matchItems":
+                [
+                    "chaos_project:tomato_fruit",
+                    "#forge:crops/tomato"
+                ],
+            "resultItems": "flavor_immersed_daily:tomato"
+        },
+        {
+            "matchItems":
+                [
+                    "chaos_project:cucumber",
+                    "#forge:vegetables/cucumber"
+                ],
+            "resultItems": "youkaishomecoming:cucumber"
+        },
+        {
+            "matchItems":
+                [
+                    "farmersdelight:cabbage"
+                ],
+            "resultItems": "flavor_immersed_daily:cabbage"
+        },
+        {
+            "matchItems":
+                [
+                    "farmersdelight:cabbages"
+                ],
+            "resultItems": "flavor_immersed_daily:cabbageseed"
+        },
+        {
+            "matchItems":
+                [
+                    "#forge:seeds/tomato"
+                ],
+            "resultItems": "flavor_immersed_daily:tomatoseed"
+        },
+        {
+            "matchItems":
+                [
+                    "#forge:seeds/cucumber"
+                ],
+            "resultItems": "flavor_immersed_daily:cucumber_seed"
+        },
+        {
+            "matchItems":
+                [
+                    "#forge:seeds/cucumber"
+                ],
+            "resultItems": "flavor_immersed_daily:cucumber_seed"
+        },
+        {
+            "matchItems":
+                [
+                    "kaleidoscope_cookery:red_chili",
+                    "call_of_yucutan:chili_pepper"
+                ],
+            "resultItems": "flavor_immersed_daily:redrepper"
+        },
+        {
+            "matchItems":
+                [
+                    "kaleidoscope_cookery:green_chili"
+                ],
+            "resultItems": "flavor_immersed_daily:greenpepper"
+        },
+        {
+            "matchItems":
+                [
+                    "kaleidoscope_cookery:chili_crop",
+                    "call_of_yucutan:chili_pepper_seeds"
+                ],
+            "resultItems": "flavor_immersed_daily:red_pepper_seed"
+        }
+    ]

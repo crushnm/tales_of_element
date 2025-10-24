@@ -2,8 +2,8 @@
     "methuselah_boss": [
         {
             "attribute": "minecraft:generic.max_health",
-            "value": 2500,
-            "operation": "BASE"
+            "value": 2000,
+            "operation": "ADDITION"
         },
         {
             "attribute": "minecraft:generic.attack_damage",
